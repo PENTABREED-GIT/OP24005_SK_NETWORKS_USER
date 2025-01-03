@@ -499,7 +499,7 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="javascript:void(0)"><span class="btn-text">Download</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/자료실/수상 및 인증/엔코아/Encore Inc_SAC-1 (E-Cert).pdf"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>

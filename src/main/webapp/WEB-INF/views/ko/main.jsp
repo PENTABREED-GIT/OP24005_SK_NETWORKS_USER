@@ -37,12 +37,12 @@
             let press = media.querySelector(".press-media")
             const sns = media.querySelector(".sns-media")
             const investment = document.querySelector(".section.investment")
-    
+
             intro.classList.add("active1")
             setTimeout(() => {
                 intro.classList.add("active2")
             }, 1500);
-    
+
             const io = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
                     const _width = window.innerWidth
@@ -64,7 +64,7 @@
             }, {
                 threshold: [0.1, 0.5]
             })
-    
+
             const io2 = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
                     const _width = window.innerWidth
@@ -90,7 +90,7 @@
             }, {
                 threshold: [0.1, 0.2]
             })
-    
+
             const io3 = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
                     const _width = window.innerWidth
@@ -111,7 +111,7 @@
             }, {
                 threshold: [0.2, 0.4]
             })
-    
+
             const io6 = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
                     if(entry.intersectionRatio > 0.1) {
@@ -124,7 +124,7 @@
             }, {
                 threshold: [0.1]
             })
-    
+
             const io7 = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
                     if(entry.intersectionRatio > 0.1) {
@@ -136,16 +136,16 @@
             }, {
                 threshold: [0.1]
             })
-    
+
             io.observe(ourEsg)
             io2.observe(company)
             io3.observe(network)
             io6.observe(media)
             io7.observe(investment)
-    
+
             let _width = window.innerWidth
             let pressSwiper = undefined;
-    
+
             function initPressSwiper() {
                 if(_width >= 1024 && pressSwiper == undefined) {
                     pressSwiper = new Swiper(".press-swiper", {
@@ -170,12 +170,12 @@
                 media.classList.remove("active2")
                 sns.style.marginTop = "0"
             })
-    
+
             new Swiper(".section-content.esg .swiper", {
                 slidesPerView: "auto",
                 freeMode: true,
             });
-    
+
             new Swiper(".section.media .sns-media .swiper", {
                 slidesPerView: "auto",
                 freeMode: true,
@@ -685,8 +685,8 @@
 	// }
 
 	$(document).ready(function() {
-        checkAndToggleModal('modalNotice1', '2024-10-31 09:00:00', '2025-03-07 20:30:00');
-        checkAndToggleModal('modalNotice2', '2024-12-02 16:00:00', '2024-12-10 24:00:00');
+        // checkAndToggleModal('modalNotice1', '2024-10-31 09:00:00', '2025-03-07 20:30:00');
+        // checkAndToggleModal('modalNotice2', '2024-12-02 16:00:00', '2024-12-10 24:00:00');
 	});
 
 	function checkAndToggleModal(id, startDateTime, endDateTime) {
