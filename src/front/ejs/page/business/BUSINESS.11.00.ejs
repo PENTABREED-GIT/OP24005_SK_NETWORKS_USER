@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<%-include('../_templates/_head.ejs', {
+	layoutTemplate: 'front',
+	pageJavascript: ''
+}) %>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        localAnimations_Case02();
+    });
+</script>
+</head>
+<body class="kr">
+<div id="wrap">
+    <%-include('../_templates/_header.ejs', {
+        type: 'light',
+    })
+    %>
+    <div class="main business phnyxLab" id="main">
+        <div class="main-inner">
+            <div class="local design2">
+                <div class="local-head design5" data-local-animation="case-2">
+                    <%-include('../_templates/_local-info.ejs', {
+                        depth1: 'Business',
+                        depth2: '피닉스 랩',
+                        depth3: null,
+                        casetype: 'case2'
+                    }) %>
+                    <div class="local-subject"><h2 class="local-name en">Empower AI transformation for enterprises,<br class="pc-only"> becoming an enterprise AI engine</h2></div>
+                    <div class="local-aside">
+                        <div class="local-wrap">
+                            <h2 class="local-title">피닉스 랩</h2>
+                        </div>
+                    </div>
+                    <div class="local-figure">
+                        <picture>
+                            <source media="(max-width: 1023px)" srcset="../../assets/images/business/bg-local-head-business-phnyxLab-mo.jpg">
+                            <img src="../../assets/images/business/bg-local-head-business-phnyxLab-pc.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="local-util">
+                        <p class="scroll-guide">Scroll Down</p>
+                    </div>
+                </div>
+                <div class="local-body">
+                    <div class="content-head">피닉스 랩 페이지</div>
+                    <div class="content-body">
+                        <div class="section design1 case3 type1 core">
+                            <div class="section-wrap">
+                                <div class="article intro">
+                                    <div class="article-wrap">
+                                        <div class="article-head">
+                                            <h3 class="title">피닉스 랩 (PhnyX Lab)</h3>
+                                            <h4 class="sub-title">미국 실리콘밸리 AI 스타트업, 피닉스랩</h4>
+                                        </div>
+                                        <div class="article-body">
+                                            <p class="para case2">
+                                                피닉스 랩은 AI 기술 스타트업으로, 글로벌 첨단 기술의 산실인 미국 실리콘밸리에서 미래 혁신을 위한 AI 기술 및 서비스 제공을 위해 설립됐습니다.
+                                            </p>
+                                            <p class="para case2">
+                                                검증 가능한 생성형 AI 솔루션으로 검색 프로세스를 혁신하고, 개인 업무 환경과 기업 문화에 근본적 변화를 일으킨다는 목표 아래, 전문 기술과 현지 네트워크를 바탕으로 글로벌 경쟁력을 갖춘 AI 기반 서비스를 개발하고 있습니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section design1 case2 type1 gen-ai">
+                            <div class="section-wrap">
+                                <div class="section-head">
+                                    <div class="section-subject">
+                                        <h4 class="section-name">핵심 경쟁력 Modular RAG 기반의<br class="pc-only"> 기업용 Gen AI(생성형 AI) 솔루션 개발</h4>
+                                    </div>
+                                </div>
+                                <div class="section-body">
+                                    <p class="para">피닉스랩의 핵심적인 아키텍처는 Modular RAG로, 거대 언어 모델*의 단점을 보완하는 것과 동시에 검색 증강 생성**에서 한 단계 더 고도화된 기술입니다.<br> 피닉스랩은 이를 활용한 기업용 AI 솔루션을 통해 정확하고 보안성 높으며 고객이 신뢰할 수 있는 정보를 실시간으로 제공합니다.</p>
+                                    <div class="board-list design22 case1">
+                                        <div class="board-item">
+                                            <div class="board-wrap">
+                                                <div class="board-head">
+                                                    <span class="board-subject">Flexibility</span>
+                                                </div>
+                                                <div class="board-body">
+                                                    <p class="para">유연한 구조와<br> 초개인화된 솔루션 제공</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="board-item">
+                                            <div class="board-wrap">
+                                                <div class="board-head">
+                                                    <span class="board-subject">Security</span>
+                                                </div>
+                                                <div class="board-body">
+                                                    <p class="para">Modular RAG 하이브리드 아키텍쳐 /<br> 기업 데이터는 VPC 저장</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="board-item">
+                                            <div class="board-wrap">
+                                                <div class="board-head">
+                                                    <span class="board-subject">Scalability</span>
+                                                </div>
+                                                <div class="board-body">
+                                                    <p class="para">여러 종류의 데이터를 저장소에 맞는<br> Module을 사용하여 최적화</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment design1">
+                                        *거대 언어 모델(LLM) : Large Language Model<br> 
+                                        **검색 증강 생성(RAG) : Retrieval-Augmented Generation<br> 
+                                        ***VPC : Virtual Private Cloud
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section design1 case2 type1 product">
+                            <div class="section-wrap">
+                                <div class="section-head">
+                                    <div class="section-subject">
+                                        <h4 class="section-name">주요 Product</h4>
+                                        <p class="section-summary accent case4 color7">국내 최초 Modular RAG 기반 의약학 특화 솔루션, 케이론(Cheiron)</p>
+                                    </div>
+                                </div>
+                                <div class="section-body">
+                                    <p class="para">케이론(Cheiron)은 국내 최초 의약학 특화 생성형 AI 솔루션으로, 의학 학술 정보 분류 체계인 메쉬(Medical Subject Headings, MeSH) 키워드를 이해하고, 펍메드(PubMed), 시맨틱 스칼라(Semantic Scholar) 등 다양한 플랫폼을 활용하여 전문적인 정보를 제공합니다. 또한 일반 검색 엔진, 기업 내부 문서 등 다양한 출처의 데이터를 하나의 플랫폼에서 검색할 수 있어 업무 효율성을 높이는 것은 물론, 다양한 언어 서비스를 제공해 글로벌 확장성도 뛰어납니다.</p>
+                                    <p class="para">피닉스랩은 케이론을 시작으로 다양한 산업 분야로 AI 솔루션을 확장하여 기업용 AI 민주화에 기여할 계획입니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section design1 case3 type1 press">
+                            <div class="section-wrap">
+                                <div class="section-head">
+                                    <div class="section-subject">
+                                        <h4 class="section-name">PRESS NOW</h4>
+                                    </div>
+                                </div>
+                                <div class="section-body">
+                                    <div class="post-list design2 case1 type1">
+                                        <a href="/#" class="post-item">
+                                            <div class="post-wrap">
+                                                <div class="post-figure">
+                                                    <img src="https://place-hold.it/384x213" alt="press now 썸네일 이미지">
+                                                </div>
+                                                <div class="post-inform">
+                                                    <div class="post-head">
+                                                        <p class="post-caption">SK네트웍스</p>
+                                                        <p class="post-subject">SK네트웍스, 2023년 영업이익 2,373억원 달성 전년비 33.6% 증가 배당 증액·자사주 소각 통해 주주가치 제고 추진!</p>
+                                                        <p class="post-summary">SK네트웍스, 2023년 영업이익 2,373억원 달성 전년비 33.6% 증가 배당 증액·자사주 소각 통해 주주가치 제고 추진!SK네트웍스, 2023년 영업이익 2,373억원 달성 전년비 33.6% 증가 배당 증액·자사주 소각 통해 주주가치 제고 추진!SK네트웍스, 2023년 영업이익 2,373억원 달성 전년비 33.6% 증가 배당 증액·자사주 소각 통해 주주가치 제
+                                                        </p>
+                                                    </div>
+                                                    <p class="post-date" title="등록일">2024.02.01</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="/#" class="post-item">
+                                            <div class="post-wrap">
+                                                <div class="post-figure">
+                                                    <img src="https://place-hold.it/384x213" alt="press now 썸네일 이미지">
+                                                </div>
+                                                <div class="post-inform">
+                                                    <div class="post-head">
+                                                        <p class="post-caption">SK렌터카</p>
+                                                        <p class="post-subject">SK렌터카, ‘IF 디자인 어워드 2024’ 본상 수상</p>
+                                                        <p class="post-summary">SK렌터카(대표이사 : 황일문)가 세계 3대 디자인 공모전 중 하나로 꼽히는 ‘IF 디자인 어워드 2024’에서 ‘플랫폼·UI(사용자 인터페이스)’ 부문 본상을 수상했다고 20일 밝혔다. ‘IF 디자인 어워드’는 독일 ‘인터내셔널 포럼 디자인’이 주관하는 디자인 공모전으로, 매년 50…
+                                                        </p>
+                                                    </div>
+                                                    <p class="post-date" title="등록일">2024.02.01</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="/#" class="post-item">
+                                            <div class="post-wrap">
+                                                <div class="post-figure">
+                                                    <img src="https://place-hold.it/384x213" alt="press now 썸네일 이미지">
+                                                </div>
+                                                <div class="post-inform">
+                                                    <div class="post-head">
+                                                        <p class="post-caption">SK네트웍스</p>
+                                                        <p class="post-subject">SK네트웍스, 탄소중립 경영 글로벌 기관 인정!</p>
+                                                        <p class="post-summary">2018년부터 지속가능경영보고서를 작성해오며 회사의 친환경 활동을 꾸준히 이해관계자들과 소통하고 있는 SK네트웍스가 국제적 수준의 ESG 경영 실천을 입증했다. SK네트웍스(대표이사: 이호정)는 13일 여의도 글래드호텔에서 열린 '2023 CDP 코리아 어워드'에서 산업…
+                                                        </p>
+                                                    </div>
+                                                    <p class="post-date" title="등록일">2024.02.01</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="section-util btn-display align3">
+                                    <div class="btn-area">
+                                        <a class="btn design3 case1 type1 color2 ar-icon-plus-bg" href="/#"><span class="btn-text">더보기</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%-include('../_templates/_footer.ejs')%>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.skn.user.company.mapper.GlobalNetworkMapper">
+    <select id="selectGlobalNetworkList" parameterType="map" resultType="com.skn.user.company.dto.GlobalNetwork">
+        SELECT
+            UID, GLOBAL_NETWORK_INDEX, IS_KO, IS_EN, REGION_NAME_KO, REGION_NAME_EN,
+            COUNTRY_NAME_KO, COUNTRY_NAME_EN, COMPANY_NAME_KO, COMPANY_NAME_EN,
+            ADDRESS_KO, ADDRESS_EN, PHONE_NO_KO, PHONE_NO_EN,
+            IS_OPEN, LATITUDE, LONGITUDE
+        FROM GLOBAL_NETWORK
+        WHERE CLASSIFICATION = #{classification}
+          AND IS_OPEN = 'Y'
+        <if test="lang != '' and lang.equals('ko')">
+            AND IS_KO = 'Y'
+        </if>
+        <if test="lang != '' and lang.equals('en')">
+            AND IS_EN = 'Y'
+        </if>
+        ORDER BY
+            CASE
+                WHEN REGION_NAME_KO = '서울특별시' THEN 1
+                ELSE 2
+                END,
+            REGION_NAME_KO
+    </select>
+</mapper>
