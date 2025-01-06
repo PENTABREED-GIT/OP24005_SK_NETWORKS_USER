@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.skn.user.pr.mapper.PressMapper">
+    <sql id="searchCondition">
+        <if test="searchWord != '' and searchWord != null">
+            <if test="searchKind eq '' or searchKind eq null or searchKind eq 'TITLE'">
+                <choose>
+                    <when test="lang != '' and lang.equals('KO')">
+                        AND (TITLE LIKE CONCAT('%', #{searchWord}, '%') OR BA.NAME_KO LIKE CONCAT('%', #{searchWord}, '%'))
+                    </when>
+                    <otherwise>
+                        AND (TITLE LIKE CONCAT('%', #{searchWord}, '%') OR BA.NAME_EN LIKE CONCAT('%', #{searchWord}, '%'))
+                    </otherwise>
+                </choose>
+            </if>
+            <if test="searchKind eq 'CONTENT'">
+                AND CONTENT LIKE CONCAT('%', #{searchWord}, '%')
+            </if>
+        </if>
+    </sql>
+
+    <select id="selectPrPressList" parameterType="map" resultType="com.skn.user.pr.dto.Press">
+        SELECT P.UID
+        , P.PRESS_INDEX
+        , P.TITLE
+        , P.LANG
+        , P.CONTENT
+        , BA.NAME_KO AS BUSINESS_AREA_NAME_KO
+        , BA.NAME_EN AS BUSINESS_AREA_NAME_EN
+        , CONCAT('/upload/public/press/', F.PARENT_UID, '/', F.UID, '.', F.FILE_EXTENSION) AS ADDED_FILE
+        , F.DESCRIPTION
+        , DATE_FORMAT(P.REG_DATE, '%Y.%m.%d') AS REG_DATE
+        FROM PRESS P
+        INNER JOIN BUSINESS_AREA BA ON P.BUSINESS_AREA_INDEX = BA.BUSINESS_AREA_INDEX
+        LEFT JOIN FILE F ON P.UID = F.PARENT_UID AND F.PARENT_TABLE = 'PRESS'
+        WHERE LANG = #{lang}
+        AND P.IS_PRESS = 'Y'
+        AND P.IS_OPEN = 'Y'
+        <choose>
+            <when test='mainBanner != null and mainBanner.equals("Y")'>
+            </when>
+            <otherwise>
+                <include refid="searchCondition"/>
+            </otherwise>
+        </choose>
+        ORDER BY P.PRESS_INDEX DESC
+        <choose>
+            <when test='mainBanner != null and mainBanner.equals("Y")'>
+                LIMIT 5
+            </when>
+            <otherwise>
+                LIMIT #{offset}, #{size}
+            </otherwise>
+        </choose>
+    </select>
+
+    <select id="selectPrPressListCount" parameterType="map" resultType="int">
+        SELECT
+        COUNT(*)
+        FROM PRESS P
+        INNER JOIN BUSINESS_AREA BA ON P.BUSINESS_AREA_INDEX = BA.BUSINESS_AREA_INDEX
+        INNER JOIN FILE F ON P.UID = F.PARENT_UID
+        WHERE LANG = #{lang}
+        AND F.PARENT_TABLE = 'PRESS'
+        AND IS_PRESS = 'Y'
+        <include refid="searchCondition"/>
+    </select>
+
+    <select id="selectPrPress" parameterType="map" resultType="com.skn.user.pr.dto.Press">
+        SELECT P.UID,
+        P.PRESS_INDEX,
+        P.TITLE,
+        P.LANG,
+        P.CONTENT,
+        DATE_FORMAT(P.REG_DATE, '%Y-%m-%d') AS REG_DATE
+        FROM PRESS P
+        INNER JOIN BUSINESS_AREA BA ON P.BUSINESS_AREA_INDEX = BA.BUSINESS_AREA_INDEX
+        LEFT JOIN FILE F ON P.UID = F.PARENT_UID AND F.PARENT_TABLE = 'PRESS'
+        WHERE P.LANG = #{lang}
+        AND P.IS_PRESS = 'Y'
+        AND P.UID = #{uid}
+        <include refid="searchCondition"/>
+    </select>
+
+    <select id="selectPreviousPrPress" parameterType="map" resultType="com.skn.user.pr.dto.Press">
+        SELECT P.UID,
+        P.TITLE
+        FROM PRESS P
+        INNER JOIN BUSINESS_AREA BA ON P.BUSINESS_AREA_INDEX = BA.BUSINESS_AREA_INDEX
+        LEFT JOIN FILE F ON P.UID = F.PARENT_UID AND F.PARENT_TABLE = 'PRESS'
+        WHERE P.LANG = #{lang}
+        AND P.IS_PRESS = 'Y'
+        AND P.PRESS_INDEX <![CDATA[ < ]]>  (SELECT PRESS_INDEX FROM PRESS WHERE UID = #{uid})
+        <include refid="searchCondition"/>
+        ORDER BY P.REG_DATE DESC
+        LIMIT 1;
+    </select>
+
+    <select id="selectNextPrPress" parameterType="map" resultType="com.skn.user.pr.dto.Press">
+        SELECT P.UID,
+        P.TITLE
+        FROM PRESS P
+        INNER JOIN BUSINESS_AREA BA ON P.BUSINESS_AREA_INDEX = BA.BUSINESS_AREA_INDEX
+        LEFT JOIN FILE F ON P.UID = F.PARENT_UID AND F.PARENT_TABLE = 'PRESS'
+        WHERE P.LANG = #{lang}
+        AND P.IS_PRESS = 'Y'
+        AND P.PRESS_INDEX <![CDATA[ > ]]>  (SELECT PRESS_INDEX FROM PRESS WHERE UID = #{uid})
+        <include refid="searchCondition"/>
+        ORDER BY P.REG_DATE ASC
+        LIMIT 1;
+    </select>
+
+    <select id="selectBusinessPressList" parameterType="map" resultType="com.skn.user.pr.dto.Press">
+        SELECT P.UID
+        , P.PRESS_INDEX
+        , P.TITLE
+        , P.LANG
+        , P.CONTENT
+        , BA.NAME_KO                                                                       AS BUSINESS_AREA_NAME_KO
+        , BA.NAME_EN                                                                       AS BUSINESS_AREA_NAME_EN
+        , CONCAT('/upload/public/press/', F.PARENT_UID, '/', F.UID, '.', F.FILE_EXTENSION) AS ADDED_FILE
+        , F.DESCRIPTION
+        , DATE_FORMAT(P.REG_DATE, '%Y.%m.%d')                                              AS REG_DATE
+        FROM PRESS P
+        INNER JOIN BUSINESS_AREA BA ON P.BUSINESS_AREA_INDEX = BA.BUSINESS_AREA_INDEX
+        LEFT JOIN FILE F ON P.UID = F.PARENT_UID AND F.PARENT_TABLE = 'PRESS'
+        WHERE LANG = #{lang}
+        AND P.IS_BUSINESS = 'Y'
+        <if test="businessEnName != null and businessEnName != ''">
+            AND BA.NAME_EN LIKE CONCAT('%', #{businessEnName}, '%')
+        </if>
+        ORDER BY P.REG_DATE DESC
+        LIMIT 3
+    </select>
+
+    <update id="updateViewCount" parameterType="java.util.HashMap">
+        UPDATE PRESS
+        SET VIEW_COUNT = VIEW_COUNT + 1
+        WHERE UID = #{uid}
+    </update>
+</mapper>

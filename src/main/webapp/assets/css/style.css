@@ -857,7 +857,7 @@
 }
 @media (max-width: 1023px) {
     .board-list.design7 .board-item .board-wrap .board-info .board-name ~ .comment,
-.board-list.design7 .board-item .board-wrap .board-info .board-name ~ .board-data {
+    .board-list.design7 .board-item .board-wrap .board-info .board-name ~ .board-data {
         padding-top: 1.2rem;
     }
 }
@@ -5987,8 +5987,8 @@
         background-position: center top;
     }
     .data-display.business-overview .data-head,
-.data-display.business-overview .data-body,
-.data-display.business-overview .data-aside {
+    .data-display.business-overview .data-body,
+    .data-display.business-overview .data-aside {
         margin-left: 0;
     }
     .data-display.business-overview .data-head .data-name {
@@ -6006,7 +6006,7 @@
         font-size: 1.6rem;
     }
     .data-display.business-overview .data-body .para + .para,
-.data-display.business-overview .data-body .para + .comment {
+    .data-display.business-overview .data-body .para + .comment {
         padding-top: 1.2rem;
     }
     .data-display.business-overview .data-aside .data-list .data-item {
@@ -6235,7 +6235,7 @@
         font-size: 1.6rem;
     }
     .data-display.business-network > .data-body > .data-list > .data-item .contents .para + .para,
-.data-display.business-network > .data-body > .data-list > .data-item .contents .para + .note {
+    .data-display.business-network > .data-body > .data-list > .data-item .contents .para + .note {
         padding-top: 1.2rem;
     }
     .data-display.business-network > .data-body > .data-list > .data-item .contents .comment {
@@ -6359,20 +6359,14 @@
         background: url("../images/business/thumb-34-mo.jpg") no-repeat center/cover;
         clip-path: inset(0% 0% 0% 0% round 0.8rem);
     }
-}
-@media (max-width: 1023px) {
     .data-display.business-network > .data-body > .data-list > .data-item[class*=back-].back-playData::after {
         background: url("../images/business/thumb-35-mo.jpg") no-repeat center/cover;
         clip-path: inset(0% 0% 0% 0% round 0.8rem);
     }
-}
-@media (max-width: 1023px) {
     .data-display.business-network > .data-body > .data-list > .data-item[class*=back-].back-mintitBusi::after {
         background: url("../images/business/thumb-36-mo.jpg") no-repeat center/cover;
         clip-path: inset(0% 0% 0% 0% round 0.8rem);
     }
-}
-@media (max-width: 1023px) {
     .data-display.business-network > .data-body > .data-list > .data-item + .data-item {
         margin-top: 8rem;
     }
@@ -6495,8 +6489,6 @@
     .data-display.investment .data-list ~ .data-aside {
         padding-top: 1.2rem;
     }
-}
-@media (max-width: 1023px) {
     .data-display.investment + .portfolio {
         margin-top: 8rem;
     }
@@ -6646,7 +6638,7 @@
         font-size: 2.4rem;
     }
     .data-display.portfolio .data-head + .data-util,
-.data-display.portfolio .data-head ~ .data-body {
+    .data-display.portfolio .data-head ~ .data-body {
         margin-top: 2.4rem;
     }
     .data-display.portfolio .data-body .data-item {
@@ -7348,7 +7340,7 @@
         margin-left: 0;
     }
     .data-display.inquiry-form > .data-list > .data-item .data-body .form ~ .para,
-.data-display.inquiry-form > .data-list > .data-item .data-body .form ~ .btn {
+    .data-display.inquiry-form > .data-list > .data-item .data-body .form ~ .btn {
         margin-top: 1.2rem;
     }
     .data-display.inquiry-form > .data-list > .data-item .data-body .bullet-display {
@@ -9037,6 +9029,12 @@
         padding: 1.5rem 1rem;
     }
 }
+.t-display.design1.case1 table > thead > tr > th.radius-type1 {
+    border-radius: 0 0.8rem 0 0 !important;
+}
+.t-display.design1.case1 table > thead > tr > th.radius-type2 {
+    border-radius: 0 0 0.8rem 0 !important;
+}
 .t-display.design1.case1 table > thead > tr:first-child > th:first-child {
     border-radius: 0.8rem 0 0 0.8rem;
 }
@@ -9056,7 +9054,7 @@
 }
 @media (max-width: 1023px) {
     .t-display.design1.case1 table > tbody > tr > th,
-.t-display.design1.case1 table > tbody > tr > td {
+    .t-display.design1.case1 table > tbody > tr > td {
         padding: 1.5rem 2.4rem;
     }
 }
@@ -9084,7 +9082,7 @@
 }
 @media (max-width: 1023px) {
     .t-display.design1.case2 table > tbody > tr > th,
-.t-display.design1.case2 table > tbody > tr > td {
+    .t-display.design1.case2 table > tbody > tr > td {
         padding: 1.5rem 2.4rem;
     }
 }
@@ -9108,7 +9106,7 @@
 }
 @media (max-width: 1023px) {
     .t-display.design1.type1 table > tbody > tr > th,
-.t-display.design1.type1 table > tbody > tr > td {
+    .t-display.design1.type1 table > tbody > tr > td {
         font-weight: 700;
         font-size: 1.6rem;
     }
@@ -9153,7 +9151,7 @@
 }
 @media (max-width: 1023px) {
     .t-display.design2.case1 table > tbody > tr > th,
-.t-display.design2.case1 table > tbody > tr > td {
+    .t-display.design2.case1 table > tbody > tr > td {
         padding: 1.5rem 2.4rem;
     }
 }
@@ -9182,7 +9180,7 @@
 }
 @media (max-width: 1023px) {
     .t-display.design2.type1 table > tbody > tr > th,
-.t-display.design2.type1 table > tbody > tr > td {
+    .t-display.design2.type1 table > tbody > tr > td {
         font-weight: 700;
         font-size: 1.6rem;
     }
@@ -9214,7 +9212,7 @@
 }
 @media (max-width: 1023px) {
     .t-display.design3.case1 table > tbody > tr > th,
-.t-display.design3.case1 table > tbody > tr > td {
+    .t-display.design3.case1 table > tbody > tr > td {
         padding: 1.5rem 2.4rem;
     }
 }
@@ -9264,7 +9262,7 @@
 }
 @media (max-width: 1023px) {
     .t-display.design3.type1 table > tbody > tr > th,
-.t-display.design3.type1 table > tbody > tr > td {
+    .t-display.design3.type1 table > tbody > tr > td {
         font-weight: 700;
         font-size: 1.6rem;
     }
@@ -9300,7 +9298,7 @@
 }
 @media (max-width: 1023px) {
     .t-display.design4.case1 table > tbody > tr > th,
-.t-display.design4.case1 table > tbody > tr > td {
+    .t-display.design4.case1 table > tbody > tr > td {
         padding: 1.5rem 2.4rem;
     }
 }
@@ -9342,7 +9340,7 @@
 }
 @media (max-width: 1023px) {
     .t-display.design4.type1 table > tbody > tr > th,
-.t-display.design4.type1 table > tbody > tr > td {
+    .t-display.design4.type1 table > tbody > tr > td {
         font-weight: 700;
         font-size: 1.6rem;
     }
@@ -13575,7 +13573,7 @@ sub {
 }
 @media (max-width: 1023px) {
     #wrap .section[class*=design].case5 .section-wrap .section-body > .para + .para,
-#wrap .section[class*=design].case5 .section-wrap .section-body > .para + .note {
+    #wrap .section[class*=design].case5 .section-wrap .section-body > .para + .note {
         margin-top: 1.2rem;
     }
 }
@@ -14237,7 +14235,7 @@ sub {
 }
 @media (max-width: 1023px) {
     .sk-main .section.intro .section-content.our-business .content-inner .section-name .para,
-.sk-main .section.intro .section-content.our-business .content-inner .section-body .para {
+    .sk-main .section.intro .section-content.our-business .content-inner .section-body .para {
         font-weight: 500;
         font-size: 1.6rem;
     }
@@ -15729,7 +15727,7 @@ sub {
         opacity: 1;
     }
     .sk-main .section.media .sns-media .content-inner .section-body .link:hover .post-body .post-name,
-.sk-main .section.media .sns-media .content-inner .section-body .link:hover .post-body .para {
+    .sk-main .section.media .sns-media .content-inner .section-body .link:hover .post-body .para {
         color: rgb(255, 255, 255);
     }
 }
@@ -17956,7 +17954,7 @@ sub {
 }
 @media (max-width: 1023px) {
     .company.greetings .content-body .section.closing .section-wrap .section-body .para,
-.company.greetings .content-body .section.closing .section-wrap .section-body .closing-comment {
+    .company.greetings .content-body .section.closing .section-wrap .section-body .closing-comment {
         font-weight: 700;
         font-size: 1.8rem;
     }
@@ -19587,26 +19585,18 @@ sub {
         background: url("../../assets/images/business/bg-hotel-mo.jpg") no-repeat center/cover;
         clip-path: inset(0% 0% 0% 0% round 0.8rem);
     }
-}
-@media (max-width: 1023px) {
     #wrap .business.overview .section.rental .section-head::after {
         background: url("../../assets/images/business/bg-rental-mo.jpg") no-repeat center/cover;
         clip-path: inset(0% 0% 0% 0% round 0.8rem);
     }
-}
-@media (max-width: 1023px) {
     #wrap .business.overview .section.mobility .section-head::after {
         background: url("../../assets/images/business/bg-mobility-mo.jpg") no-repeat center/cover;
         clip-path: inset(0% 0% 0% 0% round 0.8rem);
     }
-}
-@media (max-width: 1023px) {
     #wrap .business.overview .section.trading .section-head::after {
         background: url("../../assets/images/business/bg-trading-mo.jpg") no-repeat center/cover;
         clip-path: inset(0% 0% 0% 0% round 0.8rem);
     }
-}
-@media (max-width: 1023px) {
     #wrap .business.overview .section.ai .section-head::after {
         background: url("../../assets/images/business/bg-ai-mo.jpg") no-repeat center/cover;
         clip-path: inset(0% 0% 0% 0% round 0.8rem);
@@ -20678,29 +20668,21 @@ sub {
     .pr.brand .section.brand-ci .section-body .section-figure {
         width: 100%;
     }
-}
-@media (max-width: 1023px) {
     .pr.brand .section.regulation-util .section-body + .section-util {
         margin-top: 4.8rem;
     }
-}
-@media (max-width: 1023px) {
     .pr.brand .section.spatial-regulation {
         position: relative;
         padding-top: 5.6rem;
         padding-bottom: 5.6rem;
         margin-top: 6.4rem;
     }
-}
-@media (max-width: 1023px) {
     .pr.brand .section.color-regulation .section-body > .para + .data-display {
         margin-top: 4.8rem;
     }
     .pr.brand .section.color-regulation .section-body > .data-display > .data-list > .data-item + .data-item {
         margin-top: 3.2rem;
     }
-}
-@media (max-width: 1023px) {
     .pr.brand .section.color-criteria .section-body .data-display {
         margin-top: 8rem;
     }
@@ -21079,11 +21061,11 @@ sub {
         margin-top: 2.4rem;
     }
     .etc.personal-info .section .para + .order-list,
-.etc.personal-info .section .para + .bullet-display {
+    .etc.personal-info .section .para + .bullet-display {
         margin-top: 1.2rem;
     }
     .etc.personal-info .section .para + .order-list + .para,
-.etc.personal-info .section .para + .bullet-display + .para {
+    .etc.personal-info .section .para + .bullet-display + .para {
         margin-top: 1.2rem;
     }
 }
@@ -21946,8 +21928,8 @@ sub {
 }
 @media (max-width: 1023px) {
     .esg:not(.overview).member .section.health-layout .section-body > .para + .board-list,
-.esg:not(.overview).member .section.health-layout .section-body > .para + .data-display,
-.esg:not(.overview).member .section.health-layout .section-body > .para + .t-display {
+    .esg:not(.overview).member .section.health-layout .section-body > .para + .data-display,
+    .esg:not(.overview).member .section.health-layout .section-body > .para + .t-display {
         margin-top: 3.2rem;
     }
 }
@@ -22915,6 +22897,9 @@ sub {
     .esg:not(.overview).governance-structure .esg-audit-table table {
         min-width: 1024px;
     }
+    .esg:not(.overview).governance-structure .esg-generalMeeting-table table {
+        min-width: 1126px;
+    }
 }
 @media (max-width: 1023px) {
     .esg:not(.overview).governance-structure table.col-w-1 col.col1 {
@@ -23255,6 +23240,309 @@ sub {
     }
     .en .esg:not(.overview).governance-structure table.col-w-6 col.col6 {
         width: 12%;
+    }
+}
+
+.esg:not(.overview).governance-structure table.col-w-7 col.col1 {
+    width: 7%;
+}
+.esg:not(.overview).governance-structure table.col-w-7 col.col2 {
+    width: 7%;
+}
+.esg:not(.overview).governance-structure table.col-w-7 col.col3 {
+    width: auto;
+}
+.esg:not(.overview).governance-structure table.col-w-7 col.col4 {
+    width: 7%;
+}
+.esg:not(.overview).governance-structure table.col-w-7 col.col5 {
+    width: 11.5%;
+}
+.esg:not(.overview).governance-structure table.col-w-7 col.col6 {
+    width: 12.5%;
+}
+.esg:not(.overview).governance-structure table.col-w-7 col.col7 {
+    width: 12.5%;
+}
+.esg:not(.overview).governance-structure table.col-w-7 col.col8 {
+    width: 11.5%;
+}
+.esg:not(.overview).governance-structure table.col-w-7 col.col9 {
+    width: 11.5%;
+}
+@media (max-width: 1023px) {
+    .esg:not(.overview).governance-structure table.col-w-7 col.col1 {
+        width: 8%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-7 col.col2 {
+        width: 7%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-7 col.col3 {
+        width: auto;
+    }
+    .esg:not(.overview).governance-structure table.col-w-7 col.col4 {
+        width: 7%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-7 col.col5 {
+        width: 12.5%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-7 col.col6 {
+        width: 13.5%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-7 col.col7 {
+        width: 12.8%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-7 col.col8 {
+        width: 12%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-7 col.col9 {
+        width: 11.5%;
+    }
+}
+.en .esg:not(.overview).governance-structure table.col-w-7 col.col1 {
+    width: 6%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-7 col.col3 {
+    width: auto;
+}
+.en .esg:not(.overview).governance-structure table.col-w-7 col.col4 {
+    width: 12%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-7 col.col5 {
+    width: 12.5%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-7 col.col6 {
+    width: 12.5%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-7 col.col7 {
+    width: 12.5%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-7 col.col8 {
+    width: 12%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-7 col.col9 {
+    width: 12%;
+}
+@media (max-width: 1023px) {
+    .en .esg:not(.overview).governance-structure table.col-w-7 col.col1 {
+        width: 7%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-7 col.col3 {
+        width: auto;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-7 col.col4 {
+        width: 12%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-7 col.col5 {
+        width: 13%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-7 col.col6 {
+        width: 13%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-7 col.col7 {
+        width: 13%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-7 col.col8 {
+        width: 12%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-7 col.col9 {
+        width: 12%;
+    }
+}
+
+.esg:not(.overview).governance-structure table.col-w-8 col.col1 {
+    width: 9%;
+}
+.esg:not(.overview).governance-structure table.col-w-8 col.col2 {
+    width: 7%;
+}
+.esg:not(.overview).governance-structure table.col-w-8 col.col3 {
+    width: auto;
+}
+.esg:not(.overview).governance-structure table.col-w-8 col.col4 {
+    width: 7%;
+}
+.esg:not(.overview).governance-structure table.col-w-8 col.col5 {
+    width: 12.5%;
+}
+.esg:not(.overview).governance-structure table.col-w-8 col.col6 {
+    width: 12.5%;
+}
+.esg:not(.overview).governance-structure table.col-w-8 col.col7 {
+    width: 12.5%;
+}
+.esg:not(.overview).governance-structure table.col-w-8 col.col8 {
+    width: 11.5%;
+}
+.esg:not(.overview).governance-structure table.col-w-8 col.col9 {
+    width: 11.5%;
+}
+@media (max-width: 1023px) {
+    .esg:not(.overview).governance-structure table.col-w-8 col.col1 {
+        width: 10%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-8 col.col2 {
+        width: 7%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-8 col.col3 {
+        width: auto;
+    }
+    .esg:not(.overview).governance-structure table.col-w-8 col.col4 {
+        width: 7%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-8 col.col5 {
+        width: 13.5%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-8 col.col6 {
+        width: 12.5%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-8 col.col7 {
+        width: 13.5%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-8 col.col8 {
+        width: 12.5%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-8 col.col9 {
+        width: 11.5%;
+    }
+}
+.en .esg:not(.overview).governance-structure table.col-w-8 col.col1 {
+    width: 9%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-8 col.col2 {
+    width: 7%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-8 col.col3 {
+    width: auto;
+}
+.en .esg:not(.overview).governance-structure table.col-w-8 col.col4 {
+    width: 7%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-8 col.col5 {
+    width: 12.5%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-8 col.col6 {
+    width: 12.5%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-8 col.col7 {
+    width: 12.5%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-8 col.col8 {
+    width: 11.5%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-8 col.col9 {
+    width: 11.5%;
+}
+@media (max-width: 1023px) {
+    .en .esg:not(.overview).governance-structure table.col-w-8 col.col1 {
+        width: 9%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-8 col.col2 {
+        width: 7%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-8 col.col3 {
+        width: auto;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-8 col.col4 {
+        width: 7%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-8 col.col5 {
+        width: 12.5%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-8 col.col6 {
+        width: 12.5%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-8 col.col7 {
+        width: 12.5%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-8 col.col8 {
+        width: 11.5%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-8 col.col9 {
+        width: 11.5%;
+    }
+}
+
+.esg:not(.overview).governance-structure table.col-w-9 col.col1 {
+    width: 10%;
+}
+.esg:not(.overview).governance-structure table.col-w-9 col.col2 {
+    width: 10%;
+}
+.esg:not(.overview).governance-structure table.col-w-9 col.col3 {
+    width: auto;
+}
+.esg:not(.overview).governance-structure table.col-w-9 col.col4 {
+    width: 10%;
+}
+.esg:not(.overview).governance-structure table.col-w-9 col.col5 {
+    width: 13%;
+}
+.esg:not(.overview).governance-structure table.col-w-9 col.col6 {
+    width: 13%;
+}
+.esg:not(.overview).governance-structure table.col-w-9 col.col7 {
+    width: 13%;
+}
+@media (max-width: 1023px) {
+    .esg:not(.overview).governance-structure table.col-w-9 col.col1 {
+        width: 10%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-9 col.col2 {
+        width: 10%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-9 col.col3 {
+        width: auto;
+    }
+    .esg:not(.overview).governance-structure table.col-w-9 col.col4 {
+        width: 10%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-9 col.col5 {
+        width: 13%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-9 col.col6 {
+        width: 13%;
+    }
+    .esg:not(.overview).governance-structure table.col-w-9 col.col7 {
+        width: 13%;
+    }
+}
+.en .esg:not(.overview).governance-structure table.col-w-9 col.col1 {
+    width: 10%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-9 col.col3 {
+    width: auto;
+}
+.en .esg:not(.overview).governance-structure table.col-w-9 col.col4 {
+    width: 14%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-9 col.col5 {
+    width: 13%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-9 col.col6 {
+    width: 13%;
+}
+.en .esg:not(.overview).governance-structure table.col-w-9 col.col7 {
+    width: 14%;
+}
+@media (max-width: 1023px) {
+    .en .esg:not(.overview).governance-structure table.col-w-9 col.col1 {
+        width: 10%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-9 col.col3 {
+        width: auto;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-9 col.col4 {
+        width: 14%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-9 col.col5 {
+        width: 13%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-9 col.col6 {
+        width: 13%;
+    }
+    .en .esg:not(.overview).governance-structure table.col-w-9 col.col7 {
+        width: 14%;
     }
 }
 

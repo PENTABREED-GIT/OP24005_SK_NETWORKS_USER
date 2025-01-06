@@ -52,6 +52,12 @@
 							@include mobile {
 								padding: 1.5rem 1rem;
 							}
+							&.radius-type1 {
+								border-radius: 0 0.8rem 0 0 !important;
+							}
+							&.radius-type2 {
+								border-radius: 0 0 0.8rem 0 !important;
+							}
 						}
 						&:first-child {
 							>th {
