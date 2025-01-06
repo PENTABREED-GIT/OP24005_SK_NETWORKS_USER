@@ -1987,6 +1987,7 @@
     addSelectChangeListener('level-sel-personnel', 'esg-personnel');
     addSelectChangeListener('level-sel-management', 'esg-management');
     addSelectChangeListener('level-sel-audit', 'esg-audit');
+    addSelectChangeListener('level-sel-generalMeeting', 'esg-generalMeeting');
 </script>
 </body>
 
