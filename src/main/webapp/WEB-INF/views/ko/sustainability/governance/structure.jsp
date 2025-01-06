@@ -1090,7 +1090,7 @@
                                                                             <tr>
                                                                                 <td rowspan="2">제6호 의안</td>
                                                                                 <td rowspan="2">보통</td>
-                                                                                <td rowspan="2" class="align1">이사보수 한도액 승인 의건</td>
+                                                                                <td rowspan="2" class="align1">이사보수 한도액 승인의 건</td>
                                                                                 <td rowspan="2">가결</td>
                                                                                 <td rowspan="2">198,179,179</td>
                                                                                 <td rowspan="2">148,022,058</td>
@@ -1157,7 +1157,7 @@
                                                                             <tr>
                                                                                 <td rowspan="2">제1호 의안</td>
                                                                                 <td rowspan="2">보통</td>
-                                                                                <td rowspan="2" class="align1">제70기(2022년도) 재무제표 승인 의건</td>
+                                                                                <td rowspan="2" class="align1">제70기(2022년도) 재무제표 승인의 건</td>
                                                                                 <td rowspan="2">가결</td>
                                                                                 <td rowspan="2">217,820,666</td>
                                                                                 <td rowspan="2">144,918,179</td>
@@ -1241,7 +1241,7 @@
                                                                             <tr>
                                                                                 <td rowspan="2">제5호 의안</td>
                                                                                 <td rowspan="2">보통</td>
-                                                                                <td rowspan="2" class="align1">이사보수 한도액 승인 의건</td>
+                                                                                <td rowspan="2" class="align1">이사보수 한도액 승인의 건</td>
                                                                                 <td rowspan="2">가결</td>
                                                                                 <td rowspan="2">217,820,666</td>
                                                                                 <td rowspan="2">144,918,179</td>
@@ -1903,7 +1903,7 @@
                                                                             <tr>
                                                                                 <td rowspan="2">제1호 의안</td>
                                                                                 <td rowspan="2">보통</td>
-                                                                                <td rowspan="2" class="align1">제65기(2017년도) 재무제표 승인 의건</td>
+                                                                                <td rowspan="2" class="align1">제65기(2017년도) 재무제표 승인의 건</td>
                                                                                 <td rowspan="2">가결</td>
                                                                                 <td rowspan="2">240,563,257</td>
                                                                                 <td rowspan="2">154,894,410</td>
@@ -1951,7 +1951,7 @@
                                                                             <tr>
                                                                                 <td rowspan="2">제4호 의안</td>
                                                                                 <td rowspan="2">보통</td>
-                                                                                <td rowspan="2" class="align1">이사보수 한도액 승인 의건</td>
+                                                                                <td rowspan="2" class="align1">이사보수 한도액 승인의 건</td>
                                                                                 <td rowspan="2">가결</td>
                                                                                 <td rowspan="2">240,563,257</td>
                                                                                 <td rowspan="2">154,894,410</td>
