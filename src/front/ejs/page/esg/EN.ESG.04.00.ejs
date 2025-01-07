@@ -6,7 +6,7 @@
 	pageJavascript: ''
 }) %>
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
+    window.onload = () => {
         localAnimations_Case02();
         Tab();
         Accordion();
@@ -57,7 +57,13 @@
                 });
             });
         }
-    });
+
+        const qr = window.location.search.substring(1, window.location.search.length)
+        const tabId = (qr.split('='))[1]
+        const scrollTab = document.getElementById(tabId);
+        scrollTab.scrollIntoView()
+        scrollTab.querySelector('button').click()
+    }
 </script>
 </head>
 <body class="en">
@@ -4635,7 +4641,7 @@
                                                                         <div class="data-body">
                                                                             <div class="accordion-display design2 case1 type2">
                                                                                 <!-- 인사위원회 -->
-                                                                                <div class="accordion-item">
+                                                                                <div class="accordion-item" id="scrollTab1">
                                                                                     <div class="accordion-wrap">
                                                                                         <div class="accordion-head">
                                                                                             <button type="button" class="btn" aria-controls="activity-status-1">
@@ -5064,7 +5070,7 @@
                                                                                 </div>
                                                                                 <!-- //인사위원회 -->
                                                                                 <!-- ESG경영위원회 -->
-                                                                                <div class="accordion-item">
+                                                                                <div class="accordion-item" id="scrollTab2">
                                                                                     <div class="accordion-wrap">
                                                                                         <div class="accordion-head">
                                                                                             <button type="button" class="btn" aria-controls="activity-status-2">
@@ -5755,7 +5761,7 @@
                                                                                 </div>
                                                                                 <!-- //ESG경영위원회 -->
                                                                                 <!-- 감사위원회 -->
-                                                                                <div class="accordion-item">
+                                                                                <div class="accordion-item" id="scrollTab3">
                                                                                     <div class="accordion-wrap">
                                                                                         <div class="accordion-head">
                                                                                             <button type="button" class="btn" aria-controls="activity-status-3">
