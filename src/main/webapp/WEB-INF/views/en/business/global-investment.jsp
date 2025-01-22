@@ -111,7 +111,7 @@
                                                             <em class="title">Startup Founder</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">188</span>
+                                                            <span class="accent color10">226</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -121,7 +121,7 @@
                                                             <em class="title">Investor</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">146</span>
+                                                            <span class="accent color10">167</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -131,11 +131,12 @@
                                                             <em class="title">Advisor</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">47</span>
+                                                            <span class="accent color10">48</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <p class="comment design1">* as of December 2024</p>
                                         </div>
                                     </div>
                                 </div>
@@ -184,7 +185,7 @@
                                                             <strong class="data-name">All</strong>
                                                         </span>
                                                         <span class="data-body">
-                                                            <span class="accent">31</span>
+                                                            <span class="accent">36</span>
                                                         </span>
                                                     </button>
                                                     <button type="button" id="direct" class="data-item" onclick="filterButton('direct');">
@@ -192,7 +193,7 @@
                                                             <strong class="data-name">direct investment</strong>
                                                         </span>
                                                         <span class="data-body">
-                                                            <span class="accent">10</span>
+                                                            <span class="accent">15</span>
                                                         </span>
                                                     </button>
                                                     <button type="button" id="fund" class="data-item" onclick="filterButton('fund');">
@@ -544,7 +545,7 @@
                                                         </li>
                                                         <li class="data-item">
                                                             <a href="https://www.sbvacorp.com/ko/" target="_blank" title="Opens in a new window." class="portfolio-figure">
-                                                                <img src="/assets/images/business/logo-sbva.svg" alt="SBVA">
+                                                                <img src="/assets/images/business/logo-sbva.png" alt="SBVA">
                                                             </a>
                                                             <div class="portfolio-info">
                                                                 <div class="portfolio-head">
@@ -610,7 +611,7 @@
                                                         </li>
                                                         <li class="data-item">
                                                             <a href="https://www.sbvacorp.com/ko/" target="_blank" title="Opens in a new window." class="portfolio-figure">
-                                                                <img src="/assets/images/business/logo-sbva.svg" alt="SBVA">
+                                                                <img src="/assets/images/business/logo-sbva.png" alt="SBVA">
                                                             </a>
                                                             <div class="portfolio-info">
                                                                 <div class="portfolio-head">

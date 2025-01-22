@@ -112,7 +112,7 @@
                                                             <em class="title">Startup Founder</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">188</span>명
+                                                            <span class="accent color10">226</span>명
                                                         </div>
                                                     </div>
                                                 </div>
@@ -122,7 +122,7 @@
                                                             <em class="title">Investor</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">146</span>명
+                                                            <span class="accent color10">167</span>명
                                                         </div>
                                                     </div>
                                                 </div>
@@ -132,11 +132,12 @@
                                                             <em class="title">Advisor</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">47</span>명
+                                                            <span class="accent color10">48</span>명
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <p class="comment design1">* 24년 12월 기준</p>
                                         </div>
                                     </div>
                                 </div>
@@ -185,7 +186,7 @@
                                                             <strong class="data-name">전체 투자</strong>
                                                         </span>
                                                         <span class="data-body">
-                                                            <span class="accent">31</span>건
+                                                            <span class="accent">36</span>건
                                                         </span>
                                                     </button>
                                                     <button type="button" class="data-item" id="direct" onclick="filterButton('direct');">
@@ -193,7 +194,7 @@
                                                             <strong class="data-name">직접투자</strong>
                                                         </span>
                                                         <span class="data-body">
-                                                            <span class="accent">10</span>건
+                                                            <span class="accent">15</span>건
                                                         </span>
                                                     </button>
                                                     <button type="button" class="data-item" id="fund" onclick="filterButton('fund');">
@@ -263,11 +264,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">한국</em>
+                                                                        <em class="label-data region">한국</em>
                                                                     </span>
                                                                     <span class="label break">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">직접투자</em>
+                                                                        <em class="label-data investment">직접투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
@@ -292,11 +293,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">한국</em>
+                                                                        <em class="label-data region">한국</em>
                                                                     </span>
                                                                     <span class="label break">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">직접투자</em>
+                                                                        <em class="label-data investment">직접투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
@@ -321,11 +322,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">싱가포르</em>
+                                                                        <em class="label-data region">싱가포르</em>
                                                                     </span>
                                                                     <span class="label break">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">직접투자</em>
+                                                                        <em class="label-data investment">직접투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
@@ -350,11 +351,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">미국</em>
+                                                                        <em class="label-data region">미국</em>
                                                                     </span>
                                                                     <span class="label break">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">직접투자</em>
+                                                                        <em class="label-data investment">직접투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
@@ -379,11 +380,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">미국</em>
+                                                                        <em class="label-data region">미국</em>
                                                                     </span>
                                                                     <span class="label break">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">직접투자</em>
+                                                                        <em class="label-data investment">직접투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
@@ -408,11 +409,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">미국</em>
+                                                                        <em class="label-data region">미국</em>
                                                                     </span>
                                                                     <span class="label break">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">직접투자</em>
+                                                                        <em class="label-data investment">직접투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
@@ -437,11 +438,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">미국</em>
+                                                                        <em class="label-data region">미국</em>
                                                                     </span>
                                                                     <span class="label break">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">직접투자</em>
+                                                                        <em class="label-data investment">직접투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
@@ -466,11 +467,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">미국</em>
+                                                                        <em class="label-data region">미국</em>
                                                                     </span>
                                                                     <span class="label break">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">직접투자</em>
+                                                                        <em class="label-data investment">직접투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
@@ -495,11 +496,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">네덜란드</em>
+                                                                        <em class="label-data region">네덜란드</em>
                                                                     </span>
                                                                     <span class="label break">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">직접투자</em>
+                                                                        <em class="label-data investment">직접투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
@@ -524,11 +525,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">한국</em>
+                                                                        <em class="label-data region">한국</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">펀드투자</em>
+                                                                        <em class="label-data investment">펀드투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">운용사</span>
@@ -545,7 +546,7 @@
                                                         </li>
                                                         <li class="data-item">
                                                             <a href="https://www.sbvacorp.com/ko/" target="_blank" class="portfolio-figure" title="새창 열기">
-                                                                <img src="/assets/images/business/logo-sbva.svg" alt="SBVA 브랜드 로고">
+                                                                <img src="/assets/images/business/logo-sbva.png" alt="SBVA 브랜드 로고">
                                                             </a>
                                                             <div class="portfolio-info">
                                                                 <div class="portfolio-head">
@@ -557,11 +558,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">한국</em>
+                                                                        <em class="label-data region">한국</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">펀드투자</em>
+                                                                        <em class="label-data investment">펀드투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">운용사</span>
@@ -590,11 +591,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">한국</em>
+                                                                        <em class="label-data region">한국</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">펀드투자</em>
+                                                                        <em class="label-data investment">펀드투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">운용사</span>
@@ -611,7 +612,7 @@
                                                         </li>
                                                         <li class="data-item">
                                                             <a href="https://www.sbvacorp.com/ko/" target="_blank" class="portfolio-figure" title="새창 열기">
-                                                                <img src="/assets/images/business/logo-sbva.svg" alt="SBVA 브랜드 로고">
+                                                                <img src="/assets/images/business/logo-sbva.png" alt="SBVA 브랜드 로고">
                                                             </a>
                                                             <div class="portfolio-info">
                                                                 <div class="portfolio-head">
@@ -623,11 +624,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">한국</em>
+                                                                        <em class="label-data region">한국</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">펀드투자</em>
+                                                                        <em class="label-data investment">펀드투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">운용사</span>
@@ -656,11 +657,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">미국</em>
+                                                                        <em class="label-data region">미국</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">펀드투자</em>
+                                                                        <em class="label-data investment">펀드투자</em>
                                                                     </span>
                                                                     <span class="label break">
                                                                         <span class="label-name">운용사</span>
@@ -689,11 +690,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">미국</em>
+                                                                        <em class="label-data region">미국</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">펀드투자</em>
+                                                                        <em class="label-data investment">펀드투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">운용사</span>
@@ -722,11 +723,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">미국</em>
+                                                                        <em class="label-data region">미국</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">펀드투자</em>
+                                                                        <em class="label-data investment">펀드투자</em>
                                                                     </span>
                                                                     <span class="label break">
                                                                         <span class="label-name">운용사</span>
@@ -755,11 +756,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">미국</em>
+                                                                        <em class="label-data region">미국</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">펀드투자</em>
+                                                                        <em class="label-data investment">펀드투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">운용사</span>
@@ -788,11 +789,11 @@
                                                                 <div class="portfolio-aside">
                                                                     <span class="label">
                                                                         <span class="label-name">지역</span>
-                                                                        <em class="label-data">싱가포르</em>
+                                                                        <em class="label-data region">싱가포르</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">유형</span>
-                                                                        <em class="label-data">펀드투자</em>
+                                                                        <em class="label-data investment">펀드투자</em>
                                                                     </span>
                                                                     <span class="label">
                                                                         <span class="label-name">운용사</span>
@@ -802,6 +803,151 @@
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
                                                                             <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                        </em>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="data-item">
+                                                            <a href="javascript:void(0)" target="_blank" class="portfolio-figure" title="새창 열기">
+                                                                <img src="../../assets/images/business/logo-hashed.png" alt="해시드 벤처투자조합 브랜드 로고">
+                                                            </a>
+                                                            <div class="portfolio-info">
+                                                                <div class="portfolio-head">
+                                                                    <strong class="portfolio-name">해시드 벤처투자조합 2호, 3호</strong>
+                                                                </div>
+                                                                <div class="portfolio-body">
+                                                                    <p class="para">블록체인과 가상자산의 미래를 개척하는 창업자들을 발굴, 지원 및 투자하는 글로벌 얼리스테이지 벤처 펀드</p>
+                                                                </div>
+                                                                <div class="portfolio-aside">
+                                                                    <span class="label">
+                                                                        <span class="label-name">지역</span>
+                                                                        <em class="label-data region">한국</em>
+                                                                    </span>
+                                                                    <span class="label break">
+                                                                        <span class="label-name">유형</span>
+                                                                        <em class="label-data investment">펀드투자</em>
+                                                                    </span>
+                                                                    <span class="label">
+                                                                        <span class="label-name">담당자</span>
+                                                                        <em class="label-data">
+                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                        </em>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="data-item">
+                                                            <a href="javascript:void(0)" target="_blank" class="portfolio-figure" title="새창 열기">
+                                                                <img src="../../assets/images/business/logo-blockodyssey.png" alt="블록오디세이 브랜드 로고">
+                                                            </a>
+                                                            <div class="portfolio-info">
+                                                                <div class="portfolio-head">
+                                                                    <strong class="portfolio-name">블록오디세이</strong>
+                                                                </div>
+                                                                <div class="portfolio-body">
+                                                                    <p class="para">B2B/B2G 비즈니스 혁신을 위한 블록체인 기술 컨설팅과 맞춤형 인프라 구축 및 솔루션 개발 서비스 기업</p>
+                                                                </div>
+                                                                <div class="portfolio-aside">
+                                                                    <span class="label">
+                                                                        <span class="label-name">지역</span>
+                                                                        <em class="label-data region">한국</em>
+                                                                    </span>
+                                                                    <span class="label break">
+                                                                        <span class="label-name">유형</span>
+                                                                        <em class="label-data investment">직접투자</em>
+                                                                    </span>
+                                                                    <span class="label">
+                                                                        <span class="label-name">담당자</span>
+                                                                        <em class="label-data">
+                                                                            <a href="mailto:rurumie@sk.com" class="mail">송해인 (rurumie@sk.com)</a>
+                                                                        </em>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="data-item">
+                                                            <a href="javascript:void(0)" target="_blank" class="portfolio-figure" title="새창 열기">
+                                                                <img src="../../assets/images/business/logo-bmsmile.png" alt="비엠스마일 브랜드 로고">
+                                                            </a>
+                                                            <div class="portfolio-info">
+                                                                <div class="portfolio-head">
+                                                                    <strong class="portfolio-name">비엠스마일</strong>
+                                                                </div>
+                                                                <div class="portfolio-body">
+                                                                    <p class="para">국내 유일 수직계열화된 Pet 용품 사업 및 디자인IP 전문 기업</p>
+                                                                </div>
+                                                                <div class="portfolio-aside">
+                                                                    <span class="label">
+                                                                        <span class="label-name">지역</span>
+                                                                        <em class="label-data region">한국</em>
+                                                                    </span>
+                                                                    <span class="label break">
+                                                                        <span class="label-name">유형</span>
+                                                                        <em class="label-data investment">직접투자</em>
+                                                                    </span>
+                                                                    <span class="label">
+                                                                        <span class="label-name">담당자</span>
+                                                                        <em class="label-data">
+                                                                            <a href="mailto:mj@sk.com" class="mail">김민준 (mj@sk.com)</a>
+                                                                        </em>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="data-item">
+                                                            <a href="javascript:void(0)" target="_blank" class="portfolio-figure" title="새창 열기">
+                                                                <img src="../../assets/images/business/logo-sbva.png" alt="SBVA Alpha Intelligence Fund 브랜드 로고">
+                                                            </a>
+                                                            <div class="portfolio-info">
+                                                                <div class="portfolio-head">
+                                                                    <strong class="portfolio-name">SBVA Alpha Intelligence Fund</strong>
+                                                                </div>
+                                                                <div class="portfolio-body">
+                                                                    <p class="para">글로벌 인공지능(AI), 딥테크 분야 초기 기업 투자 중심 벤처 펀드</p>
+                                                                </div>
+                                                                <div class="portfolio-aside">
+                                                                    <span class="label">
+                                                                        <span class="label-name">지역</span>
+                                                                        <em class="label-data region">한국</em>
+                                                                    </span>
+                                                                    <span class="label break">
+                                                                        <span class="label-name">유형</span>
+                                                                        <em class="label-data investment">펀드투자</em>
+                                                                    </span>
+                                                                    <span class="label">
+                                                                        <span class="label-name">담당자</span>
+                                                                        <em class="label-data">
+                                                                            <a href="mailto:mj@sk.com" class="mail">김민준 (mj@sk.com)</a>
+                                                                        </em>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="data-item">
+                                                            <a href="javascript:void(0)" target="_blank" class="portfolio-figure" title="새창 열기">
+                                                                <img src="../../assets/images/business/logo-upstage.png" alt="업스테이지 브랜드 로고">
+                                                            </a>
+                                                            <div class="portfolio-info">
+                                                                <div class="portfolio-head">
+                                                                    <strong class="portfolio-name">업스테이지</strong>
+                                                                </div>
+                                                                <div class="portfolio-body">
+                                                                    <p class="para">대형언어모델(LLM) ‘Solar LLM’과 Document AI 기술을 기반으로 기업 맞춤형 AI 모델과 솔루션을 제공하는 글로벌 기업</p>
+                                                                </div>
+                                                                <div class="portfolio-aside">
+                                                                    <span class="label">
+                                                                        <span class="label-name">지역</span>
+                                                                        <em class="label-data region">한국</em>
+                                                                    </span>
+                                                                    <span class="label break">
+                                                                        <span class="label-name">유형</span>
+                                                                        <em class="label-data investment">직접투자</em>
+                                                                    </span>
+                                                                    <span class="label">
+                                                                        <span class="label-name">담당자</span>
+                                                                        <em class="label-data">
+                                                                            <a href="mailto:rurumie@sk.com" class="mail">송해인 (rurumie@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -933,8 +1079,9 @@
             const investment = item.querySelector('.label-data.investment').innerText.trim();
 
             let regionMatch = (regionFilterValue === 'all') ||
+                (regionFilterValue === 'domestic' && region === '국내') ||
                 (regionFilterValue === 'domestic' && region === '한국') ||
-                (regionFilterValue === 'overseas' && region !== '한국');
+                (regionFilterValue === 'overseas' && region !== '국내');
 
             let investmentMatch = (investmentFilterValue === 'all') ||
                 (activeButtonId === 'all') ||
@@ -950,7 +1097,6 @@
             }
         });
     }
-
     function filterButton(type) {
         // 모든 버튼의 active 클래스 제거
         document.querySelectorAll('.data-item').forEach(button => {
