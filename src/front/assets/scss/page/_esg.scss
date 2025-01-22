@@ -744,6 +744,11 @@
                                         .post-inform {
                                             width: 45.5%;
                                         }
+                                        @at-root .kr & {
+                                            .post-inform {
+                                                width: 100%;
+                                            }
+                                        }
                                         .post-body {
                                             width: 49.17%;
                                         }
@@ -828,6 +833,11 @@
                                         .data-list {
                                             display: flex;
                                             justify-content: space-between;
+                                            .data-body {
+                                                @include mobile {
+                                                    @include scroll-x;
+                                                }
+                                            }
                                             .data-item {
                                                 &.dispersion {
                                                     width: 67.92%;

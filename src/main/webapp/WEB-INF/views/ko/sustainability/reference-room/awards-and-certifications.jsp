@@ -116,20 +116,6 @@
                                                                 <li class="data-item">
                                                                     <div class="item-wrap">
                                                                         <div class="item-head">
-                                                                            <p class="item-subject">가족친화기업</p>
-                                                                        </div>
-                                                                        <div class="item-util">
-                                                                            <div class="btn-display design1 case4 align1">
-                                                                                <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/SKN_네트웍스 가족친화인증.pdf"><span class="btn-text">다운로드</span></a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="data-item">
-                                                                    <div class="item-wrap">
-                                                                        <div class="item-head">
                                                                             <p class="item-subject">ISO 22000</p>
                                                                         </div>
                                                                         <div class="item-util">
@@ -173,20 +159,6 @@
                                                                 <li class="data-item">
                                                                     <div class="item-wrap">
                                                                         <div class="item-head">
-                                                                            <p class="item-subject">GPTW</p>
-                                                                        </div>
-                                                                        <div class="item-util">
-                                                                            <div class="btn-display design1 case4 align1">
-                                                                                <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/sknetworks_GPTW.pdf"><span class="btn-text">다운로드</span></a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="data-item">
-                                                                    <div class="item-wrap">
-                                                                        <div class="item-head">
                                                                             <p class="item-subject">ISO 37001</p>
                                                                         </div>
                                                                         <div class="item-util">
@@ -222,20 +194,6 @@
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
                                                                                     <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/환경표지 인증서.pdf"><span class="btn-text">다운로드</span></a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="data-item">
-                                                                    <div class="item-wrap">
-                                                                        <div class="item-head">
-                                                                            <p class="item-subject">폐기물 매립 제로 검증 (ZWTL)</p>
-                                                                        </div>
-                                                                        <div class="item-util">
-                                                                            <div class="btn-display design1 case4 align1">
-                                                                                <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/Certificate - ZWTL.pdf"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -346,6 +304,20 @@
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
                                                                                     <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK매직/SKN_SK매직 ISO9001 인증서(국문).pdf"><span class="btn-text">다운로드</span></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="data-item">
+                                                                    <div class="item-wrap">
+                                                                        <div class="item-head">
+                                                                            <p class="item-subject">ISO 27001</p>
+                                                                        </div>
+                                                                        <div class="item-util">
+                                                                            <div class="btn-display design1 case4 align1">
+                                                                                <div class="btn-area">
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="javascript:void(0)"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
