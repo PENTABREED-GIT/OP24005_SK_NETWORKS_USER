@@ -809,8 +809,8 @@
                                                             </div>
                                                         </li>
                                                         <li class="data-item">
-                                                            <a href="javascript:void(0)" target="_blank" class="portfolio-figure" title="새창 열기">
-                                                                <img src="../../assets/images/business/logo-hashed.png" alt="해시드 벤처투자조합 브랜드 로고">
+                                                            <a href="https://www.hashed.com/" target="_blank" class="portfolio-figure" title="새창 열기">
+                                                                <img src="/assets/images/business/logo-hashed.png" alt="해시드 벤처투자조합 브랜드 로고">
                                                             </a>
                                                             <div class="portfolio-info">
                                                                 <div class="portfolio-head">
@@ -838,8 +838,8 @@
                                                             </div>
                                                         </li>
                                                         <li class="data-item">
-                                                            <a href="javascript:void(0)" target="_blank" class="portfolio-figure" title="새창 열기">
-                                                                <img src="../../assets/images/business/logo-blockodyssey.png" alt="블록오디세이 브랜드 로고">
+                                                            <a href="https://blockodyssey.io/ko/about-us" target="_blank" class="portfolio-figure" title="새창 열기">
+                                                                <img src="/assets/images/business/logo-blockodyssey.png" alt="블록오디세이 브랜드 로고">
                                                             </a>
                                                             <div class="portfolio-info">
                                                                 <div class="portfolio-head">
@@ -867,8 +867,8 @@
                                                             </div>
                                                         </li>
                                                         <li class="data-item">
-                                                            <a href="javascript:void(0)" target="_blank" class="portfolio-figure" title="새창 열기">
-                                                                <img src="../../assets/images/business/logo-bmsmile.png" alt="비엠스마일 브랜드 로고">
+                                                            <a href="https://bmsmile.com/index.html" target="_blank" class="portfolio-figure" title="새창 열기">
+                                                                <img src="/assets/images/business/logo-bmsmile.png" alt="비엠스마일 브랜드 로고">
                                                             </a>
                                                             <div class="portfolio-info">
                                                                 <div class="portfolio-head">
@@ -896,8 +896,8 @@
                                                             </div>
                                                         </li>
                                                         <li class="data-item">
-                                                            <a href="javascript:void(0)" target="_blank" class="portfolio-figure" title="새창 열기">
-                                                                <img src="../../assets/images/business/logo-sbva.png" alt="SBVA Alpha Intelligence Fund 브랜드 로고">
+                                                            <a href="https://www.sbvacorp.com/ko/" target="_blank" class="portfolio-figure" title="새창 열기">
+                                                                <img src="/assets/images/business/logo-sbva.png" alt="SBVA Alpha Intelligence Fund 브랜드 로고">
                                                             </a>
                                                             <div class="portfolio-info">
                                                                 <div class="portfolio-head">
@@ -925,8 +925,8 @@
                                                             </div>
                                                         </li>
                                                         <li class="data-item">
-                                                            <a href="javascript:void(0)" target="_blank" class="portfolio-figure" title="새창 열기">
-                                                                <img src="../../assets/images/business/logo-upstage.png" alt="업스테이지 브랜드 로고">
+                                                            <a href="https://www.upstage.ai/" target="_blank" class="portfolio-figure" title="새창 열기">
+                                                                <img src="/assets/images/business/logo-upstage.png" alt="업스테이지 브랜드 로고">
                                                             </a>
                                                             <div class="portfolio-info">
                                                                 <div class="portfolio-head">

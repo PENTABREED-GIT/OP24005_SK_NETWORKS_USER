@@ -90,6 +90,21 @@
 					}
 				}
 			}
+			.table-info {
+				.info-text {
+					@include font(small-3x, bold);
+					color: #15151A;
+					@include mobile {
+						font-size: 1.6rem;
+					}
+				}
+				+ table {
+					margin-top: 2.4rem;
+					@include mobile {
+						margin-top: 1.6rem;
+					}
+				}
+			}
 		}
         &.case2 {
 			table {

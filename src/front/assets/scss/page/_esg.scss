@@ -46,8 +46,6 @@
                 }
 
                 .section-body{
-
-
                     .section-figure{
                         @include mobile{
                             img{
@@ -338,6 +336,7 @@
                                 }
                             }
                         }
+
                     }
                     .board-list {
                         .data-body {
@@ -345,6 +344,12 @@
                                 + .bullet-display {
                                     margin-top: 0.8rem;
                                 }
+                            }
+                        }
+                        + .t-display {
+                            margin-top: 8rem;
+                            @include mobile {
+                                margin-top: 4.8rem;
                             }
                         }
                     }
@@ -2038,6 +2043,11 @@
                                 }
                                 &.internal-audit {
                                     .section-body {
+                                        .bullet-display {
+                                            + .comment {
+                                                padding-left: 11px;
+                                            }
+                                        }
                                         .comment {
                                             + .data-display {
                                                 margin-top: 8rem;

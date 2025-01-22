@@ -120,7 +120,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <p class="comment design1">*2024년 상반기 조직도 기준</p>
+                                        <p class="comment design1">* 2025년 조직도 기준</p>
                                     </div>
                                     <div class="data-display">
                                         <div class="data-list">
@@ -258,7 +258,7 @@
                                             <li class="data-item">
                                                 <div class="item-wrap">
                                                     <div class="item-head">
-                                                        <p class="item-subject">2023</p>
+                                                        <p class="item-subject">2024</p>
                                                     </div>
                                                     <div class="item-util">
                                                         <div class="submit-form design1 case1 align1">
@@ -268,6 +268,7 @@
                                                                         <label for="level-sel-manage" class="blind">년도 선택</label>
                                                                         <select name="name" id="level-sel-manage">
                                                                             <option value="0" selected hidden disabled>년도 선택</option>
+                                                                            <option value="2024">2024</option>
                                                                             <option value="2023">2023</option>
                                                                             <option value="2022">2022</option>
                                                                             <option value="2021">2021</option>
@@ -283,8 +284,39 @@
                                         </ul>
                                     </div>
                                     <div class="esg-inform-list">
+                                        <!-- ESG경영위원회 2024 -->
+                                        <div class="esg-inform esg-manage esg-option2024">
+                                            <div class="t-display design1 case1 type1 align3 scroll">
+                                                <table style="min-width: 1020px;">
+                                                    <caption>이 표는 2024년 전략ㆍESG위원회 논의 현황 정보를 제공하며 회차, 개최일자, 주요안건, 세부내용으로 구성되어 있습니다.</caption>
+                                                    <colgroup>
+                                                        <col style="width: 10%;">
+                                                        <col style="width: 14%;">
+                                                        <col style="width: 34%;">
+                                                        <col>
+                                                    </colgroup>
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">회차</th>
+                                                            <th scope="col">개최일자</th>
+                                                            <th scope="col">주요 안건</th>
+                                                            <th scope="col">세부내용</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>4</td>
+                                                            <td>4월</td>
+                                                            <td class="align1">FY2023년 지속가능경영보고서 발간 계획 보고</td>
+                                                            <td class="align1">중대성 평가 결과 (기후변화 대응 중대이슈 선정) 등</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <!-- //ESG경영위원회 2024 -->
                                         <!-- ESG경영위원회 2023 -->
-                                        <div class="esg-inform esg-manage esg-option2023">
+                                        <div class="esg-inform esg-manage esg-option2023 blind">
                                             <div class="t-display design1 case1 type1 align3 scroll">
                                                 <table style="min-width: 1020px;">
                                                     <caption>이 표는 2023년 전략ㆍESG위원회 논의 현황 정보를 제공하며 회차, 개최일자, 주요안건, 세부내용으로 구성되어 있습니다.</caption>
@@ -427,7 +459,7 @@
                                             <li class="data-item">
                                                 <div class="item-wrap">
                                                     <div class="item-head">
-                                                        <p class="item-subject">2023</p>
+                                                        <p class="item-subject">2024</p>
                                                     </div>
                                                     <div class="item-util">
                                                         <div class="submit-form design1 case1 align1">
@@ -437,6 +469,7 @@
                                                                         <label for="level-sel-propel" class="blind">년도 선택</label>
                                                                         <select name="name" id="level-sel-propel">
                                                                             <option value="0" selected hidden disabled>년도 선택</option>
+                                                                            <option value="2024">2024</option>
                                                                             <option value="2023">2023</option>
                                                                             <option value="2022">2022</option>
                                                                             <option value="2021">2021</option>
@@ -452,8 +485,86 @@
                                         </ul>
                                     </div>
                                     <div class="esg-inform-list">
+                                        <!-- 전사ESG추진위원회 2024 -->
+                                        <div class="esg-inform esg-propel esg-option2024">
+                                            <div class="t-display design1 case1 type1 align3 scroll">
+                                                <table style="min-width: 610px;">
+                                                    <caption>이 표는 2024년 전사ESG추진위원회 논의 현황 정보를 제공하며 회차, 개최월, 주요내용 으로 구성되어 있습니다.</caption>
+                                                    <colgroup>
+                                                        <col style="width: 11%;">
+                                                        <col style="width: 13.75%;">
+                                                        <col>
+                                                    </colgroup>
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">회차</th>
+                                                            <th scope="col">개최월</th>
+                                                            <th scope="col">주요 내용</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>02월</td>
+                                                            <td class="align1">
+                                                                <div class="bullet-display design1 case1 type2">
+                                                                    <ul class="data-list">
+                                                                        <li class="data-item">24년 Net Zero 세부 추진 계획</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>04월</td>
+                                                            <td class="align1">
+                                                                <div class="bullet-display design1 case1 type2">
+                                                                    <ul class="data-list">
+                                                                        <li class="data-item">Net Zero 시나리오 업데이트</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>08월</td>
+                                                            <td class="align1">
+                                                                <div class="bullet-display design1 case1 type2">
+                                                                    <ul class="data-list">
+                                                                        <li class="data-item">그룹 Net Zero 이행 지원 협의체 논의 안건 공유<br> - 협의체 운영 계획, WG(직접감축, RE100, 탄소배출권) 운영 계획</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>4</td>
+                                                            <td>10월</td>
+                                                            <td class="align1">
+                                                                <div class="bullet-display design1 case1 type2">
+                                                                    <ul class="data-list">
+                                                                        <li class="data-item">그룹 Net Zero 이행 지원 협의체 논의 안건 공유<br> - 그룹 Net Zero 관리 시스템 구축 등</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>5</td>
+                                                            <td>12월</td>
+                                                            <td class="align1">
+                                                                <div class="bullet-display design1 case1 type2">
+                                                                    <ul class="data-list">
+                                                                        <li class="data-item">그룹 Net Zero 이행 지원 협의체 논의 안건 공유<br> - WG '24년 리뷰 및 향후 계획, 그룹 상쇄 배출권 활용 Guideline 등</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <!-- //전사ESG추진위원회 2024 -->
                                         <!-- 전사ESG추진위원회 2023 -->
-                                        <div class="esg-inform esg-propel esg-option2023">
+                                        <div class="esg-inform esg-propel esg-option2023 blind">
                                             <div class="t-display design1 case1 type1 align3 scroll">
                                                 <table style="min-width: 610px;">
                                                     <caption>이 표는 2023년 전사ESG추진위원회 논의 현황 정보를 제공하며 회차, 개최월, 주요내용 으로 구성되어 있습니다.</caption>
