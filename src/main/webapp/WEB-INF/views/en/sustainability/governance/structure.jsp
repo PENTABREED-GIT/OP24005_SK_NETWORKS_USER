@@ -978,7 +978,7 @@
                                                                                             <select name="name" id="level-sel-generalMeeting">
                                                                                                 <option value="0" selected="" hidden="" disabled="">Year</option>
                                                                                                 <option value="2024b">2024 Extraordinary Meeting of Shareholders (2024.8.7)</option>
-                                                                                                <option value="2024">The 71th Annual General Meeting of shareholders (2024.3.27)</option>
+                                                                                                <option value="2024a">The 71th Annual General Meeting of shareholders (2024.3.27)</option>
                                                                                                 <option value="2023">The 70th Annual General Meeting of shareholders (2023.3.29)</option>
                                                                                                 <option value="2022">The 69th Annual General Meeting of shareholders (2022.3.29)</option>
                                                                                                 <option value="2021">The 68th Annual General Meeting of shareholders (2021.3.29)</option>
@@ -1050,7 +1050,7 @@
                                                             </div>
                                                             <!-- //주주총회 2024년 8월 7일 -->
                                                             <!-- 주주총회 2024 71기 -->
-                                                            <div class="esg-inform esg-generalMeeting esg-option2024 blind">
+                                                            <div class="esg-inform esg-generalMeeting esg-option2024a blind">
                                                                 <div class="t-display design1 case1 type1 align3 scroll">
                                                                     <table class="col-w-7">
                                                                         <caption>The 71th Annual General Meeting of shareholders (2024.3.27)</caption>

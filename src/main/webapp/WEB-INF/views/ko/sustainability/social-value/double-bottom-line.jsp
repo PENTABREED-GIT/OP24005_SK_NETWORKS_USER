@@ -209,9 +209,9 @@
                                                                         <li>전사ESG추진위원회</li>
                                                                     </ul>
                                                                 </li>
-                                                                <li>기업문화실</li>
+                                                                <li>기획재무실</li>
                                                                 <li>
-                                                                    SV추진팀
+                                                                    ESG경영팀
                                                                     <ul>
                                                                         <li>환경 CoE</li>
                                                                     </ul>

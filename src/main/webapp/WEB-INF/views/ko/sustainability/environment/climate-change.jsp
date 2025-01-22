@@ -107,9 +107,9 @@
                                                                         <li>전사ESG추진위원회</li>
                                                                     </ul>
                                                                 </li>
-                                                                <li>기업문화실</li>
+                                                                <li>기획재무실</li>
                                                                 <li>
-                                                                    SV추진팀
+                                                                    ESG경영팀
                                                                     <ul>
                                                                         <li>환경 CoE</li>
                                                                     </ul>
@@ -128,19 +128,17 @@
                                                 <table class="col-w-1">
                                                     <caption>이 표는 기후변화 Governance정보를 제공하며 위상, 조직명, 구성, 구성원, 역할, 2023년 개최현황으로 구성되어 있습니다.</caption>
                                                     <colgroup>
-                                                        <col style="width: 10%;">
-                                                        <col style="width: 11%;">
+                                                        <col style="width: 12%;">
+                                                        <col style="width: 15%;">
                                                         <col style="width: auto">
                                                         <col style="width: auto">
-                                                        <col style="width: auto">
-                                                        <col style="width: 10%;">
+                                                        <col style="width: 12%;">
                                                     </colgroup>
                                                     <thead>
                                                         <tr>
                                                             <th scope="col">위상</th>
                                                             <th scope="col">조직명</th>
                                                             <th scope="col">구성*</th>
-                                                            <th scope="col">구성원</th>
                                                             <th scope="col">역할</th>
                                                             <th scope="col">2023년<br>개최현황</th>
                                                         </tr>
@@ -148,17 +146,8 @@
                                                     <tbody>
                                                         <tr>
                                                             <td>이사회 내<br>위원회</td>
-                                                            <td>전략ㆍ<br>ESG위원회</td>
+                                                            <td>전략ㆍESG위원회</td>
                                                             <td class="align1">이사회 멤버<br> - 사내이사 2인, 기타비상무이사 1인, 사외이사 5인</td>
-                                                            <td class="align1">
-                                                                <div class="bullet-display design1 case1 type2">
-                                                                    <ul class="data-list">
-                                                                        <li class="data-item">(사내이사) 이호정, 최성환</li>
-                                                                        <li class="data-item">(기타비상무이사) 이성형</li>
-                                                                        <li class="data-item">(사외이사) 하영원, 임호, 정석우, 이문영, 채수일</li>
-                                                                    </ul>
-                                                                </div>
-                                                            </td>
                                                             <td class="align1">
                                                                 <div class="bullet-display design1 case1 type2">
                                                                     <ul class="data-list">
@@ -166,20 +155,12 @@
                                                                     </ul>
                                                                 </div>
                                                             </td>
-                                                            <td>8회</td>
+                                                            <td>12회</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>전사 경영<br>층 회의체</td>
-                                                            <td>전사ESG<br>추진위원회</td>
-                                                            <td class="align1">CEO, 사업총괄사장, 지속경영본부장(위원장), 기획재무본부장, 기획담당, 재무담당, HR담당, 감사담당, SV담당(간사), 자회사 대표 및 BU장</td>
-                                                            <td class="align1">
-                                                                <div class="bullet-display design1 case1 type2">
-                                                                    <ul class="data-list">
-                                                                        <li class="data-item">(CEO) 이호정, (COO) 최성환</li>
-                                                                        <li class="data-item">(SK매직 대표) 김완성, (SK렌터카 대표) 황일문, (SK네트웍스서비스 대표) 전형일 등</li>
-                                                                    </ul>
-                                                                </div>
-                                                            </td>
+                                                            <td>전사 경영 층 회의체</td>
+                                                            <td>전사 ESG 추진위원회</td>
+                                                            <td class="align1">CEO, 사업총괄사장, 경영지원본부장(위원장), 기획재무실장, 회계실장, 기업문화실장, 감사실장, 지속경영실장, 자회사 대표 및 BU장</td>
                                                             <td class="align1">
                                                                 <div class="bullet-display design1 case1 type2">
                                                                     <ul class="data-list">
@@ -189,13 +170,12 @@
                                                                     </ul>
                                                                 </div>
                                                             </td>
-                                                            <td>5회</td>
+                                                            <td>6회</td>
                                                         </tr>
                                                         <tr>
                                                             <td rowspan="3">실무진</td>
                                                             <td>SV밋업</td>
-                                                            <td class="align1">CEO, 지속경영본부장, SV담당, 사업별(자회사 포함)SV/ESG 담당 임원/팀장/실무자, 전략팀원, SV추진팀</td>
-                                                            <td>-</td>
+                                                            <td class="align1">경영지원본부장, 기업문화실장, 사업별(자회사 포함)SV/ESG 담당 임원/팀장/실무자, 전략팀원, SV추진팀</td>
                                                             <td class="align1">
                                                                 <div class="bullet-display design1 case1 type2">
                                                                     <ul class="data-list">
@@ -205,12 +185,11 @@
                                                                     </ul>
                                                                 </div>
                                                             </td>
-                                                            <td>10회</td>
+                                                            <td>6회</td>
                                                         </tr>
                                                         <tr>
                                                             <td>환경CoE**</td>
                                                             <td class="align1">사업별(자회사 포함) SV/ESG 담당 실무자, SV추진팀</td>
-                                                            <td>-</td>
                                                             <td class="align1">
                                                                 <div class="bullet-display design1 case1 type2">
                                                                     <ul class="data-list">
@@ -219,12 +198,11 @@
                                                                     </ul>
                                                                 </div>
                                                             </td>
-                                                            <td>3회</td>
+                                                            <td>5회</td>
                                                         </tr>
                                                         <tr>
                                                             <td>SV추진팀</td>
                                                             <td class="align1"></td>
-                                                            <td>-</td>
                                                             <td class="align1">
                                                                 <div class="bullet-display design1 case1 type2">
                                                                     <ul class="data-list">
@@ -239,7 +217,7 @@
                                                     </tbody>
                                                 </table>
                                             </div>
-                                            <p class="comment design1">* 2023년 조직 기준<br> ** CoE(Committee of Experts) 전문가 위원회</p>
+                                            <p class="comment design1">* 2024년 조직 기준<br> ** CoE(Committee of Experts) 전문가 위원회</p>
                                         </div>
                                     </div>
                                 </div>
