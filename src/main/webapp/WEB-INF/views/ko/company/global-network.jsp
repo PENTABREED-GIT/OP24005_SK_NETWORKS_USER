@@ -28,6 +28,24 @@
             attributeChange();
             accordion();
 
+            // URL 문자열 추출 (아코디언 URL 생성)
+            // 1. 현재 페이지 URL의 문자열 부분을 반환 후 ?를 제외한 나머지 쿼리 문자열을 추출(?tab=scrollTab1)
+            const qr = window.location.search.substring(1, window.location.search.length)
+
+            // 2. = 기준으로 쿼리 문자열을 나눔. [1]: 두 번째 값 가져옴 (scrollTab1)
+            const tabId = (qr.split('='))[1]
+
+            // 3. ID로 가진 HTML 요소를 DOM에서 가져옴.
+            const scrollTab = document.getElementById(tabId);
+
+            // 4. 자동으로 스크롤
+            scrollTab.scrollIntoView()
+
+            // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
+            // scrollTab.querySelector('button').click()
+            scrollTab.click();
+
+
             window.addEventListener("resize", () => {
                 btnChange();
                 attributeChange();
@@ -213,10 +231,10 @@
                             <div class="swiper tab-wrap">
                                 <ul class="swiper-wrapper tab-list" role="tablist">
                                     <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                        <button role="tab" class="tab-text">국내</button>
+                                        <button role="tab" class="tab-text" id="domestic">국내</button>
                                     </li>
                                     <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                        <button role="tab" class="tab-text">해외</button>
+                                        <button role="tab" class="tab-text" id="overseas">해외</button>
                                     </li>
                                 </ul>
                             </div>
