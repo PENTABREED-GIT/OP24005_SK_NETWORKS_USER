@@ -93,7 +93,7 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/SKN_정보보호센터 ISMS 인증서(국문).pdf"><span class="btn-text">다운로드</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/ISMS 인증서_국문.pdf"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -107,7 +107,7 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/SKN_정보보호센터 ISMS-P 인증서.pdf"><span class="btn-text">다운로드</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/ISMS-P 인증서_국문.pdf"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -121,7 +121,7 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/ISO 22000_ex_20230810.pdf"><span class="btn-text">다운로드</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/ISO22000 인증서 (2023).jpg"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -135,8 +135,8 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/SKN_워커힐 HACCP인증서_배추김치(2019-2022).pdf"><span class="btn-text">다운로드</span></a>
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/SKN_워커힐 HACCP인증서_기타김치(2019-2022).pdf"><span class="btn-text">다운로드</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/HACCP인증서_배추김치(2022-2025)_대표이사변경.pdf"><span class="btn-text">다운로드</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/HACCP인증서_기타김치(2022-2025)_대표이사변경.pdf"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -193,7 +193,7 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/환경표지 인증서.pdf"><span class="btn-text">다운로드</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/환경표지 인증서(2024.11.02~2027.11.02).pdf"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -207,7 +207,7 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/친환경 건축물 인증(LEED).pdf"><span class="btn-text">다운로드</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스/친환경 건축물 인증.pdf"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -234,7 +234,7 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스 서비스/SKNS_한국서비스품질우수기업_인증서.pdf"><span class="btn-text">다운로드</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스 서비스/첨부1. 한국서비스품질우수기업 인증서_SK네트웍스서비스_(24년~ 26년).pdf"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -248,7 +248,7 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스 서비스/SKNS_ISO9001_국문.pdf"><span class="btn-text">다운로드</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK네트웍스 서비스/첨부2. SK네트웍스서비스(주)9001 인증서.pdf"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -289,7 +289,7 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK매직/SKN_SK매직 ISO14001 인증서(국문).pdf"><span class="btn-text">다운로드</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK매직/첨부3. ISO 14001 EMS-0501_SK매직(주) 인증서 재발행(사업장명 변경).pdf"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -303,7 +303,7 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK매직/SKN_SK매직 ISO9001 인증서(국문).pdf"><span class="btn-text">다운로드</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK매직/첨부4. ISO 9001 QMS-2144_SK매직(주) 인증서 재발행(사업장명 변경).pdf"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -317,7 +317,7 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="javascript:void(0)"><span class="btn-text">다운로드</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/수상 및 인증/SK매직/첨부5. (영문)SK magic_ISOIEC 27001 2022 Certificate.pdf"><span class="btn-text">다운로드</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
