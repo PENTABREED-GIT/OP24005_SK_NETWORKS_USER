@@ -437,6 +437,63 @@
                     <td>결의</td>
                     <td>가결</td>
                 </tr>
+                <tr>
+                    <td rowspan="10">16</td>
+                    <td rowspan="10">12월 18일</td>
+                    <td class="align1">SK㈜와의 2025년 거래 승인의 건</td>
+                    <td rowspan="10" class="align1">
+                        사내이사 <span class="accent color9">2</span><br>
+                        기타비상무이사 <span class="accent color9">1</span>
+                        사외이사 <span class="accent color9">4</span>
+                    </td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">최대주주 등과의 거래총액 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK이노베이션㈜와의 2025년 거래 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK에너지㈜와의 2025년 거래 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK핀크스㈜와의 2025년 거래 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK임업㈜와의 2025년 거래 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">아카디아 임대계약 체결의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">사채 발행 한도 위임의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 경영계획 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 CEO KPI 수립의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
             </tbody>
         </table>
     </div>
