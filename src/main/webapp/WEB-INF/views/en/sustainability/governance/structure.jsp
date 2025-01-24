@@ -73,6 +73,38 @@
                     });
                 });
             }
+
+            /////////////////////////////////////////////////////////////
+
+
+            // URL 문자열 추출 (아코디언 URL 생성)
+            // 1. 현재 페이지 URL의 문자열 부분을 반환 후 ?를 제외한 나머지 쿼리 문자열을 추출(?tab=scrollTab1)
+            const qr = window.location.search.substring(1, window.location.search.length)
+
+            // 2. = 기준으로 쿼리 문자열을 나눔. [1]: 두 번째 값 가져옴 (scrollTab1)
+            const tabId = (qr.split('='))[1]
+
+            // 3. ID로 가진 HTML 요소를 DOM에서 가져옴.
+            const scrollTab = document.getElementById(tabId);
+
+            console.log("tabId : " + tabId);
+
+            if(tabId == 'bod' || tabId == 'corporate-governance'){
+                scrollTab.click();
+            }else if(tabId == 'hr' || tabId == 'audit' || tabId == 'strategyesg'){
+                scrollTab.scrollIntoView();
+                scrollTab.querySelector('button').click();
+            }
+
+            // // 4. 자동으로 스크롤
+            // scrollTab.scrollIntoView();
+            //
+            // // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
+            //
+            // // 아코디언이라면..
+            // scrollTab.querySelector('.accordion-item button').click();
+            // // 탭이라면..
+            // scrollTab.click();
         });
     </script>
 </head>
@@ -120,10 +152,10 @@
                             <div class="swiper tab-wrap">
                                 <ul class="swiper-wrapper tab-list" role="tablist">
                                     <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                        <button role="tab" class="tab-text">Board of Directors</button>
+                                        <button role="tab" class="tab-text" id="bod">Board of Directors</button>
                                     </li>
                                     <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                        <button role="tab" class="tab-text">Corporate Governance</button>
+                                        <button role="tab" class="tab-text" id="corporate-governance">Corporate Governance</button>
                                     </li>
                                 </ul>
                             </div>
@@ -709,7 +741,7 @@
                                                                         <div class="data-body">
                                                                             <div class="accordion-display design2 case1 type2">
                                                                                 <!-- 인사위원회 -->
-                                                                                <div class="accordion-item">
+                                                                                <div class="accordion-item" id="hr">
                                                                                     <div class="accordion-wrap">
                                                                                         <div class="accordion-head">
                                                                                             <button type="button" class="btn" aria-controls="activity-status-1">
@@ -804,7 +836,7 @@
                                                                                 </div>
                                                                                 <!-- //인사위원회 -->
                                                                                 <!-- ESG경영위원회 -->
-                                                                                <div class="accordion-item">
+                                                                                <div class="accordion-item" id="strategyesg">
                                                                                     <div class="accordion-wrap">
                                                                                         <div class="accordion-head">
                                                                                             <button type="button" class="btn" aria-controls="activity-status-2">
@@ -852,7 +884,7 @@
                                                                                 </div>
                                                                                 <!-- //ESG경영위원회 -->
                                                                                 <!-- 감사위원회 -->
-                                                                                <div class="accordion-item">
+                                                                                <div class="accordion-item" id="audit">
                                                                                     <div class="accordion-wrap">
                                                                                         <div class="accordion-head">
                                                                                             <button type="button" class="btn" aria-controls="activity-status-3">
