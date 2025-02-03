@@ -238,7 +238,7 @@
                                                 <button role="tab" class="tab-text" id="sns">소셜 미디어</button>
                                             </li>
                                             <li id="tab3" class="swiper-slide tab-item" aria-controls="tab-panel3">
-                                                <button role="tab" class="tab-text" id-="media-library">영상 라이브러리</button>
+                                                <button role="tab" class="tab-text" id="media-library">영상 라이브러리</button>
                                             </li>
                                         </ul>
                                     </div>

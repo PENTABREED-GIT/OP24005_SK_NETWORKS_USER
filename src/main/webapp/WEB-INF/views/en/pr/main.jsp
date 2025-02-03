@@ -234,7 +234,7 @@
                                                 <button role="tab" class="tab-text">Press Release</button>
                                             </li>
                                             <li id="tab3" class="swiper-slide tab-item" aria-controls="tab-panel3">
-                                                <button role="tab" class="tab-text" id-="media-library">Media Library</button>
+                                                <button role="tab" class="tab-text" id="media-library">Media Library</button>
                                             </li>
                                         </ul>
                                     </div>
