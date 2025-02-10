@@ -38,12 +38,14 @@
             // 3. ID로 가진 HTML 요소를 DOM에서 가져옴.
             const scrollTab = document.getElementById(tabId);
 
-            // 4. 자동으로 스크롤
-            scrollTab.scrollIntoView()
+            if(scrollTab != null && scrollTab != ""){
+                // 4. 자동으로 스크롤
+                scrollTab.scrollIntoView()
 
-            // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
-            // scrollTab.querySelector('button').click()
-            scrollTab.click();
+                // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
+                // scrollTab.querySelector('button').click()
+                scrollTab.click();
+            }
 
             window.addEventListener("resize", () => {
                 btnChange();
@@ -375,7 +377,7 @@
     </footer>
     <!-- //page-foot -->
 </div>
-<script src="//maps.googleapis.com/maps/api/js?region=KR&key=AIzaSyCidnNnDUM7vVJbcck31yUsKoMVNMTGm1w&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?region=KR&key=AIzaSyCidnNnDUM7vVJbcck31yUsKoMVNMTGm1w&callback=initMaps" async defer></script>
 <style>
     .map-area {
         width: 100%;
