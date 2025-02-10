@@ -1,6 +1,43 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<!-- 인사위원회 2025 -->
+<div class="esg-inform esg-personnel esg-option2025">
+    <div class="t-display design1 case1 type1 align3 scroll">
+        <table>
+            <caption>이 표는 2025년 인사위원회 활동현황 정보를 제공하며  회차, 개최일자, 주요 안건, 구분, 가결여부, 이사참석률로 구성되어 있습니다.</caption>
+            <colgroup>
+                <col style="width: 10%;">
+                <col style="width: 15.9%;">
+                <col style="width: 29%;">
+                <col style="width: 15.13%;">
+                <col style="width: 15.13%;">
+                <col style="width: auto;">
+            </colgroup>
+            <thead>
+            <tr>
+                <th scope="col">회차</th>
+                <th scope="col">개최일자</th>
+                <th scope="col">주요 안건</th>
+                <th scope="col">구분</th>
+                <th scope="col">가결여부</th>
+                <th scope="col">이사참석률</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2">01월 21일</td>
+                <td class="align1">2024년도 대표이사 평가의 건, 대표이사 보상의 건</td>
+                <td>심의</td>
+                <td>-</td>
+                <td>100%</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- //인사위원회 2025 -->
 <!-- 인사위원회 2024 -->
-<div class="esg-inform esg-personnel esg-option2024">
+<div class="esg-inform esg-personnel esg-option2024 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table>
             <caption>이 표는 2024년 인사위원회 활동현황 정보를 제공하며  회차, 개최일자, 주요 안건, 구분, 가결여부, 이사참석률로 구성되어 있습니다.</caption>
@@ -99,6 +136,14 @@
                     <td>7</td>
                     <td>11월 15일</td>
                     <td class="align1">2025년 사외이사 후보 추천을 위한 후보자 검토의 건</td>
+                    <td>심의</td>
+                    <td>-</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>12월 16일</td>
+                    <td class="align1">2025년 CEO KPI 수립의 건</td>
                     <td>심의</td>
                     <td>-</td>
                     <td>100%</td>

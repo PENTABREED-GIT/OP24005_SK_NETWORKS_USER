@@ -6,8 +6,46 @@
   *** 인사위원회 ***
 --%>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<!-- 인사위원회 2025 -->
+<div class="esg-inform esg-personnel esg-option2025">
+    <div class="t-display design1 case1 type1 align3 scroll">
+        <table>
+            <caption>This table provides information on the activities of the HR committee in 2025 and consists of the number of meetings, the date of the meeting, the main agenda, the classification, approval, and the attendance rate of directors.</caption>
+            <colgroup>
+                <col style="width: 13%;">
+                <col style="width: 14%">
+                <col style="width: auto">
+                <col style="width: 18%;">
+                <col style="width: 16%;">
+                <col style="width: 15%;">
+            </colgroup>
+            <thead>
+            <tr>
+                <th scope="col">Round</th>
+                <th scope="col">Date of hosting</th>
+                <th scope="col">Agenda Items</th>
+                <th scope="col">Approval</th>
+                <th scope="col">Approval/<br>Rejection</th>
+                <th scope="col">Director
+                    Attendance Rates</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2">Jan. 21</td>
+                <td class="align1">2024 evaluation and remuneration for the Representative Director</td>
+                <td>Deliberated</td>
+                <td>-</td>
+                <td>100%</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- //인사위원회 2025 -->
 <!-- 인사위원회 2024 -->
-<div class="esg-inform esg-personnel esg-option2024">
+<div class="esg-inform esg-personnel esg-option2024 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table>
             <caption>This table provides information on the activities of the HR committee in 2024 and consists of the number of meetings, the date of the meeting, the main agenda, the classification, approval, and the attendance rate of directors.</caption>
@@ -107,6 +145,14 @@
                 <td>7</td>
                 <td>Nov. 15</td>
                 <td class="align1">Review on candidates for the nomination of outside director candidates for 2025</td>
+                <td>Deliberated</td>
+                <td>-</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Dec. 16</td>
+                <td class="align1">Development of 2025 CEO KPI</td>
                 <td>Deliberated</td>
                 <td>-</td>
                 <td>100%</td>
