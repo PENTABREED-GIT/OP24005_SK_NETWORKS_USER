@@ -69,11 +69,13 @@
             const scrollTab = document.getElementById(tabId);
 
             // 4. 자동으로 스크롤
-            scrollTab.scrollIntoView()
+            if(tabId != null){
+                scrollTab.scrollIntoView()
 
-            // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
-            // scrollTab.querySelector('button').click()
-            scrollTab.click();
+                // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
+                // scrollTab.querySelector('button').click()
+                scrollTab.click();
+            }
         });
     </script>
 </head>

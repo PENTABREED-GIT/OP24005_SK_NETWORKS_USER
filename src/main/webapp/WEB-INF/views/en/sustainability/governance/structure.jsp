@@ -105,6 +105,16 @@
             // scrollTab.querySelector('.accordion-item button').click();
             // // 탭이라면..
             // scrollTab.click();
+
+            function changeURL(tabId){
+                const url = window.location.origin + window.location.pathname;
+                console.log(url);
+
+                console.log("tabId : " + tabId);
+
+                const newUrl = url + "?tabId=" + tabId; // 원하는 URL
+                history.pushState(null, "", newUrl); // URL 변경 (뒤로 가기 가능)
+            }
         });
     </script>
 </head>
@@ -152,10 +162,10 @@
                             <div class="swiper tab-wrap">
                                 <ul class="swiper-wrapper tab-list" role="tablist">
                                     <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                        <button role="tab" class="tab-text" id="bod">Board of Directors</button>
+                                        <button role="tab" class="tab-text" id="bod" onclick="changeURL(id)">Board of Directors</button>
                                     </li>
                                     <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                        <button role="tab" class="tab-text" id="corporate-governance">Corporate Governance</button>
+                                        <button role="tab" class="tab-text" id="corporate-governance" onclick="changeURL(id)">Corporate Governance</button>
                                     </li>
                                 </ul>
                             </div>
