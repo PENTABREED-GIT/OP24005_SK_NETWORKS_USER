@@ -281,7 +281,7 @@
                                                                                         <li>Application 보안 담당자 정보보호팀
                                                                                             <ul>
                                                                                                 <li>Biz. 보안 조직 Trading사업부, 정보통신사업부, 워커힐</li>
-                                                                                                <li>자회사 보안 조직 CISO 및 담당자 (SK매직, SK네트웍스 서비스, 민팃,SK일렉링크, SK스피드메이트)</li>
+                                                                                                <li>자회사 보안 조직 CISO 및 담당자                                                                                                     (SK매직, SK네트웍스 서비스, 민팃, SK일렉링크, SK스피드메이트, Glowide, 엔코아)</li>
                                                                                             </ul>
                                                                                         </li>
                                                                                     </ul>

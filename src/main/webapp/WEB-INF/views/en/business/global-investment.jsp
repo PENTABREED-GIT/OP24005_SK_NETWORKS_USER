@@ -207,7 +207,7 @@
                                                 </div>
                                                 <div class="data-aside">
                                                     <p class="comment design1">
-                                                        * SoftBank Future Innovation FundⅢ, DCVC Bio FundⅡ, Kindred Ventures FundⅡ등
+                                                        * SoftBank Future Innovation FundⅢ, DCVC Bio FundⅡ, Kindred Ventures FundⅡ
                                                         <br>
                                                         * Contact : 
                                                         <a href="mailto:rurumie@sk.com" class="mail">
@@ -802,6 +802,151 @@
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
                                                                             <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                        </em>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="data-item">
+                                                            <a href="https://www.hashed.com/" target="_blank" class="portfolio-figure" title="Opens in a new window.">
+                                                                <img src="/assets/images/business/logo-hashed.png" alt="Hashed Venture">
+                                                            </a>
+                                                            <div class="portfolio-info">
+                                                                <div class="portfolio-head">
+                                                                    <strong class="portfolio-name">Hashed Venture Fund II, III</strong>
+                                                                </div>
+                                                                <div class="portfolio-body">
+                                                                    <p class="para">A global, early-stage venture fund focused on backing founders who are pioneering the future of blockchain and cryptocurrency</p>
+                                                                </div>
+                                                                <div class="portfolio-aside">
+                                                                    <span class="label">
+                                                                        <span class="label-name">Nation</span>
+                                                                        <em class="label-data region">Korea</em>
+                                                                    </span>
+                                                                    <span class="label break">
+                                                                        <span class="label-name">Type</span>
+                                                                        <em class="label-data investment">fund investment</em>
+                                                                    </span>
+                                                                    <span class="label">
+                                                                        <span class="label-name">Person in charge</span>
+                                                                        <em class="label-data">
+                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                        </em>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="data-item">
+                                                            <a href="https://blockodyssey.io/ko/about-us" target="_blank" class="portfolio-figure" title="Opens in a new window.">
+                                                                <img src="/assets/images/business/logo-blockodyssey.png" alt="Block Odyssey">
+                                                            </a>
+                                                            <div class="portfolio-info">
+                                                                <div class="portfolio-head">
+                                                                    <strong class="portfolio-name">Block Odyssey</strong>
+                                                                </div>
+                                                                <div class="portfolio-body">
+                                                                    <p class="para">A development and services company encompassing blockchain technology consulting, customized infrastructure, and solutions for B2B/B2G business innovation</p>
+                                                                </div>
+                                                                <div class="portfolio-aside">
+                                                                    <span class="label">
+                                                                        <span class="label-name">Nation</span>
+                                                                        <em class="label-data region">Korea</em>
+                                                                    </span>
+                                                                    <span class="label break">
+                                                                        <span class="label-name">Type</span>
+                                                                        <em class="label-data investment">direct investment</em>
+                                                                    </span>
+                                                                    <span class="label">
+                                                                        <span class="label-name">Person in charge</span>
+                                                                        <em class="label-data">
+                                                                            <a href="mailto:rurumie@sk.com" class="mail">Song, Hae-In (rurumie@sk.com)</a>
+                                                                        </em>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="data-item">
+                                                            <a href="https://bmsmile.com/index.html" target="_blank" class="portfolio-figure" title="Opens in a new window.">
+                                                                <img src="/assets/images/business/logo-bmsmile.png" alt="BMSMILE">
+                                                            </a>
+                                                            <div class="portfolio-info">
+                                                                <div class="portfolio-head">
+                                                                    <strong class="portfolio-name">BMSMILE</strong>
+                                                                </div>
+                                                                <div class="portfolio-body">
+                                                                    <p class="para">The only vertically integrated pet supplies business and specialized design IP company in South Korea</p>
+                                                                </div>
+                                                                <div class="portfolio-aside">
+                                                                    <span class="label">
+                                                                        <span class="label-name">Nation</span>
+                                                                        <em class="label-data region">Korea</em>
+                                                                    </span>
+                                                                    <span class="label break">
+                                                                        <span class="label-name">Type</span>
+                                                                        <em class="label-data investment">direct investment</em>
+                                                                    </span>
+                                                                    <span class="label">
+                                                                        <span class="label-name">Person in charge</span>
+                                                                        <em class="label-data">
+                                                                            <a href="mailto:mj@sk.com" class="mail">Kim, Min-jun (mj@sk.com)</a>
+                                                                        </em>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="data-item">
+                                                            <a href="https://www.sbvacorp.com/ko/" target="_blank" class="portfolio-figure" title="Opens in a new window.">
+                                                                <img src="/assets/images/business/logo-sbva.png" alt="SBVA Alpha Intelligence Fund">
+                                                            </a>
+                                                            <div class="portfolio-info">
+                                                                <div class="portfolio-head">
+                                                                    <strong class="portfolio-name">SBVA Alpha Intelligence Fund</strong>
+                                                                </div>
+                                                                <div class="portfolio-body">
+                                                                    <p class="para">A venture fund focused on early-stage investments in global AI and deep-tech sectors</p>
+                                                                </div>
+                                                                <div class="portfolio-aside">
+                                                                    <span class="label">
+                                                                        <span class="label-name">Nation</span>
+                                                                        <em class="label-data region">Korea</em>
+                                                                    </span>
+                                                                    <span class="label break">
+                                                                        <span class="label-name">Type</span>
+                                                                        <em class="label-data investment">fund investment</em>
+                                                                    </span>
+                                                                    <span class="label">
+                                                                        <span class="label-name">Person in charge</span>
+                                                                        <em class="label-data">
+                                                                            <a href="mailto:mj@sk.com" class="mail">Kim, Min-jun (mj@sk.com)</a>
+                                                                        </em>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="data-item">
+                                                            <a href="https://www.upstage.ai/" target="_blank" class="portfolio-figure" title="Opens in a new window.">
+                                                                <img src="/assets/images/business/logo-upstage.png" alt="Upstage">
+                                                            </a>
+                                                            <div class="portfolio-info">
+                                                                <div class="portfolio-head">
+                                                                    <strong class="portfolio-name">Upstage</strong>
+                                                                </div>
+                                                                <div class="portfolio-body">
+                                                                    <p class="para">A global company that provides customized AI models and solutions for enterprises based on Solar LLM (large language model) and Document AI technology</p>
+                                                                </div>
+                                                                <div class="portfolio-aside">
+                                                                    <span class="label">
+                                                                        <span class="label-name">Nation</span>
+                                                                        <em class="label-data region">Korea</em>
+                                                                    </span>
+                                                                    <span class="label break">
+                                                                        <span class="label-name">Type</span>
+                                                                        <em class="label-data investment">direct investment</em>
+                                                                    </span>
+                                                                    <span class="label">
+                                                                        <span class="label-name">Person in charge</span>
+                                                                        <em class="label-data">
+                                                                            <a href="mailto:rurumie@sk.com" class="mail">Song, Hae-In (rurumie@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>

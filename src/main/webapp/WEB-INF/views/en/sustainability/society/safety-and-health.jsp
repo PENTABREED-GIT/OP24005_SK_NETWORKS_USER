@@ -508,6 +508,38 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="t-display design1 case1 type1 align3">
+                                        <div class="table-info">
+                                            <span class="info-text">* Performance of the Workout in daily life program</span>
+                                        </div>
+                                        <table>
+                                            <caption>This table provides performance information for the exercise habituation program and consists of categories, 2023 and 2024.</caption>
+                                            <colgroup>
+                                                <col style="width: 33.333%;">
+                                                <col style="width: 33.333%;">
+                                                <col style="width: 33.333%;">
+                                            </colgroup>
+                                            <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">2023</th>
+                                                <th scope="col">2024</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>Number of participants</td>
+                                                <td>46 persons (ca. 11%)</td>
+                                                <td>33 persons (ca. 9%)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Number of participations</td>
+                                                <td>3,599 cases</td>
+                                                <td>2,280 cases</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -61,7 +61,7 @@
 
             //영상 라이브러리 슬라이드
             var prSwiper1 = new Swiper(".pr-swiper1", {
-                slidesPerView: 2,
+                slidesPerView: 3,
                 slidesPerColumn: 2,
                 spaceBetween: 15,
                 loop: false,

@@ -1115,7 +1115,7 @@
                                                                         <img src="/assets/images/sustainability/esg-risk-01-pc.svg" alt="ESG 위험군 별 협력사 분포 설명 이미지입니다." class="pc-only">
                                                                         <img src="/assets/images/sustainability/esg-risk-01-mo.png" alt="ESG 위험군 별 협력사 분포 설명 이미지입니다." class="mo-only" style="min-width: 1016px;">
                                                                         <p class="blind">
-                                                                            ESG-7, ESG-6는 고위험. ESG-5, ESG-4, ESG-3는 중위험. ESG-2, ESG-1은 저위험군 입니다. 27개 기업(48%)이 고위험군, 29개 기업(52%) 기업이 중위험군. 0개 기업(0%)이 저위험군에 속합니다. 최저 0.11점, 전체 평균 3.37점, 최고 6.92점 입니다.
+                                                                            심각(RM-7), 취약(RM-6)은 2개 기업(4%)으로 고위험군에 속하며 집중 개선영역입니다. 보통(RM-5), 양호(RM-4), 우수(RM-3)는 46개 기업(92%) 중위험에 속합니다. 탁월(RM-2), 최상(RM-1)은 2개 기업(4%) 저위험에 속합니다. 최저 1.19, 전체평균 4.86, 최고점 9.34입니다. 2023년 ClickEsg 평균은 3.55입니다. 종합 ESG Risk는 중위험으로 4.86이며, ESG-Risk는 양호 (4등급)입니다. * 2023년 ClickEsg 결과(3자 검증 기준) 평균 점수는 3.55, 최고 점수는 9.83입니다.
                                                                         </p>
                                                                     </div>
                                                                 </div>

@@ -202,13 +202,17 @@
                                                         <li>
                                                             <em>BOD</em>
                                                             <ul>
-                                                                <li>ESG Management Committee</li>
+                                                                <li>Strategy and ESG Committee</li>
                                                                 <li>CEO
                                                                     <ul>
                                                                         <li>Management Supporting Division
                                                                             <ul>
-                                                                                <li>Sustainable Management Division</li>
-                                                                                <li>SV Implementation Team
+                                                                                <li>Strategy Planning Division
+                                                                                    <ul>
+                                                                                        <li>SV meet up</li>
+                                                                                    </ul>
+                                                                                </li>
+                                                                                <li>ESG Management Team
                                                                                     <ul>
                                                                                         <li>Environmental CoE</li>
                                                                                     </ul>
@@ -216,7 +220,6 @@
                                                                             </ul>
                                                                         </li>
                                                                         <li>Company-wide ESG Implementation Committee</li>
-                                                                        <li>SV meet up</li>
                                                                     </ul>
                                                                 </li>
                                                             </ul>

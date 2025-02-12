@@ -95,168 +95,137 @@
                                                     <img src="/assets/images/sustainability/esg-diagram2-mo-en.png" alt="This is an SV-promoted organization image, please refer to the following for more information." class="mo-only" style="min-width: 512px;">
                                                 </div>
                                                 <div class="blind">
-                                                    <em>BOD</em>
                                                     <ul>
-                                                        <li>ESG Management Committee</li>
-                                                        <li>CEO
+                                                        <li>
+                                                            <em>BOD</em>
                                                             <ul>
-                                                                <li>Management Supporting Division
+                                                                <li>Strategy and ESG Committee</li>
+                                                                <li>CEO
                                                                     <ul>
-                                                                        <li>Sustainable Management Division</li>
-                                                                        <li>SV Implementation Team
+                                                                        <li>Management Supporting Division
                                                                             <ul>
-                                                                                <li>Environmental CoE</li>
+                                                                                <li>Strategy Planning Division
+                                                                                    <ul>
+                                                                                        <li>SV meet up</li>
+                                                                                    </ul>
+                                                                                </li>
+                                                                                <li>ESG Management Team
+                                                                                    <ul>
+                                                                                        <li>Environmental CoE</li>
+                                                                                    </ul>
+                                                                                </li>
                                                                             </ul>
                                                                         </li>
+                                                                        <li>Company-wide ESG Implementation Committee</li>
                                                                     </ul>
                                                                 </li>
-                                                                <li>Company-wide ESG Implementation Committee</li>
-                                                                <li>SV meet up</li>
                                                             </ul>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
-                                        <p class="comment design1">*as of the end of December 2024</p>
+                                        <p class="comment design1">** as of 2025</p>
                                     </div>
                                     <div class="data-display">
                                         <div class="data-list">
                                             <div class="t-display design1 case1 type1 align3 scroll">
                                                 <table class="col-w-1">
-                                                    <caption>This table provides information on climate change governance and consists of status, organization name, education target, place, purpose, and 2023 hosting status.</caption>
+                                                    <caption>This table provides information on climate change governance and consists of status, organization name, composition, members, roles, and 2023 hosting status.</caption>
                                                     <colgroup>
-                                                        <col style="width: 14%;">
-                                                        <col style="width: 14.5%;">
-                                                        <col style="width: auto;">
-                                                        <col style="width: auto;">
-                                                        <col style="width: auto;">
+                                                        <col style="width: 12%;">
+                                                        <col style="width: 15%;">
+                                                        <col style="width: auto">
+                                                        <col style="width: auto">
                                                         <col style="width: 12%;">
                                                     </colgroup>
                                                     <thead>
-                                                        <tr>
-                                                            <th scope="col">Status</th>
-                                                            <th scope="col">Name of organization</th>
-                                                            <th scope="col">Composition*</th>
-                                                            <th scope="col">Members</th>
-                                                            <th scope="col">Roles</th>
-                                                            <th scope="col">2023 meeting status</th>
-                                                        </tr>
+                                                    <tr>
+                                                        <th scope="col">Status</th>
+                                                        <th scope="col">Org Name</th>
+                                                        <th scope="col">Structure*</th>
+                                                        <th scope="col">Roles</th>
+                                                        <th scope="col">2024<br>meeting status</th>
+                                                    </tr>
                                                     </thead>
                                                     <tbody>
-                                                        <tr>
-                                                            <td>Subcommittee of the Board of Directors</td>
-                                                            <td>Strategy∙ESG Committee</td>
-                                                            <td class="align1">Members of the Board of Directors<br>
-                                                                - 2 executive directors, 1 other non-executive director,
-                                                                5 independent directors</td>
-                                                            <td class="align1">
-                                                                <div class="bullet-display design1 case1 type2">
-                                                                    <ul class="data-list">
-                                                                        <li class="data-item">(Executive directors) Lee Hojeong, Choi Sunghwan</li>
-                                                                        <li class="data-item">(Other non-executive directors) Lee Sunghyeong</li>
-                                                                        <li class="data-item">(Independent directors) Ha Yungwon, Im Ho, Jeong Seokwoo, Lee Moonyoung, Chai Sooil</li>
-                                                                    </ul>
-                                                                </div>
-                                                            </td>
-                                                            <td class="align1">
-                                                                <div class="bullet-display design1 case1 type2">
-                                                                    <ul class="data-list">
-                                                                        <li class="data-item">Examining/analyzing strategies and key issues related to environment,
-                                                                            social values, and company governance to pre-deliberate on major
-                                                                            decisions of the Board of Directors</li>
-                                                                    </ul>
-                                                                </div>
-                                                            </td>
-                                                            <td>8 meetings held</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Corporate Management Council</td>
-                                                            <td>Company-wide ESG Implementation Committee</td>
-                                                            <td class="align1">CEO, Chief Operation Officer(COO), Chief Sustainability
-                                                                Officer(CSO), Chief Financial Officer(CFO), Head of
-                                                                Planning Division, Head of Finance Division, Head of HR
-                                                                Division, Head of Audit Division, Head of Social Value
-                                                                Division (Secretary), CEOs of subsidiaries and BU Leader</td>
-                                                            <td class="align1">
-                                                                <div class="bullet-display design1 case1 type2">
-                                                                    <ul class="data-list">
-                                                                        <li class="data-item">(CEO) Lee Hojeong, (COO) Choi Sunghwan</li>
-                                                                        <li class="data-item">(SK magic CEO) Kim Wanseong, (SK rent-a-car CEO) Hwang Ilmoon, (SK networks Service CEO) Jeon Hyeongil, etc.</li>
-                                                                    </ul>
-                                                                </div>
-                                                            </td>
-                                                            <td class="align1">
-                                                                <div class="bullet-display design1 case1 type2">
-                                                                    <ul class="data-list">
-                                                                        <li class="data-item">Strengthening the ability to execute ESG strategies</li>
-                                                                        <li class="data-item">Linking business model strategies (including subsidiaries) with ESG directions</li>
-                                                                        <li class="data-item">Inspecting and discussing ESG activities</li>
-                                                                    </ul>
-                                                                </div>
-                                                            </td>
-                                                            <td>5 meetings held</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td rowspan="3">Working-level Staff</td>
-                                                            <td>SV Meetup</td>
-                                                            <td class="align1">CEO, Chief Sustainability Officer(CSO), Social Value
-                                                                Division, executives/team leaders/working level
-                                                                employees in charge of SV/ESG for each business
-                                                                (subsidiary), members of Strategy Planning Team,
-                                                                SV Implementation Team</td>
-                                                            <td>-</td>
-                                                            <td class="align1">
-                                                                <div class="bullet-display design1 case1 type2">
-                                                                    <ul class="data-list">
-                                                                        <li class="data-item">Sharing focused SV tasks and progress for each business,</li>
-                                                                        <li class="data-item">Sharing SV/ESG trends, discussing response measures</li>
-                                                                        <li class="data-item">Sharing progress of stakeholder accounts</li>
-                                                                    </ul>
-                                                                </div>
-                                                            </td>
-                                                            <td>10 meetings held</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Environmental CoE**</td>
-                                                            <td class="align1">Team leaders/working-level employees in charge of SV/
-                                                                ESG for each business (subsidiary),
-                                                                SV Implementation Team</td>
-                                                            <td>-</td>
-                                                            <td class="align1">
-                                                                <div class="bullet-display design1 case1 type2">
-                                                                    <ul class="data-list">
-                                                                        <li class="data-item">Promoting Net Zero 2040(determining reduction measures),
-                                                                            measuring and analyzing data</li>
-                                                                        <li class="data-item">Internalizing environmental management system for each business,
-                                                                            and securing expertise</li>
-                                                                    </ul>
-                                                                </div>
-                                                            </td>
-                                                            <td>3 meetings held</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>SV Implementation Team</td>
-                                                            <td class="align1"></td>
-                                                            <td>-</td>
-                                                            <td class="align1">
-                                                                <div class="bullet-display design1 case1 type2">
-                                                                    <ul class="data-list">
-                                                                        <li class="data-item">Working-level organization for promoting Net Zero 2040</li>
-                                                                        <li class="data-item">Participating in and operating environment-related initiatives in Korea and overseas</li>
-                                                                        <li class="data-item">Measuring and analyzing environmental data</li>
-                                                                    </ul>
-                                                                </div>
-                                                            </td>
-                                                            <td>-</td>
-                                                        </tr>
+                                                    <tr>
+                                                        <td>BoD Committee</td>
+                                                        <td>Strategy/ESG Committee</td>
+                                                        <td class="align1">BoD members<br> - 2 executive directors, 1 non-executive director, 5 independent directors</td>
+                                                        <td class="align1">
+                                                            <div class="bullet-display design1 case1 type2">
+                                                                <ul class="data-list">
+                                                                    <li class="data-item">Pre-deliberation of major BoD decisions through the review and analysis of strategies and key matters related to the environment, social value, and corporate governance</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                        <td>12 meetings</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Company-wide Management Meeting</td>
+                                                        <td>Company-wide ESG Promotion Committee</td>
+                                                        <td class="align1">CEO, COO, Head of Business Supporting Division (Chairperson), Director of Planning & Finance, Director of Accounting, Director of Corporate Culture, Director of Audit, Director of Business Sustainability, Subsidiary CEOs and BU Heads</td>
+                                                        <td class="align1">
+                                                            <div class="bullet-display design1 case1 type2">
+                                                                <ul class="data-list">
+                                                                    <li class="data-item">Reinforcement of ESG strategy execution</li>
+                                                                    <li class="data-item">Alignment of BM strategy (incl. subsidiaries) with ESG goals</li>
+                                                                    <li class="data-item">Review and discussions on ESG management activities</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                        <td>6 meetings</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td rowspan="3">Working Group</td>
+                                                        <td>SV Meetup</td>
+                                                        <td class="align1">Head of the Business Supporting Division, Director of Corporate Culture, Executive Officers/Team Leaders/Working-level Personnel responsible for SV/ESG per Business Line (incl. subsidiaries), Strategy Team Members, and SV Promotion Team</td>
+                                                        <td class="align1">
+                                                            <div class="bullet-display design1 case1 type2">
+                                                                <ul class="data-list">
+                                                                    <li class="data-item">Sharing of key SV focused areas and progress by business</li>
+                                                                    <li class="data-item">Discussion of SV/ESG trends and response strategies</li>
+                                                                    <li class="data-item">Sharing of updates on stakeholder engagement</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                        <td>6 meetings</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Environment CoE**</td>
+                                                        <td class="align1">Working-level Personnel in charge of SV/ESG per Business Line (incl. subsidiaries), SV Promotion Team</td>
+                                                        <td class="align1">
+                                                            <div class="bullet-display design1 case1 type2">
+                                                                <ul class="data-list">
+                                                                    <li class="data-item">Leading Net Zero 2040 initiatives (developing reduction measures) and data measurement/analysis</li>
+                                                                    <li class="data-item">Internalization of environmental management system and securing expertise for each business unit</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                        <td>5 meetings</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>SV Promotion Team</td>
+                                                        <td class="align1"></td>
+                                                        <td class="align1">
+                                                            <div class="bullet-display design1 case1 type2">
+                                                                <ul class="data-list">
+                                                                    <li class="data-item">A working-level organization for the promotion of Net Zero 2040</li>
+                                                                    <li class="data-item">Participation and operation of domestic and international initiatives</li>
+                                                                    <li class="data-item">Environmental data measurement and analysis</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                        <td>-</td>
+                                                    </tr>
                                                     </tbody>
                                                 </table>
                                             </div>
                                             <p class="comment design1">
-                                                * Based on the organizational chart of 2023
+                                                * Based on 2024 organization
                                                 <br>
-                                                ** CoE(Committee of Experts)
+                                                ** CoE: Committee of Experts
                                             </p>
                                         </div>
                                     </div>
@@ -276,7 +245,7 @@
                                             <li class="data-item">
                                                 <div class="item-wrap">
                                                     <div class="item-head">
-                                                        <p class="item-subject">2023</p>
+                                                        <p class="item-subject">2024</p>
                                                     </div>
                                                     <div class="item-util">
                                                         <div class="submit-form design1 case1 align1">
@@ -286,6 +255,7 @@
                                                                         <label for="level-sel-manage" class="blind">Label</label>
                                                                         <select name="name" id="level-sel-manage">
                                                                             <option value="0" selected hidden disabled>Year</option>
+                                                                            <option value="2024">2024</option>
                                                                             <option value="2023">2023</option>
                                                                             <option value="2022">2022</option>
                                                                             <option value="2021">2021</option>
@@ -301,8 +271,39 @@
                                         </ul>
                                     </div>
                                     <div class="esg-inform-list">
+                                        <!-- ESG경영위원회 2024 -->
+                                        <div class="esg-inform esg-manage esg-option2024">
+                                            <div class="t-display design1 case1 type1 align3 scroll">
+                                                <table style="min-width: 1020px;">
+                                                    <caption>This table provides information on the current status of discussions at Strategy∙ESG Committee in 2024 and consists of the rounds, date of holding, major agenda items, and details.</caption>
+                                                    <colgroup>
+                                                        <col style="width: 10%;">
+                                                        <col style="width: 14%;">
+                                                        <col style="width: 34%;">
+                                                        <col>
+                                                    </colgroup>
+                                                    <thead>
+                                                    <tr>
+                                                        <th scope="col">Round</th>
+                                                        <th scope="col">Date</th>
+                                                        <th scope="col">Agenda Items</th>
+                                                        <th scope="col">Description</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Apr</td>
+                                                        <td class="align1">Reporting on the FY2023 Sustainability Report Plan</td>
+                                                        <td class="align1">Materiality Assessment Findings (climate change mitigation and selecting key issues), etc.</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <!-- //ESG경영위원회 2024 -->
                                         <!-- ESG경영위원회 2023 -->
-                                        <div class="esg-inform esg-manage esg-option2023">
+                                        <div class="esg-inform esg-manage esg-option2023 blind">
                                             <div class="t-display design1 case1 type1 align3 scroll">
                                                 <table style="min-width: 800px;">
                                                     <caption>This table provides information on the current status of discussions at Strategy∙ESG Committee in 2023 and consists of the rounds, date of holding, major agenda items, and details.</caption>
@@ -445,7 +446,7 @@
                                             <li class="data-item">
                                                 <div class="item-wrap">
                                                     <div class="item-head">
-                                                        <p class="item-subject">2023</p>
+                                                        <p class="item-subject">2024</p>
                                                     </div>
                                                     <div class="item-util">
                                                         <div class="submit-form design1 case1 align1">
@@ -455,6 +456,7 @@
                                                                         <label for="level-sel-propel" class="blind">Label</label>
                                                                         <select name="name" id="level-sel-propel">
                                                                             <option value="0" selected hidden disabled>Year</option>
+                                                                            <option value="2024">2024</option>
                                                                             <option value="2023">2023</option>
                                                                             <option value="2022">2022</option>
                                                                             <option value="2021">2021</option>
@@ -470,8 +472,86 @@
                                         </ul>
                                     </div>
                                     <div class="esg-inform-list">
+                                        <!-- 전사ESG추진위원회 2024 -->
+                                        <div class="esg-inform esg-propel esg-option2024">
+                                            <div class="t-display design1 case1 type1 align3 scroll">
+                                                <table style="min-width: 610px;">
+                                                    <caption>이 표는 2024년 전사ESG추진위원회 논의 현황 정보를 제공하며 회차, 개최월, 주요내용 으로 구성되어 있습니다.</caption>
+                                                    <colgroup>
+                                                        <col style="width: 11%;">
+                                                        <col style="width: 14%;">
+                                                        <col>
+                                                    </colgroup>
+                                                    <thead>
+                                                    <tr>
+                                                        <th scope="col">Round</th>
+                                                        <th scope="col">Month</th>
+                                                        <th scope="col">Major Agenda</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Feb</td>
+                                                        <td class="align1">
+                                                            <div class="bullet-display design1 case1 type2">
+                                                                <ul class="data-list">
+                                                                    <li class="data-item">Detailed Implementation Plans for 2024 Net Zero</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Apr</td>
+                                                        <td class="align1">
+                                                            <div class="bullet-display design1 case1 type2">
+                                                                <ul class="data-list">
+                                                                    <li class="data-item">Update on the Net Zero Scenario</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Aug</td>
+                                                        <td class="align1">
+                                                            <div class="bullet-display design1 case1 type2">
+                                                                <ul class="data-list">
+                                                                    <li class="data-item">Sharing discussion agenda of the Group’s Net Zero Implementation Support Council<br> - Council operation plan, WG (direct reduction, RE 100, CER) operation plan</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Oct</td>
+                                                        <td class="align1">
+                                                            <div class="bullet-display design1 case1 type2">
+                                                                <ul class="data-list">
+                                                                    <li class="data-item">Sharing discussion agenda of the Group’s Net Zero Implementation Support Council<br> - Establishment of the Group’s NetZero management system, etc.</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Dec</td>
+                                                        <td class="align1">
+                                                            <div class="bullet-display design1 case1 type2">
+                                                                <ul class="data-list">
+                                                                    <li class="data-item">Sharing discussion agenda of the Group’s Net Zero Implementation Support Council<br> - WG 2024 review and future plans, guidelines for utilizing the Group’s offset CER, etc.</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <!-- //전사ESG추진위원회 2024 -->
                                         <!-- 전사ESG추진위원회 2023 -->
-                                        <div class="esg-inform esg-propel esg-option2023">
+                                        <div class="esg-inform esg-propel esg-option2023 blind">
                                             <div class="t-display design1 case1 type1 align3 scroll">
                                                 <table style="min-width: 619px;">
                                                     <caption>This table provides information on the current status of discussions at the 2023 ESG Promotion Committee and consists of the rounds, the month of the event, and the main contents.</caption>

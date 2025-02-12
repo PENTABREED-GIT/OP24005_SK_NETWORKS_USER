@@ -780,13 +780,13 @@
                                                             <div class="post-item">
                                                                 <div class="post-wrap">
                                                                     <div class="post-figure">
-                                                                        <img src="/assets/images/sustainability/trans-en.png" alt="Composition of a purchasing review committee, one head of the audit office, one head of the corporate culture office (chairman), and three key management executives*" class="pc-only">
-                                                                        <img src="/assets/images/sustainability/trans-mo-en.png" alt="Composition of a purchasing review committee, one head of the audit office, one head of the corporate culture office (chairman), and three key management executives*" style="min-width: 63.6rem;" class="mo-only">
+                                                                        <img src="/assets/images/sustainability/trans-en.png" alt="Procurement Review SK Networks Audit Division Head(1 person), Head of RM Division(1 person), Key Management Executives*(3 persons)" class="pc-only">
+                                                                        <img src="/assets/images/sustainability/trans-mo-en.png" alt="Procurement Review SK Networks Audit Division Head(1 person), Head of RM Division(1 person), Key Management Executives*(3 persons)" style="min-width: 63.6rem;" class="mo-only">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <p class="comment design1">*Head of the Strategy Planning Division, Head of the Accounting Division, Head of the Sustainability Management Division</p>
+                                                        <p class="comment design1">* Head of Strategy Planning Division, Head of  Corporate Culture Division, Head of  Sustainability Management Division</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -800,7 +800,7 @@
                                                 </div>
                                                 <div class="section-body">
                                                     <p class="para">
-                                                        In 2023, SK Networks encouraged active participation from business partners by providing online ESG training and funding for training expenses. We expanded our educational content beyond the existing human rights and ethics courses implemented in 2022 to include environmental issues, anti-corruption, and the four major statutory training programs. This initiative aimed to alleviate the educational burden on business partners and support their participation in ESG management. In 2023, 225 employees from 19 business partners voluntarily participated, completing a total of 685 courses (100% completion rate, up from 96.6% in 2022). Moving forward, SK Networks is committed to continuously realizing the value of mutual growth by developing and providing diverse and effective training programs to our business partners.
+                                                        In 2024, SK Networks encouraged active participation from business partners by providing online ESG training and funding for training expenses. We expanded our educational content beyond the existing human rights and ethics courses implemented in 2022 to include environmental issues, anti-corruption, and the four major statutory training programs. This initiative aimed to alleviate the educational burden on business partners and support their participation in ESG management. In 2024, 132 employees from 21 business partners voluntarily participated, completing a total of 411 courses (100% completion rate). Moving forward, SK Networks is committed to continuously realizing the value of mutual growth by developing and providing diverse and effective training programs to our business partners.
                                                     </p>
                                                 </div>
                                             </div>
@@ -828,8 +828,7 @@
                                                 </div>
                                                 <div class="section-body">
                                                     <p class="para">
-                                                        SK Networks deeply empathizes with the hardships faced by suppliers and strives to help them adapt to the rapidly changing business environment. Every year, we visit our suppliers to listen to their views on-site and analyze their opinions to minimize any risks that suppliers may experience. We visited the sites of 46 key suppliers in 2022 and 48 key suppliers in 2023. In 2024, we plan to visit 44 suppliers. Additionally, we share information
-                                                        on matters related to cooperation through the communication forum available through the new procurement system (www.skbuyone.com). We collect opinions and grievances from suppliers through various channels. In 2022, a total of 42 cases were received, and 37 of them were handled (88.1% completion rate) while a total of 271 cases were received and 262 cases were handled (96.7% completion rate) in 2023. Going forward, we will actively incorporate the opinions and requests of our suppliers to enact improvements
+                                                        SK Networks deeply empathizes with the hardships faced by suppliers and strives to help them adapt to the rapidly changing business environment. Every year, we visit our suppliers to listen to their views on-site and analyze their opinions to minimize any risks that suppliers may experience. We visited the sites of 48 key suppliers in 2023 and 47 key suppliers in 2024. In 2025, we plan to visit approximately 50 suppliers. Additionally, we share information on matters related to cooperation through the communication forum available through the new procurement system (www.skbuyone.com). We collect opinions and grievances from suppliers through various channels. In 2023, a total of 271 cases were received, and 262 of them were handled (96.7% completion rate) while a total of 132 cases were received and 127 cases were handled (96.2% completion rate) in 2024. Going forward, we will actively incorporate the opinions and requests of our suppliers to enact improvements
                                                     </p>
                                                 </div>
                                             </div>
@@ -843,7 +842,7 @@
                                                 </div>
                                                 <div class="section-body">
                                                     <p class="para">
-                                                        SK Networks is actively participating in SK Group’s shared growth fund and mutual growth programs (CEO seminars, MBAs, etc.). Established in an agreement with IBK, the SKN Shared Growth Fund grants low or no-interest loans to suppliers experiencing economic difficulties due to COVID-19 and the economic downturn, a program that provides funds to partners and reduces loan interest. Particularly, we have expanded the scope to the suppliers of subsidiaries since 2021. We supported Fund of KRW 830 million in 2021, KRW 2.19 billion in 2022, and the maximum level of KRW 4.15 billion in 2023, increasing by more than five times compared to 2021. We plan to continue to maintain the current level in 2024.
+                                                        SK Networks is actively participating in SK Group’s shared growth fund and mutual growth programs (CEO seminars, MBAs, etc.). Established in an agreement with IBK, the SKN Shared Growth Fund grants low or no-interest loans to suppliers experiencing economic difficulties due to COVID-19 and the economic downturn, a program that provides funds to partners and reduces loan interest. Particularly, we have expanded the scope to the suppliers of subsidiaries since 2021. We supported Fund of KRW 830 million in 2021, KRW 2.19 billion in 2022, and the maximum level of KRW 4.15 billion in 2023, increasing by more than five times compared to 2021. We plan to continue to maintain the current level
                                                     </p>
                                                     <div class="data-display design1 case2 type1">
                                                         <div class="data-list">
@@ -884,10 +883,15 @@
                                                                                         <td>15</td>
                                                                                         <td>KRW 4.15 billion</td>
                                                                                     </tr>
+                                                                                    <tr>
+                                                                                        <td>2024</td>
+                                                                                        <td>15</td>
+                                                                                        <td>KRW 3.77 billion</td>
+                                                                                    </tr>
                                                                                 </tbody>
                                                                             </table>
                                                                         </div>
-                                                                        <p class="comment design1">* As of the End of December 2023</p>
+                                                                        <p class="comment design1">* As of the End of December 2024</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -910,16 +914,16 @@
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
                                                                         <div class="data-head-area">
-                                                                            <em class="data-subject">2023</em>
+                                                                            <em class="data-subject">2025</em>
                                                                         </div>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case2 type1">
                                                                             <ul class="data-list">
-                                                                                <li class="data-item">To support for strengthening competitiveness of suppliers</li>
-                                                                                <li class="data-item">To expand the shared growth fund coverage<br> - 2023 Fund : More than 4 times the amount supported in 2021</li>
-                                                                                <li class="data-item">To prepare a pilot program for additional financial support</li>
-                                                                                <li class="data-item">To reinforce the partner communication system<br> - Capture more voices from partners</li>
+                                                                                <li class="data-item">Expand the Shared Growth Fund<br> - Increase by 10% or more compared to 2024</li>
+                                                                                <li class="data-item">Expand and operate additional financial support programs</li>
+                                                                                <li class="data-item">Identify and implement initiatives for mutual growth</li>
+                                                                                <li class="data-item">Support leadership training for middle managers at suppliers</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -929,16 +933,16 @@
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
                                                                         <div class="data-head-area">
-                                                                            <em class="data-subject">2024</em>
+                                                                            <em class="data-subject">2026</em>
                                                                         </div>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case1 type1">
                                                                             <ul class="data-list">
-                                                                                <li class="data-item">To implement and expand programs to support partners’ excellence</li>
-                                                                                <li class="data-item">To expand shared growth fund coverage<br> - 2024 Fund : More than 4 times the amount supported in 2021</li>
-                                                                                <li class="data-item">To expand the additional financial support program</li>
-                                                                                <li class="data-item">To identify and implement mutual growth tasks</li>
+                                                                                <li class="data-item">Support invested subsidiaries in implementing the shared growth system</li>
+                                                                                <li class="data-item">Establish a foundation for the systematic implementation of the shard growth system.</li>
+                                                                                <li class="data-item">Expand the Shard Growth Fund</li>
+                                                                                <li class="data-item">Support leadership training for middle managers at suppliers</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -948,15 +952,15 @@
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
                                                                         <div class="data-head-area">
-                                                                            <em class="data-subject">2025</em>
+                                                                            <em class="data-subject">2027</em>
                                                                         </div>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case1 type1">
                                                                             <ul class="data-list">
-                                                                                <li class="data-item">To re-establish strategies with a focus on mutual growth</li>
-                                                                                <li class="data-item">To lay the foundation to systematically implement the mutual growth system</li>
-                                                                                <li class="data-item">To continue running the Shared growth fund and expanding the financial support program</li>
+                                                                                <li class="data-item">Re-establish key strategies for shared growth</li>
+                                                                                <li class="data-item">Complete the systemization of the shared growth</li>
+                                                                                <li class="data-item">Develop new financial support programs beyond the Shard Growth Fund</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -1011,11 +1015,9 @@
                                                 </div>
                                                 <div class="section-body">
                                                     <p class="para">
-                                                        To strengthen the ESG risk management of its partner companies, SK Networks has incorporated environmental and social criteria to its regular business partner evaluation and conducts an annual ESG pre-assessments.
-                                                        Partner companies subject to ESG risk assessment are selected based on factors such as transaction size, frequency, and business impact. Following the assessment results, improvement targets are set for the following year, and consulting services are provided, including customized training and education.<br> 
-                                                        In 2022, SK Networks conducted improvement consulting for 36 high-risk business partners based on their ESG diagnosis results and improved ESG performance by conducting ESG pre-diagnosis improvement for 24 companies. In 2023, ESG risk assessment was conducted for 48 key business partners (compared to 33 in 2022), reducing the proportion of high-risk business partners to 48% (down from 75% in 2022).<br> 
-                                                        Key improvement factors included establishing safety and health management policies and developing environmental management systems.<br> 
-                                                        SK Networks will continue to enhance the ESG risk measurement, assessment, and management systems for business partners, helping them prevent ESG risks and practice sustainable management.
+                                                        SK Networks commissions external evaluation agencies to conduct annual ESG assessments of its suppliers to strengthen ESG risk management. Evaluation targets are selected based on transaction volume, frequency, and business impact. Suppliers with insufficient ESG performance are subject to separate consulting support for improvement to help them set improvement targets and implement improvement measures the following year.
+                                                        These activities led to a reduced ratio of high-risk suppliers to 4% in 2024 (vs. 48% in 2023). Key improvement factors include establishing health and safety policies, building an environmental management system, and implementing energy-saving campaigns.
+                                                        SK Networks will continue to upgrade suppliers’ ESG risk measurement, evaluation, and management system, helping suppliers prevent ESG risks and practice sustainable management.
                                                     </p>
                                                     <div class="data-display design1 case7 type1 align1">
                                                         <div class="data-list">
@@ -1099,25 +1101,18 @@
                                                     </div>
                                                     <div class="data-display design1 case7 type1 flex">
                                                         <div class="data-list">
-                                                            <div class="data-item dispersion">
+                                                            <div class="data-item">
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
                                                                         <em class="data-subject">Distribution of Suppliers by ESG Risk Group</em>
                                                                     </div>
                                                                     <div class="data-body">
-                                                                        <img src="/assets/images/sustainability/esg-risk-01-pc-en.svg" alt="Distribution of Suppliers by ESG Risk Group Description Image" class="pc-only">
-                                                                        <img src="/assets/images/sustainability/esg-risk-01-mo-en.png" alt="Distribution of Suppliers by ESG Risk Group Description Image" class="mo-only" style="min-width: 791px;">
-                                                                    </div>
-                                                                </div>
-                                                                <p class="comment design1">* As of the end of December 2023<br> * ESG-1 and ESG-7 mean the risk rating based on ESG evaluation.</p>
-                                                            </div>
-                                                            <div class="data-item change">
-                                                                <div class="data-wrap">
-                                                                    <div class="data-head">
-                                                                        <em class="data-subject">Changes in ESG score and rating</em>
-                                                                    </div>
-                                                                    <div class="data-body">
-                                                                        <img src="/assets/images/sustainability/esg-risk-02-en.svg" alt="ESG Score and Rating Change Description Images" style="max-width: 815px;">
+                                                                        <img src="/assets/images/sustainability/esg-risk-01-pc-en.svg" alt="This is an image explaining the distribution of partners by ESG risk group." class="pc-only">
+                                                                        <img src="/assets/images/sustainability/esg-risk-01-mo-en.png" alt="This is an image explaining the distribution of partners by ESG risk group." class="mo-only" style="min-width: 1000px;">
+                                                                        <p class="blind">
+                                                                            Severe(RM-7), Weak(RM-6) 2 Suppliers(4%) High Risk Focus Improvement Area. Moderate(RM-5), Good(RM-4), Excellent(RM-3) 46 Suppliers (92%)
+                                                                            Medium Risk. Outstanding(RM-2), Top-tier(RM-1) 2 Suppliers(4%) Low Risk. Lowest 1.19, Overall Average 4.86, Highest 9.34. 2023 ClickESG Average 3.55. Overall ESG Risk 4.86, ESG-Risk Good(RM-4). * 2023 ClickESG Results(Third-party verification Criteria) Average Score : 3.55, Highest Score : 9.83
+                                                                        </p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1140,21 +1135,23 @@
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
                                                                         <div class="data-head-area">
-                                                                            <em class="data-subject">2023</em>
+                                                                            <em class="data-subject">2025</em>
                                                                         </div>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case2 type1">
                                                                             <ul class="data-list">
-                                                                                <li class="data-item">To support partners in improving ESG</li>
+                                                                                <li class="data-item">Helping suppliers improve ESG performance</li>
                                                                                 <li class="bullet-display design1 case3 type1">
                                                                                     <ul class="data-list">
-                                                                                        <li class="data-item">2023 diagnostic coverage target*: 90%</li>
-                                                                                        <li class="data-item">Biennial due diligence of high-risk partners and ratio disclosure</li>
-                                                                                        <li class="data-item">Improvement consulting support for 36 high-risk partners identified from the 2022 diagnosis</li>
+                                                                                        <li class="data-item">Maintain 100% diagnostic coverage*</li>
+                                                                                        <li class="data-item">Reduce high-risk suppliers to below 10%</li>
+                                                                                        <li class="data-item">Reduce suppliers close to high risk to below 40%</li>
+                                                                                        <li class="data-item">Provide improvement consulting for the previous year’s high-risk suppliers</li>
                                                                                     </ul>
                                                                                 </li>
-                                                                                <li class="data-item">To reflect ESG items in regular/excellent partner assessment (relevant regulations to be amended)</li>
+                                                                                <li class="data-item">Consider expanding ESG incentives for outstanding suppliers</li>
+                                                                                <li class="data-item">Support subsidiaries in establishing an ESG-based purchasing management system</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -1164,22 +1161,23 @@
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
                                                                         <div class="data-head-area">
-                                                                            <em class="data-subject">2024</em>
+                                                                            <em class="data-subject">2026</em>
                                                                         </div>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case1 type1">
                                                                             <ul class="data-list">
-                                                                                <li class="data-item">To support partners in improving ESG</li>
+                                                                                <li class="data-item">Helping suppliers improve ESG performance</li>
                                                                                 <li class="bullet-display design1 case3 type1">
                                                                                     <ul class="data-list">
-                                                                                        <li class="data-item">Diagnostic coverage target: 100%</li>
-                                                                                        <li class="data-item">Establishment of high-risk partner ratio</li>
-                                                                                        <li class="data-item">Improvement consulting support for high-risk partners identified from the 2023 diagnosis</li>
+                                                                                        <li class="data-item">Maintain 100% diagnostic coverage</li>
+                                                                                        <li class="data-item">Reduce high-risk suppliers to below 5%</li>
+                                                                                        <li class="data-item">Reduce suppliers close to high risk to below 20%</li>
+                                                                                        <li class="data-item">Provide improvement consulting for the previous year’s high-risk suppliers</li>
                                                                                     </ul>
                                                                                 </li>
-                                                                                <li class="data-item">To introduce an incentive system for partner ESG excellence according to partner assessment results</li>
-                                                                                <li class="data-item">To support subsidiaries in ESG-based purchasing</li>
+                                                                                <li class="data-item">Consider a penalty system for high ESG risk suppliers</li>
+                                                                                <li class="data-item">Support subsidiaries in implementing an ESG-based purchasing management system</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -1189,22 +1187,23 @@
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
                                                                         <div class="data-head-area">
-                                                                            <em class="data-subject">2025</em>
+                                                                            <em class="data-subject">2027</em>
                                                                         </div>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case1 type1">
                                                                             <ul class="data-list">
-                                                                                <li class="data-item">To support partners in improving ESG</li>
+                                                                                <li class="data-item">Helping suppliers improve ESG performance</li>
                                                                                 <li class="bullet-display design1 case3 type1">
                                                                                     <ul class="data-list">
-                                                                                        <li class="data-item">100% diagnostic coverage retention</li>
-                                                                                        <li class="data-item">High-risk partner ratio target achievement</li>
-                                                                                        <li class="data-item">Improvement consulting support for high-risk partners identified from the 2024 diagnosis</li>
+                                                                                        <li class="data-item">Maintain 100% diagnostic coverage</li>
+                                                                                        <li class="data-item">Achieve zero high-risk suppliers</li>
+                                                                                        <li class="data-item">Reduce suppliers close to high risk to below 10%</li>
+                                                                                        <li class="data-item">Provide improvement consulting for the previous year’s high-risk suppliers</li>
                                                                                     </ul>
                                                                                 </li>
-                                                                                <li class="data-item">To expand incentive support for partner ESG excellence according to partner assessment results</li>
-                                                                                <li class="data-item">To support subsidiaries in ESG-based purchasing (continued)</li>
+                                                                                <li class="data-item">Implement a penalty system for high ESG risk suppliers</li>
+                                                                                <li class="data-item">Support subsidiaries in implementing an ESG-based purchasing management system (continued)</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -1212,7 +1211,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <p class="comment design1">* Ratio of high-priority partners that underwent ESG assessment and diagnosis</p>
+                                                    <p class="comment design1">* Percentage of suppliers under intensive management that have undergone ESG assessment and diagnosis for the past two years</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1381,22 +1380,10 @@
                                                     </div>
                                                 </div>
                                                 <div class="section-body">
-                                                    <p class="para">SK Networks strives to become a company that contributes to the growth of the local community and coexists with it by providing continuous support to various vulnerable groups in the local community linked to its main business sites. We are engaging in the local community through employees’ participation activities such as food service at Myeongdong Bapjib (restaurants), cleaning up of Namsan Park and Yeoui Saetgang Park, and plugging. One hundred one employees participated in the food service activities at Myeongdong Bapjib, started in 2022, over 14 occasions, donating KRW 15 million for meals of more than 2,000 people in 2023, and they are continuing their supports in 2024. These activities have contributed to an increase in the average number of vulnerable groups visiting Myeongdong Bapjib each time by more than 100 people in 2024 compared to 2023. We are participating in various support programs for vulnerable groups in the local community, such as briquette and kimchi sharing, shantytown support, education instrument support for the Children's Museum, and support for Gwangjin-gu Food Market, donating more than KRW 100 million every year for the past three years. In particular, in the activity to support the Gwangjin-gu Food Market, Walkerhill provided 3,717 items for free to 747 people through cash and in-kind donations of approximately KRW 19.5 million, including Walkerhill’s HMR* in 2023, increasing the number of supported by 33 people compared to 714 people in 2022. Through this, we contributed to supporting a total of 6,438 people (increase by 1,280 people compared to 5,158 people in 2022) in the Gwangjin Food Market in 2023. We plan to continue to support stable operation of sharing activities for low-income groups in the local community through consistent sponsorship activities in 2024.</p>
+                                                    <p class="para">SK Networks strives to support local community development and various vulnerable groups through the “Happiness +” social contribution program. The company engages in multiple programs such as meal distribution at Myeongdong Babjib, Namsan Park and Yeouido Saetgang Park clean-up, sheltered workshop assistance, and non-contact kit-making to encourage members to participate in community support activities. Through these programs, all members totaled 2,433 hours of participation in 2024.
+                                                        Furthermore, SK Networks has donated over KRW 100 million annually for the past four years by supporting briquette/kimchi-sharing, supplies for cubbyhole dwellers, and Gwangjin-gu Food Market. In particular, Walkerhill has been supporting the Gwangjin-gu Food Market program since 2021 and continues to contribute to the program’s expansion by providing 3,250 items free of charge to 714 people in 2024 through cash and goods donations worth approximately KRW 18.5 million.
+                                                        SK Networks will remain committed to sustainable community development through various support activities by expanding linkages to business models.</p>
                                                     <p class="comment design1">* HMR : Home Meal Replacement</p>
-                                                    <div class="data-display design1 case2 type1">
-                                                        <div class="data-list">
-                                                            <div class="data-item">
-                                                                <div class="data-wrap">
-                                                                    <div class="data-head">
-                                                                        <em class="data-subject">Future Plans</em>
-                                                                    </div>
-                                                                    <div class="data-body">
-                                                                        <p class="para">SK Networks will grow together with the local community with the goal of maximizing the happiness of the entire society. We will maintain a close partnership and seek win-win growth through continuous support for the local community based on the voluntary participation of employees by expanding linkage with business model.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1498,14 +1485,8 @@
                                                         <div class="post-item">
                                                             <div class="post-wrap">
                                                                 <div class="post-inform">
-                                                                    <p class="para">SK Networks is operating target-type, spot-type probono programs and usability test voluntarily engaged by its people to benefit society at large with its people’s professional competence and bolster up the growth of social enterprises and ventures. The target-type probono program selects social enterprises/ventures relevant to the business models of SK Networks (including subsidiaries) and provides a full-package advisory service to them for about a year.</p>
-                                                                    <p class="para">The spot-type probono matches social enterprises with needs for advisory services with SK Networks’ people having relevant capabilities, which cover management planning, marketing, legal counsel, finance/accounting, business planning, interpretation/translation, R&D, etc. Usability test program supports pre-launch testing of products/services provided by social enterprises, and provides consulting support in areas such as marketing and product planning</p>
-                                                                </div>
-                                                                <div class="post-body">
-                                                                    <div class="post-figure">
-                                                                        <img src="/assets/images/sustainability/zoom.jpg" alt="SK Networks Pro Bono Launch Photo">
-                                                                    </div>
-                                                                    <p class="comment design1">2024 SK Networks probono’s opening ceremoney</p>
+                                                                    <p class="para">SK Networks operates Spot Pro Bono and Targeted Pro Bono programs to have members’ expertise contribute to society and support the growth of social enterprises and social ventures. Spot Pro Bono matches social enterprises needing consultations with members who have relevant competencies and provides advisory sessions in areas such as business planning, marketing, legal affairs, finance/accounting, translation/interpretation, R&D, and usability testing. Targeted Pro Bono is a program that brings together an advisory group of multiple pro bono specialists with expertise tailored to the needs of social enterprises to provide ongoing comprehensive consulting. Social enterprises that fit the business model and social contribution directivity are selected, and the advisory group members perform advisory activities for 6 months.</p>
+                                                                    <p class="para">In 2024, 27 members (8 in Targeted Pro Bono, 10 in Spot Pro Bono, and 9 in usability testing) from SK Networks and its major subsidiaries participated in various Pro Bono Programs for a total of 226 hours. Notably, the 2024 Targeted Pro Bono program provided comprehensive consulting for 3 social enterprises/ventures focused on artificial intelligence, aligning with SK Networks’ future business direction. As a result, SK Networks pro bono specialists received the Outstanding Pro Bono Award in the Group Category (2 teams) and Super Rookie Award (1 individual) at the 2024 Pro Bono Awards organized by the social enterprise Happy Narae. These achievements demonstrate SK Networks’ contribution to the growth of various social enterprises and the SE ecosystem by leveraging its members’ competencies.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
