@@ -1383,7 +1383,7 @@
                                                     <p class="para">SK Networks strives to support local community development and various vulnerable groups through the “Happiness +” social contribution program. The company engages in multiple programs such as meal distribution at Myeongdong Babjib, Namsan Park and Yeouido Saetgang Park clean-up, sheltered workshop assistance, and non-contact kit-making to encourage members to participate in community support activities. Through these programs, all members totaled 2,433 hours of participation in 2024.
                                                         Furthermore, SK Networks has donated over KRW 100 million annually for the past four years by supporting briquette/kimchi-sharing, supplies for cubbyhole dwellers, and Gwangjin-gu Food Market. In particular, Walkerhill has been supporting the Gwangjin-gu Food Market program since 2021 and continues to contribute to the program’s expansion by providing 3,250 items free of charge to 714 people in 2024 through cash and goods donations worth approximately KRW 18.5 million.
                                                         SK Networks will remain committed to sustainable community development through various support activities by expanding linkages to business models.</p>
-                                                    <p class="comment design1">* HMR : Home Meal Replacement</p>
+<%--                                                    <p class="comment design1">* HMR : Home Meal Replacement</p>--%>
                                                 </div>
                                             </div>
                                         </div>

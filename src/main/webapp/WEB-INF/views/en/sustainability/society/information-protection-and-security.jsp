@@ -262,6 +262,16 @@
                                                         <div class="blind">
                                                             <em>CISO (Chief Information Security Officer) Chief Privacy Officer (CPO)</em>
                                                             <ul>
+                                                                <li><em>Information Protection Committee</em></li>
+                                                                <li>Chief Operation Officer (COo)(Chair)</li>
+                                                                <li>Chief Sustainability Officer</li>
+                                                                <li>(CSO) (member)</li>
+                                                                <li>Chief Information Security</li>
+                                                                <li>Officer (member)</li>
+                                                                <li>Head of Corporate Culture</li>
+                                                                <li> Division (member)</li>
+                                                            </ul>
+                                                            <ul>
                                                                 <li>Information Protection Officer Information Protection Team Leader
                                                                     <ul>
                                                                         <li>Party in Charge of InformationProtection Information Protection Team
@@ -286,16 +296,6 @@
                                                                         </li>
                                                                     </ul>
                                                                 </li>
-                                                            </ul>
-                                                            <em>Information Protection Committee</em>
-                                                            <ul>
-                                                                <li>Chief Operation Officer (COo)(Chair)</li>
-                                                                <li>Chief Sustainability Officer</li>
-                                                                <li>(CSO) (member)</li>
-                                                                <li>Chief Information Security</li>
-                                                                <li>Officer (member)</li>
-                                                                <li>Head of Corporate Culture</li>
-                                                                <li> Division (member)</li>
                                                             </ul>
                                                         </div>
                                                     </div>

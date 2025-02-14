@@ -69,13 +69,11 @@
             const scrollTab = document.getElementById(tabId);
 
             // 4. 자동으로 스크롤
-            if(tabId != null){
-                scrollTab.scrollIntoView()
+            // scrollTab.scrollIntoView()
 
-                // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
-                // scrollTab.querySelector('button').click()
-                scrollTab.click();
-            }
+            // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
+            // scrollTab.querySelector('button').click()
+            scrollTab.click();
         });
     </script>
 </head>
@@ -380,7 +378,6 @@
                                                                                         </ul>
                                                                                     </div>
                                                                                 </div>
-                                                                                <p class="comment design1">※ SK Networks provides ethical management services as shared services, and the subsidiaries participates in the ethical management council when needed.</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -732,13 +729,14 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="section-body">
-                                                                    <p class="para">SK Networks conducts internal audits through its Audit Office under the Board of Directors’ Audit Committee. The internal audit consists of regular audits (including implementation review), self-regulatory system inspections, and ethical reporting investigations. SK Networks aims to audit all domestic and international business sites, including its headquarters and subsidiaries, at least once every three years.</p>
+                                                                    <p class="para">SK Networks conducts internal audits through its Audit Office under the Board of Directors’ Audit Committee. The internal audit consists of regular audits (including implementation review), self-regulatory system inspections, and ethical reporting investigations.</p>
+                                                                    <p class="para">SK Networks aims to audit all domestic and international business sites, including its headquarters and subsidiaries, at least once every three years.</p>
                                                                     <div class="para">
                                                                         <div class="bullet-display design1 case1 type6">
                                                                             <ul class="data-list">
                                                                                 <li class="data-item">Regular audit: Based on a mid-to-long-term audit plan, annual risk assessments are conducted to select high-risk businesses/organizations and establish their regular yearly audit plans. Audit targets are finalized with the approval of the Audit Committee.</li>
                                                                                 <li class="data-item">Self-regulatory system inspection: Conducted annually across all businesses, support organizations, and subsidiaries to assess ethical/anti-corruption risks in areas such as HR, expenses, purchasing/business partners, sales/accounts receivables, investment control system, and inventory. High-risk areas are directly examined by SK Networks’ Audit Office and subsidiaries’ internal audit departments to verify the conformity of the findings and evidence of the self-regulatory system inspections conducted in the field.</li>
-                                                                                <li class="data-item">SK Networks (including all subsidiaries) also operates various online and offline ethics reporting channels, including a website, face-to-face consultations, and mail. Matters consulted and reported are processed in a transparent and fair manner according to the report handling procedures. Customer service complaints are transferred to relevant business departments, while all reports involving unethical issues are directly investigated by the Audit Office.</li>
+                                                                                <li class="data-item">SK Networks (including all subsidiaries) also operates various online and offline ethics reporting channels, including a website, face-to-face consultations, and mail. Matters consulted and reported are processed in a transparent and fair manner according to the report handling procedures. Customer service complaints are transferred to relevant business departments, while all reports involving unethical issues are directly investigated by the Audit Office.* Reports related to subsidiaries are investigated in cooperation with subsidiaries.</li>
                                                                             </ul>
                                                                         </div>
                                                                         <p class="comment design1">* Reports related to subsidiaries are investigated in cooperation with subsidiaries.</p>
@@ -772,9 +770,9 @@
                                                                 <div class="section-head">
                                                                     <div class="section-subject">
                                                                         <h4 class="section-name">Operating Compliance Council</h4>
-                                                                        <p class="section-summary">SK Networks operates the SK Networks Compliance Council, which includes the head office (including Walkerhill) and eight subsidiaries and sub-subsidiaries. This council ensures that all participating companies are committed to fulfilling their social responsibilities in compliance management and fair trade, continuously striving to elevate their compliance levels. The council is structured around three areas: Legal Affairs, Fair Trade, and SHE (Safety, Health, Environment). Through its activities, the council facilitates the sharing of necessary regulatory information, educational resources, and lessons learned among the member companies. These interactions strengthen proactive prevention and enhance the ability to respond to issues effectively.</p>
+                                                                        <p class="section-summary">SK Networks operates the SK Networks Compliance Council, which includes the head office (including Walkerhill) and seven subsidiaries and sub-subsidiaries. This council ensures that all participating companies are committed to fulfilling their social responsibilities in compliance management and fair trade, continuously striving to elevate their compliance levels. The council is structured around three areas: Legal Affairs, Fair Trade, and SHE (Safety, Health, Environment). Through its activities, the council facilitates the sharing of necessary regulatory information, educational resources, and lessons learned among the member companies. These interactions strengthen proactive prevention and enhance the ability to respond to issues effectively.</p>
                                                                     </div>
-                                                                    <p class="comment design1">* SK Networks Service, SK Magic, SK Magic Service, MINTIT, SK Electlink, En-core, SK Speedmate, Glowide</p>
+                                                                    <p class="comment design1">* SK Networks Service, SK Magic, SK Magic Service, Mintit, SK Electlink, En-core, SK Speedmate</p>
                                                                 </div>
                                                                 <div class="section-body">
                                                                     <p class="board-name">SK Networks Compliance Council</p>
@@ -786,7 +784,7 @@
                                                                                 </div>
                                                                                 <div class="board-name">
                                                                                     <em class="board-caption">Participants</em>
-                                                                                    <p class="para">SK Networks(including Walkerhill) and eight first and second-tier subsidiaries</p>
+                                                                                    <p class="para">SK Networks(including Walkerhill) and seven first and second-tier subsidiaries</p>
                                                                                 </div>
                                                                             </div>
                                                                         </li>
@@ -808,7 +806,7 @@
                                                                                 </div>
                                                                                 <div class="board-name">
                                                                                     <em class="board-caption">Members</em>
-                                                                                    <p class="para">52<br> (as of 2025)</p>
+                                                                                    <p class="para">48<br> (as of 2024)</p>
                                                                                 </div>
                                                                             </div>
                                                                         </li>

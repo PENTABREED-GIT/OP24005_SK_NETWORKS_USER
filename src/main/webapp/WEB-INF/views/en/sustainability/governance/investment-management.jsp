@@ -138,8 +138,8 @@
                                                                 <div class="board-body">
                                                                     <div class="bullet-display design1 case1 type6">
                                                                         <ul class="data-list">
-                                                                            <li class="data-item">Members: CEO, General Business Managing Director, Head of the Management Support Division, Head of Planning Office, Head of Finance Office, Head of Sustainable Business Office</li>
-                                                                            <li class="data-item">Secretary: Head of the Global Investment Center</li>
+                                                                            <li class="data-item">Members: CEO, COO, Head of AI Division, Head of the Management Supporting Division, Head of Strategy Planning Division, Head of RM Division, Head of Sustainability Management Division</li>
+                                                                            <li class="data-item">Secretary: Head of AI Portfolio Innovation Division</li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -153,8 +153,8 @@
                                                                 <div class="board-body">
                                                                     <div class="bullet-display design1 case1 type6">
                                                                         <ul class="data-list">
-                                                                            <li class="data-item">Members: CEO, General Business Managing Director, Head of the Management Support Division, Head of Planning Office, Head of Finance Office, Head of Sustainable Business Office</li>
-                                                                            <li class="data-item">Secretary: HR Team Leader</li>
+                                                                            <li class="data-item">Members: Global Investment Group Team Leader, Strategy Planning Team Leader, Finance Team Leader,  Accounting Team Leader, Tax Team Leader, Legal Team Leader, ESG Management Team Leader, RM Part Leader</li>
+                                                                            <li class="data-item">In the case of purchasing for investment, Supply Chain and Asset Management Team Leader is also included</li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -187,7 +187,6 @@
                                                                 </li>
                                                                 <li>
                                                                     <em>Discussion of Investment Proposition</em>
-                                                                    <span>Mandatory for investment board members to discuss applicable investment propositions</span>
                                                                 </li>
                                                                 <li>
                                                                     <em>Meeting Minutes &amp; Confidentiality</em>
@@ -195,13 +194,13 @@
                                                                 </li>
                                                                 <li>
                                                                     <em>Decision-making</em>
-                                                                    <span>Decision-making Criteria : Strategic orientation, R&C availability, valuation, milestone, major issues and contingency plan, ESG/SV, exit plan, and others</span>
-                                                                    <span>Investment Board Endorsement Criteria : Attendance by at least 2/3 of all members and affirmative votes by at least 2/3 of all attending members</span>
+                                                                    <span>Decision-making Criteria: Strategic orientation, R&C availability, valuation, milestone, major issues and contingency plan, ESG/SV, exit plan, and others</span>
+                                                                    <span>Investment Board Endorsement Criteria: Attendance by at least 2/3 of all members and affirmative votes by at least 2/3 of all attending members</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <p class="comment design1">* Where an investment proposition is subject to an approval by the board of directors, it is to be deliberated in advance by the Strategy∙ESG Committee and finally reviewed and approved by the board of directors.</p>
+                                                    <p class="comment design1">* Where an investment proposition is subject to an approval by the board of directors, it is to be deliberated in advance by the ESG Management Committee and finally reviewed and approved by the board of directors.</p>
                                                 </div>
                                             </div>
                                         </div>
