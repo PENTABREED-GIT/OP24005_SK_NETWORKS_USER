@@ -70,7 +70,7 @@
                         <h2 class="local-name">Business</h2>
                     </div>
                     <div class="local-aside">
-                        <div class="loca-wrap">
+                        <div class="local-wrap">
                             <h3 class="local-title">AI 기반의 비즈니스 모델 혁신을 통해<br class="pc-only"> 더 나은 미래로 나아갑니다.</h3>
                             <p class="local-summary">고객가치를 혁신의 경험으로, 사회문제를 창의적 솔루션으로, 우리의 AI 기술이 더 큰 행복을 만들어가도록 더 나은 미래를 연결합니다.</p>
                         </div>

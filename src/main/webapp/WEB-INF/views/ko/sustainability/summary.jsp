@@ -208,7 +208,7 @@
                         <h2 class="local-name">Sustainability</h2>
                     </div>
                     <div class="local-aside">
-                        <div class="loca-wrap">
+                        <div class="local-wrap">
                             <h3 class="local-title">지속가능경영 개요</h3>
                             <p class="local-summary">SK네트웍스는 AI Company로서 더 많은 사람들이 AI 관련 혜택을 누리게 하고, 경제적 가치와 인류의 보편적 가치를 더해 다양한 이해관계자들의 행복에 기여하겠습니다.</p>
                         </div>

@@ -61,9 +61,9 @@
                             <a href="/business/en-core" target="_self" class="depth2">엔코아</a>
                         </li>
                         <!-- 히든처리 추후에 반영 -->
-                        <!-- <li class="depth2-item">
-                            <a href="/business/phnyx-lab" target="_self" class="depth2">피닉스 랩</a>
-                        </li> -->
+                        <li class="depth2-item">
+                            <a href="/business/phnyx-lab" target="_self" class="depth2">피닉스랩</a>
+                        </li>
                     </ul>
                 </div>
             </li>

@@ -166,7 +166,10 @@ public class BusinessController {
         lang = NTUtil.isNull(lang, "ko");
         Map<String, Object> reqMap = new HashMap<>();
         reqMap.put("lang", lang.toUpperCase());
-        reqMap.put("businessEnName", "phnyx");
+        reqMap.put("businessEnName", "phnyx-lab");
+
+        model.addAttribute("pressList", pressService.getBusinessPressList(reqMap));
+        model.addAttribute("achievementsList", businessContentsService.getBusinessContentsList(reqMap));
 
         return lang + "/business/phnyx-lab";
     }
