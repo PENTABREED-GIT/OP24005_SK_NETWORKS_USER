@@ -140,7 +140,7 @@
                                     <div class="figure-wrap">
                                         <picture>
                                             <source media="(max-width: 1023px)" srcset="/assets/images/business/business-phnyxLab-gen-ai-mo.jpg">
-                                            <img src="/assets/images/business/business-phnyxLab-gen-ai-pc.jpg" alt="phnyxLab Modular RAG 특징. 수작업 최소화 구축 기간 50% 감소, 최적 성능 구현 성능 개선 최대 40% 향상">
+                                            <img src="/assets/images/business/business-phnyxLab-gen-ai-pc.jpg" alt="PhnyX Modular RAG 특징. 수작업 최소화 구축 기간 50% 감소, 최적 성능 구현 성능 개선 최대 40% 향상">
                                         </picture>
                                     </div>
                                     <div class="board-list design22 case1">
@@ -186,7 +186,7 @@
                         <div class="section design1 case3 type1 business">
                             <div class="section-wrap">
                                 <div class="section-body">
-                                    <div class="data-display business-network">
+                                    <div class="data-display business-network case2">
                                         <div class="data-head">
                                             <strong class="data-name">주요 제품</strong>
                                         </div>
@@ -204,10 +204,10 @@
                                                         <div class="swiper-display swiper design2">
                                                             <ul class="swiper-wrapper">
                                                                 <li class="swiper-slide">
-                                                                    <img src="/assets/images/business/business-phnyxLab-slide-a.jpg" alt="">
+                                                                    <img src="/assets/images/business/business-phnyxLab-slide-a.jpg" alt="의약학 분야의 신뢰할 수 있는 학술 논문을 검색합니다.">
                                                                 </li>
                                                                 <li class="swiper-slide">
-                                                                    <img src="/assets/images/business/business-phnyxLab-slide-b.jpg" alt="">
+                                                                    <img src="/assets/images/business/business-phnyxLab-slide-b.jpg" alt="웹에서 다양한 정보와 자료를 찾아">
                                                                 </li>
                                                                 <li class="swiper-slide">
                                                                     <img src="/assets/images/business/business-phnyxLab-slide-c.jpg" alt="">

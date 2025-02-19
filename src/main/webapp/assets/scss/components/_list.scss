@@ -1855,6 +1855,21 @@
                 }
             }
         }
+        &.case2 {
+            >.data-head {
+                .data-name {
+                    @include mobile {
+                        font-size: 3.2rem;
+                    }
+                }
+
+                +.data-body {
+                    @include mobile {
+                        margin-top: 2.4rem;
+                    }
+                }
+            }
+        }
         >.data-head {
             min-width: 34.3rem;
             flex-shrink: 0;

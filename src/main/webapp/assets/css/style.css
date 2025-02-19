@@ -6038,6 +6038,16 @@
     margin-top: 3.2rem;
   }
 }
+@media (max-width: 1023px) {
+  .data-display.business-network.case2 > .data-head .data-name {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 1023px) {
+  .data-display.business-network.case2 > .data-head + .data-body {
+    margin-top: 2.4rem;
+  }
+}
 .data-display.business-network > .data-head {
   min-width: 34.3rem;
   flex-shrink: 0;
@@ -19879,6 +19889,11 @@ sub {
   display: flex;
   align-items: center;
   gap: 2.4rem;
+}
+@media (max-width: 1023px) {
+  #wrap .business.phnyxLab .content-body .section .article.intro .article-wrap .article-figure .figure-office .figure-list {
+    gap: 1.6rem;
+  }
 }
 #wrap .business.phnyxLab .content-body .section .article.intro .article-wrap .article-figure .figure-office .figure-list .figure-item {
   border-radius: 0.6rem;
