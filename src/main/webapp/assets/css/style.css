@@ -19874,6 +19874,11 @@ sub {
 #wrap .business.phnyxLab .content-body .section .article.intro .article-wrap .article-head ~ .article-body {
   margin-top: unset;
 }
+#wrap .business.phnyxLab .content-body .section .article.intro .article-wrap .article-figure {
+  opacity: 0;
+  clip-path: inset(0% 25% 0% 25% round 1.6rem);
+  transition: 1.4s cubic-bezier(0, 0, 0.2, 1);
+}
 #wrap .business.phnyxLab .content-body .section .article.intro .article-wrap .article-figure img {
   width: 100%;
 }
@@ -19922,6 +19927,10 @@ sub {
 }
 #wrap .business.phnyxLab .content-body .section .article.intro .article-wrap .article-body {
   padding-top: unset;
+}
+#wrap .business.phnyxLab .content-body .section .article.intro.active .article-figure {
+  opacity: 1;
+  clip-path: inset(0% 0% 0% 0% round 1.6rem);
 }
 @media (max-width: 1023px) {
   #wrap .business .content-body .section .section-head ~ .section-util {

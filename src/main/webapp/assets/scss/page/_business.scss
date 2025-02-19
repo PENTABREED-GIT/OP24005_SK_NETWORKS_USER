@@ -1440,6 +1440,9 @@
                                     }
                                 }
                                 .article-figure {
+                                    opacity: 0;
+                                    clip-path: inset(0% 25% 0% 25% round 1.6rem);
+                                    transition: 1.4s cubic-bezier(0, 0, 0.2, 1);
                                     img {
                                         width: 100%;
                                     }
@@ -1489,7 +1492,10 @@
                                 }
                             }
                             &.active {
-
+                                .article-figure {
+                                    opacity: 1;
+                                    clip-path: inset(0% 0% 0% 0% round 1.6rem);
+                                }
                             }
                         }
                     }
