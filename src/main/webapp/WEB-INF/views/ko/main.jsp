@@ -443,6 +443,14 @@
                                             <p class="para">화학제품 위주의 무역을 전개하며<br>비즈니스 파트너에게 가치를 전달합니다.</p>
                                         </div>
                                     </li>
+									<li class="item ai">
+										<div class="board-head">
+											<h3 class="board-name">AI</h3>
+										</div>
+										<div class="board-body">
+											<p class="para">인공지능 기술을<br> 우리 곁으로</p>
+										</div>
+									</li>
 								</ul>
 							</div>
 						</div>

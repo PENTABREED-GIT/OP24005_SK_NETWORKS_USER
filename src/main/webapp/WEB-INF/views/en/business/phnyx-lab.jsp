@@ -189,15 +189,18 @@
                                 <div class="section-body">
                                     <div class="data-display business-network case2">
                                         <div class="data-head">
-                                            <strong class="data-name">주요 제품</strong>
+                                            <strong class="data-name">Main Products</strong>
                                         </div>
                                         <div class="data-body">
                                             <div class="data-list">
                                                 <div class="data-item">
                                                     <div class="contents">
-                                                        <strong class="contents-name type1">국내 최초 Modular RAG 기반 의약학 특화 솔루션, 케이론(Cheiron)</strong>
-                                                        <p class="para">케이론(Cheiron)은 국내 최초 의약학 특화 생성형 AI 솔루션으로, 의학 학술 정보 분류 체계인 메쉬(Medical Subject Headings, MeSH) 키워드를 이해하고, 펍메드(PubMed), 시맨틱 스칼라(Semantic Scholar) 등 다양한 플랫폼을 활용하여 전문적인 정보를 제공합니다.</p>
-                                                        <p class="para">또한 일반 검색 엔진, 기업 내부 문서 등 다양한 출처의 데이터를 하나의 플랫폼에서 검색할 수 있어 업무 효율성을 높이는 것은 물론, 다양한 언어 서비스를 제공해 글로벌 확장성도 뛰어납니다. 피닉스랩은 케이론을 시작으로 다양한 산업 분야로 AI 솔루션을 확장하여 기업용 AI 민주화에 기여할 계획입니다.</p>
+                                                        <strong class="contents-name type1">Cheiron, South Korea’s first Modular RAG-based solution for the medical and pharmaceutical fields</strong>
+                                                        <p class="para">
+                                                            Cheiron is South Korea’s first generative AI solution designed specifically for medical and pharmaceutical sectors. It understands MeSH (Medical Subject Headings) keywords and leverages platforms such as PubMed and Semantic Scholar to deliver specialized and reliable information.
+                                                        </p>
+                                                        <p class="para">
+                                                            Cheiron enhances work efficiency by enabling seamless data searches across various sources, including general search engines and internal corporate documents, all within a single platform. Additionally, its multilingual capabilities ensure exceptional global scalability. Building on Cheiron, PhnyX Lab aims to expand its AI solutions across multiple industries, contributing to the democratization of enterprise AI.                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div class="data-item">
@@ -217,10 +220,10 @@
                                                         </div>
                                                         <div class="swiper-control">
                                                             <div class="swiper-button-next">
-                                                                <span class="btn icon case1 arrow-right2-bg"><span class="btn-text blind">다음</span></span>
+                                                                <span class="btn icon case1 arrow-right2-bg"><span class="btn-text blind">next</span></span>
                                                             </div>
                                                             <div class="swiper-button-prev">
-                                                                <span class="btn icon case1 arrow-left2-bg"><span class="btn-text blind">이전</span></span>
+                                                                <span class="btn icon case1 arrow-left2-bg"><span class="btn-text blind">prev</span></span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -240,14 +243,14 @@
                                                 <img src="/assets/images/logo/logo-phnyxLab.png" alt="En-core 로고 이미지">
                                             </div>
                                             <div class="banner-body">
-                                                <p class="para">사업제안·고객문의가 필요하신가요?</p>
+                                                <p class="para">Interested in a business proposals or<br class="pc-only"> have customer inquiries</p>
                                             </div>
                                             <div class="banner-footer">
-                                                <span class="summary">피닉스랩은 여러분의 소중한 제안을<br class="mo-only"> 기다리고 있습니다.</span>
+                                                <span class="summary">PhnyX Lab welcome your valuable suggestions and inquires.</span>
                                             </div>
                                             <div class="banner-util">
                                                 <a class="btn design3 case1 type1 color2 ar-icon-arrow-right2-bg" href="javascript:void(0)" target="_blank">
-                                                    <span class="btn-text">문의하기</span>
+                                                    <span class="btn-text">Go to Inquiry</span>
                                                 </a>
                                             </div>
                                         </div>

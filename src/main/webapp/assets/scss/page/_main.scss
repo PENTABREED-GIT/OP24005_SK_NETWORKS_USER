@@ -781,6 +781,16 @@
                                                 transform: translate(25rem, 20rem);
                                             }
                                         }
+                                        &.ai {
+                                            .board-head {
+                                                &::before {
+                                                    background-image: url("../images/main/figure-main-ai.svg");
+                                                }
+                                            }
+                                            @include web {
+                                                transform: translate(25rem, 20rem);
+                                            }
+                                        }
                                         &.hotel {
                                             .board-head {
                                                 &::before {

@@ -116,11 +116,11 @@
                                                     <strong class="data-title">Global Trading</strong>
                                                 </a>
                                             </li>
-                                            <!-- <li class="data-item ai">
+                                            <li class="data-item ai">
                                                 <a href="#ai">
                                                     <strong class="data-title">AI</strong>
                                                 </a>
-                                            </li> -->
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -468,11 +468,11 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div id="ai" class="section design1 case4 type3 align3 ai">
+                        <div id="ai" class="section design1 case4 type3 align3 ai">
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <div class="section-subject">
-                                        <h4 class="section-name">AI, Redefining How Work Gets Done</h4>
+                                        <h4 class="section-name">AI</h4>
                                     </div>
                                 </div>
                                 <div class="section-body">
@@ -486,14 +486,16 @@
                                                             <span class="btn-text blind">Go to PhnyX Lab</span>
                                                         </a>
                                                     </strong>
-                                                    <p class="board-summary">Located in Silicon Valley, USA, PhnyX Lab is an AI startup offering cutting-edge solutions to maximize productivity for every employee in your organization.
-                                                    </p>
+                                                    <p class="board-summary">
+                                                        PhnyX Lab, founded in Silicon Valley, USA, develops and provides AI-powered services.                                                    </p>
                                                 </div>
                                                 <div class="board-body">
                                                     <div class="board-list-sub">
                                                         <div class="board-item-sub">
                                                             <strong class="board-name-sub">Business Areas</strong>
-                                                            <p class="para">Development of RAG (Retrieval-Augmented Generation) Solution for Business Users, AI Adoption,  and Implementation Consulting</p>
+                                                            <p class="para">
+                                                                AI technology and service development, market testing, and AI service validation
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -502,7 +504,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>

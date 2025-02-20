@@ -15035,6 +15035,14 @@ sub {
     transform: translate(25rem, 20rem);
   }
 }
+.sk-main .section.company .section-wrap .section-content.network .content-inner .section-body .board-list .item.ai .board-head::before {
+  background-image: url("../images/main/figure-main-ai.svg");
+}
+@media (min-width: 1024px) {
+  .sk-main .section.company .section-wrap .section-content.network .content-inner .section-body .board-list .item.ai {
+    transform: translate(25rem, 20rem);
+  }
+}
 .sk-main .section.company .section-wrap .section-content.network .content-inner .section-body .board-list .item.hotel .board-head::before {
   background-image: url("../images/main/figure-main-network5.svg");
 }

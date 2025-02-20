@@ -325,6 +325,14 @@
                                             <p class="para">Engaging in trade focused on chemicals and delivering value to our business partners</p>
                                         </div>
                                     </li>
+									<li class="item ai">
+										<div class="board-head">
+											<h3 class="board-name">AI</h3>
+										</div>
+										<div class="board-body">
+											<p class="para">Bringing AI Technology<br> Closer to You</p>
+										</div>
+									</li>
                                 </ul>
                             </div>
 						</div>
