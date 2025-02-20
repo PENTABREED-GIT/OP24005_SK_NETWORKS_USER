@@ -61,10 +61,9 @@
                         <li class="depth2-item">
                             <a href="/${LANG}/business/en-core" target="_self" class="depth2">En-core</a>
                         </li>
-                        <!-- 히든처리 추후에 반영 -->
-                        <!-- <li class="depth2-item">
+                        <li class="depth2-item">
                             <a href="/${LANG}/business/phnyx-lab" target="_self" class="depth2">PhnyX Lab</a>
-                        </li> -->
+                        </li>
                     </ul>
                 </div>
             </li>

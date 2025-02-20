@@ -129,11 +129,11 @@
                                                     <strong class="data-title">글로벌 트레이딩</strong>
                                                 </a>
                                             </li>
-                                            <!-- <li class="data-item ai">
+                                            <li class="data-item ai">
                                                 <a href="#ai">
                                                     <strong class="data-title">인공지능(AI)</strong>
                                                 </a>
-                                            </li> -->
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -484,7 +484,7 @@
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <div class="section-subject">
-                                        <h4 class="section-name">AI 기술을 우리 곁으로</h4>
+                                        <h4 class="section-name">AI</h4>
                                     </div>
                                 </div>
                                 <div class="section-body">
@@ -493,19 +493,18 @@
                                             <div class="board-wrap">
                                                 <div class="board-head">
                                                     <strong class="board-name">
-                                                        피닉스랩 (PhnyX Lab)
+                                                        PhnyX Lab
                                                         <a class="btn icon case1 arrow-right2-bg" href="/business/phnyx-lab">
                                                             <span class="btn-text blind">피닉스랩 (PhnyX Lab) 바로가기</span>
                                                         </a>
                                                     </strong>
-                                                    <p class="board-summary">미국 실리콘밸리에 설립된 피닉스 랩은 AI 기반 서비스를 개발해 제공합니다.
-                                                    </p>
+                                                    <p class="board-summary">미국 실리콘밸리에 설립된 PhnyX Lab(피닉스랩)은 AI 기반 서비스를 개발해 제공합니다.</p>
                                                 </div>
                                                 <div class="board-body">
                                                     <div class="board-list-sub">
                                                         <div class="board-item-sub">
                                                             <strong class="board-name-sub">사업영역</strong>
-                                                            <p class="para">AI 기술 및 서비스 개발,  마켓 테스트, AI 서비스 검증</p>
+                                                            <p class="para">AI 기술 및 서비스 개발, 마켓 테스트, AI 서비스 검증</p>
                                                         </div>
                                                     </div>
                                                 </div>
