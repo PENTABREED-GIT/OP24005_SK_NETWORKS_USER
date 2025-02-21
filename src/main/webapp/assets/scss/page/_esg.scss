@@ -292,6 +292,7 @@
                 &.response {
                     .section-wrap {
                         justify-content: space-between;
+                        align-items: flex-start;
                         .section-head {
                             width: 45.5%;
                         }

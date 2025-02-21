@@ -586,7 +586,7 @@
                                                                 <li class="data-item">
                                                                     <div class="item-wrap">
                                                                         <div class="item-head">
-                                                                            <p class="item-subject">2024</p>
+                                                                            <p class="item-subject">2025</p>
                                                                         </div>
                                                                         <div class="item-util">
                                                                             <div class="submit-form design1 case1 align1">
@@ -596,6 +596,7 @@
                                                                                             <label for="level-sel-activity" class="blind">Label</label>
                                                                                             <select name="name" id="level-sel-activity">
                                                                                                 <option value="0" selected hidden disabled>Year</option>
+                                                                                                <option value="2025">2025</option>
                                                                                                 <option value="2024">2024</option>
                                                                                                 <option value="2023">2023</option>
                                                                                                 <option value="2022">2022</option>

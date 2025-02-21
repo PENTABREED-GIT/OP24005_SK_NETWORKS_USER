@@ -80,12 +80,12 @@
                                                     <td>248,187,647</td>
                                                     <td>26,909,745</td>
                                                     <td>221,277,902</td>
-                                                    <td>18,837,617</td>
+                                                    <td>27,345,107</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
-                                    <p class="comment design1">* 2024.06.30 기준</p>
+                                    <p class="comment design1">* 2024.12.31 기준</p>
                                 </div>
                             </div>
                         </div>
@@ -134,28 +134,28 @@
                                                             </tr>
                                                             <tr>
                                                                 <td>그 외 특수관계인</td>
-                                                                <td>3,824,954</td>
-                                                                <td>1.73%</td>
+                                                                <td>2,769,662</td>
+                                                                <td>1.25%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>자기주식</td>
-                                                                <td>18,837,617</td>
-                                                                <td>8.51%</td>
+                                                                <td>27,345,107</td>
+                                                                <td>12.36%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>국민연금</td>
-                                                                <td>14,231,406</td>
-                                                                <td>6.43%</td>
+                                                                <td>11,823,955</td>
+                                                                <td>5.34%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>기타</td>
-                                                                <td>87,241,069</td>
-                                                                <td>39.43%</td>
+                                                                <td>82,196,322</td>
+                                                                <td>37.15%</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                                <p class="comment design1">* 2024.06.30 기준 </p>
+                                                <p class="comment design1">* 2024.12.31 기준</p>
                                             </div>
                                         </li>
                                     </ul>

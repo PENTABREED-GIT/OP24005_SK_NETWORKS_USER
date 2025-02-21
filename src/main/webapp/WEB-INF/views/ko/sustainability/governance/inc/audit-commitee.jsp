@@ -1,6 +1,81 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<!-- 감사위원회 2025 -->
+<div class="esg-inform esg-audit esg-option2025">
+    <div class="t-display design1 case1 type1 align3 scroll">
+        <table class="col-w-6">
+            <caption>이 표는 2025년 감사위원회 활동현황 정보를 제공하며 회차, 개최일자, 주요 안건, 구분, 가결여부, 이사참석률로 구성되어 있습니다.</caption>
+            <colgroup>
+                <col class="col1">
+                <col class="col2">
+                <col class="col3">
+                <col class="col4">
+                <col class="col5">
+                <col class="col6">
+            </colgroup>
+            <thead>
+            <tr>
+                <th scope="col">회차</th>
+                <th scope="col">개최일자</th>
+                <th scope="col">주요 안건</th>
+                <th scope="col">구분</th>
+                <th scope="col">가결여부</th>
+                <th scope="col">이사참석률</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="4">1</td>
+                <td rowspan="4">01월 23일</td>
+                <td class="align1">2024년 감사위원회 활동 평가의 건</td>
+                <td>평가</td>
+                <td>-</td>
+                <td rowspan="4">100%</td>
+            </tr>
+            <tr>
+                <td class="align1">2024년 외부감사인 연간감사 보수 변경(안) 의결의 건</td>
+                <td>의결</td>
+                <td>승인 보류</td>
+            </tr>
+            <tr>
+                <td class="align1">2025년 감사실 경영계획 수정(안) 승인의 건</td>
+                <td>의결</td>
+                <td>승인</td>
+            </tr>
+            <tr>
+                <td class="align1">2024년 4분기 감사실 실적 보고의 건</td>
+                <td>보고</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td rowspan="4">2</td>
+                <td rowspan="4">02월 10일</td>
+                <td class="align1">2024년 경영실적 및 재무제표 보고의 건</td>
+                <td>보고</td>
+                <td>-</td>
+                <td rowspan="4">100%</td>
+            </tr>
+            <tr>
+                <td class="align1">2024년 영업보고서 보고의 건</td>
+                <td>보고</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="align1">2024년 외부감사인 연간감사 진행경과 보고의 건</td>
+                <td>보고</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="align1">2024년 외부감사인 연간감사 보수 변경(안) 재의결의 건</td>
+                <td>의결</td>
+                <td>승인</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- //감사위원회 2025 -->
 <!-- 감사위원회 2024 -->
-<div class="esg-inform esg-audit esg-option2024">
+<div class="esg-inform esg-audit esg-option2024 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-6">
             <caption>이 표는 2024년 감사위원회 활동현황 정보를 제공하며 회차, 개최일자, 주요 안건, 구분, 가결여부, 이사참석률로 구성되어 있습니다.</caption>
@@ -282,6 +357,29 @@
                 </tr>
                 <tr>
                     <td class="align1">2024년 하반기 정기감사(구매사각지대) 결과 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">15</td>
+                    <td rowspan="4">12월 18일</td>
+                    <td class="align1">2024년 윤리경영 측정체계 결과 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                    <td rowspan="4">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 하반기 정기감사(구매사각지대) 결과 최종 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1"> 2025년 감사실 경영계획(안) 승인의 건</td>
+                    <td>의결</td>
+                    <td>승인</td>
+                </tr>
+                <tr>
+                    <td class="align1">감사실 업무 진행경과 보고의 건</td>
                     <td>보고</td>
                     <td>-</td>
                 </tr>

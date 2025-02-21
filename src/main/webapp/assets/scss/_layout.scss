@@ -610,6 +610,14 @@
 			&.case3 {
 				.section-wrap {
 					.section-head {
+						.section-subject {
+							+ .comment {
+								margin-top: 1.6rem;
+								@include mobile {
+									margin-top: 1.2rem;
+								}
+							}
+						}
 						+.section-body {
 							margin-top: 6.4rem;
 							@include mobile {

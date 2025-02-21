@@ -249,7 +249,7 @@
                                                 <span class="summary">PhnyX Lab welcome your valuable suggestions and inquires.</span>
                                             </div>
                                             <div class="banner-util">
-                                                <a class="btn design3 case1 type1 color2 ar-icon-arrow-right2-bg" href="javascript:void(0)" target="_blank">
+                                                <a class="btn design3 case1 type1 color2 ar-icon-arrow-right2-bg" href="/${LANG}/global/sk-inquiry-form">
                                                     <span class="btn-text">Go to Inquiry</span>
                                                 </a>
                                             </div>

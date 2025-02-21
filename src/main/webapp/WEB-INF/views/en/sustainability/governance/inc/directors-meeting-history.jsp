@@ -6,8 +6,96 @@
   *** 이사회활동내역 ***
 --%>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<!-- 이사회활동내역 2025 -->
+<div class="esg-inform esg-activity esg-option2025">
+    <div class="t-display design1 case1 type1 align3 scroll">
+        <table class="col-w-3">
+            <caption>This table provides information on the activities of the board of directors in 2025 and consists of the meeting, opening date, details of the agenda, attendance status, classification, and approval.</caption>
+            <colgroup>
+                <col class="col1">
+                <col class="col2">
+                <col class="col3">
+                <col class="col4">
+                <col class="col5">
+                <col class="col6">
+            </colgroup>
+            <thead>
+            <tr>
+                <th scope="col">Round</th>
+                <th scope="col">Date</th>
+                <th scope="col">Agenda Items</th>
+                <th scope="col">Attendees</th>
+                <th scope="col">Type</th>
+                <th scope="col">Approval/<br>Rejection</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">Jan. 23</td>
+                <td class="align1">Reporting of the BoD evaluation (pending)</td>
+                <td rowspan="3" class="align1">
+                    internal directors  <span class="accent color9">2</span><br>
+                    non-executive director <span class="accent color9">1</span><br>
+                    outside directors <span class="accent color9">4</span>
+                </td>
+                <td>Reported</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="align1">2024 evaluation for the Representative Director</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Remuneration for the Representative Director</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+<%--            <tr>--%>
+<%--                <td rowspan="6">Feb.</td>--%>
+<%--                <td rowspan="6">02월 11일</td>--%>
+<%--                <td class="align1">2024년 4분기 감사위원회 심의결과 보고</td>--%>
+<%--                <td rowspan="6" class="align1">--%>
+<%--                    사내이사 <span class="accent color9">2</span><br>--%>
+<%--                    기타비상무이사 <span class="accent color9">1</span><br>--%>
+<%--                    사외이사 <span class="accent color9">4</span>--%>
+<%--                </td>--%>
+<%--                <td>보고</td>--%>
+<%--                <td>-</td>--%>
+<%--            </tr>--%>
+<%--            <tr>--%>
+<%--                <td class="align1">2024년 연간 경영실적 보고</td>--%>
+<%--                <td>보고</td>--%>
+<%--                <td>-</td>--%>
+<%--            </tr>--%>
+<%--            <tr>--%>
+<%--                <td class="align1">준법지원인 변경의 건</td>--%>
+<%--                <td>Resolved</td>--%>
+<%--                <td>Approved</td>--%>
+<%--            </tr>--%>
+<%--            <tr>--%>
+<%--                <td class="align1">공정거래 자율준수관리자 변경의 건</td>--%>
+<%--                <td>Resolved</td>--%>
+<%--                <td>Approved</td>--%>
+<%--            </tr>--%>
+<%--            <tr>--%>
+<%--                <td class="align1">제72기(2024년도) 재무제표 승인의 건</td>--%>
+<%--                <td>Resolved</td>--%>
+<%--                <td>Approved</td>--%>
+<%--            </tr>--%>
+<%--            <tr>--%>
+<%--                <td class="align1">제72기(2024년도) 영업보고서 승인의 건</td>--%>
+<%--                <td>Resolved</td>--%>
+<%--                <td>Approved</td>--%>
+<%--            </tr>--%>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- //이사회활동내역 2025 -->
 <!-- 이사회활동내역 2024 -->
-<div class="esg-inform esg-activity esg-option2024">
+<div class="esg-inform esg-activity esg-option2024 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-3">
             <caption>This table provides information on the activities of the board of directors in 2024 and consists of the meeting, opening date, details of the agenda, attendance status, classification, and approval.</caption>
@@ -441,6 +529,63 @@
             </tr>
             <tr>
                 <td class="align1">Disposition of treasury stock</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td rowspan="10">16</td>
+                <td rowspan="10">Dec. 18</td>
+                <td class="align1">Approval of Transaction with SK Inc. for 2025</td>
+                <td rowspan="10" class="align1">
+                    internal directors <span class="accent color9">2</span><br>
+                    non-executive director <span class="accent color9">1</span><br>
+                    outside directors <span class="accent color9">4</span>
+                </td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of Total Transaction Amount with the Largest Shareholder, etc.</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of Transactions with SK Innovation Co., Ltd. for 2025</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of Transactions with SK Energy Co., Ltd. for 2025</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of Transactions with SK Pinx Co., Ltd. for 2025</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of Transaction with SK Forest Co,. Ltd. for 2025</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of Lease Agreement for Acadia</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Delegation of Authority for Corporate Bond Issuance limit</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of the 2025 Business Plan</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Establishment of 2025 CEO KPIs</td>
                 <td>Resolved</td>
                 <td>Approved</td>
             </tr>

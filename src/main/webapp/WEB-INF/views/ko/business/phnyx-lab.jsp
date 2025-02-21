@@ -245,7 +245,7 @@
                                                 <span class="summary">피닉스랩은 여러분의 소중한 제안을<br class="mo-only"> 기다리고 있습니다.</span>
                                             </div>
                                             <div class="banner-util">
-                                                <a class="btn design3 case1 type1 color2 ar-icon-arrow-right2-bg" href="javascript:void(0)" target="_blank">
+                                                <a class="btn design3 case1 type1 color2 ar-icon-arrow-right2-bg" href="/global/sk-inquiry-form">
                                                     <span class="btn-text">문의하기</span>
                                                 </a>
                                             </div>

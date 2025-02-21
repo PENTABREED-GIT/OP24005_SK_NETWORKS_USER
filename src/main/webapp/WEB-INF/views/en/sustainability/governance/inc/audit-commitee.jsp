@@ -270,8 +270,8 @@
                 <td>100%</td>
             </tr>
             <tr>
-                <td rowspan="4">14</td>
-                <td rowspan="4">Nov. 8</td>
+                <td rowspan="4">15</td>
+                <td rowspan="4">Des. 8</td>
                 <td class="align1">Report on the Business Performance of SK Networks in Q3, 2024</td>
                 <td>Reported</td>
                 <td>-</td>

@@ -1,6 +1,94 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<!-- 이사회활동내역 2025 -->
+<div class="esg-inform esg-activity esg-option2025">
+    <div class="t-display design1 case1 type1 align3 scroll">
+        <table class="col-w-3">
+            <caption>이 표는 2025년 이사회 활동내역 정보를 제공하며 회차, 개최일자, 의안내용, 참석현황, 구분, 가결여부로 구성되어 있습니다.</caption>
+            <colgroup>
+                <col class="col1">
+                <col class="col2">
+                <col class="col3">
+                <col class="col4">
+                <col class="col5">
+                <col class="col6">
+            </colgroup>
+            <thead>
+            <tr>
+                <th scope="col">회차</th>
+                <th scope="col">개최일자</th>
+                <th scope="col">의안내용</th>
+                <th scope="col">참석현황</th>
+                <th scope="col">구분</th>
+                <th scope="col">가결여부</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td rowspan="3">01월 23일</td>
+                    <td class="align1">이사회 평가(안) 보고</td>
+                    <td rowspan="3" class="align1">
+                        사내이사 <span class="accent color9">2</span><br>
+                        기타비상무이사 <span class="accent color9">1</span><br>
+                        사외이사 <span class="accent color9">4</span>
+                    </td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년도 대표이사 평가의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">대표이사 보상의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td rowspan="6">2</td>
+                    <td rowspan="6">02월 11일</td>
+                    <td class="align1">2024년 4분기 감사위원회 심의결과 보고</td>
+                    <td rowspan="6" class="align1">
+                        사내이사 <span class="accent color9">2</span><br>
+                        기타비상무이사 <span class="accent color9">1</span><br>
+                        사외이사 <span class="accent color9">4</span>
+                    </td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 연간 경영실적 보고</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">준법지원인 변경의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">공정거래 자율준수관리자 변경의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">제72기(2024년도) 재무제표 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">제72기(2024년도) 영업보고서 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- //이사회활동내역 2025 -->
 <!-- 이사회활동내역 2024 -->
-<div class="esg-inform esg-activity esg-option2024">
+<div class="esg-inform esg-activity esg-option2024 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-3">
             <caption>이 표는 2024년 이사회 활동내역 정보를 제공하며 회차, 개최일자, 의안내용, 참석현황, 구분, 가결여부로 구성되어 있습니다.</caption>

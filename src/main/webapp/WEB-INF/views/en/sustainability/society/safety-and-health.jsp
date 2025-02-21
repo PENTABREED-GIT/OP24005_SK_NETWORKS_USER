@@ -198,7 +198,7 @@
                                     <div class="section-subject">
                                         <h4 class="section-name">Identifying and mitigating safety and health risks</h4>
                                         <p class="section-summary">
-                                            We are steadfast in our commitment to proactively mitigate serious accident risks and cultivate a safe and health work environment. This entails identifying safety hazards at worksites through risk assessment, developing and implementing recommended actions, and verifying their effectiveness. Since 2022, we have conducted risk assessments twice a year, ensuring that all 93 safety hazards identified in 2023 (with a risk level of 6 or higher) have been diligently addressed. Furthermore, SK Networks is taking proactive actions to eliminate hazards found from feedback contributed by workers via the health and safety council. Walkerhill has implemented an enterprise risk management (ERM) system to enhance its risk assessment scheme specific to the needs of its worksite.
+                                            We are steadfast in our commitment to proactively mitigate serious accident risks and cultivate a safe and health work environment. This entails identifying safety hazards at worksites through risk assessment, developing and implementing recommended actions, and verifying their effectiveness. Since 2022, we have conducted risk assessments twice a year, ensuring that all 85 safety hazards identified in 2024 (with a risk level of 6 or higher) have been diligently addressed. Furthermore, SK Networks is taking proactive actions to eliminate hazards found from feedback contributed by workers via the health and safety council. Walkerhill has implemented an enterprise risk management (ERM) system to enhance its risk assessment scheme specific to the needs of its worksite.
 
                                         </p>
                                     </div>
@@ -324,7 +324,7 @@
                                                             <div class="data-item">
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
-                                                                        <em class="data-subject">1. Smoking rate : 19.5%(2021) → 10%(~2025)</em>
+                                                                        <em class="data-subject">1. Smoking rate : 24%(2024) > 15% (~2028)</em>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case1 type3">
@@ -354,7 +354,7 @@
                                                             <div class="data-item">
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
-                                                                        <em class="data-subject">3. Physical exercise ratio : 44.5%(2021) → 50%(~2025)</em>
+                                                                        <em class="data-subject">3. Physical exercise ratio : 33% (2024) > 45% (~2028)</em>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case1 type3">
@@ -493,11 +493,11 @@
                                                         <div class="data-item">
                                                             <div class="data-wrap">
                                                                 <div class="data-body">
-                                                                    <p class="para accent case4 color6">* Performance of the Workout in daily life program(as of end of December 2023)</p>
+                                                                    <p class="para accent case4 color6">* Performance of the Workout in daily life program(as of end of December 2025)</p>
                                                                     <div class="bullet-display design1 case1 type1">
                                                                         <ul class="data-list">
-                                                                            <li class="data-item">Number of participants : 46 persons (ca. 11%)</li>
-                                                                            <li class="data-item">Number of participations : 1,833 cases</li>
+                                                                            <li class="data-item">Number of participants : 33 persons (ca. 9%)</li>
+                                                                            <li class="data-item">Number of participations : 2,280 cases</li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -552,13 +552,19 @@
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        SK Networks provides support to employees to effectively manage their health by fostering a health-friendly environment. In-house nurses are stationed at the head office to provide medical products and services, and cafeteria nutritionists provide nutritionally balanced diets. Moreover, an indoor fitness facility is set up in an area of 496m2, housed with fitness equipment to assist employees' fitness management and in-house 'health-keepers(who provides professional massage services),' and massage chairs are also offered to prevent musculoskeletal disorders as a result of long hours of work. SK Networks people who opt for the healthy choice of using stairways are rewarded through the Hangarae app to promote the adoption of healthy daily routines. In addition to health checkup data and infectious disease data, various indexes related to fostering a health-friendly environment, including fitness use rate and canteen use rate, are also managed as valuable data.
+                                        SK Networks provides support to employees to effectively manage their health by fostering a health-friendly environment.
+                                        In-house nurses are stationed at the head office to provide medical products and services, and cafeteria nutritionists provide nutritionally balanced diets.
+                                        Moreover, an indoor fitness facility is set up in an area of 496m2, housed with fitness equipment to assist employees' fitness management and in-house
+                                        'health-keepers(who provides professional massage services)' are also offered to prevent musculoskeletal disorders as a result of long hours of work.
+                                        SK Networks people who opt for the healthy choice of using stairways are rewarded through the Hangarae app to promote the adoption of healthy daily routines.
+                                        In addition to health checkup data and infectious disease data, various indexes related to fostering a health-friendly environment,
+                                        including fitness use rate and canteen use rate, are also managed as valuable data.
                                     </p>
                                     <div class="board-list esg-health">
                                         <div class="board-item">
                                             <div class="board-wrap">
                                                 <div class="board-figure medi"></div>
-                                                <div class="board-name">Medical Office</div>
+                                                <div class="board-name">Health Promotion Office</div>
                                             </div>
                                         </div>
                                         <div class="board-item">
@@ -577,12 +583,6 @@
                                             <div class="board-wrap">
                                                 <div class="board-figure food"></div>
                                                 <div class="board-name">Cafeteria</div>
-                                            </div>
-                                        </div>
-                                        <div class="board-item">
-                                            <div class="board-wrap">
-                                                <div class="board-figure mass"></div>
-                                                <div class="board-name">Massage Chairs</div>
                                             </div>
                                         </div>
                                         <div class="board-item">

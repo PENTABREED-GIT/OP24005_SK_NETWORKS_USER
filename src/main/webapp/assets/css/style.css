@@ -13573,6 +13573,14 @@ sub {
     margin-top: 1.2rem;
   }
 }
+#wrap .section[class*=design].case3 .section-wrap .section-head .section-subject + .comment {
+  margin-top: 1.6rem;
+}
+@media (max-width: 1023px) {
+  #wrap .section[class*=design].case3 .section-wrap .section-head .section-subject + .comment {
+    margin-top: 1.2rem;
+  }
+}
 #wrap .section[class*=design].case3 .section-wrap .section-head + .section-body {
   margin-top: 6.4rem;
 }
@@ -22100,6 +22108,7 @@ sub {
 
 .esg:not(.overview).member .section.response .section-wrap {
   justify-content: space-between;
+  align-items: flex-start;
 }
 .esg:not(.overview).member .section.response .section-wrap .section-head {
   width: 45.5%;
