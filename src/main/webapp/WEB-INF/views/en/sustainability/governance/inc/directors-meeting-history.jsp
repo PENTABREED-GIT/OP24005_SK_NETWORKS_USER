@@ -52,43 +52,43 @@
                 <td>Resolved</td>
                 <td>Approved</td>
             </tr>
-<%--            <tr>--%>
-<%--                <td rowspan="6">Feb.</td>--%>
-<%--                <td rowspan="6">02월 11일</td>--%>
-<%--                <td class="align1">2024년 4분기 감사위원회 심의결과 보고</td>--%>
-<%--                <td rowspan="6" class="align1">--%>
-<%--                    사내이사 <span class="accent color9">2</span><br>--%>
-<%--                    기타비상무이사 <span class="accent color9">1</span><br>--%>
-<%--                    사외이사 <span class="accent color9">4</span>--%>
-<%--                </td>--%>
-<%--                <td>보고</td>--%>
-<%--                <td>-</td>--%>
-<%--            </tr>--%>
-<%--            <tr>--%>
-<%--                <td class="align1">2024년 연간 경영실적 보고</td>--%>
-<%--                <td>보고</td>--%>
-<%--                <td>-</td>--%>
-<%--            </tr>--%>
-<%--            <tr>--%>
-<%--                <td class="align1">준법지원인 변경의 건</td>--%>
-<%--                <td>Resolved</td>--%>
-<%--                <td>Approved</td>--%>
-<%--            </tr>--%>
-<%--            <tr>--%>
-<%--                <td class="align1">공정거래 자율준수관리자 변경의 건</td>--%>
-<%--                <td>Resolved</td>--%>
-<%--                <td>Approved</td>--%>
-<%--            </tr>--%>
-<%--            <tr>--%>
-<%--                <td class="align1">제72기(2024년도) 재무제표 승인의 건</td>--%>
-<%--                <td>Resolved</td>--%>
-<%--                <td>Approved</td>--%>
-<%--            </tr>--%>
-<%--            <tr>--%>
-<%--                <td class="align1">제72기(2024년도) 영업보고서 승인의 건</td>--%>
-<%--                <td>Resolved</td>--%>
-<%--                <td>Approved</td>--%>
-<%--            </tr>--%>
+            <tr>
+                <td rowspan="6">2</td>
+                <td rowspan="6">Feb. 11</td>
+                <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2024</td>
+                <td rowspan="6" class="align1">
+                    internal directors  <span class="accent color9">2</span><br>
+                    non-executive director <span class="accent color9">1</span><br>
+                    outside directors <span class="accent color9">4</span>
+                </td>
+                <td>Reported</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="align1">Reporting of 2024 business performance</td>
+                <td>Reported</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="align1">Replacement of the Compliance Officer</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Replacement of the Voluntary Fair Trade Compliance Officer</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of the financial statements for the 72nd period (year 2024)</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of the business report for the 72nd period (year 2024)</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
             </tbody>
         </table>
     </div>

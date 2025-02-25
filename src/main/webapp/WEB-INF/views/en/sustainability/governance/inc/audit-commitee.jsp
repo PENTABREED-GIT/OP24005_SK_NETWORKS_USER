@@ -6,8 +6,83 @@
   *** 감사위원회 ***
 --%>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<!-- 감사위원회 2025 -->
+<div class="esg-inform esg-audit esg-option2025">
+    <div class="t-display design1 case1 type1 align3 scroll">
+        <table class="col-w-6">
+            <caption>This table provides information on the activities of the audit committee in 2025 and consists of the number of meetings, the date of the meeting, the main agenda, the classification, and the attendance rate of the board of directors.</caption>
+            <colgroup>
+                <col class="col1">
+                <col class="col2">
+                <col class="col3">
+                <col class="col4">
+                <col class="col5">
+                <col class="col6">
+            </colgroup>
+            <thead>
+            <tr>
+                <th scope="col">No.</th>
+                <th scope="col">Date</th>
+                <th scope="col">Main Agenda</th>
+                <th scope="col">Type</th>
+                <th scope="col">Approval/<br class="pc-only">Rejection</th>
+                <th scope="col">Director Attendance Rates</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="4">1</td>
+                <td rowspan="4">Jan. 23</td>
+                <td class="align1">Evaluation of 2024 Audit Committee Activities</td>
+                <td>Evaluation</td>
+                <td>-</td>
+                <td rowspan="4">100%</td>
+            </tr>
+            <tr>
+                <td class="align1">Deliberation on the Amendment (Proposal) to the 2024 Annual Audit Fees for the External Auditor</td>
+                <td>Resolved</td>
+                <td>Approval pending</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of the Amendment ((Proposal) to the Audit Office’s 2025 Management Plan</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Report on Q4 2023 Achievements of the Audit Office</td>
+                <td>Reported</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td rowspan="4">2</td>
+                <td rowspan="4">Feb. 10</td>
+                <td class="align1">Report on the 2024 Business Performance and Financial Statements</td>
+                <td>Reported</td>
+                <td>-</td>
+                <td rowspan="4">100%</td>
+            </tr>
+            <tr>
+                <td class="align1">Report on the 2024 Operating Report</td>
+                <td>Reported</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="align1">Report on the 2024 Annual Audit Developments by the External Auditor</td>
+                <td>Reported</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="align1">Re-deliberation on the Amendment (Proposal) to the 2024 Annual Audit Fees for the External Auditor</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- //감사위원회 2025 -->
 <!-- 감사위원회 2024 -->
-<div class="esg-inform esg-audit esg-option2024">
+<div class="esg-inform esg-audit esg-option2024 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-6">
             <caption>This table provides information on the activities of the audit committee in 2024 and consists of the number of meetings, the date of the meeting, the main agenda, the classification, and the attendance rate of the board of directors.</caption>
@@ -270,7 +345,7 @@
                 <td>100%</td>
             </tr>
             <tr>
-                <td rowspan="4">15</td>
+                <td rowspan="4">14</td>
                 <td rowspan="4">Des. 8</td>
                 <td class="align1">Report on the Business Performance of SK Networks in Q3, 2024</td>
                 <td>Reported</td>
@@ -289,6 +364,29 @@
             </tr>
             <tr>
                 <td class="align1">Report on the Results of the 2024 Second-Half Regular Audit (Procurement Blind Spots)</td>
+                <td>Reported</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td rowspan="4">15</td>
+                <td rowspan="4">Des. 18</td>
+                <td class="align1">Report on the 2024 Ethical Management Measurement System</td>
+                <td>Reported</td>
+                <td>-</td>
+                <td rowspan="4">100%</td>
+            </tr>
+            <tr>
+                <td class="align1">Final Report on the Results of the 2024 Second-Half Regular Audit (Procurement Blind Spots)</td>
+                <td>Reported</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="align1"> Approval of the Audit Office’s 2025 Management Plan (Proposal)</td>
+                <td>Resolved</td>
+                <td>Approved</td>
+            </tr>
+            <tr>
+                <td class="align1">Reporting on the Audit Office’s Work Progress</td>
                 <td>Reported</td>
                 <td>-</td>
             </tr>

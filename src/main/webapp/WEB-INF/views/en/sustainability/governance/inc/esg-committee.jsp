@@ -6,8 +6,46 @@
   *** ESG경영위원회 ***
 --%>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
-<!-- ESG경영위원회 2024 -->
-<div class="esg-inform esg-management esg-option2024">
+<!-- 전략∙ESG위원회 2025 -->
+<div class="esg-inform esg-management esg-option2025">
+    <div class="t-display design1 case1 type1 align3 scroll">
+        <table class="col-w-5">
+            <caption>This table provides information on the activities of the ESG Management Committee in 2025 and consists of the number of meetings, the date of the meeting, major agenda items, categories, and the attendance rate of directors.</caption>
+            <colgroup>
+                <col class="col1">
+                <col class="col2">
+                <col class="col3">
+                <col class="col4">
+                <col class="col5">
+            </colgroup>
+            <thead>
+            <tr>
+                <th scope="col">No.</th>
+                <th scope="col">Date</th>
+                <th scope="col">Main Agenda</th>
+                <th scope="col">Category</th>
+                <th scope="col">Director Attendance Rates</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">2025.2.5</td>
+                <td class="align1">Replacement of the Compliance Officer</td>
+                <td>Deliberated</td>
+                <td rowspan="3">100%</td>
+            </tr>
+            <tr>
+                <td class="align1">Replacement of the Voluntary Fair Trade Compliance Officer</td>
+                <td>Deliberated</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- //전략∙ESG위원회 2025 -->
+<!-- 전략∙ESG위원회 2024 -->
+<div class="esg-inform esg-management esg-option2024 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-5">
             <caption>This table provides information on the activities of the ESG Management Committee in 2024 and consists of the number of meetings, the date of the meeting, major agenda items, categories, and the attendance rate of directors.</caption>
@@ -192,12 +230,51 @@
                 <td class="align1">Disposition of treasury stock</td>
                 <td>Deliberated</td>
             </tr>
+            <tr>
+                <td rowspan="9">13</td>
+                <td rowspan="9">2024.12.16</td>
+                <td class="align1">Approval of transaction with SK Inc. in 2025</td>
+                <td>Deliberated</td>
+                <td rowspan="9">100%</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of billing with the largest shareholder</td>
+                <td>Deliberated</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of transaction with SK Innovation in 2025</td>
+                <td>Deliberated</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of transaction with SK Energy in 2025</td>
+                <td>Deliberated</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of transaction with SK Pinx in 2025</td>
+                <td>Deliberated</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of transaction with SK Forest in 2025</td>
+                <td>Deliberated</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of the Acadia Lease Agreement</td>
+                <td>Deliberated</td>
+            </tr>
+            <tr>
+                <td class="align1">Delegation of Corporate Bond Issuance Limit</td>
+                <td>Deliberated</td>
+            </tr>
+            <tr>
+                <td class="align1">Approval of the 2025 business plan</td>
+                <td>Deliberated</td>
+            </tr>
             </tbody>
         </table>
     </div>
 </div>
-<!-- //ESG경영위원회 2024 -->
-<!-- ESG경영위원회 2023 -->
+<!-- //전략∙ESG위원회 2024 -->
+<!-- 전략∙ESG위원회 2023 -->
 <div class="esg-inform esg-management esg-option2023 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-5">
@@ -368,8 +445,8 @@
         </table>
     </div>
 </div>
-<!-- //ESG경영위원회 2023 -->
-<!-- ESG경영위원회 2022 -->
+<!-- //전략∙ESG위원회 2023 -->
+<!-- 전략∙ESG위원회 2022 -->
 <div class="esg-inform esg-management esg-option2022 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-5">
@@ -524,8 +601,8 @@
         </table>
     </div>
 </div>
-<!-- //ESG경영위원회 2022 -->
-<!-- ESG경영위원회 2021 -->
+<!-- //전략∙ESG위원회 2022 -->
+<!-- 전략∙ESG위원회 2021 -->
 <div class="esg-inform esg-management esg-option2021 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-5">
@@ -649,4 +726,4 @@
         </table>
     </div>
 </div>
-<!-- //ESG경영위원회 2021 -->
+<!-- //전략∙ESG위원회 2021 -->
