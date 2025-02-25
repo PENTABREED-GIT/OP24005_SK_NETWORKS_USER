@@ -126,65 +126,66 @@
                                     <p class="para">
                                         We at SK Networks will ensure constant evolution and improvement of the safety and health management system and bolster up its effectiveness in consideration of worksite-specific characteristics and changing business landscape to create safe and healthy worksites of global top-tier level in each business domain and meet the goal of zero industrial accidents. By nurturing and embedding safety and health culture, we will empower all SK Networks people to exercise VWBE leadership in safety and health to roll out a business environment wherein SK Networks people and stakeholders can remain happy, healthy and safe.
                                     </p>
-                                    <div class="data-display roadmap case1 type1">
+                                    <div class="data-display design6 case1">
                                         <div class="data-list">
                                             <div class="data-item">
-                                                <div class="data-wrap">
-                                                    <div class="data-head">
-                                                        <div class="data-head-area">
-                                                            <em class="data-subject">2024</em>
-                                                            <p class="para">Establishing a Self-regulated<br> Prevention System</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="data-body">
-                                                        <div class="bullet-display design1 case2 type1">
-                                                            <ul class="data-list">
-                                                                <li class="data-item">Strengthening employees participation and communication to prevent major disasters</li>
-                                                                <li class="data-item">Conducting risk assessment with increased employees participation</li>
-                                                                <li class="data-item">Establishing a health management system that accounts for the characteristics of employees</li>
-                                                                <li class="data-item">Ex-post review of safety and health management systems (ISO 45001)</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
+                                                <div class="item-figure">
+                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-a.svg" alt="">
+                                                </div>
+                                                <div class="item-body">
+                                                    <p class="para">
+                                                        Zero serious accidents,<br class="pc-only"> maintaining an industrial accident rate 30% lower than the industry average
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="data-item">
-                                                <div class="data-wrap">
-                                                    <div class="data-head">
-                                                        <div class="data-head-area">
-                                                            <em class="data-subject">2025</em>
-                                                            <p class="para">Fostering and Habituating the<br class="pc-only"> VWBE Safety and Health Culture</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="data-body">
-                                                        <div class="bullet-display design1 case1 type1">
-                                                            <ul class="data-list">
-                                                                <li class="data-item">Creating a culture promoting safety and health and strengthening VWBE safety and health leadership</li>
-                                                                <li class="data-item">Spreading the safety and health culture through participation and cooperation</li>
-                                                                <li class="data-item">Expanding access to safety and health education and opportunities for participation</li>
-                                                                <li class="data-item">Ex-post review of safety and health management systems (ISO 45001)</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
+                                                <div class="item-figure">
+                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-b.svg" alt="">
+                                                </div>
+                                                <div class="item-body">
+                                                    <p class="para">
+                                                        100% improvement rate for<br class="pc-only"> hazardous risk factors
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="data-item">
-                                                <div class="data-wrap">
-                                                    <div class="data-head">
-                                                        <div class="data-head-area">
-                                                            <em class="data-subject">2026 ~</em>
-                                                            <p class="para">Creating a Healthy and<br class="pc-only"> Happy Workplace</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="data-body">
-                                                        <div class="bullet-display design1 case1 type1">
-                                                            <ul class="data-list">
-                                                                <li class="data-item">Creating the highest level of organizational culture with safety internalized</li>
-                                                                <li class="data-item">Strengthening employees' safety and health responsibilities and participation</li>
-                                                                <li class="data-item">Going through audit for renewal of occupational health and safety management system (ISO 45001)</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
+                                                <div class="item-figure">
+                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-c.svg" alt="">
+                                                </div>
+                                                <div class="item-body">
+                                                    <p class="para">
+                                                        Maintaining ISO 45001 certification for<br class="pc-only"> the occupational health and safety management system
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="data-item">
+                                                <div class="item-figure">
+                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-d.svg" alt="">
+                                                </div>
+                                                <div class="item-body">
+                                                    <p class="para">
+                                                        100% completion rate of health and safety training
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="data-item">
+                                                <div class="item-figure">
+                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-e.svg" alt="">
+                                                </div>
+                                                <div class="item-body">
+                                                    <p class="para">
+                                                        100% health check-up participation rate
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="data-item">
+                                                <div class="item-figure">
+                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-f.svg" alt="">
+                                                </div>
+                                                <div class="item-body">
+                                                    <p class="para">
+                                                        Establishing a top-tier organizational culture where safety is internalized
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>

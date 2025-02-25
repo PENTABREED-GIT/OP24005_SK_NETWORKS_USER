@@ -1416,6 +1416,62 @@
         }
     }
 
+    &.design6 {
+        &.case1 {
+            .data-list {
+                display: grid;
+                gap: 2rem;
+                grid-template-columns: repeat(3, 1fr);
+                @include mobile {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 1.6rem;
+                }
+                .data-item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 2.4rem 1.6rem;
+
+                    border-radius: 1.6rem;
+                    box-shadow: 0 1.336px 5.342px 0 rgba(0, 0, 0, 0.10);
+                    @include mobile {
+                        padding: 1.6rem 1.2rem;
+                    }
+
+                    .item-figure {
+                        width: 7.2rem;
+                        height: 7.2rem;
+                        @include mobile {
+                            width: 6.4rem;
+                            height: 6.4rem;
+                        }
+                        img {
+                            width: 100%;
+                        }
+                        + .item-body {
+                            margin-top: 1.6rem;
+                            @include mobile {
+                                margin-top: 1.2rem;
+                            }
+                        }
+                    }
+                    .item-body {
+                        .para {
+                            text-align: center;
+                            font-size: 1.6rem;
+                            font-weight: 700;
+                            color: #15151A;
+                            @include mobile {
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     &.roadmap{
         position: relative;
         &::after{
