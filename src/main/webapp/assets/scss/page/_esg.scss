@@ -289,6 +289,26 @@
         // 구성원 행복
         &.member{
             .section {
+                .section-head {
+                    .section-subject {
+                        + .comment.design1 {
+                            margin-top: 1.6rem;
+                            @include mobile {
+                                margin-top: 1.2rem;
+                            }
+                        }
+                    }
+                }
+                .section-body {
+                    .para {
+                        + .comment.design1 {
+                            margin-top: 1.6rem;
+                            @include mobile {
+                                margin-top: 1.2rem;
+                            }
+                        }
+                    }
+                }
                 &.response {
                     .section-wrap {
                         justify-content: space-between;

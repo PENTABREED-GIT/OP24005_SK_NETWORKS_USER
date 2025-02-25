@@ -317,7 +317,7 @@
                                     <ul class="board-list design12 case1 type1">
                                         <li class="board-item">
                                             <div class="board-wrap">
-                                                <div class="board-name">Prevention of Adult Diseases</div>
+                                                <div class="board-name">Lifestyle Disease Prevention Program</div>
                                                 <div class="board-body">
                                                     <div class="data-display design1 case4 type5">
                                                         <div class="data-list">
@@ -343,7 +343,7 @@
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case1 type3">
                                                                             <ul class="data-list">
-                                                                                <li class="data-item">BMI Assessment</li>
+                                                                                <li class="data-item">Evaluating BMI and waist circumference</li>
                                                                                 <li class="data-item">Diet and exercise coaching</li>
                                                                                 <li class="data-item">Health-friendly environment including cafeteria</li>
                                                                             </ul>
@@ -370,12 +370,12 @@
                                                             <div class="data-item">
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
-                                                                        <em class="data-subject">4. Minimizing SK Networks people with high blood pressure or diabetes</em>
+                                                                        <em class="data-subject">4. Minimize individuals with abnormal findings and manage individuals with medical conditions</em>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case1 type3">
                                                                             <ul class="data-list">
-                                                                                <li class="data-item">Focused care for SK Networks people with high blood pressure or diabetes</li>
+                                                                                <li class="data-item">Providing intensive management of individuals with abnormal findings such as hypertension, diabetes, dyslipidemia, and obesity</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -401,6 +401,7 @@
                                                                         <div class="bullet-display design1 case1 type3">
                                                                             <ul class="data-list">
                                                                                 <li class="data-item">Various educational programs to improve accessibility to mental health care (2022~)<br>Ex) &lt;Misunderstanding of psychological counseling &gt;, &lt;Interpretation of MBTI&gt;, etc.</li>
+                                                                                <li class="data-item">Running a visiting counseling service (starting in 2025)</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -416,7 +417,7 @@
                                                                             <ul class="data-list">
                                                                                 <li class="data-item">Introduction and development of ‘healing program(2021-)<br>Ex) Personality test and interpretation by organization</li>
                                                                                 <li class="data-item">SK Networks people stress measurement program (2022~)<br>Ex) Job stress level and resilience check, special lecture on stress management</li>
-                                                                                <li class="data-item">Meditation programs available in ‘Wings of Happiness’ Training Institute (2023~)</li>
+                                                                                <li class="data-item">Meditation programs available in ‘Wings of Happiness’ Training Institute (2023~)<br> Ex) 10-minute medication challenge, deep sleep medication</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -442,7 +443,7 @@
                                     <p class="para">
                                         SK Networks provides annual health check-ups to all SK Networks people, aiming for a completion of 100%*. All SK Networks people are encouraged to undergo these check-ups annually, with SK Networks covering the expenses for detailed health assessments. Individuals identified with health issues receive one-one-one health counseling with nurses, while those deemed to be at high risks and requiring focused care are managed accordingly.
                                     </p>
-                                    <p class="comment design1">* Available to legally qualified recipients (biennial checkups compulsory for office workers, based on their birth year), and exceptions are applied to those who are on a leave of absence, deceased, retired, pregnant, or under treatment and received health checkups independently.</p>
+                                    <p class="comment design1">* Available to legally eligible individuals (mandatory every 2 years for office workers and annually for non-office workers) and exceptions are applied to those who are on a leave of absence, deceased, retired, pregnant, or under treatment and received health checkups independently.</p>
                                 </div>
                             </div>
                         </div>
@@ -450,12 +451,12 @@
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <div class="section-subject">
-                                        <h4 class="section-name">SOKSOK Counseling Room : Promoting mental health</h4>
+                                        <h4 class="section-name">SOKSOK Counseling Center: Mental Health Enhancement</h4>
                                     </div>
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        SK Networks is providing professional psychological consultation services as the company has set up the management of mental health, to which office workers are vulnerable, as a specialized area. Consultation services are offered to employees and their immediate family members and tackle a wide spectrum of areas, including not only work-related stress and private emotions but also family issues, child-rearing, and legal advice. Quarterly notices and promotions are also made so that many employees can take advantage of those services. Health counseling services are provided not only in person but also over the phone or via video conference to ensure better accessibility. All personal information collected during counseling is strictly kept confidential in accordance with relevant statutory provisions (Article 83 of the Framework Act on Workers’ Welfare). Services are further improved by collecting feedbacks with a target to achieve a satisfaction score of 4.5 points (out of 5) from those who have used the consultation services.
+                                        SK Networks is providing professional psychological consultation services as the company has set up the management of mental health, to which office workers are vulnerable, as a specialized area. Consultation services are offered to employees and their immediate family members and tackle a wide spectrum of areas, including not only work-related stress and private emotions but also family issues, child-rearing, and legal advice. Quarterly notices and promotions are also made so that many employees can take advantage of those services. Health counseling services are provided not only in person but also over the phone or via video conference to ensure better accessibility. Providing face-to-face, phone, and video counseling services, as well as running a visiting counseling service to improve accessibility. All personal information collected during counseling is strictly kept confidential in accordance with relevant statutory provisions (Article 83 of the Framework Act on Workers’ Welfare). Services are further improved by collecting feedbacks with a target to achieve a satisfaction score of 4.5 points (out of 5) from those who have used the consultation services.
                                     </p>
                                 </div>
                             </div>
@@ -464,12 +465,14 @@
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <div class="section-subject">
-                                        <h4 class="section-name">Infectious diseases control</h4>
+                                        <h4 class="section-name">Infectious Disease Management</h4>
                                     </div>
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        SK Networks safeguards its employees against infectious diseases such as the flu by providing them with annual flu vaccinations, covered by the company. Additionally, personal disinfectant products are supplied to all employees.<br> COVID test kits, hand sanitizers, and face masks are disseminated to individuals with respiratory conditions, and company canteens exposed to significant health risks undergo monthly disinfection procedures.
+                                        SK Networks safeguards its employees against infectious diseases such as the flu by providing them with annual flu vaccinations, covered by the company. Additionally, personal disinfectant products are supplied to all employees.
+                                        COVID test kits, hand sanitizers, and face masks are disseminated to individuals with respiratory conditions, and company canteens exposed to significant health risks undergo monthly disinfection procedures.
+                                        Precautions are in place, including establishing an infectious disease response manual to protect members, suppliers, customers, and stakeholders while minimizing company losses.
                                     </p>
                                 </div>
                             </div>
@@ -483,7 +486,9 @@
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        Since the end of August 2022, SK Networks has been running a health enhancement program for all members including contract workers. The program titled Workout in daily life is implemented so that members can develop a healthy workout routine and prevent adult diseases. SK Networks people who engage in physical activity for 30 minutes or longer per day receive rewards, with additional incentives for those who maintain this routine for 15 days or more each month to foster exercise habits. Furthermore, stress management lectures and stress level assessment programs are provided to support the mental health of SK Networks people. Furthermore, Stress diagnosis program is also available for assess mental health. A member’s mental condition is checked through a stress test conducted twice a year, and customized solutions are offered according to the results. Also, programs are recommended and offered for each organization’s members according to their stress source (such as job, relationship and organizational culture) and stress level.
+                                        SK Networks is committed to providing health promotion programs for all members, including contract workers. The “Healthy Exercise Certification Program” is implemented to help members form healthy exercise routines to prevent various lifestyle diseases. Members receive rewards for exercising at least 30 minutes a day, and an additional reward is given for exercising 15 times or more per month to help them build a habit of exercising.<br>
+                                        The Wings of Happiness Training Center App offers remote exercise programs, contributing to the physical and mental health of the members. The Vita Day Program provides health information and vitamins to strengthen members’ immunity and recovery from fatigue. A smoker clinic program is operated in collaboration with Jongno-gu Community Health Center, providing support to prevent smoke-related diseases and improve work efficiency.<br>
+                                        Additionally, special lectures on stress and the “Stress Diagnosis Program” are offered for mental health. Members undergo stress assessments twice a year to check their mental state and receive personalized solutions according to the results. Members can also participate in recommended programs for each organization based on the cause (job roles, relationships, and organizational culture) and stress level.
                                     </p>
                                     <div class="board-list design3 case1 type1">
                                         <div class="board-item">
@@ -604,7 +609,7 @@
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        SK Networks relieves the medical expense burden of the employees through an in-house medical fee support system. Up to KRW 5 million is annually provided to employees with permanent employment, their spouses, and children. All SK Networks employees are supported under the company's group personal accident insurance that covers major diseases such as cancer and strokes. In 2021, group dental insurance has also been offered to relieve people's financial burden of dental treatment.
+                                        SK Networks has an in-house medical expense support system to lessen the burden of medical expenses for the members. Full-time employees, their spouses, and children receive up to KRW 5 million a year in medical expense support. Members are covered by group accident insurance for major diseases, such as cancer and stroke. Since 2021, group dental insurance has been added to reduce the burden of dental treatment. The company’s active support for members’ health management extends based on social changes.
                                     </p>
                                 </div>
                             </div>

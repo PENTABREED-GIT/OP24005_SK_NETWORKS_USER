@@ -22106,6 +22106,22 @@ sub {
   }
 }
 
+.esg:not(.overview).member .section .section-head .section-subject + .comment.design1 {
+  margin-top: 1.6rem;
+}
+@media (max-width: 1023px) {
+  .esg:not(.overview).member .section .section-head .section-subject + .comment.design1 {
+    margin-top: 1.2rem;
+  }
+}
+.esg:not(.overview).member .section .section-body .para + .comment.design1 {
+  margin-top: 1.6rem;
+}
+@media (max-width: 1023px) {
+  .esg:not(.overview).member .section .section-body .para + .comment.design1 {
+    margin-top: 1.2rem;
+  }
+}
 .esg:not(.overview).member .section.response .section-wrap {
   justify-content: space-between;
   align-items: flex-start;
