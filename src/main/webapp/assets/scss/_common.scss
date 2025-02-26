@@ -127,6 +127,14 @@ body {
             background-position: center;
         }
     }
+
+    // mobile scroll
+    .type-scroll {
+        @include mobile {
+            @include scroll-x;
+            position: relative;
+        }
+    }
     
     .no-result-wrap {
         padding: 16rem 0;

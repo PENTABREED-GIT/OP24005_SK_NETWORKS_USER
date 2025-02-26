@@ -137,11 +137,8 @@
                                     <p class="para">
                                     PhnyX Modular RAG는 블록처럼 RAG의 구성 요소를 유연하게 조립할 수 있도록 모듈화된 기술 아키텍처입니다. Use-Case별 최적화 과정을 자동화하여 수작업을 최소화하며 최고 수준의 성능을 구현합니다.
                                     </p>
-                                    <div class="figure-wrap">
-                                        <picture>
-                                            <source media="(max-width: 1023px)" srcset="/assets/images/business/business-phnyxLab-gen-ai-mo.jpg">
-                                            <img src="/assets/images/business/business-phnyxLab-gen-ai-pc.jpg" alt="PhnyX Modular RAG 특징. 수작업 최소화 구축 기간 50% 감소, 최적 성능 구현 성능 개선 최대 40% 향상">
-                                        </picture>
+                                    <div class="figure-wrap type-scroll">
+                                        <img src="/assets/images/business/business-phnyxLab-gen-ai-pc.jpg" alt="PhnyX Modular RAG 특징. 수작업 최소화 구축 기간 50% 감소, 최적 성능 구현 성능 개선 최대 40% 향상" style="min-width: 600px">
                                     </div>
                                     <div class="board-list design22 case1">
                                         <div class="board-item">

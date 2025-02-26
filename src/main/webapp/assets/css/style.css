@@ -10863,6 +10863,30 @@ body .scroll-guide::after {
   background-size: 1rem;
   background-position: center;
 }
+@media (max-width: 1023px) {
+  body .type-scroll {
+    width: calc(100% + 3.6rem);
+    max-width: unset;
+    overflow: auto;
+    padding-bottom: 1.6rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    margin-left: -1.8rem;
+    position: relative;
+  }
+  body .type-scroll::-webkit-scrollbar {
+    height: 0.5rem;
+  }
+  body .type-scroll::-webkit-scrollbar-thumb {
+    background-color: #D5D4D9;
+    border-radius: 5rem;
+  }
+  body .type-scroll::-webkit-scrollbar-track {
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+    border-radius: 5rem;
+  }
+}
 body .no-result-wrap {
   padding: 16rem 0;
   text-align: center;

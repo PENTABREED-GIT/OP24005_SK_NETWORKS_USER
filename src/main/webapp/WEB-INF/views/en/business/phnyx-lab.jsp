@@ -137,12 +137,9 @@
                                     <p class="para">
                                         PhnyX Lab’s core architecture is Modular RAG, a technology that not only overcomes the limitations of LLMs* but also enhances RAG** to a more advanced level. Leveraging this Modular RAG, PhnyX Lab’s enterprise AI solutions deliver accurate, highly secure, and reliable information to clients in real time.                                    </p>
                                     <p class="para">
-                                        PhnyX Modular RAG is a modular architecture that assembles RAG components like building blocks, automating use-case optimization to minimize manual effort while ensuring top performance.                                    </p>
-                                    <div class="figure-wrap">
-                                        <picture>
-                                            <source media="(max-width: 1023px)" srcset="/assets/images/business/business-phnyxLab-gen-ai-mo.jpg">
-                                            <img src="/assets/images/business/business-phnyxLab-gen-ai-en-pc.jpg" alt="Key features of PhnyX Modular RAG. Minimizes manual effort. Reduces development time bt 50%, Optimizes performance. Enhances performance by up to 40%">
-                                        </picture>
+                                        PhnyX Modular RAG is a modular architecture that assembles RAG components like building blocks, automating use-case optimization to minimize manual effort while ensuring top performance.</p>
+                                    <div class="figure-wrap type-scroll">
+                                         <img src="/assets/images/business/business-phnyxLab-gen-ai-en-pc.jpg" alt="Key features of PhnyX Modular RAG. Minimizes manual effort. Reduces development time bt 50%, Optimizes performance. Enhances performance by up to 40%" style="min-width: 600px">
                                     </div>
                                     <div class="board-list design22 case1">
                                         <div class="board-item">
