@@ -76,7 +76,7 @@ body {
 							@include font(medium, bold);
 							color: color(primary, 080);
 							@include mobile {
-									@include font(small-1x, bold);
+								@include font(small-1x, bold);
 							}
 						}
 					}
@@ -186,6 +186,9 @@ body {
 									text-align: center;
 									color: color(typo, 020);
 									@include font(small-1x, bold);
+									.small {
+										font-size: 2rem;
+									}
 								}
 							}
 							& + .section-body {
@@ -197,6 +200,9 @@ body {
 								color: color(typo, 010);
 								text-align: center;
 								@include font(small-4x, medium);
+								.bold {
+									font-weight: 700 !important;
+								}
 								+ .para {
 									margin-top: 1rem;
 								}
