@@ -158,7 +158,7 @@
                                                 </li>
                                                 <li class="history-item">
                                                     <span class="date">2020. 5</span>
-                                                    <p class="para">Hico Capital 설립<span class="note">(미국 현지 법인)</span></p>
+                                                    <p class="para">SK Networks Americas<br> 설립<span class="note">(미국 현지 법인)</span></p>
                                                 </li>
                                                 <li class="history-item">
                                                     <span class="date">2021. 11</span>

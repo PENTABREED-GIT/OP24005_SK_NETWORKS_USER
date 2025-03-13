@@ -1155,27 +1155,20 @@
             <div class="modal-area">
                 <div class="modal-wrap">
                     <div class="modal-head" id="modalHicocapitalLabel">
-                        <em class="modal-subjec"><span class="modal-name">Hico Capital</span></em>
+                        <em class="modal-subjec"><span class="modal-name">SK Networks Americas LLC</span></em>
                     </div>
                     <div class="modal-body">
                         <div class="section design1 case7 type4 align1">
                             <div class="section-wrap">
                                 <div class="section-head">
-                                    <a class="btn design2 case1 type1 color4" href="javascript:void(0)">
+                                    <a class="btn design2 case1 type1 color4" href="/${LANG}/business/global-investment">
                                         <span class="btn-text">Learn more</span>
                                     </a>
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        As SK Networks’ investment arm based in Silicon Valley, Hico Capital actively seeks investment opportunities in promising global tech sectors while continuously enhancing its global network and corporate value.
+                                        As SK Networks’ investment arm based in Silicon Valley, SK Networks Americas actively seeks investment opportunities in promising global tech sectors while continuously enhancing its global network and corporate value.
                                     </p>
-                                </div>
-                                <div class="section-util">
-                                    <div class="btn-display design1 case2">
-                                        <div class="btn-area">
-                                            <a href="https://hico.vc/hico-ventures/" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Go to Website</span></a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>

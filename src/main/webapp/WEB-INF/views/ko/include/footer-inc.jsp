@@ -74,9 +74,6 @@
                         <a href="https://www.en-core.com/" target="_blank" title="새창 열기" class="site">엔코아</a>
                     </li>
                     <li class="site-item">
-                        <a href="https://hico.vc/hico-ventures/" target="_blank" title="새창 열기" class="site">하이코캐피탈</a>
-                    </li>
-                    <li class="site-item">
                         <a href="https://www.glowide.kr/" target="_blank" title="새창 열기" class="site">글로와이드</a>
                     </li>
                 </ul>
