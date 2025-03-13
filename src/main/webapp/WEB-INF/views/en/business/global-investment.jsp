@@ -157,7 +157,7 @@
                                                 </li>
                                                 <li class="history-item">
                                                     <span class="date">May 2020</span>
-                                                    <p class="para">SK Networks Americas established<span class="note">(a subsidiary in U.S.)</span></p>
+                                                    <p class="para">SK Networks<br> Americas LLC<br> established<span class="note">(a subsidiary in U.S.)</span></p>
                                                 </li>
                                                 <li class="history-item">
                                                     <span class="date">November 2021</span>
