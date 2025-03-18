@@ -13,7 +13,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Notice &lt; Disclosure Information &lt; IR &lt; SK Networks</title>
+    <title>전자공고 &lt; 공시정보 &lt; IR &lt; SK Networks</title>
     <%@ include file="/WEB-INF/views/en/include/page-header-inc.jsp" %>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -38,17 +38,21 @@
                     <ul class="data-list breadcrumb design1 case1 dark">
                         <li class="data-item"><span class="item-text">Home</span></li>
                         <li class="data-item"><span class="item-text">IR</span></li>
-                        <li class="data-item"><span class="item-text">Disclosure Information</span></li>
-                        <li class="data-item"><span class="item-text">Notice</span></li>
+
+                        <li class="data-item"><span class="item-text">공시정보</span></li>
+
+
+                        <li class="data-item"><span class="item-text">전자공고</span></li>
+
                     </ul>
                 </div>
                 <div class="local-head design3">
                     <div class="local-subject">
-                        <h2 class="local-name">Notice</h2>
+                        <h2 class="local-name">전자공고</h2>
                     </div>
                 </div>
                 <div class="local-body">
-                    <div class="content-head">Notice</div>
+                    <div class="content-head">전자공고 페이지</div>
                     <div class="content-body">
                         <div class="section detail-layout design1 type1">
                             <div class="section-wrap">
@@ -66,8 +70,8 @@
                                                             <div class="item-util">
                                                                 <div class="btn-display design1 case3 align1">
                                                                     <div class="btn-area">
-                                                                        <button class="btn design3 case2 type3 color5 al-icon-printer pc-only" onclick="printSection()"><span class="btn-text">Print</span></button>
-                                                                        <button class="btn design3 case2 type3 color5 al-icon-share" onclick="copyURL()"><span class="btn-text">Share</span></button>
+                                                                        <button class="btn design3 case2 type3 color5 al-icon-printer pc-only" onclick="printSection()"><span class="btn-text">인쇄</span></button>
+                                                                        <button class="btn design3 case2 type3 color5 al-icon-share" onclick="copyURL()"><span class="btn-text">공유</span></button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -109,7 +113,7 @@
                                 </div>
                                 <div class="section-util">
                                     <div class="btn-display">
-                                        <a href="/${LANG}/ir/announcement?currentPage=${param.currentPage}&searchWord=${param.searchWord}" class="btn design1 case1 type1 color1"><span class="btn-text">List</span></a>
+                                        <a href="/${LANG}/ir/announcement?currentPage=${param.currentPage}&searchWord=${param.searchWord}" class="btn design1 case1 type1 color1"><span class="btn-text">목록</span></a>
                                     </div>
                                     <div class="board-dipslay">
                                         <div class="board-list design2 case1 type1">
@@ -117,14 +121,14 @@
                                                 <c:if test="${not empty previousIrAnnouncement}">
                                                     <a href="/${LANG}/ir/announcement/<c:out value="${previousIrAnnouncement.uid}"/>"
                                                        class="board-info">
-                                                        <span class="board-name">PREV</span>
+                                                        <span class="board-name">이전글</span>
                                                         <span class="board-caption"><c:out value="${previousIrAnnouncement.title}"/></span>
                                                     </a>
                                                 </c:if>
                                                 <c:if test="${not empty nextIrAnnouncement}">
                                                     <a href="/${LANG}/ir/announcement/<c:out value="${nextIrAnnouncement.uid}"/>"
                                                        class="board-info">
-                                                        <span class="board-name">NEXT</span>
+                                                        <span class="board-name">다음글</span>
                                                         <span class="board-caption"><c:out value="${nextIrAnnouncement.title}"/></span>
                                                     </a>
                                                 </c:if>
