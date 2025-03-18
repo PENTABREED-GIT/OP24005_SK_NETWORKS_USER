@@ -144,6 +144,10 @@ body {
 			display: block;
 		}
 
+		body.en & {
+			max-width: 55rem;
+		}
+
 		@include mobile {
 			max-width: 100%;
 		}

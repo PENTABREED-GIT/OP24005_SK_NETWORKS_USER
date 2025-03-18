@@ -174,6 +174,106 @@
 
 <body class="en">
 <%@ include file="/WEB-INF/views/en/include/body-header-inc.jsp" %>
+<div class="modal-display">
+	<div class="modal notice" id="modalNotice1" style="max-width: 57rem;">
+		<div class="modal-inner modal-dialog">
+			<div class="modal-area">
+				<div class="modal-wrap">
+					<div class="modal-body" data-lenis-prevent>
+						<div class="section">
+							<div class="section-wrap">
+								<div class="section-head">
+									<em class="section-subject"><span class="section-name">Notice of the 72nd Annual General Meeting of Shareholders</span></em>
+								</div>
+								<div class="section-body">
+									<p class="para" style="margin-bottom: 30px">
+										To Our Valued Shareholders,<br>
+										In accordance with Article 365 of the Korean Commercial Act and Article 21 of the Articles of Incorporation of SK Networks Co., Ltd., we hereby convene the 72nd Annual General Meeting of Shareholders as outlined below. Your participation is highly valued.
+									</p>
+									<p class="para" style="text-align: left;">
+										<span class="bold" style="font-weight: 700">1. Date & Time :</span> March 26th, 2025 (Wednesday) at 10:00 AM KST
+									</p>
+									<p class="para" style="text-align: left;">
+										<span class="bold" style="font-weight: 700">2. Venue :</span> 30th Floor, SK Networks Co., Ltd., Samil Building, 85 Cheonggyecheon-ro, Jongro-gu, Seoul, South Korea
+									</p>
+									<p class="para" style="text-align: left;">
+										<span class="bold" style="font-weight: 700">3. Agenda</span><br>
+										<span class="bold" style="font-weight: 700">A. Reporting Items</span><br>
+										Audit Report, Business Report, Report on Transactions with Major Shareholders, Report on the Operation of the Internal Accounting Management System<br>
+										<span class="bold" style="font-weight: 700">B. Items for Resolution</span><br>
+										- Item 1 : Approval of the 72nd Fiscal Year Financial Statements<br>
+										- Item 2 : Partial Amendments to the Articles of Incorporation<br>
+										- Item 3 : Appointment of Directors<br>
+										· 3-1 : Appointment of Inside Director (Candidate: Choi Sunghwan)<br>
+										· 3-2 : Appointment of Other Non-Standing Director (Candidate: Kim Kee Dong)<br>
+										- Item 4: Appointment of Independent Director to serve as an Audit Committee Member (Candidate: Jang Geun Bae)<br>
+										- Item 5: Approval of the Remuneration Cap for Directors
+									</p>
+									<p class="para" style="text-align: left;">
+										<span class="bold" style="font-weight: 700">4. Availability of Management Reference Materials</span><br>
+										In accordance with Article 542-4 of the Korean Commercial Act, the notice of convocation and relevant
+										shareholder meeting materials have been disclosed via the DART electronic disclosure system and the company’s official website. Shareholders are encouraged to review these materials in advance.
+									</p>
+									<p class="para" style="text-align: left;">
+										<span class="bold" style="font-weight: 700">5. Exercise of Voting Rights</span><br>
+										<span class="bold" style="font-weight: 700">A. In-Person or Proxy Voting</span><br>
+										- Direct Attendance: Shareholders must present a valid identification document (Resident registration card,
+										Driver’s license, etc.).<br>
+										- Proxy Representation : A proxy must submit a letter of proxy, duly signed and sealed by the shareholder,
+										along with a certificate of seal impression and their own identification document.<br>
+										<span class="bold" style="font-weight: 700">B. Electronic Voting</span><br>
+										Shareholders who are unable to attend the meeting in person may exercise their voting rights
+										electronically through the Korea Securities Depository (KSD) electronic voting system, following the
+										instructions below:<br>
+										- Electronic Voting Website: Korea Securities Depository Electronic Voting System
+										(Web Address: <a href="http://evote.ksd.or.kr" target="_blank" style="text-decoration: underline">http://evote.ksd.or.kr</a>, Mobile Access:
+										<a href="http://evote.ksd.or.kr/m" target="_blank" style="text-decoration: underline">http://evote.ksd.or.kr/m</a>)<br>
+										- Voting Period: March 16, 2025, 9:00 AM KST – March 25, 2025, 5:00 PM KST
+										(Voting will commence at 9:00 AM on the first day and will be available 24 hours a day thereafter.
+										However, on the final day, voting will close at 5:00 PM.)<br>
+										- Authentication Required: Shareholders must verify their identity using an approved digital certificate.
+										(e.g., Koscom Securities Trading Certificate, Korea Financial Telecommunications & Clearings Institute’s personal-use certificate).<br>
+										- Handling of Amended Proposals: If an amended proposal is submitted at the meeting, electronically cast votes will be treated as abstentions.<br>
+									</p>
+									<p class="para" style="text-align: right; margin-top: 30px">
+										Date of Issuance: March 11st, 2025<br>
+										SK Networks Co., Ltd.<br>
+										19, Gyeongsu-daero 976beon-gil, Jangan-gu, Suwon-si, Gyeonggi-do, South Korea<br>
+										CEO Lee Ho-Jeong
+									</p>
+								</div>
+								<%--<div class="section-util">--%>
+								<%--	<div class="btn-display design1 case1 align3">--%>
+								<%--		<div class="btn-area">--%>
+								<%--			<a class="btn design1 case1 type1 color1" href="https://www.sknetworks.co.kr/ir/announcement/PKXQaMXZCnEQco03" tabindex="1"><span class="btn-text">view more</span></a>--%>
+								<%--		</div>--%>
+								<%--	</div>--%>
+								<%--</div>--%>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<div class="form checkbox design1 case1 type1">
+							<div class="checkbox-list">
+								<div class="checkbox-item">
+									<label for="checkbox1">
+										<input type="checkbox" name="temp" value="chk1" id="checkbox1" tabindex="2">
+										<span class="option">Do not open for a day</span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="btn-display design1 case1 align3">
+							<div class="btn-area">
+								<a href="javascript:void(0);" onclick="closePop('modalNotice1');" class="btn design3 case2 type1 color4 ar-icon-close modal-close" tabindex="3"><span class="btn-text">close</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <div id="wrap" class="main">
 	<%@ include file="/WEB-INF/views/en/include/navigation-inc.jsp" %>
 	<header class="transparent" id="header">
@@ -451,41 +551,75 @@
 	<!-- //page-foot -->
 </div>
 <script>
-	document.addEventListener('DOMContentLoaded', function() {
-		if (!shouldHidePopup('modalNotice1')) {
-			openPop('modalNotice1');
-		}
-		if (!shouldHidePopup('modalNotice2')) {
-			openPop('modalNotice2');
-		}
-		document.querySelector('.modal-display').classList.add('show');
+	$(document).ready(function() {
+		checkAndToggleModal('modalNotice1', '2025-03-18 14:00:00', '2025-03-26 24:00:00');
+		// checkAndToggleModal('modalNotice2', '2024-12-02 16:00:00', '2026-12-10 24:00:00');
+		// checkAndToggleModal('modalNotice3', '2024-12-02 16:00:00', '2026-12-10 24:00:00');
 	});
 
-	function popupLengthCheck() {
-		let modalNotice = document.querySelectorAll('.modal.notice.show');
-		let modalNoticeLength = modalNotice.length;
+	function checkAndToggleModal(id, startDateTime, endDateTime) {
 
-		if (modalNoticeLength < 1) {
-			document.querySelector('.modal-display').classList.remove('show');
+		if(checkTodayHidePopup("hidePopup_"+id)) return;
+
+		// 모달 오픈 시간
+		var now = new Date();
+		let startDate = new Date(startDateTime);
+		let endDate = new Date(endDateTime);
+
+		if (now >= startDate && now <= endDate) {
+			openPop(id);
+			$('.modal-display').addClass('show');
 		}
+	}
+
+	function checkTodayHidePopup(id) {
+		var nowTime = new Date().getTime();
+		const hideUntil = localStorage.getItem(id);
+		if (nowTime < hideUntil) {
+			return true;
+		} else {
+			// 자정이 지나면 로컬 스토리지에서 항목을 제거
+			localStorage.removeItem(id);
+		}
+
+		return false;
 	}
 
 	function openPop(id) {
-		document.getElementById(id).classList.add('show');
+		document.getElementById(id)?.classList.add('show');
 	}
 
 	function closePop(id) {
-		// 체크박스가 체크된 상태인지 확인
-		const checkbox1 = document.querySelector('#checkbox1');
-		const checkbox2 = document.querySelector('#checkbox2');
+		// id 값이 존재하는지 먼저 확인
+		if (!id || typeof id !== "string") {
+			console.error("closePop 함수에 전달된 id 값이 잘못되었습니다!", id);
+			return;
+		}
 
-		if (checkbox1.checked || checkbox2.checked) {
-			// 팝업을 하루 동안 숨기도록 설정
+		// console.log("닫기 버튼 클릭됨, ID:", id); // 디버깅 로그 출력
+
+		// 해당 id를 가진 모달이 실제 존재하는지 확인
+		const modal = document.getElementById(id);
+		if (!modal) {
+			console.error(`ID가 '${id}'인 모달을 찾을 수 없습니다.`);
+			return;
+		}
+
+		// 모달 내부의 체크박스를 찾기
+		const checkbox = modal.querySelector(`input[type="checkbox"]`);
+		if (checkbox && checkbox.checked) {
+			// "하루 동안 보지 않기" 기능 적용
 			setHidePopup(id);
 		}
 
-		document.getElementById(id).classList.remove('show');
-		popupLengthCheck();
+		// 팝업 닫기
+		modal.classList.remove('show');
+
+		// 모든 팝업이 닫혔는지 확인 후, 배경도 닫기
+		const openModals = document.querySelectorAll('.modal.show');
+		if (openModals.length === 0) {
+			document.querySelector('.modal-display').classList.remove('show');
+		}
 	}
 
 	// "오늘 하루 보지 않기" 기능을 위한 함수
@@ -495,15 +629,13 @@
 
 		// 자정 시간 계산
 		const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0);
-
-		// 남은 시간 계산 (밀리초 단위)
 		const timeUntilMidnight = midnight.getTime() - now.getTime();
 
 		// 로컬 스토리지에 숨김 상태를 저장 (현재 시간 + 남은 시간)
 		localStorage.setItem('hidePopup_' + id, now.getTime() + timeUntilMidnight);
 	}
 
-	function shouldHidePopup(id) {
+	function shouldHidePopup() {
 		const hideUntil = localStorage.getItem('hidePopup_' + id);
 
 		if (hideUntil) {
@@ -520,6 +652,7 @@
 
 		return false;
 	}
+
 </script>
 </body>
 

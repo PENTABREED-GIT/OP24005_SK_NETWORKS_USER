@@ -10759,6 +10759,22 @@ body.modal-open {
   }
 }
 
+
+/*250318 영문 팝업 스타일 수정*/
+body.en .modal-display .modal.notice .modal-inner .modal-area .modal-wrap .modal-body {
+  max-height: 600px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-right: 5px;
+}
+body.en .modal-display .modal.notice .modal-inner .modal-area .modal-wrap .modal-body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body.en .modal-display .modal.notice .modal-inner .modal-area .modal-wrap .modal-body::-webkit-scrollbar-thumb {
+  background-color: #D5D4D9;
+  border-radius: 5rem;
+}
+
 body {
   /* Accent */
 }
