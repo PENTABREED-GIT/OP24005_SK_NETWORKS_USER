@@ -12,7 +12,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>전자공고 &lt; 공시정보 &lt; IR &lt; SK Networks</title>
+    <title>Notice &lt; Disclosure Information &lt; IR &lt; SK Networks</title>
     <%@ include file="/WEB-INF/views/en/include/page-header-inc.jsp" %>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -38,53 +38,49 @@
                     <ul class="data-list breadcrumb design1 case1 dark">
                         <li class="data-item"><span class="item-text">Home</span></li>
                         <li class="data-item"><span class="item-text">IR</span></li>
-
-                        <li class="data-item"><span class="item-text">공시정보</span></li>
-
-
-                        <li class="data-item"><span class="item-text">전자공고</span></li>
-
+                        <li class="data-item"><span class="item-text">Disclosure Information</span></li>
+                        <li class="data-item"><span class="item-text">Notice</span></li>
                     </ul>
                 </div>
                 <div class="local-head design3">
                     <div class="local-subject">
-                        <h2 class="local-name">전자공고</h2>
+                        <h2 class="local-name">Notice</h2>
                     </div>
                 </div>
                 <div class="local-body">
-                    <div class="content-head">전자공고 페이지</div>
+                    <div class="content-head">Notice</div>
                     <div class="content-body">
                         <div class="section design1 case1 type1">
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <div class="section-subject">
-                                        <h4 class="section-name">전자공고</h4>
+                                        <h4 class="section-name">Notice</h4>
                                         <form name="announcementForm" method="get" action="announcement">
                                             <input type="hidden" name="page">
                                             <div class="submit-form design1 case1 align1">
                                                 <div class="form-list">
                                                     <div class="form-item">
                                                         <div class="form select design1 case1 type1">
-                                                            <label for="searchType" class="blind">분류 선택</label>
+                                                            <label for="searchType" class="blind">Select</label>
                                                             <select name="searchType" id="searchType">
-                                                                <option value="title">제목</option>
-                                                                <option value="content">내용</option>
+                                                                <option value="title">Title</option>
+                                                                <option value="content">Content</option>
                                                             </select>
-                                                            <div class="arrow"><span class="blind">닫힘</span></div>
+                                                            <div class="arrow"><span class="blind">Close</span></div>
                                                         </div>
                                                     </div>
                                                     <div class="form-item">
                                                         <div class="form search design1 case1 type1">
                                                             <label for="searchWord" class="blind">
-                                                                검색어 입력
+                                                                Search
                                                             </label>
-                                                            <input id="searchWord" name="searchWord" class="input-elem" type="text" placeholder="검색어를 입력하세요.">
+                                                            <input id="searchWord" name="searchWord" class="input-elem" type="text" placeholder="Please enter keywords">
                                                             <div class="input-icon">
                                                                 <button class="btn icon case3 remove">
-                                                                    <span class="btn-text blind">삭제</span>
+                                                                    <span class="btn-text blind">delete</span>
                                                                 </button>
                                                                 <button class="btn icon case3 search" onclick="searchAnnouncement()">
-                                                                    <span class="btn-text blind">검색</span>
+                                                                    <span class="btn-text blind">Search</span>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -99,7 +95,7 @@
                                         <c:when test="${not empty announcementList}">
                                             <div class="t-display design1 case1 type1 align3 mo-layout1">
                                                 <table class="col-w-1">
-                                                    <caption>이 표는 전자공고 정보를 제공하며 번호, 제목, 공고일로 구성되어 있습니다.</caption>
+                                                    <caption>This table provides electronic announcement information and consists of numbers, titles, and announcement dates.</caption>
                                                     <colgroup>
                                                         <col class="col1">
                                                         <col class="col2">
@@ -107,9 +103,9 @@
                                                     </colgroup>
                                                     <thead>
                                                     <tr>
-                                                        <th scope="col">번호</th>
-                                                        <th scope="col">제목</th>
-                                                        <th scope="col">공고일</th>
+                                                        <th scope="col">No.</th>
+                                                        <th scope="col">Title</th>
+                                                        <th scope="col">Date</th>
                                                     </tr>
                                                     </thead>
                                                     <tbody>
