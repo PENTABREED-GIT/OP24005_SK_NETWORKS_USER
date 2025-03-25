@@ -20,75 +20,127 @@
                 <col class="col6">
             </colgroup>
             <thead>
-            <tr>
-                <th scope="col">Round</th>
-                <th scope="col">Date</th>
-                <th scope="col">Agenda Items</th>
-                <th scope="col">Attendees</th>
-                <th scope="col">Type</th>
-                <th scope="col">Approval/<br>Rejection</th>
-            </tr>
+                <tr>
+                    <th scope="col">Round</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Agenda Items</th>
+                    <th scope="col">Attendees</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Approval/<br>Rejection</th>
+                </tr>
             </thead>
             <tbody>
-            <tr>
-                <td rowspan="3">1</td>
-                <td rowspan="3">Jan. 23</td>
-                <td class="align1">Reporting of the BoD evaluation (pending)</td>
-                <td rowspan="3" class="align1">
-                    internal directors  <span class="accent color9">2</span><br>
-                    non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
-                </td>
-                <td>Reported</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td class="align1">2024 evaluation for the Representative Director</td>
-                <td>Resolved</td>
-                <td>Approved</td>
-            </tr>
-            <tr>
-                <td class="align1">Remuneration for the Representative Director</td>
-                <td>Resolved</td>
-                <td>Approved</td>
-            </tr>
-            <tr>
-                <td rowspan="6">2</td>
-                <td rowspan="6">Feb. 11</td>
-                <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2024</td>
-                <td rowspan="6" class="align1">
-                    internal directors  <span class="accent color9">2</span><br>
-                    non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
-                </td>
-                <td>Reported</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td class="align1">Reporting of 2024 business performance</td>
-                <td>Reported</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td class="align1">Replacement of the Compliance Officer</td>
-                <td>Resolved</td>
-                <td>Approved</td>
-            </tr>
-            <tr>
-                <td class="align1">Replacement of the Voluntary Fair Trade Compliance Officer</td>
-                <td>Resolved</td>
-                <td>Approved</td>
-            </tr>
-            <tr>
-                <td class="align1">Approval of the financial statements for the 72nd period (year 2024)</td>
-                <td>Resolved</td>
-                <td>Approved</td>
-            </tr>
-            <tr>
-                <td class="align1">Approval of the business report for the 72nd period (year 2024)</td>
-                <td>Resolved</td>
-                <td>Approved</td>
-            </tr>
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td rowspan="3">Jan. 23</td>
+                    <td class="align1">Reporting of the BoD evaluation (pending)</td>
+                    <td rowspan="3" class="align1">
+                        internal directors  <span class="accent color9">2</span><br>
+                        non-executive director <span class="accent color9">1</span><br>
+                        outside directors <span class="accent color9">4</span>
+                    </td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024 evaluation for the Representative Director</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td class="align1">Remuneration for the Representative Director</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td rowspan="6">2</td>
+                    <td rowspan="6">Feb. 11</td>
+                    <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2024</td>
+                    <td rowspan="6" class="align1">
+                        internal directors  <span class="accent color9">2</span><br>
+                        non-executive director <span class="accent color9">1</span><br>
+                        outside directors <span class="accent color9">4</span>
+                    </td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">Reporting of 2024 business performance</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">Replacement of the Compliance Officer</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td class="align1">Replacement of the Voluntary Fair Trade Compliance Officer</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td class="align1">Approval of the financial statements for the 72nd period (year 2024)</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td class="align1">Approval of the business report for the 72nd period (year 2024)</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td rowspan="9">3</td>
+                    <td rowspan="9">Mar. 11</td>
+                    <td class="align1">Report on the Operation Status of the Internal Accounting Management System for 2024</td>
+                    <td rowspan="9" class="align1">
+                        internal directors  <span class="accent color9">2</span><br>
+                        non-executive director <span class="accent color9">1</span><br>
+                        outside directors <span class="accent color9">4</span>
+                    </td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">Report on the Assessment of the Internal Accounting Management System Operations for 2024</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">Report on the Results of Board Evaluation</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">Resolution on the Amendment of the Arcadia Lease Agreement</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td class="align1">Approval of the 2025 Safety and Health Plan</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td class="align1">Resolution on the Closure of the Car Rental Business</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td class="align1">Approval of Treasury Stock Report</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td class="align1">Approval of Amendments to the 72nd (2024) Business Report</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td class="align1">Convening of the 72nd (2024) Annual General Meeting of Shareholders</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
             </tbody>
         </table>
     </div>

@@ -958,7 +958,7 @@
                                                     <p class="comment design1">
                                                         * Excluding portfolios that are not allowed to be disclosed.
                                                         <br>
-                                                        * As of June 2023
+                                                        * As of MAR 2024
                                                     </p>
                                                 </div>
                                             </div>

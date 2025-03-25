@@ -82,6 +82,58 @@
                     <td>결의</td>
                     <td>가결</td>
                 </tr>
+                <tr>
+                    <td rowspan="9">3</td>
+                    <td rowspan="9">03월 11일</td>
+                    <td class="align1">2024년 내부회계관리제도 운영실태 보고</td>
+                    <td rowspan="9" class="align1">
+                        사내이사 <span class="accent color9">2</span><br>
+                        기타비상무이사 <span class="accent color9">1</span><br>
+                        사외이사 <span class="accent color9">4</span>
+                    </td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 내부회계관리제도 운영실태 평가 보고</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">이사회 평가 결과 보고</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">아카디아 임대계약 변경 체결의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 안전 및 보건에 관한 계획 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">자동차대여사업 폐업의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">자기주식 보고서 승인의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">제72기(2024년도) 영업보고서 변경 내역 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">제72기(2024년도) 정기주주총회 소집의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
             </tbody>
         </table>
     </div>

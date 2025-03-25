@@ -7103,7 +7103,7 @@
     width: 18.91%;
   }
   .en .data-display.onePair-table > .data-list .data-item .data-head .data-tr .data-th:first-child {
-    width: 42%;
+    width: 62.18%;
   }
   .data-display.onePair-table > .data-list .data-item .data-body .data-tr .data-th {
     width: 30%;
@@ -7112,13 +7112,13 @@
     font-size: 1.6rem;
   }
   .data-display.onePair-table > .data-list .data-item .data-body .data-tr .data-th:first-child {
-    width: 41%;
+    width: 40%;
   }
   .en .data-display.onePair-table > .data-list .data-item .data-body .data-tr .data-th {
     width: 18.91%;
   }
   .en .data-display.onePair-table > .data-list .data-item .data-body .data-tr .data-th:first-child {
-    width: 43%;
+    width: 62.18%;
   }
   .data-display.onePair-table > .data-list .data-item .data-body .data-tr .data-td {
     width: 30%;
@@ -7133,7 +7133,7 @@
     width: 18.91%;
   }
   .en .data-display.onePair-table > .data-list .data-item .data-body .data-tr .data-td:first-child {
-    width: 42%;
+    width: 62.18%;
   }
 }
 .data-display.table-layout > .data-list .data-item .data-head {
@@ -20246,8 +20246,11 @@ sub {
   }
 }
 @media (max-width: 1023px) {
-  .en .ir.stock-info.financial-status table.col-w-1 col.col.col1 {
-    width: 35%;
+  .en .ir.stock-info.financial-status table.col-w-1 col.col1 {
+    width: 41.44%;
+  }
+  .en .ir.stock-info.financial-status table.col-w-1 col.col2 {
+    width: auto;
   }
 }
 

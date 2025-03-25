@@ -219,9 +219,9 @@
                         @at-root
                         .en & {
                             @include mobile {
-                                @each $index, $width in (1: 41.44%, 2: auto) {
-                                    &.col#{$index} {
-                                        width: $width;
+                                &.col {
+                                    &.col1 {
+                                        width: 35%;
                                     }
                                 }
                             }

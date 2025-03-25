@@ -28,17 +28,40 @@
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td rowspan="3">1</td>
-                <td rowspan="3">2025.2.5</td>
-                <td class="align1">Replacement of the Compliance Officer</td>
-                <td>Deliberated</td>
-                <td rowspan="3">100%</td>
-            </tr>
-            <tr>
-                <td class="align1">Replacement of the Voluntary Fair Trade Compliance Officer</td>
-                <td>Deliberated</td>
-            </tr>
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td rowspan="3">2025.2.5</td>
+                    <td class="align1">Replacement of the Compliance Officer</td>
+                    <td>Deliberated</td>
+                    <td rowspan="3">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">Replacement of the Voluntary Fair Trade Compliance Officer</td>
+                    <td>Deliberated</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">2</td>
+                    <td rowspan="5">2025.3.10</td>
+                    <td class="align1">Resolution on the Amendment of the Arcadia Lease Agreement</td>
+                    <td>Deliberated</td>
+                    <td rowspan="5">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">Approval of the 2025 Safety and Health Plan</td>
+                    <td>Deliberated</td>
+                </tr>
+                <tr>
+                    <td class="align1">Resolution on the Closure of the Car Rental Business</td>
+                    <td>Deliberated</td>
+                </tr>
+                <tr>
+                    <td class="align1">Approval of the Treasury Stock Report</td>
+                    <td>Deliberated</td>
+                </tr>
+                <tr>
+                    <td class="align1">Convening of the 72nd (2024) Annual General Meeting of Shareholders</td>
+                    <td>Deliberated</td>
+                </tr>
             </tbody>
         </table>
     </div>

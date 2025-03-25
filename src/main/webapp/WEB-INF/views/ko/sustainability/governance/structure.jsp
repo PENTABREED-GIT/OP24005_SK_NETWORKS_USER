@@ -324,7 +324,7 @@
                                                                                                     <ul class="data-list">
                                                                                                         <li class="data-item">
                                                                                                             <span class="title">선임일</span>
-                                                                                                            <span class="data">2022.03</span>
+                                                                                                            <span class="data">2025.03<br>(최초선임 2022.03)</span>
                                                                                                         </li>
                                                                                                         <li class="data-item">
                                                                                                             <span class="title">임기</span>
@@ -351,18 +351,19 @@
                                                                                     <div class="post-wrap">
                                                                                         <div class="post-inform">
                                                                                             <div class="post-figure">
-                                                                                                <img src="/assets/images/sustainability/esg-internal-03.png" alt="이성형 기타비상무이사 사진">
+                                                                                                <%--250325 사진 변경 필요--%>
+                                                                                                <img src="/assets/images/sustainability/esg-internal-03.png" alt="김기동 기타비상무이사 사진">
                                                                                             </div>
                                                                                             <div class="post-body">
                                                                                                 <div class="head">
                                                                                                     <p class="caption">기타비상무이사</p>
-                                                                                                    <p class="name">이성형</p>
+                                                                                                    <p class="name">김기동</p>
                                                                                                 </div>
                                                                                                 <div class="body">
                                                                                                     <ul class="data-list">
                                                                                                         <li class="data-item">
                                                                                                             <span class="title">선임일</span>
-                                                                                                            <span class="data">2023.03</span>
+                                                                                                            <span class="data">2025.03</span>
                                                                                                         </li>
                                                                                                         <li class="data-item">
                                                                                                             <span class="title">임기</span>
@@ -414,42 +415,6 @@
                                                                                             <p class="caption">프로필</p>
                                                                                             <ul class="data-list">
                                                                                                 <li class="data-item">前 보스턴컨설팅그룹 아ㆍ태지역 금융부문 총괄대표</li>
-                                                                                            </ul>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="post-item">
-                                                                                    <div class="post-wrap">
-                                                                                        <div class="post-inform">
-                                                                                            <div class="post-figure">
-                                                                                                <img src="/assets/images/sustainability/esg-internal-05.png" alt="정석우 사외이사 사진">
-                                                                                            </div>
-                                                                                            <div class="post-body">
-                                                                                                <div class="head">
-                                                                                                    <p class="caption">사외이사</p>
-                                                                                                    <p class="name">정석우</p>
-                                                                                                </div>
-                                                                                                <div class="body">
-                                                                                                    <ul class="data-list">
-                                                                                                        <li class="data-item">
-                                                                                                            <span class="title">선임일</span>
-                                                                                                            <span class="data">2022.03<br>(최초선임 2019.03)</span>
-                                                                                                        </li>
-                                                                                                        <li class="data-item">
-                                                                                                            <span class="title">임기</span>
-                                                                                                            <span class="data">3년</span>
-                                                                                                        </li>
-                                                                                                    </ul>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="post-profile">
-                                                                                            <p class="caption">프로필</p>
-                                                                                            <ul class="data-list">
-                                                                                                <li class="data-item">現 고려대학교 회계학과 교수</li>
-                                                                                                <li class="data-item">KCGS 기업지배 구조 위원회 위원</li>
-                                                                                                <li class="data-item">금융위원회 증권선물위원회 비상임위원</li>
-                                                                                                <li class="data-item">한국회계학회 학회장</li>
                                                                                             </ul>
                                                                                         </div>
                                                                                     </div>
@@ -521,6 +486,41 @@
                                                                                                 <li class="data-item">구글클라우드코리아 사장</li>
                                                                                                 <li class="data-item">마이크로소프트 아태지역 전략 사장</li>
                                                                                                 <li class="data-item">한국IBM 대표이사 사장</li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="post-item">
+                                                                                    <div class="post-wrap">
+                                                                                        <div class="post-inform">
+                                                                                            <div class="post-figure">
+                                                                                                <%--250325 사진 변경 필요--%>
+                                                                                                <img src="/assets/images/sustainability/esg-internal-05.png" alt="장근배 사외이사 사진">
+                                                                                            </div>
+                                                                                            <div class="post-body">
+                                                                                                <div class="head">
+                                                                                                    <p class="caption">사외이사</p>
+                                                                                                    <p class="name">장근배</p>
+                                                                                                </div>
+                                                                                                <div class="body">
+                                                                                                    <ul class="data-list">
+                                                                                                        <li class="data-item">
+                                                                                                            <span class="title">선임일</span>
+                                                                                                            <span class="data">2025.03</span>
+                                                                                                        </li>
+                                                                                                        <li class="data-item">
+                                                                                                            <span class="title">임기</span>
+                                                                                                            <span class="data">3년</span>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="post-profile">
+                                                                                            <p class="caption">프로필</p>
+                                                                                            <ul class="data-list">
+                                                                                                <li class="data-item">現 한동대학교 경영경제학부 회계학 교수</li>
+                                                                                                <li class="data-item">두산인프라코어㈜ 건설기계부문 CFO</li>
                                                                                             </ul>
                                                                                         </div>
                                                                                     </div>
@@ -682,8 +682,8 @@
                                                                                         <tr>
                                                                                             <td>인사위원회</td>
                                                                                             <td></td>
-                                                                                            <td>이성형 위원</td>
-                                                                                            <td>정석우 위원장<br>장화진 위원</td>
+                                                                                            <td>김기동 위원</td>
+                                                                                            <td>장화진 위원<br>장근배 위원</td>
                                                                                             <td class="align1">사외이사 후보 추천 Process 수립, 후보 Pool 확보, 사외이사 후보 추천, CEO 및 주요 경영층에 대한 인사/평가/보상 심의 등
                                                                                             </td>
                                                                                             <td>
@@ -697,12 +697,12 @@
                                                                                         <tr>
                                                                                             <td>전략∙ESG위원회</td>
                                                                                             <td>이호정 위원(대표이사)<br>최성환 위원</td>
-                                                                                            <td>이성형 위원</td>
+                                                                                            <td>김기동 위원</td>
                                                                                             <td>
                                                                                                 채수일 위원장<br>
-                                                                                                정석우 위원<br>
                                                                                                 이문영 위원<br>
-                                                                                                장화진 위원
+                                                                                                장화진 위원<br>
+                                                                                                장근배 위원
                                                                                             </td>
                                                                                             <td class="align1">지속가능한 기업가치 제고 측면에서 중장기전략, 경영계획 등 미래성장전략 공유 및 수립
                                                                                             </td>
@@ -719,9 +719,9 @@
                                                                                             <td>-</td>
                                                                                             <td>-</td>
                                                                                             <td>
-                                                                                                정석우 위원장<br>
                                                                                                 이문영 위원<br>
-                                                                                                장화진 위원
+                                                                                                장화진 위원<br>
+                                                                                                장근배 위원
                                                                                             </td>
                                                                                             <td class="align1">경영진의 업무활동에 대한 감사, 기업재무활동에 대한 건전성과 타당성 검토, 재무보고의 정확성 및 회계처리 기준과 회계추정변경의 타당성 검토
                                                                                             </td>

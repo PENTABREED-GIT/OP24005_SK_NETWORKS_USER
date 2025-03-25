@@ -13,62 +13,113 @@
                 <col class="col6">
             </colgroup>
             <thead>
-            <tr>
-                <th scope="col">회차</th>
-                <th scope="col">개최일자</th>
-                <th scope="col">주요 안건</th>
-                <th scope="col">구분</th>
-                <th scope="col">가결여부</th>
-                <th scope="col">이사참석률</th>
-            </tr>
+                <tr>
+                    <th scope="col">회차</th>
+                    <th scope="col">개최일자</th>
+                    <th scope="col">주요 안건</th>
+                    <th scope="col">구분</th>
+                    <th scope="col">가결여부</th>
+                    <th scope="col">이사참석률</th>
+                </tr>
             </thead>
             <tbody>
-            <tr>
-                <td rowspan="4">1</td>
-                <td rowspan="4">01월 23일</td>
-                <td class="align1">2024년 감사위원회 활동 평가의 건</td>
-                <td>평가</td>
-                <td>-</td>
-                <td rowspan="4">100%</td>
-            </tr>
-            <tr>
-                <td class="align1">2024년 외부감사인 연간감사 보수 변경(안) 의결의 건</td>
-                <td>의결</td>
-                <td>승인 보류</td>
-            </tr>
-            <tr>
-                <td class="align1">2025년 감사실 경영계획 수정(안) 승인의 건</td>
-                <td>의결</td>
-                <td>승인</td>
-            </tr>
-            <tr>
-                <td class="align1">2024년 4분기 감사실 실적 보고의 건</td>
-                <td>보고</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td rowspan="4">2</td>
-                <td rowspan="4">02월 10일</td>
-                <td class="align1">2024년 경영실적 및 재무제표 보고의 건</td>
-                <td>보고</td>
-                <td>-</td>
-                <td rowspan="4">100%</td>
-            </tr>
-            <tr>
-                <td class="align1">2024년 영업보고서 보고의 건</td>
-                <td>보고</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td class="align1">2024년 외부감사인 연간감사 진행경과 보고의 건</td>
-                <td>보고</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td class="align1">2024년 외부감사인 연간감사 보수 변경(안) 재의결의 건</td>
-                <td>의결</td>
-                <td>승인</td>
-            </tr>
+                <tr>
+                    <td rowspan="4">1</td>
+                    <td rowspan="4">01월 23일</td>
+                    <td class="align1">2024년 감사위원회 활동 평가의 건</td>
+                    <td>평가</td>
+                    <td>-</td>
+                    <td rowspan="4">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 외부감사인 연간감사 보수 변경(안) 의결의 건</td>
+                    <td>의결</td>
+                    <td>승인 보류</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 감사실 경영계획 수정(안) 승인의 건</td>
+                    <td>의결</td>
+                    <td>승인</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 4분기 감사실 실적 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">2</td>
+                    <td rowspan="4">02월 10일</td>
+                    <td class="align1">2024년 경영실적 및 재무제표 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                    <td rowspan="4">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 영업보고서 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 외부감사인 연간감사 진행경과 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 외부감사인 연간감사 보수 변경(안) 재의결의 건</td>
+                    <td>의결</td>
+                    <td>승인</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">3</td>
+                    <td rowspan="3">02월 27일</td>
+                    <td class="align1">2024년 내부회계관리제도 운영실태 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                    <td rowspan="3">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 내부회계관리제도 운영실태 평가의 건</td>
+                    <td>의결</td>
+                    <td>승인</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 내부감시장치의 가동현황에 대한 평가의 건</td>
+                    <td>의결</td>
+                    <td>승인</td>
+                </tr>
+                <tr>
+                    <td rowspan="6">4</td>
+                    <td rowspan="6">03월 10일</td>
+                    <td class="align1">제72기(2024년) 영업보고서 변경 내역 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                    <td rowspan="6">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 회계연도 외부감사인 감사결과 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 외부감사인 연간감사 보수(안) 의결의 건</td>
+                    <td>의결</td>
+                    <td>승인</td>
+                </tr>
+                <tr>
+                    <td class="align1">제72기(2024년) 감사위원회의 감사보고서 작성의 건</td>
+                    <td>의결</td>
+                    <td>승인</td>
+                </tr>
+                <tr>
+                    <td class="align1">제72기(2024년) 주주총회에 제출할 의안 및 서류에 대한 조사의 건</td>
+                    <td>의결</td>
+                    <td>승인</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 상반기 정기감사 계획 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
             </tbody>
         </table>
     </div>

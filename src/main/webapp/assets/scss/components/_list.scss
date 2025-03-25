@@ -3162,7 +3162,8 @@
                                 .en & {
                                     width: calc((100% - 62.18%) / 2);
                                     &:first-child {
-                                        width: 62.18%;
+                                        //width: 62.18%;
+                                        width: 42%;
                                     }
                                 }
                             }
@@ -3177,13 +3178,15 @@
                                 @include font(small-4x, bold);
 
                                 &:first-child {
-                                    width: 40%;
+                                    //width: 40%;
+                                    width: 41%;
                                 }
                                 @at-root
                                 .en & {
                                     width: calc((100% - 62.18%) / 2);
                                     &:first-child {
-                                        width: 62.18%;
+                                        //width: 50%;
+                                        width: 43%;
                                     }
                                 }
                             }
@@ -3200,7 +3203,8 @@
                                 .en & {
                                     width: calc((100% - 62.18%) / 2);
                                     &:first-child {
-                                        width: 62.18%;
+                                        //width: 62.18%;
+                                        width: 42%;
                                     }
                                 }
                             }

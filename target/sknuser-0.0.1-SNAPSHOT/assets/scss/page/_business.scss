@@ -1,5 +1,6 @@
 #wrap {
     .business {
+        background: red;
         &:not(.overview) {
             .local-figure {
                 max-width: 100%;

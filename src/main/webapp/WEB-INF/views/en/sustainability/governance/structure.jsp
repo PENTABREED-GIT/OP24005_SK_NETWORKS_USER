@@ -337,16 +337,17 @@
                                                                         </div>
                                                                         <div class="data-body">
                                                                             <div class="post-list csr-governance case1">
+                                                                                <%--250325 수정--%>
                                                                                 <div class="post-item">
                                                                                     <div class="post-wrap">
                                                                                         <div class="post-inform">
                                                                                             <div class="post-figure">
-                                                                                                <img src="/assets/images/sustainability/esg-internal-03.png" alt="Lee, Sunghyung">
+                                                                                                <img src="/assets/images/sustainability/esg-internal-03.png" alt="Kim, Keedong">
                                                                                             </div>
                                                                                             <div class="post-body">
                                                                                                 <div class="head">
                                                                                                     <p class="caption">Non Executive Director</p>
-                                                                                                    <p class="name">Lee, Sunghyung</p>
+                                                                                                    <p class="name">Kim, Keedong</p>
                                                                                                 </div>
                                                                                                 <div class="body">
                                                                                                     <ul class="data-list">
@@ -404,42 +405,6 @@
                                                                                             <p class="caption">Profile</p>
                                                                                             <ul class="data-list">
                                                                                                 <li class="data-item">Former&#41; financial institution representative, Boston Consulting Group in Asia Pacific</li>
-                                                                                            </ul>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="post-item">
-                                                                                    <div class="post-wrap">
-                                                                                        <div class="post-inform">
-                                                                                            <div class="post-figure">
-                                                                                                <img src="/assets/images/sustainability/esg-internal-05.png" alt="Jeong, Seokwoo">
-                                                                                            </div>
-                                                                                            <div class="post-body">
-                                                                                                <div class="head">
-                                                                                                    <p class="caption">Outside Director</p>
-                                                                                                    <p class="name">Jeong, Seokwoo</p>
-                                                                                                </div>
-                                                                                                <div class="body">
-                                                                                                    <ul class="data-list">
-                                                                                                        <li class="data-item">
-                                                                                                            <span class="title">Date of<br class="pc-only"> appointment</span>
-                                                                                                            <span class="data">2022.03</span>
-                                                                                                        </li>
-                                                                                                        <li class="data-item">
-                                                                                                            <span class="title">Term</span>
-                                                                                                            <span class="data">3 years</span>
-                                                                                                        </li>
-                                                                                                    </ul>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="post-profile">
-                                                                                            <p class="caption">Profile</p>
-                                                                                            <ul class="data-list">
-                                                                                                <li class="data-item">Professor, school of Business Administration Korea University</li>
-                                                                                                <li class="data-item">Non-Standing Commissioner, Securities and Futures</li>
-                                                                                                <li class="data-item">Committee of Financial Services Commission</li>
-                                                                                                <li class="data-item">President, Korea Accounting Association</li>
                                                                                             </ul>
                                                                                         </div>
                                                                                     </div>
@@ -511,6 +476,40 @@
                                                                                                 <li class="data-item">President, Google Cloud Korea</li>
                                                                                                 <li class="data-item">Chief strategy officer, Microsoft Asia Pacific</li>
                                                                                                 <li class="data-item">CEO / President, IBM Korea</li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <%--250325 추가--%>
+                                                                                <div class="post-item">
+                                                                                    <div class="post-wrap">
+                                                                                        <div class="post-inform">
+                                                                                            <div class="post-figure">
+                                                                                                <img src="/assets/images/sustainability/esg-internal-05.png" alt="Jang, Geunbae">
+                                                                                            </div>
+                                                                                            <div class="post-body">
+                                                                                                <div class="head">
+                                                                                                    <p class="caption">Outside Director</p>
+                                                                                                    <p class="name">Jang, Geunbae</p>
+                                                                                                </div>
+                                                                                                <div class="body">
+                                                                                                    <ul class="data-list">
+                                                                                                        <li class="data-item">
+                                                                                                            <span class="title">Date of<br class="pc-only"> appointment</span>
+                                                                                                            <span class="data">2025.03.</span>
+                                                                                                        </li>
+                                                                                                        <li class="data-item">
+                                                                                                            <span class="title">Term</span>
+                                                                                                            <span class="data">3 years</span>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="post-profile">
+                                                                                            <p class="caption">Profile</p>
+                                                                                            <ul class="data-list">
+                                                                                                <li class="data-item"></li>
                                                                                             </ul>
                                                                                         </div>
                                                                                     </div>
@@ -674,9 +673,10 @@
                                                                                         <tr>
                                                                                             <td>Human Resources</td>
                                                                                             <td></td>
-                                                                                            <td>Commissioner Sunghyung Lee</td>
-                                                                                            <td>Chairman Seok-woo Jeong<br>Commissioner Hwa-jin Chang</td>
-                                                                                            <td class="align1">Establishes the outside director candidate nomination process
+                                                                                            <td>Commissioner<br> Keedong Kim</td>
+                                                                                            <td>Commissioner<br> Hwa-jin Chang<br> Commissioner<br> Geunbae Jang<br></td>
+                                                                                            <td class="align1">
+                                                                                                Establishes the outside director candidate nomination process
                                                                                                 Identifies and manages a candidate pool
                                                                                                 Reviews HR arrangements, evaluation, compensation etc. related to the CEO and key executives
                                                                                             </td>
@@ -691,13 +691,13 @@
                                                                                         </tr>
                                                                                         <tr>
                                                                                             <td>Strategy∙ESG Committee</td>
-                                                                                            <td>Commissioner Ho-jeong Lee, (Representative Director),<br>Commissioner Sunghwan Choi</td>
-                                                                                            <td>Commissioner Sunghyung Lee</td>
+                                                                                            <td>Commissioner<br> Ho-jeong Lee, <br>(Representative Director),<br>Commissioner<br> Sunghwan Choi</td>
+                                                                                            <td>Commissioner Keedong Kim</td>
                                                                                             <td>
-                                                                                                Chairman Sooil Chai<br>
-                                                                                                Commissioner Seok-woo Jeong<br>
-                                                                                                Commissioner Moon-young Lee<br>
-                                                                                                Commissioner Hwa-jin Chang
+                                                                                                Chairman<br> Sooil Chai<br>
+                                                                                                Commissioner<br> Moon-young Lee<br>
+                                                                                                Commissioner<br> Hwa-jin Chang<br>
+                                                                                                Commissioner<br> Geunbae Jang
                                                                                             </td>
                                                                                             <td class="align1">Conducts audits on work activities of the executives
                                                                                                 Reviews integrity and validity of the company’s financial activities
@@ -717,9 +717,9 @@
                                                                                             <td>-</td>
                                                                                             <td>-</td>
                                                                                             <td>
-                                                                                                Chairman Seok-woo Jeong<br>
-                                                                                                Commissioner Moon-young Lee<br>
-                                                                                                Commissioner Hwa-jin Chang
+                                                                                                Commissioner<br> Moon-young Lee<br>
+                                                                                                Commissioner<br> Hwa-jin Chang<br>
+                                                                                                Commissioner<br> Geunbae Jang
                                                                                             </td>
                                                                                             <td class="align1">Conducts audits on work activities of executives
                                                                                                 Reviews integrity and validity of the company’s financial activities

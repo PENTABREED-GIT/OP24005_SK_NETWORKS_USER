@@ -32,6 +32,29 @@
                     <td class="align1">공정거래 자율준수관리자 변경의 건</td>
                     <td>심의</td>
                 </tr>
+                <tr>
+                    <td rowspan="5">2</td>
+                    <td rowspan="5">03월 10일</td>
+                    <td class="align1">아카디아 임대계약 변경 체결의 건</td>
+                    <td>심의</td>
+                    <td rowspan="5">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 안전 및 보건에 관한 계획 승인의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">자동차대여사업 폐업의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">자기주식 보고서 승인의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">제72기(2024년도) 정기주주총회 소집의 건</td>
+                    <td>심의</td>
+                </tr>
             </tbody>
         </table>
     </div>
