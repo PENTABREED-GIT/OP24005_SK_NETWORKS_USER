@@ -520,7 +520,9 @@
                                                                                             <p class="caption">프로필</p>
                                                                                             <ul class="data-list">
                                                                                                 <li class="data-item">現 한동대학교 경영경제학부 회계학 교수</li>
+                                                                                                <li class="data-item">두산밥캣㈜ CFO/Strategic Programs/Advisory</li>
                                                                                                 <li class="data-item">두산인프라코어㈜ 건설기계부문 CFO</li>
+                                                                                                <li class="data-item">eBay Asia Pacific Financial Controller</li>
                                                                                             </ul>
                                                                                         </div>
                                                                                     </div>

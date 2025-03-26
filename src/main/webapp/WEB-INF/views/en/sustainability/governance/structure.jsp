@@ -509,7 +509,10 @@
                                                                                         <div class="post-profile">
                                                                                             <p class="caption">Profile</p>
                                                                                             <ul class="data-list">
-                                                                                                <li class="data-item"></li>
+                                                                                                <li class="data-item">Professor of Accounting, School of Management and Economics, Handong Global University</li>
+                                                                                                <li class="data-item">CFO/Strategic Programs/Advisory, Doosan Bobcat</li>
+                                                                                                <li class="data-item">CFO, Construction Equipment Sector, Doosan Infracore</li>
+                                                                                                <li class="data-item">eBay Asia Pacific Financial Controller</li>
                                                                                             </ul>
                                                                                         </div>
                                                                                     </div>
