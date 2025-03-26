@@ -145,7 +145,7 @@
                                                     <td>62%</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">배당수익률</td>
+                                                    <td rowspan="2">배당수익률*</td>
                                                     <td>중간배당</td>
                                                     <td>2.06%</td>
                                                     <td rowspan="2">3.39%</td>

@@ -29,11 +29,11 @@
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="3">1</td>
-                    <td rowspan="3">2025.2.5</td>
+                    <td rowspan="2">1</td>
+                    <td rowspan="2">2025.2.5</td>
                     <td class="align1">Replacement of the Compliance Officer</td>
                     <td>Deliberated</td>
-                    <td rowspan="3">100%</td>
+                    <td rowspan="2">100%</td>
                 </tr>
                 <tr>
                     <td class="align1">Replacement of the Voluntary Fair Trade Compliance Officer</td>

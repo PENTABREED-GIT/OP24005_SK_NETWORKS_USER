@@ -22,11 +22,11 @@
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="3">1</td>
-                    <td rowspan="3">02월 05일</td>
+                    <td rowspan="2">1</td>
+                    <td rowspan="2">02월 05일</td>
                     <td class="align1">준법지원인 변경의 건</td>
                     <td>심의</td>
-                    <td rowspan="3">100%</td>
+                    <td rowspan="2">100%</td>
                 </tr>
                 <tr>
                     <td class="align1">공정거래 자율준수관리자 변경의 건</td>

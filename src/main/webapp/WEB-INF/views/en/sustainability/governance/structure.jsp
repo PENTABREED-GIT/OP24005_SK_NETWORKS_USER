@@ -314,7 +314,7 @@
                                                                                                     <ul class="data-list">
                                                                                                         <li class="data-item">
                                                                                                             <span class="title">Date of<br class="pc-only"> appointment</span>
-                                                                                                            <span class="data">2022.03<br>(최초선임 2022.03)</span>
+                                                                                                            <span class="data">2022.03<br>(Initial appointment date 2022.03)</span>
                                                                                                         </li>
                                                                                                         <li class="data-item">
                                                                                                             <span class="title">Term</span>
@@ -424,7 +424,7 @@
                                                                                                     <ul class="data-list">
                                                                                                         <li class="data-item">
                                                                                                             <span class="title">Date of<br class="pc-only"> appointment</span>
-                                                                                                            <span class="data">2024.03<br>(최초선임 2021.03)</span>
+                                                                                                            <span class="data">2024.03<br>(Initial appointment date 2021.03)</span>
                                                                                                         </li>
                                                                                                         <li class="data-item">
                                                                                                             <span class="title">Term</span>

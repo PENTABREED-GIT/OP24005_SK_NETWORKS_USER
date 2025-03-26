@@ -121,8 +121,8 @@
                 </tr>
                 <tr>
                     <td class="align1">자기주식 보고서 승인의 건</td>
-                    <td>보고</td>
-                    <td>-</td>
+                    <td>결의</td>
+                    <td>가결</td>
                 </tr>
                 <tr>
                     <td class="align1">제72기(2024년도) 영업보고서 변경 내역 승인의 건</td>
