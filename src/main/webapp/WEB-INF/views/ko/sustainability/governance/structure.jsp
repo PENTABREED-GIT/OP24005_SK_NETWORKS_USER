@@ -352,7 +352,7 @@
                                                                                         <div class="post-inform">
                                                                                             <div class="post-figure">
                                                                                                 <%--250325 사진 변경 필요--%>
-                                                                                                <img src="/assets/images/sustainability/esg-internal-03.png" alt="김기동 기타비상무이사 사진">
+                                                                                                <img src="/assets/images/sustainability/esg-internal-08.png" alt="김기동 기타비상무이사 사진">
                                                                                             </div>
                                                                                             <div class="post-body">
                                                                                                 <div class="head">
@@ -495,7 +495,7 @@
                                                                                         <div class="post-inform">
                                                                                             <div class="post-figure">
                                                                                                 <%--250325 사진 변경 필요--%>
-                                                                                                <img src="/assets/images/sustainability/esg-internal-05.png" alt="장근배 사외이사 사진">
+                                                                                                <img src="/assets/images/sustainability/esg-internal-09.png" alt="장근배 사외이사 사진">
                                                                                             </div>
                                                                                             <div class="post-body">
                                                                                                 <div class="head">
