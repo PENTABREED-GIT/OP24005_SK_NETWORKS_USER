@@ -168,7 +168,7 @@
                                 width: $width;
                             }
                         }
-                    
+
                         @include mobile {
                             @each $index, $width in (1: 14.15%, 2: 15.72%, 3: 14.68%, 4: 16.56%, 5: 18.66%, 6: auto) {
                                 &.col#{$index} {
@@ -185,7 +185,7 @@
                                 width: $width;
                             }
                         }
-                    
+
                         @include mobile {
                             @each $index, $width in (1: 13.35%, 2: 12.78%, 3: 23.58%, 4: 50.28%) {
                                 &.col#{$index} {
@@ -204,7 +204,7 @@
                                     width: $width;
                                 }
                             }
-                        
+
                             @include mobile {
                                 @each $index, $width in (1: 14%, 2: 25%, 3: 26%, 4: auto) {
                                     &.col#{$index} {
@@ -222,7 +222,7 @@
                                 width: $width;
                             }
                         }
-                    
+
                         @include mobile {
                             @each $index, $width in (1: 32.0%, 2: auto, 3: 35%, 4: auto) {
                                 &.col#{$index} {
@@ -238,7 +238,7 @@
                                     width: $width;
                                 }
                             }
-                        
+
                             @include mobile {
                                 @each $index, $width in (1: 20%, 2: auto, 3: 18%, 4: auto) {
                                     &.col#{$index} {
@@ -256,7 +256,7 @@
                                 width: $width;
                             }
                         }
-                    
+
                         @include mobile {
                             @each $index, $width in (1: 20.88%, 2: 27.84%, 3: 13.35%, 4: 13.35%, 5: 13.35%, 6: auto) {
                                 &.col#{$index} {
@@ -272,7 +272,7 @@
                                     width: $width;
                                 }
                             }
-                        
+
                             @include mobile {
                                 @each $index, $width in (1: 23%, 2: 28%, 3: auto, 4: auto, 5: auto, 6: 14%) {
                                     &.col#{$index} {
@@ -527,7 +527,7 @@
                                     +.section-util {
                                         margin-top: 8rem;
                                         @include mobile {
-                                           margin-top: 4.8rem; 
+                                           margin-top: 4.8rem;
                                         }
                                     }
                                 }
@@ -970,7 +970,7 @@
                     }
                 }
             }
-            
+
             .comment {
                 margin-top: 1.6rem;
                 @include mobile {
@@ -1620,7 +1620,7 @@
                                     width: $width;
                                 }
                             }
-    
+
                             @include mobile {
                                 @each $index, $width in (1: 8%, 2: 13%, 3: auto, 4: 18%, 5: 14%, 6: 14%) {
                                     &.col#{$index} {
@@ -1652,7 +1652,7 @@
                                     width: $width;
                                 }
                             }
-    
+
                             @include mobile {
                                 @each $index, $width in (1: 8%, 2: 14%, 3: auto, 4: 18.15%, 5: 14%) {
                                     &.col#{$index} {
@@ -1684,7 +1684,7 @@
                                     width: $width;
                                 }
                             }
-    
+
                             @include mobile {
                                 @each $index, $width in (1: 9%, 2: 19%, 3: auto, 4: 19.5%, 5: 17%) {
                                     &.col#{$index} {
@@ -1716,7 +1716,7 @@
                                     width: $width;
                                 }
                             }
-    
+
                             @include mobile {
                                 @each $index, $width in (1: 7%, 2: 11%, 3: auto, 4: 15%, 5: 17%, 6: 12%) {
                                     &.col#{$index} {
@@ -1729,14 +1729,14 @@
                 }
                 &.col-w-7 {
                     col {
-                        @each $index, $width in (1: 7%, 2: 7%, 3: auto, 4: 7%, 5: 12%, 6: 12.5%, 7: 12.5%, 8: 11.5%, 9: 11.5%) {
+                        @each $index, $width in (1: 9%, 2: 7%, 3: auto, 4: 7%, 5: 12%, 6: 12.5%, 7: 12.5%, 8: 11.5%, 9: 11.5%) {
                             &.col#{$index} {
                                 width: $width;
                             }
                         }
 
                         @include mobile {
-                            @each $index, $width in (1: 8%, 2: 7%, 3: auto, 4: 7%, 5: 12.5%, 6: 13.5%, 7: 12.8%, 8: 12%, 9: 11.5%) {
+                            @each $index, $width in (1: 10%, 2: 7%, 3: auto, 4: 7%, 5: 12.5%, 6: 13.5%, 7: 12.8%, 8: 12%, 9: 11.5%) {
                                 &.col#{$index} {
                                     width: $width;
                                 }
@@ -1748,7 +1748,7 @@
                                     width: $width;
                                 }
                             }
-    
+
                             @include mobile {
                                 @each $index, $width in (1: 7%, 3: auto, 4: 12%, 5: 13%, 6: 13%, 7: 13%, 8: 12%, 9: 12%) {
                                     &.col#{$index} {
@@ -1780,7 +1780,7 @@
                                     width: $width;
                                 }
                             }
-    
+
                             @include mobile {
                                 @each $index, $width in (1: 9%, 2: 7%, 3: auto, 4: 7%, 5: 12.5%, 6: 12.5%, 7: 12.5%, 8: 11.5%, 9: 11.5%) {
                                     &.col#{$index} {
@@ -1812,7 +1812,7 @@
                                     width: $width;
                                 }
                             }
-    
+
                             @include mobile {
                                 @each $index, $width in (1: 10%, 3: auto, 4: 14%, 5: 13%, 6: 13%, 7: 14%) {
                                     &.col#{$index} {
@@ -2146,7 +2146,7 @@
                     }
                 }
             }
-            
+
             // table col width
             table {
                 &.col-w-1 {
@@ -2272,10 +2272,10 @@
                                 &.col#{$index} {
                                     width: $width;
                                 }
-                            } 
+                            }
                         }
                     }
-                    
+
                     @include mobile {
                         min-width: 123.4rem;
                     }
@@ -2295,7 +2295,7 @@
                                     &.col#{$index} {
                                         width: $width;
                                     }
-                                } 
+                                }
                             }
                         }
                     }
@@ -3648,7 +3648,7 @@
                         width: $width;
                     }
                 }
-            
+
                 @include mobile {
                     @each $index, $width in (1: 35%, 2: auto, 3: auto, 4: auto) {
                         &.col#{$index} {

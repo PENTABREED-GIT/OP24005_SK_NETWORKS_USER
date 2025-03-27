@@ -1016,7 +1016,7 @@
                                                                 <li class="data-item">
                                                                     <div class="item-wrap">
                                                                         <div class="item-head">
-                                                                            <p class="item-subject">2024 Extraordinary Meeting of Shareholders (2024.8.7)</p>
+                                                                            <p class="item-subject">The 71th Annual General Meeting of shareholders</p>
                                                                         </div>
                                                                         <div class="item-util">
                                                                             <div class="submit-form design1 case1 align1">
@@ -1026,6 +1026,7 @@
                                                                                             <label for="level-sel-generalMeeting" class="blind">Year</label>
                                                                                             <select name="name" id="level-sel-generalMeeting">
                                                                                                 <option value="0" selected="" hidden="" disabled="">Year</option>
+                                                                                                <option value="2024c">The 71th Annual General Meeting of shareholders</option>
                                                                                                 <option value="2024b">2024 Extraordinary Meeting of Shareholders (2024.8.7)</option>
                                                                                                 <option value="2024a">The 71th Annual General Meeting of shareholders (2024.3.27)</option>
                                                                                                 <option value="2023">The 70th Annual General Meeting of shareholders (2023.3.29)</option>
@@ -1048,8 +1049,123 @@
                                                             </ul>
                                                         </div>
                                                         <div class="esg-inform-list esg-generalMeeting-table">
+                                                            <!-- 제72기 정기주주총회 -->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2024c">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-7">
+                                                                        <caption>The 72th Annual General Meeting of shareholders</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                            <col class="col8">
+                                                                            <col class="col9">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" rowspan="2">No.</th>
+                                                                                <th scope="col" rowspan="2">Agenda</th>
+                                                                                <th scope="col" rowspan="2">Result</th>
+                                                                                <th scope="col" rowspan="2">Shares with Exercisable Voting Rights</th>
+                                                                                <th scope="col" rowspan="2">Shares present</th>
+                                                                                <th scope="col">Approval</th>
+                                                                                <th scope="col" colspan="2" class="radius-type1">Number of shares with voting rights</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="col">Opposition/ abstention</th>
+                                                                                <th scope="col">Number of shares excluding those held by the largest shareholder and related parties</th>
+                                                                                <th scope="col" class="radius-type2">Attendance rate of shareholders excluding the largest shareholder and related parties</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">1</td>
+                                                                                <td rowspan="2" class="align1">Approval of the 72nd Fiscal Year Financial Statements</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,527,033</td>
+                                                                                <td>130,131,660</td>
+                                                                                <td rowspan="2">33,671,094</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,395,373</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">2</td>
+                                                                                <td rowspan="2" class="align1">Amendments to the Articles of Incorporation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,522,193</td>
+                                                                                <td>130,592,837</td>
+                                                                                <td rowspan="2">33,666,254</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>929,356</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-1</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Inside Director (Candidate: Choi, Sunghwan)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,522,193</td>
+                                                                                <td>129,622,214</td>
+                                                                                <td rowspan="2">33,666,254</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,899,979</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-2</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Other Non-Standing Director (Candidate: Kim, Kee Dong)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,522,193</td>
+                                                                                <td>130,090,889</td>
+                                                                                <td rowspan="2">33,666,254</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,431,304</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">4</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent Director to serve as an Audit Committee Member (Candidate: Jang, Geun Bae)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">95,731,174</td>
+                                                                                <td rowspan="2">34,142,060</td>
+                                                                                <td>33,060,856</td>
+                                                                                <td rowspan="2">27,635,638</td>
+                                                                                <td rowspan="2">80.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,081,204</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">5</td>
+                                                                                <td rowspan="2" class="align1">Approval of the Remuneration Cap for Directors</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,497,193</td>
+                                                                                <td>117,909,174</td>
+                                                                                <td rowspan="2">33,641,254</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>13,588,019</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //제72기 정기주주총회 -->
                                                             <!-- 주주총회 2024년 8월 7일 -->
-                                                            <div class="esg-inform esg-generalMeeting esg-option2024b">
+                                                            <div class="esg-inform esg-generalMeeting esg-option2024b blind">
                                                                 <div class="t-display design1 case1 type1 align3 scroll">
                                                                     <table class="col-w-7">
                                                                         <caption>2024 Extraordinary Meeting of Shareholders (2024.8.7)</caption>

@@ -23602,7 +23602,7 @@ sub {
 }
 
 .esg:not(.overview).governance-structure table.col-w-7 col.col1 {
-  width: 7%;
+  width: 9%;
 }
 .esg:not(.overview).governance-structure table.col-w-7 col.col2 {
   width: 7%;
@@ -23630,7 +23630,7 @@ sub {
 }
 @media (max-width: 1023px) {
   .esg:not(.overview).governance-structure table.col-w-7 col.col1 {
-    width: 8%;
+    width: 10%;
   }
   .esg:not(.overview).governance-structure table.col-w-7 col.col2 {
     width: 7%;

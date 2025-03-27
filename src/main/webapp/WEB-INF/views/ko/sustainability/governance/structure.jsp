@@ -1009,7 +1009,7 @@
                                                                 <li class="data-item">
                                                                     <div class="item-wrap">
                                                                         <div class="item-head">
-                                                                            <p class="item-subject">2024년 임시주주총회 (2024.8.7)</p>
+                                                                            <p class="item-subject">제72기 정기주주총회</p>
                                                                         </div>
                                                                         <div class="item-util">
                                                                             <div class="submit-form design1 case1 align1">
@@ -1019,6 +1019,7 @@
                                                                                             <label for="level-sel-generalMeeting" class="blind">년도 선택</label>
                                                                                             <select name="name" id="level-sel-generalMeeting">
                                                                                                 <option value="0" selected="" hidden="" disabled="">년도 선택</option>
+                                                                                                <option value="2024c">제72기 정기주주총회</option>
                                                                                                 <option value="2024b">2024년 임시주주총회 (2024.8.7)</option>
                                                                                                 <option value="2024a">제71기 정기주주총회 (2024.3.27)</option>
                                                                                                 <option value="2023">제70기 정기주주총회 (2023.3.29)</option>
@@ -1041,8 +1042,131 @@
                                                             </ul>
                                                         </div>
                                                         <div class="esg-inform-list esg-generalMeeting-table">
+                                                            <!-- 제72기 정기주주총회 -->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2024c">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-7">
+                                                                        <caption>이 표는 제72기 정기주주총회 정보를 제공하고 있습니다.</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col2">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                            <col class="col8">
+                                                                            <col class="col9">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                        <tr>
+                                                                            <th scope="col" rowspan="2">안건</th>
+                                                                            <th scope="col" rowspan="2">결의<br>구분</th>
+                                                                            <th scope="col" rowspan="2">회의 목적 사항</th>
+                                                                            <th scope="col" rowspan="2">가결<br>여부</th>
+                                                                            <th scope="col" rowspan="2">의결권 있는<br>발행주식 총수</th>
+                                                                            <th scope="col" rowspan="2">의결권 행사<br>주식수</th>
+                                                                            <th scope="col">찬성 주식수</th>
+                                                                            <th scope="col" colspan="2" class="radius-type1">의결권 행사 주식수 중</th>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="col">반대ㆍ기권 등<br> 주식수</th>
+                                                                            <th scope="col">최대주주와 특수관계인 외 주식수</th>
+                                                                            <th scope="col" class="radius-type2">최대주주와 특수관계인 외 참석률</th>
+                                                                        </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">제1호 의안</td>
+                                                                                <td rowspan="2">보통</td>
+                                                                                <td rowspan="2" class="align1">제72기(2024년도) 재무제표 승인의 건</td>
+                                                                                <td rowspan="2">가결</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,527,033</td>
+                                                                                <td>130,131,660</td>
+                                                                                <td rowspan="2">33,671,094</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,395,373</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">제2호 의안</td>
+                                                                                <td rowspan="2">특별</td>
+                                                                                <td rowspan="2" class="align1">정관 일부 변경의 건</td>
+                                                                                <td rowspan="2">가결</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,522,193</td>
+                                                                                <td>130,592,837</td>
+                                                                                <td rowspan="2">33,666,254</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>929,356</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">제3-1호 의안</td>
+                                                                                <td rowspan="2">보통</td>
+                                                                                <td rowspan="2" class="align1">사내이사 선임의 건 (최성환 후보)</td>
+                                                                                <td rowspan="2">가결</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,522,193</td>
+                                                                                <td>129,622,214</td>
+                                                                                <td rowspan="2">33,666,254</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,899,979</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">제3-2호 의안</td>
+                                                                                <td rowspan="2">보통</td>
+                                                                                <td rowspan="2" class="align1">기타비상무이사 선임의 건 (김기동 후보)</td>
+                                                                                <td rowspan="2">가결</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,522,193</td>
+                                                                                <td>130,090,889</td>
+                                                                                <td rowspan="2">33,666,254</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,431,304</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">제4호 의안</td>
+                                                                                <td rowspan="2">보통</td>
+                                                                                <td rowspan="2" class="align1">감사위원회 위원이 되는 사외이사 선임의 건 (장근배 후보)</td>
+                                                                                <td rowspan="2">가결</td>
+                                                                                <td rowspan="2">95,731,174</td>
+                                                                                <td rowspan="2">34,142,060</td>
+                                                                                <td>33,060,856</td>
+                                                                                <td rowspan="2">27,635,638</td>
+                                                                                <td rowspan="2">80.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,081,204</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">제5호 의안</td>
+                                                                                <td rowspan="2">보통</td>
+                                                                                <td rowspan="2" class="align1">이사보수 한도액 승인의 건</td>
+                                                                                <td rowspan="2">가결</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,497,193</td>
+                                                                                <td>117,909,174</td>
+                                                                                <td rowspan="2">33,641,254</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>13,588,019</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //제72기 정기주주총회 -->
                                                             <!-- 주주총회 2024년 8월 7일 -->
-                                                            <div class="esg-inform esg-generalMeeting esg-option2024b">
+                                                            <div class="esg-inform esg-generalMeeting esg-option2024b blind">
                                                                 <div class="t-display design1 case1 type1 align3 scroll">
                                                                     <table class="col-w-7">
                                                                         <caption>이 표는 2024년 임시주주총회 (2024.8.7) 정보를 제공하고 있습니다.</caption>
