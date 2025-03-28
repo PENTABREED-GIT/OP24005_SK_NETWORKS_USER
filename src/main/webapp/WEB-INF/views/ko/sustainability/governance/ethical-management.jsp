@@ -78,6 +78,18 @@
             }
         });
     </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
+    </script>
 </head>
 
 <body class="kr">
@@ -128,13 +140,13 @@
                                         <div class="swiper tab-wrap">
                                             <ul class="swiper-wrapper tab-list" role="tablist">
                                                 <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                                    <button class="tab-text" id="ethical-management-system">윤리경영 체계 및 활동</button>
+                                                    <button class="tab-text" id="ethical-management-system" onclick="tabClickEvent(event)">윤리경영 체계 및 활동</button>
                                                 </li>
                                                 <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                                    <button class="tab-text" id="compliance">컴플라이언스</button>
+                                                    <button class="tab-text" id="compliance" onclick="tabClickEvent(event)">컴플라이언스</button>
                                                 </li>
                                                 <li id="tab3" class="swiper-slide tab-item" aria-controls="tab-panel3">
-                                                    <button class="tab-text" id="anti-corruption-policy">부패방지방침</button>
+                                                    <button class="tab-text" id="anti-corruption-policy" onclick="tabClickEvent(event)">부패방지방침</button>
                                                 </li>
                                             </ul>
                                         </div>

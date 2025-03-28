@@ -106,16 +106,28 @@
             // // 탭이라면..
             // scrollTab.click();
 
-            function changeURL(tabId){
-                const url = window.location.origin + window.location.pathname;
-                console.log(url);
-
-                console.log("tabId : " + tabId);
-
-                const newUrl = url + "?tabId=" + tabId; // 원하는 URL
-                history.pushState(null, "", newUrl); // URL 변경 (뒤로 가기 가능)
-            }
+            // function changeURL(tabId){
+            //     const url = window.location.origin + window.location.pathname;
+            //     console.log(url);
+            //
+            //     console.log("tabId : " + tabId);
+            //
+            //     const newUrl = url + "?tabId=" + tabId; // 원하는 URL
+            //     history.pushState(null, "", newUrl); // URL 변경 (뒤로 가기 가능)
+            // }
         });
+    </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
     </script>
 </head>
 
@@ -162,10 +174,12 @@
                             <div class="swiper tab-wrap">
                                 <ul class="swiper-wrapper tab-list" role="tablist">
                                     <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                        <button role="tab" class="tab-text" id="bod" onclick="changeURL(id)">Board of Directors</button>
+<%--                                        <button role="tab" class="tab-text" id="bod" onclick="changeURL(id)">Board of Directors</button>--%>
+                                        <button role="tab" class="tab-text" id="bod" onclick="tabClickEvent(event)">Board of Directors</button>
                                     </li>
                                     <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                        <button role="tab" class="tab-text" id="corporate-governance" onclick="changeURL(id)">Corporate Governance</button>
+<%--                                        <button role="tab" class="tab-text" id="corporate-governance" onclick="changeURL(id)">Corporate Governance</button>--%>
+                                        <button role="tab" class="tab-text" id="corporate-governance" onclick="tabClickEvent(event)">Corporate Governance</button>
                                     </li>
                                 </ul>
                             </div>

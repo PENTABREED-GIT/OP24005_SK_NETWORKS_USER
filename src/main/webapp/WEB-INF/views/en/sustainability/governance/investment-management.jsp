@@ -47,6 +47,18 @@
             }
         });
     </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
+    </script>
 </head>
 
 <body class="en">
@@ -95,7 +107,7 @@
                                         <button role="tab" class="tab-text">Investment Management</button>
                                     </li>
                                     <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                        <button role="tab" class="tab-text" id="esgmanagement">ESG management of first/second-tier subsidiaries</button>
+                                        <button role="tab" class="tab-text" id="esgmanagement" onclick="tabClickEvent(event)">ESG management of first/second-tier subsidiaries</button>
                                     </li>
                                 </ul>
                             </div>

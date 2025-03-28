@@ -78,6 +78,18 @@
             }
         });
     </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
+    </script>
 </head>
 
 <body class="en">
@@ -127,13 +139,13 @@
                                         <div class="swiper tab-wrap">
                                             <ul class="swiper-wrapper tab-list" role="tablist">
                                                 <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                                    <button class="tab-text" id="ethical-management-system">Ethical Management System and Activities</button>
+                                                    <button class="tab-text" id="ethical-management-system" onclick="tabClickEvent(event)">Ethical Management System and Activities</button>
                                                 </li>
                                                 <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                                    <button class="tab-text" id="compliance">Compliance</button>
+                                                    <button class="tab-text" id="compliance" onclick="tabClickEvent(event)">Compliance</button>
                                                 </li>
                                                 <li id="tab3" class="swiper-slide tab-item" aria-controls="tab-panel3">
-                                                    <button class="tab-text" id="anti-corruption-policy">Anti-Corruption Policy</button>
+                                                    <button class="tab-text" id="anti-corruption-policy" onclick="tabClickEvent(event)">Anti-Corruption Policy</button>
                                                 </li>
                                             </ul>
                                         </div>

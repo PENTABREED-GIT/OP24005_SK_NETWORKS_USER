@@ -48,6 +48,18 @@
             }
         });
     </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
+    </script>
 </head>
 
 <body class="kr">
@@ -94,13 +106,13 @@
                             <div class="swiper tab-wrap">
                                 <ul class="swiper-wrapper tab-list" role="tablist">
                                     <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                        <button role="tab" class="tab-text" id="stakeholder-communication">이해관계자 소통</button>
+                                        <button role="tab" class="tab-text" id="stakeholder-communication" onclick="tabClickEvent(event)">이해관계자 소통</button>
                                     </li>
                                     <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                        <button role="tab" class="tab-text" id="supplychain">지속가능한 공급망</button>
+                                        <button role="tab" class="tab-text" id="supplychain" onclick="tabClickEvent(event)">지속가능한 공급망</button>
                                     </li>
                                     <li id="tab3" class="swiper-slide tab-item" aria-controls="tab-panel3">
-                                        <button role="tab" class="tab-text" id="seecosystem">지역사회 및 SE 생태계 지원</button>
+                                        <button role="tab" class="tab-text" id="seecosystem" onclick="tabClickEvent(event)">지역사회 및 SE 생태계 지원</button>
                                     </li>
                                 </ul>
                             </div>

@@ -47,6 +47,18 @@
             }
         });
     </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
+    </script>
 </head>
 
 <body class="kr">
@@ -95,7 +107,7 @@
                                         <button role="tab" class="tab-text">투자관리</button>
                                     </li>
                                     <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                        <button role="tab" class="tab-text" id="esgmanagement">자회사ㆍ손자회사 ESG관리</button>
+                                        <button role="tab" class="tab-text" id="esgmanagement" onclick="tabClickEvent(event)">자회사ㆍ손자회사 ESG관리</button>
                                     </li>
                                 </ul>
                             </div>

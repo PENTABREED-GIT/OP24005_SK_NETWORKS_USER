@@ -162,6 +162,18 @@
             });
         });
     </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
+    </script>
 </head>
 
 <body class="kr">
@@ -237,10 +249,10 @@
                                                 <button role="tab" class="tab-text">보도자료</button>
                                             </li>
                                             <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                                <button role="tab" class="tab-text" id="sns">소셜 미디어</button>
+                                                <button role="tab" class="tab-text" id="sns" onclick="tabClickEvent(event)">소셜 미디어</button>
                                             </li>
                                             <li id="tab3" class="swiper-slide tab-item" aria-controls="tab-panel3">
-                                                <button role="tab" class="tab-text" id="media-library">영상 라이브러리</button>
+                                                <button role="tab" class="tab-text" id="media-library" onclick="tabClickEvent(event)">영상 라이브러리</button>
                                             </li>
                                         </ul>
                                     </div>

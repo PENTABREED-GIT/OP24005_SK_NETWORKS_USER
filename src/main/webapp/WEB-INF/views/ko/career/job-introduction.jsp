@@ -47,6 +47,18 @@
             }
         });
     </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
+    </script>
 </head>
 
 <body class="kr">
@@ -81,10 +93,10 @@
                                         <div class="swiper tab-wrap">
                                             <ul class="swiper-wrapper tab-list" role="tablist">
                                                 <li id="tab1" class="swiper-slide tab-item recruit-tab-item" aria-controls="tab-panel1">
-                                                    <button role="tab" class="tab-text" id="job-description">직무소개</button>
+                                                    <button role="tab" class="tab-text" id="job-description" onclick="tabClickEvent(event)">직무소개</button>
                                                 </li>
                                                 <li id="tab2" class="swiper-slide tab-item recruit-tab-item" aria-controls="tab-panel2">
-                                                    <button role="tab" class="tab-text" id="recruitment-information">채용절차</button>
+                                                    <button role="tab" class="tab-text" id="recruitment-information" onclick="tabClickEvent(event)">채용절차</button>
                                                 </li>
                                                 <li id="tab3" class="swiper-slide recruit-tab-item">
                                                     <a href="https://www.skcareers.com" class="tab-text" target="_blank" title="새창 열기">채용공고</a>

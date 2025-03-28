@@ -19,6 +19,18 @@
             frontCommon.Html.reset();
         });
     </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
+    </script>
 
     <script src="/assets/js/lenis.js"></script>
     <script>
@@ -226,10 +238,10 @@
                             <div class="swiper tab-wrap">
                                 <ul class="swiper-wrapper tab-list" role="tablist">
                                     <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                        <button role="tab" class="tab-text" id="domestic">Domestic</button>
+                                        <button role="tab" class="tab-text" id="domestic" onclick="tabClickEvent(event)">Domestic</button>
                                     </li>
                                     <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                        <button role="tab" class="tab-text" id="overseas">Overseas</button>
+                                        <button role="tab" class="tab-text" id="overseas" onclick="tabClickEvent(event)">Overseas</button>
                                     </li>
                                 </ul>
                             </div>

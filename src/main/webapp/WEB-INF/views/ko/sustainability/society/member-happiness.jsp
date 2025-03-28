@@ -46,6 +46,32 @@
             }
         });
     </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
+    </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            console.log("tabId : " + tabId);
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            console.log("newUrl : " + newUrl);
+            history.pushState(null, null, newUrl);
+        }
+    </script>
 </head>
 
 <body class="kr">
@@ -95,10 +121,10 @@
                                         <div class="swiper tab-wrap">
                                             <ul class="swiper-wrapper tab-list" role="tablist">
                                                 <li id="tab1"  class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                                    <button role="tab" class="tab-text" id="humanrights">인권 보호</button>
+                                                    <button role="tab" class="tab-text" id="humanrights" onclick="tabClickEvent(event)">인권 보호</button>
                                                 </li>
                                                 <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                                    <button role="tab" class="tab-text" id="talent-development">인재 육성 및 관리</button>
+                                                    <button role="tab" class="tab-text" id="talent-development" onclick="tabClickEvent(event)">인재 육성 및 관리</button>
                                                 </li>
                                             </ul>
                                         </div>

@@ -228,6 +228,17 @@
                 }
             });
         }
+
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
     </script>
 </head>
 
@@ -271,8 +282,8 @@
                         <div class="tab-display design1 case1 type1">
                             <div class="swiper tab-wrap">
                                 <ul class="swiper-wrapper tab-list" role="tablist">
-                                    <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1"><button role="tab" class="tab-text" id="headquarter">본사 소개</button></li>
-                                    <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2"><button role="tab" class="tab-text" id="subsidiaries">자회사/브랜드 소개</button></li>
+                                    <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1"><button role="tab" class="tab-text" id="headquarter" onclick="tabClickEvent(event)">본사 소개</button></li>
+                                    <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2"><button role="tab" class="tab-text" id="subsidiaries" onclick="tabClickEvent(event)">자회사/브랜드 소개</button></li>
                                 </ul>
                             </div>
                         </div>
