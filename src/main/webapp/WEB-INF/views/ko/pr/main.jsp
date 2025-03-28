@@ -170,7 +170,10 @@
             if(url == null){
                 url = window.location.href;
             }
-            let newUrl = url + `?tabId=` + tabId;
+            let newUrl = url;
+            if(tabId != ""){
+                newUrl += `?tabId=` + tabId;
+            }
             history.pushState(null, null, newUrl);
         }
     </script>
@@ -246,7 +249,7 @@
                                     <div class="swiper tab-wrap">
                                         <ul class="swiper-wrapper tab-list" role="tablist">
                                             <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                                <button role="tab" class="tab-text">보도자료</button>
+                                                <button role="tab" class="tab-text" onclick="tabClickEvent(event)">보도자료</button>
                                             </li>
                                             <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
                                                 <button role="tab" class="tab-text" id="sns" onclick="tabClickEvent(event)">소셜 미디어</button>
