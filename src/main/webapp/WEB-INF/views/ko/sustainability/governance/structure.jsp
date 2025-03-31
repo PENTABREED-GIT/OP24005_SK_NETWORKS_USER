@@ -19,7 +19,6 @@
             frontCommon.Html.reset();
         });
     </script>
-
     <script src="/assets/js/lenis.js"></script>
     <script>
         window.onload = () => {
@@ -124,7 +123,6 @@
             // // 탭이라면..
             // scrollTab.click();
         }
-
     </script>
     <script>
         // [25.03.27] 탭 클릭 시, 탭별로 url 변경
@@ -135,6 +133,25 @@
                 url = window.location.href;
             }
             let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
+
+        // [25.03.31] 아코디언 클릭 시, 아코디언별로 url 변경
+        function accordionClickEvent(_this){
+            // console.log("tabId : ", _this.id);
+            // console.log(_this.querySelector('button').getAttribute('title'));
+            let title = _this.querySelector('button').getAttribute('title');
+            let tabId = _this.id
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+
+            let newUrl = url;
+            if(title !== '열기') {
+                newUrl = url + `?tabId=\${tabId}`;
+            }
+            // console.log("newUrl : " + newUrl);
             history.pushState(null, null, newUrl);
         }
     </script>
@@ -766,9 +783,9 @@
                                                                         <div class="data-body">
                                                                             <div class="accordion-display design2 case1 type2">
                                                                                 <!-- 인사위원회 -->
-                                                                                <div class="accordion-item" id="hr">
+                                                                                <div class="accordion-item">
                                                                                     <div class="accordion-wrap">
-                                                                                        <div class="accordion-head">
+                                                                                        <div class="accordion-head" id="hr" onclick="accordionClickEvent(this)">
                                                                                             <button type="button" class="btn" title="열기" aria-controls="activity-status-1">
                                                                                                 <span class="btn-text">인사위원회</span>
                                                                                             </button>
@@ -861,9 +878,9 @@
                                                                                 </div>
                                                                                 <!-- //인사위원회 -->
                                                                                 <!-- ESG경영위원회 -->
-                                                                                <div class="accordion-item" id="strategyesg">
+                                                                                <div class="accordion-item">
                                                                                     <div class="accordion-wrap">
-                                                                                        <div class="accordion-head">
+                                                                                        <div class="accordion-head" id="strategyesg" onclick="accordionClickEvent(this)">
                                                                                             <button type="button" class="btn" title="열기" aria-controls="activity-status-2">
                                                                                                 <span class="btn-text">전략∙ESG위원회</span>
                                                                                             </button>
@@ -910,9 +927,9 @@
                                                                                 </div>
                                                                                 <!-- //ESG경영위원회 -->
                                                                                 <!-- 감사위원회 -->
-                                                                                <div class="accordion-item" id="audit">
+                                                                                <div class="accordion-item">
                                                                                     <div class="accordion-wrap">
-                                                                                        <div class="accordion-head">
+                                                                                        <div class="accordion-head" id="audit" onclick="accordionClickEvent(this)">
                                                                                             <button type="button" class="btn" title="열기" aria-controls="activity-status-3">
                                                                                                 <span class="btn-text">감사위원회</span>
                                                                                             </button>

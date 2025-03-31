@@ -211,7 +211,7 @@
                                                                         <div class="item-util">
                                                                             <div class="btn-display design1 case4 align1">
                                                                                 <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/자료실/수상 및 인증/SK네트웍스/친환경 건축물 인증.pdf"><span class="btn-text">Download</span></a>
+                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/자료실/수상 및 인증/SK네트웍스/첨부3_LEED.pdf"><span class="btn-text">Download</span></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>

@@ -128,6 +128,25 @@
             let newUrl = url + `?tabId=` + tabId;
             history.pushState(null, null, newUrl);
         }
+
+        // [25.03.31] 아코디언 클릭 시, 아코디언별로 url 변경
+        function accordionClickEvent(_this){
+            // console.log("tabId : ", _this.id);
+            // console.log(_this.querySelector('button').getAttribute('title'));
+            let title = _this.querySelector('button').getAttribute('title');
+            let tabId = _this.id
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+
+            let newUrl = url;
+            if(title !== '열기') {
+                newUrl = url + `?tabId=\${tabId}`;
+            }
+            // console.log("newUrl : " + newUrl);
+            history.pushState(null, null, newUrl);
+        }
     </script>
 </head>
 

@@ -138,7 +138,7 @@
                                                                 <div class="section-util">
                                                                     <div class="btn-display design1 align3">
                                                                         <div class="btn-area">
-                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/upload/public/data/en/sustainability/사회/구성원 행복/SKN_Benefit Programs to Enhance Employee Happiness and Well-being.pdf"><span class="btn-text">Human Rights Commitment Declaration Download</span></a>
+                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/upload/public/data/en/sustainability/사회/구성원 행복/첨부1_250331_인권선언문_영문(홈페이지용).jpg"><span class="btn-text">Human Rights Commitment Declaration Download</span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -553,7 +553,7 @@
                                                                     </div>
                                                                     <div class="btn-display design1 align3">
                                                                         <div class="btn-area">
-                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/upload/public/data/en/sustainability/사회/구성원 행복/SKN_Benefits_Programs.pdf"><span class="btn-text">Download the employee benefit plan</span></a>
+                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/upload/public/data/en/sustainability/사회/구성원 행복/첨부2_SKN_Benefit Programs to Enhance Employee Happiness and Well-being.pdf"><span class="btn-text">Download the employee benefit plan</span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
