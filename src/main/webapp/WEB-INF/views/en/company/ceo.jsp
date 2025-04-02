@@ -80,7 +80,9 @@
                                             </h4>
                                         </div>
                                         <div class="data-body">
-                                            <p class="para">Since its foundation in 1953, SK Networks has been devoted to increasing the value of its customers, shareholders, and other stakeholders through business model innovations, keeping pace with the changing times. In 2024, SK Networks will be oriented towards three key objectives to achieve a new leap forward and long-term growth.</p>
+                                            <p class="para">
+                                                Since our founding in 1953, SK Networks has continuously enhanced stakeholder value—including for customers and shareholders—by transforming our business model in response to changing times. As we enter the era of rapidly advancing AI, we are preparing to seize new opportunities by focusing on the following key initiatives in 2025.
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="data-figure">
@@ -99,16 +101,12 @@
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <h4 class="section-name">
-                                        First, we will evolve into an<br class="pc-only"> artificial intelligence (AI) company.
+                                        We will further strengthen the core competitiveness of our existing businesses to ensure solid and consistent profitability.
                                     </h4>
-                                    <p class="section-summary">
-                                        Once again, SK Networks aims to prepare for a new future in the era of artificial intelligence (AI).
-                                    </p>
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        AI is the most powerful trend in existence, and like electricity, it is expected to permeate all industries and individuals’ daily routines. Therefore, the gap between companies that adopt AI and those that do not will become increasingly difficult to bridge over time. In particular, we will integrate AI into our businesses, such as SK Magic, SK Rent-a-car, Walkerhill, and encore to create mutual synergies and demonstrate organic growth. Moreover, we will continuously explore new M&A opportunities across the AI landscape to secure new growth engines. Ultimately, SK Networks aims to utilize AI technology to provide a wide range of products and benefits, thereby maximizing value creation.
-                                    </p>
+                                        By enhancing operational efficiency and building a stable revenue-generating structure, we aim to become a sound and resilient company that achieves sustainable growth through unmatched operational strength.                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -116,16 +114,12 @@
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <h4 class="section-name">
-                                        We will ensure that a sound financial<br class="pc-only"> structure is maintained.
+                                        We will identify future growth drivers powered by AI and establish a strategic direction aligned with an AI-centric business model.
                                     </h4>
-                                    <p class="section-summary">
-                                        A stable financial structure is a prerequisite for successful change.
-                                    </p>
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        This year, while continuously managing the profitability of its core businesses, SK Networks will improve its operating income ratio and further strengthen financial stability, including credit rating management.
-                                    </p>
+                                        Going beyond the integration of AI into existing businesses, we will continue to explore new AI-driven business opportunities. Phoenix Lab, a startup launched as an independent entity under SK Networks, has introduced "Cheiron," a solution specifically designed for medical and pharmaceutical applications, based on Korea’s first modular RAG (Retrieval-Augmented Generation). Additionally, en-core is contributing to AI transformation by helping companies monetize their data assets through the launch of a data solution featuring generative AI-powered automation. Through such efforts, SK Networks will continue to identify and support high-potential companies within the AI value chain to accelerate future growth.                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -133,15 +127,12 @@
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <h4 class="section-name">
-                                        Third, we will further enhance<br class="pc-only"> shareholder returns.
+                                        We will build the capabilities and organizational culture needed to realize our vision as an AI company.
                                     </h4>
-                                    <p class="section-summary">
-                                        SK Networks has been deeply contemplating how to strengthen shareholder returns for many years.
-                                    </p>
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        As a result, we have increased communication with the market through active IR activities and executed treasury stock buyback and retirement since last year. In addition, we plan to operate a dividend policy linked to performance. To achieve this, business profits and investment performance earnings based on the dividend profits of the headquarters and subsidiaries will be used as a financial source for dividends. We also plan to pay a significant portion of business profit dividends as regular dividends in the first half of the year and introduce interim dividends to additionally pay a proportion of business and investment profits. As we advance, we will demonstrate our sincerity in shareholder returns to repay our shareholders’ trust and confidence in SK Networks.
+                                        In line with our transition toward becoming an AI company, we will cultivate an environment and culture where all members grow together, working with the belief that the future can be even more fulfilling than today.
                                     </p>
                                 </div>
                             </div>
@@ -150,7 +141,10 @@
                             <div class="section-wrap">
                                 <div class="section-body">
                                     <p class="para">
-                                        As we pursue the evolution into an AI company, as mentioned above, SK Networks will realize this vision by transparently communicating with the market and various stakeholders. We also promise to continuously contemplate and strive to promote the company’s sustainable development. We look forward to your continued interest and support in our journey to prepare for a new future.
+                                        SK Networks is proud of its 72-year history of overcoming challenges and achieving successes amid rapidly changing market conditions. Building on this foundation, we will continue to strengthen our core competitiveness while driving innovation through AI to unlock new opportunities for tomorrow.
+                                    </p>
+                                    <p class="para">
+                                        We sincerely ask for your continued interest and support as we shape the next chapter of transformation.
                                     </p>
                                     <p class="closing-comment">
                                         Thank you.

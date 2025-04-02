@@ -1049,7 +1049,7 @@
                                                                 <li class="data-item">
                                                                     <div class="item-wrap">
                                                                         <div class="item-head">
-                                                                            <p class="item-subject">The 71th Annual General Meeting of shareholders</p>
+                                                                            <p class="item-subject">The 72nd Annual General Meeting of shareholders</p>
                                                                         </div>
                                                                         <div class="item-util">
                                                                             <div class="submit-form design1 case1 align1">
@@ -1059,7 +1059,7 @@
                                                                                             <label for="level-sel-generalMeeting" class="blind">Year</label>
                                                                                             <select name="name" id="level-sel-generalMeeting">
                                                                                                 <option value="0" selected="" hidden="" disabled="">Year</option>
-                                                                                                <option value="2024c">The 71th Annual General Meeting of shareholders</option>
+                                                                                                <option value="2024c">The 72nd Annual General Meeting of shareholders</option>
                                                                                                 <option value="2024b">2024 Extraordinary Meeting of Shareholders (2024.8.7)</option>
                                                                                                 <option value="2024a">The 71th Annual General Meeting of shareholders (2024.3.27)</option>
                                                                                                 <option value="2023">The 70th Annual General Meeting of shareholders (2023.3.29)</option>
@@ -1251,7 +1251,7 @@
                                                             <div class="esg-inform esg-generalMeeting esg-option2024a blind">
                                                                 <div class="t-display design1 case1 type1 align3 scroll">
                                                                     <table class="col-w-7">
-                                                                        <caption>The 71th Annual General Meeting of shareholders (2024.3.27)</caption>
+                                                                        <caption>The 72nd Annual General Meeting of shareholders (2024.3.27)</caption>
                                                                         <colgroup>
                                                                             <col class="col1">
                                                                             <col class="col3">
