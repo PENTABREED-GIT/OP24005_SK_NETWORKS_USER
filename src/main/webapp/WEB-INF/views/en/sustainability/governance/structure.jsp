@@ -290,7 +290,7 @@
                                                         <div class="section-util">
                                                             <div class="btn-display">
                                                                 <div class="btn-area">
-                                                                    <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/upload/public/data/en/sustainability/거버넌스/지배구조/이사회 규정/2024_SKN_Regulations of the Board of Directors.pdf"><span class="btn-text"> Regulations of the Board of Directors</span></a>
+                                                                    <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/upload/public/data/en/sustainability/거버넌스/지배구조/이사회 규정/2025_SKN_Regulations of the Board of Directors_E.pdf"><span class="btn-text"> Regulations of the Board of Directors</span></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -720,7 +720,7 @@
                                                                                             <td>
                                                                                                 <div class="btn-display design1 case3 align3">
                                                                                                     <div class="btn-area">
-                                                                                                        <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/인사위원회/2024_SKN_HR Committee Regulations.pdf"><span class="btn-text">Download</span></a>
+                                                                                                        <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/인사위원회/2025_SKN_HR Committee Regulations_E.pdf"><span class="btn-text">Download</span></a>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </td>
