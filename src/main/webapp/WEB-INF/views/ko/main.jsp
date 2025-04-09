@@ -196,26 +196,21 @@
                         <div class="section">
                             <div class="section-wrap">
                                 <div class="section-head">
-                                    <em class="section-subject"><span class="section-name">정기주주총회 소집공고<br> <span class="small">(제72기 정기주주총회)</span></span></em>
+                                    <%--<em class="section-subject"><span class="section-name">정기주주총회 소집공고<br> <span class="small">(제72기 정기주주총회)</span></span></em>--%>
+                                    <em class="section-subject"><span class="section-name">SK네트웍스 배당 안내</span></em>
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-										삼가 주주 여러분께 건승과 일익 번창하시기를 기원합니다.
-									</p>
-                                    <p class="para">
-										상법 제365조 및 당사 정관 제21조에 의거하여<br class="pc-only">
-										아래와 같이 제72기 정기주주총회를 소집하오니 참석하여 주시기 바랍니다.<br><br>
+										FY2024년 결산배당 조회 서비스
                                     </p>
                                     <p class="para">
-										- 아&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;래 –<br><br>
-										1. 일시 : 2025년 3월 26일(수) 오전 10:00<br>
-										2. 장소 : 서울특별시 종로구 청계천로 85 삼일빌딩,<br class="pc-only"> SK네트웍스(주) 30층
+										운영기간 : ’25.04.14 AM 9:00 ~ ’25.4.25 PM 6:00
 									</p>
                                 </div>
                                 <div class="section-util">
                                     <div class="btn-display design1 case1 align3">
                                         <div class="btn-area">
-                                            <a class="btn design1 case1 type1 color1" href="https://www.sknetworks.co.kr/ir/announcement/PKXQaMXZCnEQco03" tabindex="1"><span class="btn-text">자세히보기</span></a>
+                                            <a class="btn design1 case1 type1 color1" href="https://sknetworks.dividend.im" tabindex="1"><span class="btn-text">바로가기</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -292,55 +287,6 @@
             </div>
         </div>
     </div>
-	<div class="modal notice" id="modalNotice3">
-		<div class="modal-inner modal-dialog">
-			<div class="modal-area">
-				<div class="modal-wrap">
-					<div class="modal-body">
-						<div class="section">
-							<div class="section-wrap">
-								<div class="section-head">
-									<em class="section-subject"><span class="section-name">Trading사업부 분할보고총회에<br> 갈음하는 공고</span></em>
-								</div>
-								<div class="section-body">
-									<p class="para">
-										에스케이네트웍스 주식회사(이하 “에스케이네트웍스”)는 2024년 8월 7일 개최된 임시주주총회에서 다음과 같이 에스케이네트웍스가 영위하는 사업 중 Trading사업부문(화학제품 수출입업 등)을 물적분할하여 글로와이드 주식회사를 설립하기로 결의하였고, 이 결의에 따라 상법 소정의 분할 및 설립절차를 완료하였습니다. 이에 에스케이네트웍스는 상법 제530조의12, 제530조의11 및 제526조 제3항에 의거 분할보고총회를 이사회 결의 및 본 공고로 갈음하기로 이사회에서 결의함에 따라, 다음과 같이 분할의 경과를 보고 및 공고합니다.
-									</p>
-									<p class="para">
-										세부사항은 전자공고를 통해 확인하시기 바랍니다.
-									</p>
-								</div>
-								<div class="section-util">
-									<div class="btn-display design1 case1 align3">
-										<div class="btn-area">
-											<a class="btn design1 case1 type1 color1" href="https://www.sknetworks.co.kr/ir/announcement/b4thrtzgvlZC8PSX" tabindex="4"><span class="btn-text">상세 내용 확인하기</span></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="modal-footer">
-						<div class="form checkbox design1 case1 type1">
-							<div class="checkbox-list">
-								<div class="checkbox-item">
-									<label for="checkbox3">
-										<input type="checkbox" name="temp" value="chk1" id="checkbox3" tabindex="5">
-										<span class="option">하루 동안 보지 않기</span>
-									</label>
-								</div>
-							</div>
-						</div>
-						<div class="btn-display design1 case1 align3">
-							<div class="btn-area">
-								<button onclick="closePop('modalNotice3');" class="btn design3 case2 type1 color4 ar-icon-close modal-close" tabindex="6"><span class="btn-text">닫기</span></button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 </div>
 <div id="wrap" class="main">
 	<%@ include file="/WEB-INF/views/ko/include/navigation-inc.jsp" %>
@@ -675,7 +621,7 @@
 </div>
 <script>
 	$(document).ready(function() {
-        // checkAndToggleModal('modalNotice1', '2025-03-12 09:00:00', '2025-03-26 24:00:00');
+        checkAndToggleModal('modalNotice1', '2025-04-10 09:00:00', '2100-04-10 24:00:00');
         // checkAndToggleModal('modalNotice2', '2024-12-02 16:00:00', '2026-12-10 24:00:00');
         // checkAndToggleModal('modalNotice3', '2024-12-02 16:00:00', '2026-12-10 24:00:00');
 	});

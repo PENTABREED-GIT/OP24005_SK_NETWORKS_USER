@@ -4391,6 +4391,12 @@
   background-image: url("data:image/svg+xml,%0A%3Csvg width='12' height='12' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.2626 11.5344C10.6141 11.8859 11.1839 11.8859 11.5354 11.5344C11.8869 11.183 11.8869 10.6131 11.5354 10.2617L7.1718 5.89803L11.5354 1.53444C11.8868 1.18297 11.8868 0.61312 11.5354 0.261649C11.1839 -0.0898215 10.614 -0.0898198 10.2626 0.261653L5.89901 4.62524L1.53542 0.261651C1.18395 -0.0898212 0.614099 -0.0898211 0.262627 0.261651C-0.0888446 0.613123 -0.0888446 1.18297 0.262628 1.53444L4.62622 5.89803L0.262626 10.2617C-0.0888451 10.6131 -0.0888434 11.183 0.26263 11.5344C0.614102 11.8859 1.18395 11.8859 1.53542 11.5344L5.89901 7.17083L10.2626 11.5344Z' fill='rgb(0,0,0)'/%3E%3C/svg%3E%0A");
   background-size: 1.8rem;
 }
+#header #dividendInquiry {
+  display: none;
+}
+#header #dividendInquiry.show {
+  display: block;
+}
 
 .header-dark {
   background-color: #050505;
@@ -10672,8 +10678,15 @@ body.en .modal-display .modal.notice {
   max-width: 55rem;
 }
 @media (max-width: 1023px) {
+  body.en .modal-display .modal.notice {
+    max-width: unset;
+    width: 100%;
+  }
+}
+@media (max-width: 1023px) {
   .modal-display .modal.notice {
-    max-width: 100%;
+    max-width: unset;
+    width: 100%;
   }
 }
 .modal-display .modal.notice .modal-inner {

@@ -771,6 +771,13 @@
             }
         }
     }
+
+    #dividendInquiry {
+        display: none;
+        &.show {
+            display: block;
+        }
+    }
 }
 .header-dark {
     background-color: #050505;
