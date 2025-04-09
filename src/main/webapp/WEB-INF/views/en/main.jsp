@@ -190,7 +190,7 @@
 										FY 2024 Dividend Inquiry Service
 									</p>
 									<p class="para">
-										Service Period: ’25.04.14 AM 9:00 ~ ’25.4.25 PM 6:00
+										Service Period: ’25.04.11 AM 9:00 ~ ’25.4.25 PM 6:00
 									</p>
 								</div>
 								<div class="section-util">
