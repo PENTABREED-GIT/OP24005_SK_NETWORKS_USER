@@ -165,7 +165,7 @@
                                     <li class="depth3-item">
                                         <a href="/${LANG}/ir/stock/shareholder-return" target="_self" class="depth3">Shareholder Return</a>
                                     </li>
-                                    <li id="dividendInquiry" class="depth3-item">
+                                    <li class="depth3-item">
                                         <a href="https://sknetworks.dividend.im" target="_blank" class="depth3">Dividend Inquiry</a>
                                     </li>
                                 </ul>
@@ -265,24 +265,3 @@
         </button>
     </div>
 </div>
-
-<script>
-    $(document).ready(function() {
-        gnbMenuOpen('dividendInquiry', '2025-04-10 09:00:00', '2030-04-25 18:00:00');
-    });
-
-    function gnbMenuOpen(id, startDateTime, endDateTime) {
-        // 메뉴 오픈 시간
-        var now = new Date();
-        let startDate = new Date(startDateTime);
-        let endDate = new Date(endDateTime);
-
-        if (now >= startDate && now <= endDate) {
-            openMenu(id);
-        }
-    }
-
-    function openMenu(id) {
-        document.getElementById(id)?.classList.add('show');
-    }
-</script>

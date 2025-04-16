@@ -251,7 +251,9 @@
                                                             <th colspan="2" scope="col">구분</th>
                                                             <th scope="col">수집항목</th>
                                                             <th scope="col">이용목적</th>
-                                                            <th scope="col">보유기간</th>
+                                                            <th scope="col">
+                                                                <span class="accent case5 underline scale1">보유기간</span>
+                                                            </th>
                                                         </tr>
                                                         </thead>
                                                         <tbody>
@@ -260,7 +262,7 @@
                                                             <td>고객문의, 사업제안</td>
                                                             <td>성명 / 이메일 주소</td>
                                                             <td>서비스 이용에 따른 본인 식별 / 문의사항에 대한 회신</td>
-                                                            <td class="accent color7">1년 보유 후 파기</td>
+                                                            <td class="accent case5 color7 underline scale1">1년 보유 후 파기</td>
                                                         </tr>
                                                         </tbody>
                                                     </table>
@@ -322,14 +324,16 @@
                                                         <tr>
                                                             <th scope="col">수탁자</th>
                                                             <th scope="col">처리 위탁 업무 내용</th>
-                                                            <th scope="col">이용기간</th>
+                                                            <th scope="col">
+                                                                <span class="accent case5 underline scale1">이용기간</span>
+                                                            </th>
                                                         </tr>
                                                         </thead>
                                                         <tbody>
                                                         <tr>
                                                             <td>SK 주식회사<br>C&amp;C(재수탁사:한국 마이크로소프트)</td>
                                                             <td>전산시스템 유지 관리, 데이터 보관(국내)</td>
-                                                            <td rowspan="3">위탁계약 해지 시까지</td>
+                                                            <td rowspan="3" class="accent case5 underline scale1">위탁계약 해지 시까지</td>
                                                         </tr>
                                                         <tr>
                                                             <td>펜타브리드</td>
