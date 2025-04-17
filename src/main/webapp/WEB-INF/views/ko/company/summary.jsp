@@ -513,8 +513,8 @@
                                                                     <em class="data-name">매출액</em>
                                                                 </div>
                                                             </div>
-                                                            <p class="data-body">9조 1,339억 원</p>
-                                                            <span class="data-base">(2023년 연결 기준)</span>
+                                                            <p class="data-body">7조 6,573억 원</p>
+                                                            <span class="data-base">(2024년 연결 기준)</span>
                                                         </div>
                                                     </div>
                                                     <div class="data-item pallarax">
@@ -524,8 +524,8 @@
                                                                     <em class="data-name">영업이익</em>
                                                                 </div>
                                                             </div>
-                                                            <p class="data-body">2,373억원</p>
-                                                            <span class="data-base">(2023년 연결 기준)</span>
+                                                            <p class="data-body">1,139억원</p>
+                                                            <span class="data-base">(2024년 연결 기준)</span>
                                                         </div>
                                                     </div>
                                                     <div class="data-item pallarax">
@@ -536,7 +536,7 @@
                                                                 </div>
                                                             </div>
                                                             <p class="data-body">AA-(안정적)</p>
-                                                            <span class="data-base">(2023년 기준)</span>
+                                                            <span class="data-base">(2024년 기준)</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -573,7 +573,7 @@
                                                                     <div class="data-item"><span class="data-text">도쿄 법인</span></div>
                                                                     <div class="data-item"><span class="data-text">홍콩 법인</span></div>
                                                                     <div class="data-item"><span class="data-text">MINTIT Vina</span></div>
-                                                                    <div class="data-item"><span class="data-text">Hico Capital</span></div>
+                                                                    <div class="data-item"><span class="data-text">SK Networks Americas</span></div>
                                                                     <div class="data-item"><span class="data-text">SK Magic Malaysia</span></div>
                                                                 </div>
                                                             </div>

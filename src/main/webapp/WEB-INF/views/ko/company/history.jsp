@@ -359,12 +359,12 @@
                                                             <div class="data-wrap">
                                                                 <div class="data-inform">
                                                                     <div class="data-subject">
-                                                                        <p class="data-name">미국법인 하이코캐피탈 설립</p>
+                                                                        <p class="data-name">SK Networks Americas 설립</p>
                                                                     </div>
                                                                     <p class="data-date">2020</p>
                                                                 </div>
                                                                 <div class="data-figure">
-                                                                    <div class="figure-item"><img src="/assets/images/company/thumb-history-2020.jpg" alt="HICO CAPITAL 로고"></div>
+                                                                    <div class="figure-item"><img src="/assets/images/company/thumb-history-2020.jpg" alt="SK Networks Americas 로고"></div>
                                                                 </div>
                                                             </div>
                                                         </div>

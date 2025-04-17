@@ -588,8 +588,8 @@
                                                                     <em class="data-name">Sales(Consolidated)</em>
                                                                 </div>
                                                             </div>
-                                                            <p class="data-body">KRW 9.1 trillion</p>
-                                                            <span class="data-base">As of 2023</span>
+                                                            <p class="data-body">KRW 7.7 trillion</p>
+                                                            <span class="data-base">As of 2024</span>
                                                         </div>
                                                     </div>
                                                     <div class="data-item pallarax">
@@ -599,8 +599,8 @@
                                                                     <em class="data-name">Operating Profit(Consolidated)</em>
                                                                 </div>
                                                             </div>
-                                                            <p class="data-body">KRW 237 billion</p>
-                                                            <span class="data-base">As of 2023</span>
+                                                            <p class="data-body">KRW 114 billion</p>
+                                                            <span class="data-base">As of 2024</span>
                                                         </div>
                                                     </div>
                                                     <div class="data-item pallarax">
@@ -611,7 +611,7 @@
                                                                 </div>
                                                             </div>
                                                             <p class="data-body">AA-(Stable)</p>
-                                                            <span class="data-base">As of 2023</span>
+                                                            <span class="data-base">As of 2024</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -653,7 +653,7 @@
                                                                     <div class="data-item"><span class="data-text">SK Networks Japan Co., Ltd.</span></div>
                                                                     <div class="data-item"><span class="data-text">SK Networks Hong Kong Ltd.</span></div>
                                                                     <div class="data-item"><span class="data-text">MINTIT Vina</span></div>
-                                                                    <div class="data-item"><span class="data-text">Hico Capital</span></div>
+                                                                    <div class="data-item"><span class="data-text">SK Networks Americas</span></div>
                                                                     <div class="data-item"><span class="data-text">SK Magic Malaysia</span></div>
                                                                 </div>
                                                             </div>
