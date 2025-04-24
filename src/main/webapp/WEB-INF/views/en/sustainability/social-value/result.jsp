@@ -175,7 +175,7 @@
                                                             <div class="data-list emblum2">
                                                                 <div class="data-item">
                                                                     <div class="figure">
-                                                                        <img src="/assets/images/sustainability/esg-cdp-A-list-2023.jpg" alt="2023 CDP A LIST 2023 CLIMATE Mark">
+                                                                        <img src="/assets/images/sustainability/esg-cdp-A-list-2024.jpg" alt="2023 CDP A LIST 2023 CLIMATE Mark">
                                                                     </div>
                                                                 </div>
                                                             </div>
