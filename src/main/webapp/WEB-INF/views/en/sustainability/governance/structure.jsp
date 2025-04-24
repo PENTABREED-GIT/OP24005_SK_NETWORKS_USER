@@ -249,12 +249,12 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <td>Diversity</td>
-                                                                        <td>One person<sup>¹⁾</sup></td>
+                                                                        <td>One person<sup>1)</sup></td>
                                                                         <td>More than one person</td>
                                                                         <td>More than two people</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td>Professionalism<sup>²⁾</sup></td>
+                                                                        <td>Professionalism<sup>2)</sup></td>
                                                                         <td>Two people</td>
                                                                         <td>Two people</td>
                                                                         <td>More than two people</td>

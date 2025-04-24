@@ -11140,6 +11140,11 @@ sup {
   vertical-align: super;
 }
 
+sub {
+  font-size: small;
+  vertical-align: text-bottom;
+}
+
 #guide-list .page-head {
   position: sticky;
   top: 0;
@@ -25539,10 +25544,6 @@ sup {
   .esg.overview .section.story5 .section-wrap .section-body + .section-util {
     margin-top: 4.8rem;
   }
-}
-.esg sup {
-  font-size: large;
-  vertical-align: baseline;
 }
 
 @media (max-width: 1023px) {

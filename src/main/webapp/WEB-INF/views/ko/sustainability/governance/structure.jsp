@@ -256,12 +256,12 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <td>다양성</td>
-                                                                        <td>1명<sup>¹⁾</sup></td>
+                                                                        <td>1명<sup>1)</sup></td>
                                                                         <td>1명 이상</td>
                                                                         <td>2명 이상</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td>전문성<sup>²⁾</sup></td>
+                                                                        <td>전문성<sup>2)</sup></td>
                                                                         <td>2명</td>
                                                                         <td>좌동</td>
                                                                         <td>2명 이상</td>
