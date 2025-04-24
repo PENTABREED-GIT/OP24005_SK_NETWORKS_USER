@@ -2625,6 +2625,24 @@
                         }
                     }
                 }
+                &.configuration {
+                    .section-body {
+                        > .para {
+                            + .comment {
+                                margin-top: 1.6rem;
+                                @include mobile {
+                                    margin-top: 1.2rem;
+                                }
+                                + .board-list {
+                                    margin-top: 4rem;
+                                    @include mobile {
+                                        margin-top: 2.4rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
             .data-figure {
                 img {
@@ -3356,7 +3374,8 @@
 
                             .post-item {
                                 position: relative;
-                                width: calc(25% - 15px);
+                                //width: calc(25% - 15px);
+                                width: calc(100% / 3 - 13.333px);
 
                                 @include mobile {
                                     width: 100%;

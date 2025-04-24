@@ -1239,18 +1239,30 @@
     &.design13 {
         display: flex;
         .board-item {
+            width: calc(100% / 2);
+            @include mobile {
+                width: 100%;
+            }
             .board-wrap {
                 .board-head {
                     padding: 2.4rem;
                     background: color(primary,070);
                     text-align: center;
                     border-radius: 1.6rem;
+
+                    align-content: center;
                     .board-subject {
                         color: color(typo,000);
                         @include font(small-2x,bold);
                     }
                     + .board-body {
                         margin-top: 1.6rem;
+                    }
+                    .en & {
+                        min-height: 11.2rem;
+                        @include mobile {
+                            min-height: unset;
+                        }
                     }
                 }
                 .board-body {

@@ -1502,11 +1502,20 @@
 .board-list.design13 {
   display: flex;
 }
+.board-list.design13 .board-item {
+  width: 50%;
+}
+@media (max-width: 1023px) {
+  .board-list.design13 .board-item {
+    width: 100%;
+  }
+}
 .board-list.design13 .board-item .board-wrap .board-head {
   padding: 2.4rem;
   background: rgb(151, 53, 208);
   text-align: center;
   border-radius: 1.6rem;
+  align-content: center;
 }
 .board-list.design13 .board-item .board-wrap .board-head .board-subject {
   color: rgb(255, 255, 255);
@@ -1515,6 +1524,14 @@
 }
 .board-list.design13 .board-item .board-wrap .board-head + .board-body {
   margin-top: 1.6rem;
+}
+.en .board-list.design13 .board-item .board-wrap .board-head {
+  min-height: 11.2rem;
+}
+@media (max-width: 1023px) {
+  .en .board-list.design13 .board-item .board-wrap .board-head {
+    min-height: unset;
+  }
 }
 .board-list.design13 .board-item .board-wrap .board-body {
   padding: 4rem 2.4rem;
@@ -11119,8 +11136,8 @@ textarea {
 }
 
 sub {
-  font-size: smaller;
-  vertical-align: text-bottom;
+  font-size: small;
+  vertical-align: super;
 }
 
 #guide-list .page-head {
@@ -24617,6 +24634,22 @@ sub {
     margin-top: 1.2rem;
   }
 }
+.esg:not(.overview).info-protection .section.configuration .section-body > .para + .comment {
+  margin-top: 1.6rem;
+}
+@media (max-width: 1023px) {
+  .esg:not(.overview).info-protection .section.configuration .section-body > .para + .comment {
+    margin-top: 1.2rem;
+  }
+}
+.esg:not(.overview).info-protection .section.configuration .section-body > .para + .comment + .board-list {
+  margin-top: 4rem;
+}
+@media (max-width: 1023px) {
+  .esg:not(.overview).info-protection .section.configuration .section-body > .para + .comment + .board-list {
+    margin-top: 2.4rem;
+  }
+}
 .esg:not(.overview).info-protection .data-figure img {
   width: 100%;
 }
@@ -25322,7 +25355,7 @@ sub {
 }
 .esg.overview .section.story4 .section-wrap .section-body .post-list .post-item {
   position: relative;
-  width: calc(25% - 15px);
+  width: calc(33.3333333333% - 13.333px);
 }
 @media (max-width: 1023px) {
   .esg.overview .section.story4 .section-wrap .section-body .post-list .post-item {
