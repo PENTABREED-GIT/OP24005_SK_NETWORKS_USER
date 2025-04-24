@@ -112,7 +112,7 @@
                                                             <em class="title">Startup Founder</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">226</span>명
+                                                            <span class="accent color10">236</span>명
                                                         </div>
                                                     </div>
                                                 </div>
@@ -122,7 +122,7 @@
                                                             <em class="title">Investor</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">167</span>명
+                                                            <span class="accent color10">175</span>명
                                                         </div>
                                                     </div>
                                                 </div>
@@ -137,7 +137,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="comment design1">* '24년 12월 기준</p>
+                                            <p class="comment design1">* '25년 3월 기준</p>
                                         </div>
                                     </div>
                                 </div>
@@ -186,7 +186,7 @@
                                                             <strong class="data-name">전체 투자</strong>
                                                         </span>
                                                         <span class="data-body">
-                                                            <span class="accent">36</span>건
+                                                            <span class="accent">37</span>건
                                                         </span>
                                                     </button>
                                                     <button type="button" class="data-item" id="direct" onclick="filterButton('direct');">
@@ -202,7 +202,7 @@
                                                             <strong class="data-name">*펀드투자</strong>
                                                         </span>
                                                         <span class="data-body">
-                                                            <span class="accent">21</span>건
+                                                            <span class="accent">22</span>건
                                                         </span>
                                                     </button>
                                                 </div>

@@ -141,6 +141,28 @@
                     <td>Resolved</td>
                     <td>Approved</td>
                 </tr>
+                <tr>
+                    <td rowspan="3">4</td>
+                    <td rowspan="9">Mar. 26</td>
+                    <td class="align1">Organization of the Committees</td>
+                    <td rowspan="3" class="align1">
+                        internal directors  <span class="accent color9">2</span><br>
+                        non-executive director <span class="accent color9">1</span><br>
+                        outside directors <span class="accent color9">4</span>
+                    </td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td class="align1">Amendment to the BoD Regulations</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td class="align1">Amendment to the HR Committee Regulations</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
             </tbody>
         </table>
     </div>

@@ -144,6 +144,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="section-body">
+                                                    <p class="para">
+                                                        상정위원회는 투자실무협의체 이전에 안건의 투자위원회 상정 여부를 사전 검토하며<sub>1)</sub>, 견제 전담 조직(Red Team)은 투자위원회에 상정된 안건에 대해 발의부서와 별도로 Risk
+                                                        및 투자 타당성을 분석∙검토하는 안건별 임시 조직<sub>2)</sub>으로서, 이사회 부의 대상 투자 건에 한하여 Worst Case Projection 제시 등 검토 결과물을 투자위원회와 이사회에 별도로 제출합니다<sub>3)</sub>
+                                                    </p>
+                                                    <p class="comment design1">
+                                                        1) 내부 구성원은 투자실무협의체와 동일<br>
+                                                        2) 경영지원본부장(CFO) 산하 Virtual TF로 운영, RM실장 실무 총괄 및 투자실무협의체 구성팀의 팀원들로 구성<br>
+                                                        3) 기존 투자 금액 변경의 건, 기존 사업의 확장에 따른 투자는 검토 대상에서 제외하되, 예외적으로 경영진의 결정 및 상정위원회 의결로 대상을 추가할 수 있음.
+                                                    </p>
                                                     <div class="board-list design13">
                                                         <div class="board-item type1">
                                                             <div class="board-wrap">
@@ -163,7 +172,7 @@
                                                         <div class="board-item type2">
                                                             <div class="board-wrap">
                                                                 <div class="board-head">
-                                                                    <em class="board-subject">투자실무협의체</em>
+                                                                    <em class="board-subject">투자실무협의체 / 상정위원회</em>
                                                                 </div>
                                                                 <div class="board-body">
                                                                     <div class="bullet-display design1 case1 type6">
@@ -381,14 +390,8 @@
                                                         <ul class="data-list">
                                                             <li class="data-item">2020년부터 전 사업부·자회사가 참여하는 SV밋업 시행을 통해 자/손회사 ESG 현황 파악 및 관리</li>
                                                             <li class="data-item">SK네트웍스 및 자/손회사 총 8개사 Net Zero 2040 선언(2021년), EV100 가입(2021년), SBTi 가입(2022년 9월) 및 목표 승인 (2023년 8월)</li>
-                                                            <li class="data-item">
-                                                                SK네트웍스 지속가능경영보고서 내 SK매직, SK네트웍스서비스 등 자회사 주요 ESG 성과 공시
-                                                            </li>
-                                                            <li class="data-item">
-                                                                주요 자회사 ESG 성과 점검 및 공시 진행 (2022년~)<br> 
-                                                                - ESG 우선 관리 지표* 정책/목표(Roadmap)/성과를 각 사 홈페이지 내 공시<br> 
-                                                                (SK네트웍스서비스 우선 관리 지표 5개 공시 완료, SK매직 우선 관리 지표 4개 공시 완료)
-                                                            </li>
+                                                            <li class="data-item">SK네트웍스 지속가능경영보고서 내 SK매직, SK네트웍스서비스 등 자회사 주요 ESG 성과 공시</li>
+                                                            <li class="data-item">자회사별 단계적 ESG 성과 점검 및 공시 진행 (2022년~)</li>
                                                         </ul>
                                                     </div>
                                                     <p class="comment design1">* 우선 관리 지표 : 인권선언 및 정책, 구성원 안전, 기업데이터 및 정보보호, 반부패 정책, 구성원 반부패 관련 교육</p>

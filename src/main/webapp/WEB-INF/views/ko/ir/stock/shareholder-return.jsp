@@ -147,7 +147,7 @@
                                                 <tr>
                                                     <td rowspan="2">배당수익률*</td>
                                                     <td>중간배당</td>
-                                                    <td>2.06%</td>
+                                                    <td>2.01%</td>
                                                     <td rowspan="2">3.39%</td>
                                                     <td rowspan="2">3.1%</td>
                                                     <td rowspan="2">2.39%</td>
@@ -155,7 +155,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>결산배당</td>
-                                                    <td>배당기준일 이후 게시</td>
+                                                    <td>4.92%</td>
                                                 </tr>
                                             </tbody>
                                         </table>

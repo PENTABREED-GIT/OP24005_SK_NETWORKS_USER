@@ -134,6 +134,28 @@
                     <td>결의</td>
                     <td>가결</td>
                 </tr>
+                <tr>
+                    <td rowspan="3">4</td>
+                    <td rowspan="3">03월 26일</td>
+                    <td class="align1">위원회 구성의 건</td>
+                    <td rowspan="3" class="align1">
+                        사내이사 <span class="accent color9">2</span><br>
+                        기타비상무이사 <span class="accent color9">1</span><br>
+                        사외이사 <span class="accent color9">4</span>
+                    </td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">이사회 규정 개정의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">인사위원회 규정 개정의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
             </tbody>
         </table>
     </div>

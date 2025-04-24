@@ -182,20 +182,20 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="borad-item">
-                                                        <div class="board-head">
-                                                            <span class="board-subject">S&amp;P Global</span>
-                                                        </div>
-                                                        <div class="board-body">
-                                                            <div class="data-list emblum3">
-                                                                <div class="data-item">
-                                                                    <div class="figure">
-                                                                        <img src="/assets/images/sustainability/esg-img-sp-global.jpg" alt="S&P Global 인증마크 Sustainability Yearbook Member">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    <%--<div class="borad-item">--%>
+                                                    <%--    <div class="board-head">--%>
+                                                    <%--        <span class="board-subject">S&amp;P Global</span>--%>
+                                                    <%--    </div>--%>
+                                                    <%--    <div class="board-body">--%>
+                                                    <%--        <div class="data-list emblum3">--%>
+                                                    <%--            <div class="data-item">--%>
+                                                    <%--                <div class="figure">--%>
+                                                    <%--                    <img src="/assets/images/sustainability/esg-img-sp-global.jpg" alt="S&P Global 인증마크 Sustainability Yearbook Member">--%>
+                                                    <%--                </div>--%>
+                                                    <%--            </div>--%>
+                                                    <%--        </div>--%>
+                                                    <%--    </div>--%>
+                                                    <%--</div>--%>
                                                 </div>
                                                 <!-- <p class="comment design1">* 2023년 평가 등급, 2024년 결과 대기 중</p> -->
                                             </div>

@@ -160,7 +160,7 @@
                                                                 </ul>
                                                             </div>
                                                         </td>
-                                                        <td>12 meetings</td>
+                                                        <td>13 meetings</td>
                                                     </tr>
                                                     <tr>
                                                         <td>Company-wide Management Meeting</td>

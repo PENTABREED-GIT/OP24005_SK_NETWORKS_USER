@@ -105,7 +105,7 @@
                                                     <div class="contents">
                                                         <strong class="contents-name type1">WHOLESALE OF MOBILE DEVICES</strong>
                                                         <p class="para">SK Networks, as the biggest mobile phone distributor in Korea, supplies mobile devices demanded by customers through the nationwide logistics infrastructure and purchase platform-based distribution network.</p>
-                                                        <p class="para">Based on the partnerships with SK telecom, the Korea’s largest mobile communication service provider, and other manufacturers over the world, we accomplished to sell 4.33 million mobile phone devices in 2022.</p>
+                                                        <p class="para">Based on the partnerships with SK telecom, the Korea’s largest mobile communication service provider, and other manufacturers over the world, we accomplished to sell 3.89 million mobile phone devices in 2024.</p>
                                                         <p class="para">Even in the gradually stagnating market environment, we have provided loan/payment services and purchase system to improve agencies’ purchase convenience and strengthened the business model through sales consulting to develop together with 1,041 agencies nationwide.</p>
                                                         <p class="para">The Mobile Device Business will expand the role of SK Networks in the mobile phone distribution market through a continuous value creation for its clients, thereby securing significant profits and stable growth.</p>
                                                     </div>

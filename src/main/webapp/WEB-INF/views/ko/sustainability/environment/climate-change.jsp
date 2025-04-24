@@ -140,7 +140,7 @@
                                                             <th scope="col">조직명</th>
                                                             <th scope="col">구성*</th>
                                                             <th scope="col">역할</th>
-                                                            <th scope="col">2023년<br>개최현황</th>
+                                                            <th scope="col">2024년<br>개최현황</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
@@ -155,7 +155,7 @@
                                                                     </ul>
                                                                 </div>
                                                             </td>
-                                                            <td>12회</td>
+                                                            <td>13회</td>
                                                         </tr>
                                                         <tr>
                                                             <td>전사 경영 층 회의체</td>

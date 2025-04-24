@@ -23,14 +23,36 @@
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td rowspan="2">1</td>
-                <td rowspan="2">01월 21일</td>
-                <td class="align1">2024년도 대표이사 평가의 건, 대표이사 보상의 건</td>
-                <td>심의</td>
-                <td>-</td>
-                <td>100%</td>
-            </tr>
+                <tr>
+                    <td>1</td>
+                    <td>01월 21일</td>
+                    <td class="align1">2024년도 대표이사 평가의 건, 대표이사 보상의 건</td>
+                    <td>심의</td>
+                    <td>-</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2</td>
+                    <td rowspan="2">02월 19일</td>
+                    <td class="align1">2025년도 이사 보수 한도액 심의의 건</td>
+                    <td>심의</td>
+                    <td>-</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">감사위원회 위원이 되는 사외이사 후보 추천의 건</td>
+                    <td>의결</td>
+                    <td>가결</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>04월 15일</td>
+                    <td class="align1">인사위원회 의원장 선임의 건</td>
+                    <td>의결</td>
+                    <td>가결</td>
+                    <td>100%</td>
+                </tr>
             </tbody>
         </table>
     </div>

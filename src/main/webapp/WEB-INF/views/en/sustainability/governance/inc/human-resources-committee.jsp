@@ -31,14 +31,36 @@
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td rowspan="2">1</td>
-                <td rowspan="2">Jan. 21</td>
-                <td class="align1">2024 evaluation and remuneration for the Representative Director</td>
-                <td>Deliberated</td>
-                <td>-</td>
-                <td>100%</td>
-            </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Jan. 21</td>
+                    <td class="align1">2024 evaluation and remuneration for the Representative Director</td>
+                    <td>Deliberated</td>
+                    <td>-</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2</td>
+                    <td rowspan="2">Feb. 19</td>
+                    <td class="align1">Deliberation of 2025 ceilings on directors’ remuneration</td>
+                    <td>Deliberated</td>
+                    <td>-</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">Nomination of outside director candidates to the seat on the Audit Committee</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Apr. 15</td>
+                    <td class="align1">Appointment of the HR Committee Chairman</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                    <td>100%</td>
+                </tr>
             </tbody>
         </table>
     </div>

@@ -151,7 +151,7 @@
                                                 <tr>
                                                     <td rowspan="2">Dividend Yield*</td>
                                                     <td>Interim dividend</td>
-                                                    <td>2.06%</td>
+                                                    <td>2.01%</td>
                                                     <td rowspan="2">3.39%</td>
                                                     <td rowspan="2">3.1%</td>
                                                     <td rowspan="2">2.39%</td>
@@ -159,7 +159,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>Final dividend</td>
-                                                    <td>Announced after the dividend record date</td>
+                                                    <td>4.92%</td>
                                                 </tr>
                                             </tbody>
                                         </table>
