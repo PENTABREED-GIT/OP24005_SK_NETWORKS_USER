@@ -202,30 +202,38 @@
                                                         <div class="blind">
                                                             <ul>
                                                                 <li>
-                                                                    <em>투자실무협의체 검토</em>
-                                                                    <span>투자 사안의 사전 검토</span>
+                                                                    <em>발의부서</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>회의 소집</em>
-                                                                    <span>투자위원회 간사에 의한 회의 소집</span>
+                                                                    <em>상정위원회</em>
+                                                                    <span>실패시 보완사항으로 발의부서 단계로 이동</span>
+                                                                    <span>조건 충족 시, 필요 시 견제 전담 조직을 총해 투자위원회 or 내부투자위원회 단계로 이동</span>
                                                                 </li>
                                                                 <li>
-                                                                    <em>의견청취 및 진행</em>
-                                                                    <span>투자위원회 위원으로만 구성된 별도의 협의 과정을 필수로 진행</span>
+                                                                    <em>투자실무협의체</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>회의 기록 및 기밀유지</em>
-                                                                    <span>회의 내용의 문서화 및 보안 유지</span>
+                                                                    <em>투자위원회 or 내부투자위원회</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>의사 결정</em>
-                                                                    <span>의결 기준 : 전략적 방향성, R&amp;C 확보방안, Valuation, Milestone, 주요 Issue 및 Contingency Plan, ESG/SV, Exit Plan, 기타</span>
-                                                                    <span>투자 위원회 통과 기준 : 전체 위원의 2/3 이상 참석 및 참석 위원의 2/3 이상 찬성 필요</span>
+                                                                    <em>결과 통보</em>
+                                                                    <span>조건 충족 시 이사회 결의 단계로 이동</span>
+                                                                </li>
+                                                                <li>
+                                                                    <em>이사회 결의</em>
+                                                                    <span>조건 충족 시 주주총회 단계로 이동</span>
+                                                                </li>
+                                                                <li>
+                                                                    <em>주주총회</em>
+                                                                </li>
+                                                                <li>
+                                                                    <span>※ 의결기준 : 전략적 방향성, R&C 확보방안, Valuation, Milestone, 주요 issue 및 Contingency Plan, ESG/SV, Exit plan 기타 등</span>
+                                                                    <span>※ 투자위원회 통과 기준 : 전체 위원의 2/3 이상 참석 위원의 2/3 이상 찬성 필요</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <p class="comment design1">* 이사회 승인 가결을 필요로 하는 투자 대상일 경우, ESG경영위원회를 통한 사전 심의 절차 진행 후 이사회의 최종 검토를 거쳐 의결합니다.</p>
+                                                    <p class="comment design1">* 이사회 승인 가결을 필요로 하는 투자 대상일 경우, 전략·ESG경영위원회를 통한 사전 심의 절차 진행 후 이사회의 최종 검토를 거쳐 의결합니다.</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -204,24 +204,29 @@
                                                         <div class="blind">
                                                             <ul>
                                                                 <li>
-                                                                    <em>Review by Working-level Investment Council</em>
-                                                                    <span>Pre-review of the investment proposition</span>
+                                                                    <em>Initiating Department</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>Calling Investment Board to Order</em>
-                                                                    <span>Secretary of the investment board calls the meeting to order</span>
+                                                                    <em>Agenda Review Committee</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>Discussion of Investment Proposition</em>
+                                                                    <em>Investment Review Working Group</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>Meeting Minutes &amp; Confidentiality</em>
-                                                                    <span>Documenting meeting discussion and keeping it confidential</span>
+                                                                    <em>Investment Committee or Internal Investment Committee</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>Decision-making</em>
-                                                                    <span>Decision-making Criteria: Strategic orientation, R&C availability, valuation, milestone, major issues and contingency plan, ESG/SV, exit plan, and others</span>
-                                                                    <span>Investment Board Endorsement Criteria: Attendance by at least 2/3 of all members and affirmative votes by at least 2/3 of all attending members</span>
+                                                                    <em>Result Notification</em>
+                                                                </li>
+                                                                <li>
+                                                                    <em>Board Resolution</em>
+                                                                </li>
+                                                                <li>
+                                                                    <em>Shareholders' Meeting</em>
+                                                                </li>
+                                                                <li>
+                                                                    <span>※ Decision Criteria: Strategic Alignment, Risk & Compliance (R&C) Strategy, Valuation, Milestones, Key Issues & Contingency Plans, ESG/Social Value (SV), Exit Plan, and other relevant factors</span>
+                                                                    <span>※ Investment Committee Approval Criteria: Approval requires the attendance of at least two-thirds of all committee members and the affirmative vote of at least two-thirds of those present.</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
