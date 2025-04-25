@@ -231,7 +231,9 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <p class="comment design1">* Where an investment proposition is subject to an approval by the board of directors, it is to be deliberated in advance by the ESG Management Committee and finally reviewed and approved by the board of directors.</p>
+                                                    <p class="comment design1">
+                                                        * For investments subject to Board approval, a preliminary review shall be conducted by the Strategic ESG Committee, followed by final review and resolution by the Board of Directors.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>

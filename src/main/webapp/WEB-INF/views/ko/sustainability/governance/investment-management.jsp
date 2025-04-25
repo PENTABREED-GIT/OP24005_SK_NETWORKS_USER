@@ -135,7 +135,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="section design1 case3 type1 configuration">
+                                        <div class="section design1 case1 type1 configuration">
                                             <div class="section-wrap">
                                                 <div class="section-head">
                                                     <div class="section-subject">
