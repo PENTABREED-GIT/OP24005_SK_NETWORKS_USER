@@ -400,7 +400,7 @@
                                                             <li class="data-item">Phased ESG performance evaluation and disclosure by each subsidiary (since 2022)</li>
                                                         </ul>
                                                     </div>
-                                                    <p class="comment design1">* Priority management indicators include human rights declarations and policies, employee safety, corporate data and information protection, anti-corruption policies, and employee anti-corruption education.</p>
+                                                    <%--<p class="comment design1">* Priority management indicators include human rights declarations and policies, employee safety, corporate data and information protection, anti-corruption policies, and employee anti-corruption education.</p>--%>
                                                 </div>
                                             </div>
                                         </div>

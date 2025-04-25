@@ -710,7 +710,7 @@
                                                                                             <td>Human Resources</td>
                                                                                             <td></td>
                                                                                             <td>Commissioner<br> Keedong Kim</td>
-                                                                                            <td>Commissioner<br> Hwa-jin Chang<br> Commissioner<br> Geunbae Jang<br></td>
+                                                                                            <td>Chairperson<br> Hwa-jin Chang<br> Commissioner<br> Geunbae Jang<br></td>
                                                                                             <td class="align1">
                                                                                                 Establishes the outside director candidate nomination process
                                                                                                 Identifies and manages a candidate pool
