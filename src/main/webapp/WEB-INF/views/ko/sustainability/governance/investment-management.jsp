@@ -192,7 +192,7 @@
                                             <div class="section-wrap">
                                                 <div class="section-head">
                                                     <div class="section-subject">
-                                                        <h4 class="section-name">투자위원회 운영 프로세스</h4>
+                                                        <h4 class="section-name">투자 프로세스</h4>
                                                     </div>
                                                 </div>
                                                 <div class="section-body">

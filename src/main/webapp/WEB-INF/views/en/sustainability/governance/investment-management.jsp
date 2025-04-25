@@ -194,7 +194,7 @@
                                             <div class="section-wrap">
                                                 <div class="section-head">
                                                     <div class="section-subject">
-                                                        <h4 class="section-name">Investment Board Operation Process</h4>
+                                                        <h4 class="section-name">Investment Process</h4>
                                                     </div>
                                                 </div>
                                                 <div class="section-body">
