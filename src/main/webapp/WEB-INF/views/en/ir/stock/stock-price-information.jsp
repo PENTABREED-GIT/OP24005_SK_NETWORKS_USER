@@ -134,28 +134,28 @@
                                                             </tr>
                                                             <tr>
                                                                 <td>Affiliated person</td>
-                                                                <td>2,769,662</td>
+                                                                <td>2,756,079</td>
                                                                 <td>1.25%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>Treasury stock</td>
-                                                                <td>27,345,107</td>
+                                                                <td>27,345,276</td>
                                                                 <td>12.36%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>National Pension Service</td>
-                                                                <td>11,823,955</td>
-                                                                <td>5.34%</td>
+                                                                <td>12,021,020</td>
+                                                                <td>5.43%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>Others</td>
-                                                                <td>82,196,322</td>
-                                                                <td>37.15%</td>
+                                                                <td>82,012,671</td>
+                                                                <td>37.06%</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                                <p class="comment design1">* As of December 31, 2024 / Common Share</p>
+                                                <p class="comment design1">* As of March 31, 2025 / Common Share</p>
                                             </div>
                                         </li>
                                         <!-- <li class="chart-item">

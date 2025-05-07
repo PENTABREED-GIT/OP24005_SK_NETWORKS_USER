@@ -108,12 +108,12 @@
                                         <li class="chart-item">
                                             <div class="chart-diagram">
                                                 <img src="/assets/images/ir/diagram1.png" alt="주주현황 2024년 이미지 입니다. 자세한 설명은 하단 내용을 참고하세요." class="pc-only">
-                                                <img src="/assets/images/ir/diagram1-mo.png" alt="주주현황 2024년 이미지 입니다. 자세한 설명은 하단 내용을 참고하세요." class="mo-only">
+                                                <img src="/assets/images/ir/diagram1-mo.png" alt="주주현황 2024년 이미지 입니다. 자세한 설명은 하단 내용을 참고하세요." class="mo-only" style="max-width: 100%">
                                             </div>
                                             <div class="chart-body">
                                                 <div class="t-display design1 case1 type1 align3 scroll">
                                                     <table style="min-width: 386px;" class="col-w-1">
-                                                        <caption>이 표는 2024년 주주현황 정보를 제공하며 구분(SK㈜, 그 외 특수관계인, 자기주식, 국민연금, 기타), 주식 수, 지분율로 구성되어 있습니다.</caption>
+                                                        <caption>이 표는 2025년 주주현황 정보를 제공하며 구분(SK㈜, 그 외 특수관계인, 자기주식, 국민연금, 기타), 주식 수, 지분율로 구성되어 있습니다.</caption>
                                                         <colgroup>
                                                             <col class="col1">
                                                             <col class="col2">
@@ -134,28 +134,28 @@
                                                             </tr>
                                                             <tr>
                                                                 <td>그 외 특수관계인</td>
-                                                                <td>2,769,662</td>
+                                                                <td>2,756,079</td>
                                                                 <td>1.25%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>자기주식</td>
-                                                                <td>27,345,107</td>
+                                                                <td>27,345,276</td>
                                                                 <td>12.36%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>국민연금</td>
-                                                                <td>11,823,955</td>
-                                                                <td>5.34%</td>
+                                                                <td>12,021,020</td>
+                                                                <td>5.43%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>기타</td>
-                                                                <td>82,196,322</td>
-                                                                <td>37.15%</td>
+                                                                <td>82,012,671</td>
+                                                                <td>37.06%</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                                <p class="comment design1">* 2024.12.31 기준</p>
+                                                <p class="comment design1">* 2025.03.31 기준</p>
                                             </div>
                                         </li>
                                     </ul>
