@@ -10295,6 +10295,7 @@
   }
   .chart-display.design2 .chart-list .chart-item .chart-diagram img {
     display: inline-block;
+    max-width: 100%;
   }
   .chart-display.design2 .chart-list .chart-item .chart-diagram .t-display table {
     min-width: auto;
