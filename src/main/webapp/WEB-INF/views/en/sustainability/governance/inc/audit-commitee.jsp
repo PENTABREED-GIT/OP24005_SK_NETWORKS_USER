@@ -127,6 +127,47 @@
                     <td>Reported</td>
                     <td>-</td>
                 </tr>
+                <tr>
+                    <td rowspan="4">5</td>
+                    <td rowspan="4">Apr. 30</td>
+                    <td class="align1">Appointment of the representative of the Audit Committee</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                    <td rowspan="4">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">Reporting on Q1 2025 (preliminary) review by external auditor</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">Reporting on 2024 inspection results for "Lead by Example" leaders</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">Reporting on Q1 2025 achievements of the Audit Office</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">6</td>
+                    <td rowspan="3">May. 8</td>
+                    <td class="align1">Reporting on Q1 2025 earnings of SK Networks</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                    <td rowspan="3">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">Reporting on Q1 2025 review by external auditor</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">Approval of the Audit Committee’s Selection of the Public Accountant (PA) for the 2025 Internal Accounting Management System</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
             </tbody>
         </table>
     </div>

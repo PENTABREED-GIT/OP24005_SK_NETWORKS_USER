@@ -329,7 +329,7 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                    <p class="comment design1">* 2024.12.31 보통주 기준</p>
+                                    <p class="comment design1">* 2025.03.31 기준</p>
                                 </div>
                             </div>
                         </div>

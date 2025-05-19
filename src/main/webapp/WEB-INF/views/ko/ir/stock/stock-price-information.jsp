@@ -80,12 +80,12 @@
                                                     <td>248,187,647</td>
                                                     <td>26,909,745</td>
                                                     <td>221,277,902</td>
-                                                    <td>27,345,107</td>
+                                                    <td>27,345,276</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
-                                    <p class="comment design1">* 2024.12.31 기준</p>
+                                    <p class="comment design1">* 2025.03.31 기준</p>
                                 </div>
                             </div>
                         </div>

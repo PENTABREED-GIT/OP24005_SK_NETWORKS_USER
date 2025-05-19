@@ -726,11 +726,14 @@
                                                     <button data-bs-toggle="modal" data-bs-target="#modalEncore" class="data-item">
                                                         <img src="/assets/images/company/company-logo-en-core.png" alt="En-core">
                                                     </button>
+                                                    <button data-bs-toggle="modal" data-bs-target="#modalGlowide" class="data-item">
+                                                        <img src="/assets/images/company/company-logo-glowide.png" alt="Glowide">
+                                                    </button>
                                                     <button data-bs-toggle="modal" data-bs-target="#modalHicocapital" class="data-item">
                                                         <img src="/assets/images/company/company-logo-hico-ventures.png" alt="HICO CAPITAL">
                                                     </button>
-                                                    <button data-bs-toggle="modal" data-bs-target="#modalGlowide" class="data-item">
-                                                        <img src="/assets/images/company/company-logo-glowide.png" alt="Glowide">
+                                                    <button data-bs-toggle="modal" data-bs-target="#modalPhnyXLab" class="data-item">
+                                                        <img src="/assets/images/company/company-logo-hico-ventures.png" alt="PhnyX Lab">
                                                     </button>
                                                 </div>
                                             </div>
@@ -1217,6 +1220,36 @@
                                             <a href="https://www.glowide.kr/" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Go to Website</span></a>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-fuc">
+                    <button type="button" data-bs-dismiss="modal" class="btn icon case1 modal-close"><span class="btn-text blind">close</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal design1 medium" id="modalPhnyXLab" tabindex="-1" aria-labelledby="modalPhnyXLabLabel" aria-hidden="true">
+        <div class="modal-inner modal-dialog">
+            <div class="modal-area">
+                <div class="modal-wrap">
+                    <div class="modal-head" id="modalPhnyXLabLabel">
+                        <em class="modal-subjec"><span class="modal-name">PhnyX Lab</span></em>
+                    </div>
+                    <div class="modal-body">
+                        <div class="section design1 case7 type4 align1">
+                            <div class="section-wrap">
+                                <div class="section-head">
+                                    <a class="btn design2 case1 type1 color4" href="/${LANG}/business/phnyx-lab">
+                                        <span class="btn-text">Learn more</span>
+                                    </a>
+                                </div>
+                                <div class="section-body">
+                                    <p class="para">
+                                        PhnyX Lab, founded in Silicon Valley, USA, develops and provides AI-powered services.
+                                    </p>
                                 </div>
                             </div>
                         </div>

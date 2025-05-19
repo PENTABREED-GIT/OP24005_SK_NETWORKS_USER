@@ -333,7 +333,7 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                    <p class="comment design1">* As of December. 31. 2024 (Common shares basis)</p>
+                                    <p class="comment design1">* As of March. 31. 2025</p>
                                 </div>
                             </div>
                         </div>

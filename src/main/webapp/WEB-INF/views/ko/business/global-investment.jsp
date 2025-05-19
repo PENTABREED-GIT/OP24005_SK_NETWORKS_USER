@@ -137,7 +137,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="comment design1">* '25년 3월 기준</p>
+                                            <p class="comment design1">* '25년 4월 기준</p>
                                         </div>
                                     </div>
                                 </div>

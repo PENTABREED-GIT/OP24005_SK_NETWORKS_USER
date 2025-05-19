@@ -120,6 +120,47 @@
                     <td>보고</td>
                     <td>-</td>
                 </tr>
+                <tr>
+                    <td rowspan="4">5</td>
+                    <td rowspan="4">04월 30일</td>
+                    <td class="align1">감사위원회 대표자 선정의 건</td>
+                    <td>의결</td>
+                    <td>승인</td>
+                    <td rowspan="4">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 1분기 외부감사인 (사전)검토 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 리더 솔선수범 점검 결과 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 1분기 감사실 실적 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">6</td>
+                    <td rowspan="3">05월 08일</td>
+                    <td class="align1">2025년 1분기 SK네트웍스 경영실적 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                    <td rowspan="3">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 1분기 외부감사인 검토결과 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 감사위원회 내부회계관리제도PA 선정의 건</td>
+                    <td>의결</td>
+                    <td>승인</td>
+                </tr>
             </tbody>
         </table>
     </div>

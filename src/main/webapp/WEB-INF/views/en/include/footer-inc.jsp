@@ -28,7 +28,7 @@
                     <ul class="data-list">
                         <li class="data-item"><span class="data-text">19, Gyeongsu-daero 976beon-gil, Jangan-gu, Suwon-si, Gyeonggi-do, Republic of Korea</span></li>
                         <li class="data-item"><span class="data-text">Tel : 070-7800-2114</span></li>
-						<li class="data-item"><span class="data-text">Copyright ⓒ 2024 by SK Networks Co. Ltd. All Rights Reserved.</span></li>
+						<li class="data-item"><span class="data-text">Copyright ⓒ SK Networks Co. Ltd. All Rights Reserved</span></li>
                     </ul>
                 </div>
             </div>

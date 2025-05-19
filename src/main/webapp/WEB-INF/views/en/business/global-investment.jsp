@@ -136,7 +136,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="comment design1">* as of March 2025</p>
+                                            <p class="comment design1">* as of April 2025</p>
                                         </div>
                                     </div>
                                 </div>

@@ -80,12 +80,12 @@
                                                     <td>248,187,647</td>
                                                     <td>26,909,745</td>
                                                     <td>221,277,902</td>
-                                                    <td>27,345,107</td>
+                                                    <td>27,345,276</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
-                                    <p class="comment design1">* As of December 31, 2024</p>
+                                    <p class="comment design1">* As of March 31, 2025</p>
                                 </div>
                             </div>
                         </div>
