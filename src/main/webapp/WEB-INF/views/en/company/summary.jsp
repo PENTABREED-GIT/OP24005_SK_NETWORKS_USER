@@ -733,7 +733,7 @@
                                                         <img src="/assets/images/company/company-logo-hico-ventures.png" alt="HICO CAPITAL">
                                                     </button>
                                                     <button data-bs-toggle="modal" data-bs-target="#modalPhnyXLab" class="data-item">
-                                                        <img src="/assets/images/company/company-logo-hico-ventures.png" alt="PhnyX Lab">
+                                                        <img src="/assets/images/company/company-logo-phnyx-lab.png" alt="PhnyX Lab">
                                                     </button>
                                                 </div>
                                             </div>
