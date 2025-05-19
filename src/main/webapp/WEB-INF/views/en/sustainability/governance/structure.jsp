@@ -301,7 +301,7 @@
                                                                 <div class="data-item">
                                                                     <div class="data-wrap">
                                                                         <div class="data-head">
-                                                                            <em class="data-subject">Inside Director</em>
+                                                                            <em class="data-subject">Executive Director</em>
                                                                         </div>
                                                                         <div class="data-body">
                                                                             <div class="post-list csr-governance case1">
@@ -405,7 +405,7 @@
                                                                 <div class="data-item">
                                                                     <div class="data-wrap">
                                                                         <div class="data-head">
-                                                                            <em class="data-subject">Outside Director</em>
+                                                                            <em class="data-subject">Independent Director</em>
                                                                         </div>
                                                                         <div class="data-body">
                                                                             <div class="post-list csr-governance case2">
@@ -730,7 +730,7 @@
                                                                                             <td>Commissioner<br> Ho-jeong Lee, <br>(Representative Director),<br>Commissioner<br> Sunghwan Choi</td>
                                                                                             <td>Commissioner Keedong Kim</td>
                                                                                             <td>
-                                                                                                Chairperson<br> Sooil Chai<br>
+                                                                                                Chairman<br> Sooil Chai<br>
                                                                                                 Commissioner<br> Moon-young Lee<br>
                                                                                                 Commissioner<br> Hwa-jin Chang<br>
                                                                                                 Commissioner<br> Geunbae Jang
@@ -753,7 +753,7 @@
                                                                                             <td>-</td>
                                                                                             <td>-</td>
                                                                                             <td>
-                                                                                                Chairperson<br> Moon-young Lee<br>
+                                                                                                Commissioner<br> Moon-young Lee<br>
                                                                                                 Commissioner<br> Hwa-jin Chang<br>
                                                                                                 Commissioner<br> Geunbae Jang
                                                                                             </td>
