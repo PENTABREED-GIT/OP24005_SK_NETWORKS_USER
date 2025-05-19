@@ -730,7 +730,7 @@
                                                                                             <td>Commissioner<br> Ho-jeong Lee, <br>(Representative Director),<br>Commissioner<br> Sunghwan Choi</td>
                                                                                             <td>Commissioner Keedong Kim</td>
                                                                                             <td>
-                                                                                                Chairman<br> Sooil Chai<br>
+                                                                                                Chairperson<br> Sooil Chai<br>
                                                                                                 Commissioner<br> Moon-young Lee<br>
                                                                                                 Commissioner<br> Hwa-jin Chang<br>
                                                                                                 Commissioner<br> Geunbae Jang
@@ -753,7 +753,7 @@
                                                                                             <td>-</td>
                                                                                             <td>-</td>
                                                                                             <td>
-                                                                                                Commissioner<br> Moon-young Lee<br>
+                                                                                                Chairperson<br> Moon-young Lee<br>
                                                                                                 Commissioner<br> Hwa-jin Chang<br>
                                                                                                 Commissioner<br> Geunbae Jang
                                                                                             </td>
