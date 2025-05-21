@@ -410,7 +410,7 @@
                                                                             <div class="data-item">
                                                                                 <div class="data-wrap">
                                                                                     <div class="data-head">
-                                                                                        <em class="data-subject">Self-Regulatory Examination System</em>
+                                                                                        <em class="data-subject">Operation of the Self-Compliance System</em>
                                                                                     </div>
                                                                                     <div class="data-body">
                                                                                         <p class="para">
@@ -745,7 +745,7 @@
                                                             <div class="section-wrap">
                                                                 <div class="section-head">
                                                                     <div class="section-subject">
-                                                                        <h4 class="section-name">Internal Audit (Ethics /Anti-corruption audit)</h4>
+                                                                        <h4 class="section-name">Implementation of Internal Audits (Ethics/Anti-Corruption Audits)</h4>
                                                                     </div>
                                                                 </div>
                                                                 <div class="section-body">
