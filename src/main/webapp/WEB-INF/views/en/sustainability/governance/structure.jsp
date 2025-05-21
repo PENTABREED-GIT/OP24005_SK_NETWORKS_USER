@@ -224,7 +224,7 @@
                                                         <div class="section-subject">
                                                             <h4 class="section-name">Greater professional insight/diversity in BoD</h4>
                                                             <p class="section-summary">
-                                                                SK Networks appoints directors having professional credentials for legal affairs, finance/accounting, marketing, etc. and ESG insight, offering training opportunities such as seminars, third party lectures, etc. in a bid to empower them continuously. Outside directors are also selected considering their nationality, gender and age to ensure greater diversity in board representation. Outside directors with even wider diversity and professional competences required for developing/executing mid to long-term strategy of the company will continue to be identified way forward.
+                                                                SK Networks appoints directors having professional credentials for legal affairs, finance/accounting, marketing, etc. and ESG insight, offering training opportunities such as seminars, third party lectures, etc. in a bid to empower them continuously. Independent directors are also selected considering their nationality, gender and age to ensure greater diversity in board representation. Independent directors with even wider diversity and professional competences required for developing/executing mid to long-term strategy of the company will continue to be identified way forward.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -263,7 +263,7 @@
                                                             </table>
                                                         </div>
                                                         <p class="comment design1">
-                                                            1) Appointment of a female outside director (March, 2021)<br>
+                                                            1) Appointment of a female Independent director (March, 2021)<br>
                                                             2) Environment/Social/Governance, Investment, Industry/Tech, etc.
                                                         </p>
                                                     </div>
@@ -450,7 +450,7 @@
                                                                                             </div>
                                                                                             <div class="post-body">
                                                                                                 <div class="head">
-                                                                                                    <p class="caption">Outside Director</p>
+                                                                                                    <p class="caption">Independent director</p>
                                                                                                     <p class="name">Lee, Moonyoung</p>
                                                                                                 </div>
                                                                                                 <div class="body">
@@ -485,7 +485,7 @@
                                                                                             </div>
                                                                                             <div class="post-body">
                                                                                                 <div class="head">
-                                                                                                    <p class="caption">Outside Director</p>
+                                                                                                    <p class="caption">Independent director</p>
                                                                                                     <p class="name">Chang, Hwajin</p>
                                                                                                 </div>
                                                                                                 <div class="body">
@@ -522,7 +522,7 @@
                                                                                             </div>
                                                                                             <div class="post-body">
                                                                                                 <div class="head">
-                                                                                                    <p class="caption">Outside Director</p>
+                                                                                                    <p class="caption">Independent director</p>
                                                                                                     <p class="name">Jang, Geunbae</p>
                                                                                                 </div>
                                                                                                 <div class="body">
@@ -681,7 +681,7 @@
                                                                         <div class="data-body">
                                                                             <div class="t-display design1 case1 type1 align3 scroll">
                                                                                 <table class="esg-committee-table">
-                                                                                    <caption>This table provides information on the composition status of committees within the board of directors and consists of names, composition (in-house directors, other non-executive directors, outside directors), roles, and download regulations.</caption>
+                                                                                    <caption>This table provides information on the composition status of committees within the board of directors and consists of names, composition (in-house directors, other non-executive directors, Independent directors), roles, and download regulations.</caption>
                                                                                     <colgroup>
                                                                                         <col style="width: 14%;">
                                                                                         <col style="width: 15%;">
@@ -702,7 +702,7 @@
                                                                                         <tr>
                                                                                             <th scope="col">Inside Director</th>
                                                                                             <th scope="col">Non-executive Director</th>
-                                                                                            <th scope="col">Outside Director</th>
+                                                                                            <th scope="col">Independent director</th>
                                                                                         </tr>
                                                                                     </thead>
                                                                                     <tbody>
@@ -712,7 +712,7 @@
                                                                                             <td>Commissioner<br> Keedong Kim</td>
                                                                                             <td>Chairperson<br> Hwa-jin Chang<br> Commissioner<br> Geunbae Jang<br></td>
                                                                                             <td class="align1">
-                                                                                                Establishes the outside director candidate nomination process
+                                                                                                Establishes the Independent director candidate nomination process
                                                                                                 Identifies and manages a candidate pool
                                                                                                 Reviews HR arrangements, evaluation, compensation etc. related to the CEO and key executives
                                                                                             </td>
@@ -1450,7 +1450,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td rowspan="2">3-2</td>
-                                                                                <td rowspan="2" class="align1">Appointment of Outside Director (Candidate : Chai, Soo-il)</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director (Candidate : Chai, Soo-il)</td>
                                                                                 <td rowspan="2">Approved as originally submitted</td>
                                                                                 <td rowspan="2">217,820,666</td>
                                                                                 <td rowspan="2">144,918,179</td>
@@ -1604,7 +1604,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td rowspan="2">4</td>
-                                                                                <td rowspan="2" class="align1">Appointment of Outside Director to serve as an Audit Committee Member (Candidate: Jeong, Seok-woo)</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director to serve as an Audit Committee Member (Candidate: Jeong, Seok-woo)</td>
                                                                                 <td rowspan="2">Approved as originally submitted</td>
                                                                                 <td rowspan="2">118,048,074</td>
                                                                                 <td rowspan="2">48,963,692</td>
@@ -1706,7 +1706,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td rowspan="2">3-2</td>
-                                                                                <td rowspan="2" class="align1">Appointment of Outside Director (Candidate: Ha, Young-won)</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director (Candidate: Ha, Young-won)</td>
                                                                                 <td rowspan="2">Approved as originally submitted</td>
                                                                                 <td rowspan="2">218,554,682</td>
                                                                                 <td rowspan="2">145,385,712</td>
@@ -1719,7 +1719,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td rowspan="2">3-3</td>
-                                                                                <td rowspan="2" class="align1">Appointment of Outside Director (Candidate: Im, Ho)</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director (Candidate: Im, Ho)</td>
                                                                                 <td rowspan="2">Approved as originally submitted</td>
                                                                                 <td rowspan="2">218,554,682</td>
                                                                                 <td rowspan="2">145,385,712</td>
@@ -1732,7 +1732,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td rowspan="2">4</td>
-                                                                                <td rowspan="2" class="align1">Appointment of Outside Director to serve as an Audit Committee Member (Candidate: Lee, Moon-young)</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director to serve as an Audit Committee Member (Candidate: Lee, Moon-young)</td>
                                                                                 <td rowspan="2">Approved as originally submitted</td>
                                                                                 <td rowspan="2">115,156,891</td>
                                                                                 <td rowspan="2">41,987,921</td>
@@ -1881,7 +1881,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td rowspan="2">3-2</td>
-                                                                                <td rowspan="2" class="align1">Appointment of Outside Director</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director</td>
                                                                                 <td rowspan="2">Approved as originally submitted</td>
                                                                                 <td rowspan="2">240,563,257</td>
                                                                                 <td rowspan="2">161,677,221</td>
@@ -2044,7 +2044,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td rowspan="2">3-3</td>
-                                                                                <td rowspan="2" class="align1">Appointment of Outside Director</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director</td>
                                                                                 <td rowspan="2">Approved as originally submitted</td>
                                                                                 <td rowspan="2">240,563,257</td>
                                                                                 <td rowspan="2">151,396,969</td>
@@ -2120,7 +2120,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td rowspan="2">2-1</td>
-                                                                                <td rowspan="2" class="align1">Appointment of Outside Director</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director</td>
                                                                                 <td rowspan="2">Approved as originally submitted</td>
                                                                                 <td rowspan="2">240,563,257</td>
                                                                                 <td rowspan="2">154,894,410</td>

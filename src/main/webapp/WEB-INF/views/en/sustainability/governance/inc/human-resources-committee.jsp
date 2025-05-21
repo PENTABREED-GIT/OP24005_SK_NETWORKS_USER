@@ -48,7 +48,7 @@
                     <td>100%</td>
                 </tr>
                 <tr>
-                    <td class="align1">Nomination of outside director candidates to the seat on the Audit Committee</td>
+                    <td class="align1">Nomination of independent director candidates to the seat on the Audit Committee</td>
                     <td>Resolved</td>
                     <td>Approved</td>
                     <td>100%</td>
@@ -114,7 +114,7 @@
                 <td>100%</td>
             </tr>
             <tr>
-                <td class="align1">Candidate nomination for outside directors</td>
+                <td class="align1">Candidate nomination for independent directors</td>
                 <td>Resolved</td>
                 <td>Approved</td>
                 <td>100%</td>
@@ -134,7 +134,7 @@
                 <td>100%</td>
             </tr>
             <tr>
-                <td class="align1">Nomination of outside director candidates to the seat on the Audit Committee</td>
+                <td class="align1">Nomination of independent director candidates to the seat on the Audit Committee</td>
                 <td>Resolved</td>
                 <td>Approved</td>
                 <td>100%</td>
@@ -150,7 +150,7 @@
             <tr>
                 <td>5</td>
                 <td>Jul. 24</td>
-                <td class="align1">Discussion on the Procedures for Appointing Outside Directors and Nomination Needs for 2025</td>
+                <td class="align1">Discussion on the Procedures for Appointing independent directors and Nomination Needs for 2025</td>
                 <td>Deliberated</td>
                 <td>-</td>
                 <td>100%</td>
@@ -158,7 +158,7 @@
             <tr>
                 <td>6</td>
                 <td>Sep. 26</td>
-                <td class="align1">Review on outside director candidates for 2025</td>
+                <td class="align1">Review on independent director candidates for 2025</td>
                 <td>Deliberated</td>
                 <td>-</td>
                 <td>100%</td>
@@ -166,7 +166,7 @@
             <tr>
                 <td>7</td>
                 <td>Nov. 15</td>
-                <td class="align1">Review on candidates for the nomination of outside director candidates for 2025</td>
+                <td class="align1">Review on candidates for the nomination of Independent director candidates for 2025</td>
                 <td>Deliberated</td>
                 <td>-</td>
                 <td>100%</td>
@@ -212,7 +212,7 @@
             <tr>
                 <td>1</td>
                 <td>Feb. 9</td>
-                <td class="align1">Candidate nomination for outside directors</td>
+                <td class="align1">Candidate nomination for Independent directors</td>
                 <td>Resolution</td>
                 <td>Approved</td>
                 <td>80%</td>
@@ -266,7 +266,7 @@
             <tr>
                 <td>7</td>
                 <td>Oct. 19</td>
-                <td class="align1">Review on 2024 outside director candidates</td>
+                <td class="align1">Review on 2024 Independent director candidates</td>
                 <td>Deliberated</td>
                 <td>-</td>
                 <td>75%</td>
@@ -274,7 +274,7 @@
             <tr>
                 <td>8</td>
                 <td>Dec. 14</td>
-                <td class="align1">Review on candidates for the nomination of outside director candidates</td>
+                <td class="align1">Review on candidates for the nomination of Independent director candidates</td>
                 <td>Deliberated</td>
                 <td>-</td>
                 <td>100%</td>
@@ -327,7 +327,7 @@
             <tr>
                 <td rowspan="2">2</td>
                 <td rowspan="2">Mar. 07</td>
-                <td class="align1">Nomination of outside director candidates to the seat on the Audit Committee</td>
+                <td class="align1">Nomination of Independent Director candidates to the seat on the Audit Committee</td>
                 <td>Resolved</td>
                 <td>Approved</td>
                 <td>100%</td>
@@ -355,7 +355,7 @@
             <tr>
                 <td rowspan="1">4</td>
                 <td rowspan="1">Dec. 13</td>
-                <td class="align1">Review on candidates for the nomination of outside director candidates</td>
+                <td class="align1">Review on candidates for the nomination of Independent director candidates</td>
                 <td>Deliberated</td>
                 <td>-</td>
                 <td>100%</td>

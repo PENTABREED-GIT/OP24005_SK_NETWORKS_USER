@@ -35,9 +35,9 @@
                     <td rowspan="3">Jan. 23</td>
                     <td class="align1">Reporting of the BoD evaluation (pending)</td>
                     <td rowspan="3" class="align1">
-                        internal directors  <span class="accent color9">2</span><br>
+                        executive directors  <span class="accent color9">2</span><br>
                         non-executive director <span class="accent color9">1</span><br>
-                        outside directors <span class="accent color9">4</span>
+                        independent directors <span class="accent color9">4</span>
                     </td>
                     <td>Reported</td>
                     <td>-</td>
@@ -57,9 +57,9 @@
                     <td rowspan="6">Feb. 11</td>
                     <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2024</td>
                     <td rowspan="6" class="align1">
-                        internal directors  <span class="accent color9">2</span><br>
+                        executive directors  <span class="accent color9">2</span><br>
                         non-executive director <span class="accent color9">1</span><br>
-                        outside directors <span class="accent color9">4</span>
+                        independent directors <span class="accent color9">4</span>
                     </td>
                     <td>Reported</td>
                     <td>-</td>
@@ -94,9 +94,9 @@
                     <td rowspan="9">Mar. 11</td>
                     <td class="align1">Report on the Operation Status of the Internal Accounting Management System for 2024</td>
                     <td rowspan="9" class="align1">
-                        internal directors  <span class="accent color9">2</span><br>
+                        executive directors  <span class="accent color9">2</span><br>
                         non-executive director <span class="accent color9">1</span><br>
-                        outside directors <span class="accent color9">4</span>
+                        independent directors <span class="accent color9">4</span>
                     </td>
                     <td>Reported</td>
                     <td>-</td>
@@ -146,9 +146,9 @@
                     <td rowspan="9">Mar. 26</td>
                     <td class="align1">Organization of the Committees</td>
                     <td rowspan="3" class="align1">
-                        internal directors  <span class="accent color9">2</span><br>
+                        executive directors  <span class="accent color9">2</span><br>
                         non-executive director <span class="accent color9">1</span><br>
-                        outside directors <span class="accent color9">4</span>
+                        independent directors <span class="accent color9">4</span>
                     </td>
                     <td>Resolved</td>
                     <td>Approved</td>
@@ -197,9 +197,9 @@
                 <td rowspan="4">Jan. 08</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2023</td>
                 <td rowspan="4" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -224,9 +224,9 @@
                 <td rowspan="2">Jan. 25</td>
                 <td class="align1">2023 evaluation for the Representative Director</td>
                 <td rowspan="2" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Resolved</td>
                 <td>Approved</td>
@@ -241,9 +241,9 @@
                 <td rowspan="10">Feb. 13</td>
                 <td class="align1">Reporting of 2023 business performance</td>
                 <td rowspan="10" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -298,9 +298,9 @@
                 <td rowspan="5">Mar. 11</td>
                 <td class="align1">Reporting of 2023 internal accounting control system operation status</td>
                 <td rowspan="5" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -330,8 +330,8 @@
                 <td rowspan="6">Mar. 27</td>
                 <td class="align1">Appointment of the BoD Chairman</td>
                 <td rowspan="6" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
-                    outside directors <span class="accent color9">3</span>
+                    executive directors <span class="accent color9">2</span><br>
+                    independent directors <span class="accent color9">3</span>
                 </td>
                 <td>Resolved</td>
                 <td>Approved</td>
@@ -366,9 +366,9 @@
                 <td rowspan="4">Apr. 22</td>
                 <td class="align1">Audit Committee’s review findings for Q1 2024</td>
                 <td rowspan="4" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -393,9 +393,9 @@
                 <td rowspan="5">May. 13</td>
                 <td class="align1">Reporting on Q1 2024 earnings</td>
                 <td rowspan="5" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -425,9 +425,9 @@
                 <td rowspan="2">Jun. 17</td>
                 <td class="align1">Approval of the split-off plan</td>
                 <td rowspan="2" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Resolved</td>
                 <td>Approved</td>
@@ -442,9 +442,9 @@
                 <td rowspan="2">Jun. 20</td>
                 <td class="align1">Report on the performance and plans for compliance support activities/ voluntary fair trade compliance program</td>
                 <td rowspan="2" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -459,9 +459,9 @@
                 <td rowspan="3">Jul. 9</td>
                 <td class="align1">Investment in the SBVA AI fund</td>
                 <td rowspan="3" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Resolved</td>
                 <td>Approved</td>
@@ -481,9 +481,9 @@
                 <td rowspan="5">Aug. 12</td>
                 <td class="align1">Report on the 2024 Q2 deliberation results by the Audit Committee</td>
                 <td rowspan="5" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -513,9 +513,9 @@
                 <td rowspan="2">Sep. 2</td>
                 <td class="align1">Report on the 2024 BoD evaluation improvement (draft)</td>
                 <td rowspan="2" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -530,9 +530,9 @@
                 <td rowspan="4">Oct. 16</td>
                 <td class="align1">Report on the Value Enhancement Plan</td>
                 <td rowspan="4" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -557,9 +557,9 @@
                 <td rowspan="6">Nov. 13</td>
                 <td class="align1">Audit Committee’s review findings for Q3 2024</td>
                 <td rowspan="6" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -594,9 +594,9 @@
                 <td rowspan="2">Dec. 02</td>
                 <td class="align1">Report on Trading Division split-off progress and approval of the public notice</td>
                 <td rowspan="2" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Resolved</td>
                 <td>Approved</td>
@@ -611,9 +611,9 @@
                 <td rowspan="10">Dec. 18</td>
                 <td class="align1">Approval of Transaction with SK Inc. for 2025</td>
                 <td rowspan="10" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Resolved</td>
                 <td>Approved</td>
@@ -697,9 +697,9 @@
                 <td rowspan="5">Feb. 10</td>
                 <td class="align1">Reporting on the Audit Committee findings in Q4 2022</td>
                 <td class="align1" rowspan="5">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span>
+                    independent directors <span class="accent color9">4</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -729,9 +729,9 @@
                 <td rowspan="14">Mar. 13</td>
                 <td class="align1">Reporting on 2022 operational practices of the Internal Accounting Control System</td>
                 <td class="align1" rowspan="14">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -807,8 +807,8 @@
                 <td rowspan="8">Mar. 29</td>
                 <td class="align1">Appointment of the Representative Director</td>
                 <td class="align1" rowspan="8">
-                    internal directors <span class="accent color9">2</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    executive directors <span class="accent color9">2</span><br>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Resolved</td>
                 <td>Approved</td>
@@ -853,9 +853,9 @@
                 <td rowspan="8">May. 08</td>
                 <td class="align1">Reporting on the Audit Committee findings in Q1, 2023</td>
                 <td class="align1" rowspan="8">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -900,9 +900,9 @@
                 <td>Jul. 21</td>
                 <td class="align1">Acquisition of en-core shares</td>
                 <td class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Resolved</td>
                 <td>Approved</td>
@@ -912,9 +912,9 @@
                 <td rowspan="4">Aug. 9</td>
                 <td class="align1">Reporting on the Audit Committee findings in Q2, 2023</td>
                 <td rowspan="4" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    independent directors <span class="accent color9">5</span>
                 <td>Reported</td>
                 <td>-</td>
             </tr>
@@ -938,9 +938,9 @@
                 <td rowspan="2">Aug. 18</td>
                 <td class="align1">Conclusion of all-inclusive exchange of shares agreement with SK Rent-a-car</td>
                 <td rowspan="2" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span></td>
+                    independent directors <span class="accent color9">5</span></td>
                 <td>Resolved</td>
                 <td>Approved</td>
             </tr>
@@ -975,7 +975,7 @@
                 <td rowspan="3">Nov. 08</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q3 2023</td>
                 <td rowspan="3" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
                     independent directors <span class="accent color9">5</span></td>
                 <td>Reported</td>
@@ -996,7 +996,7 @@
                 <td rowspan="11">Dec. 14</td>
                 <td class="align1">Reporting on the 2023 Culture Survey results </td>
                 <td rowspan="11" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
                     independent directors <span class="accent color9">5</span></td>
                 <td>Reported</td>
@@ -1086,8 +1086,8 @@
                 <td rowspan="10">Feb. 10</td>
                 <td class="align1">Reporting on the Audit Committee findings in Q4, 2021</td>
                 <td rowspan="10" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    executive directors <span class="accent color9">2</span><br>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -1142,8 +1142,8 @@
                 <td rowspan="6">Mar. 10</td>
                 <td class="align1">Reporting on 2021 operational practices of the Internal Accounting Control System</td>
                 <td rowspan="6" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    executive directors <span class="accent color9">2</span><br>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -1178,9 +1178,9 @@
                 <td rowspan="6">Mar. 29</td>
                 <td class="align1">Establishment of Committees</td>
                 <td rowspan="6" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Resolved</td>
                 <td>Approved</td>
@@ -1215,9 +1215,9 @@
                 <td rowspan="8">May. 02</td>
                 <td class="align1">Reporting on the Audit Committee findings in Q1, 2022</td>
                 <td rowspan="8" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span></td>
+                    independent directors <span class="accent color9">5</span></td>
                 <td>Reported</td>
                 <td>-</td>
             </tr>
@@ -1261,9 +1261,9 @@
                 <td rowspan="2">Jul. 29</td>
                 <td class="align1">Reporting on the Audit Committee findings in Q2, 2022</td>
                 <td rowspan="2" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span></td>
+                    independent directors <span class="accent color9">5</span></td>
                 <td>Reported</td>
                 <td>-</td>
             </tr>
@@ -1277,9 +1277,9 @@
                 <td rowspan="2">Aug. 23</td>
                 <td class="align1">Approval of investment in the EV charging business</td>
                 <td rowspan="2" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span></td>
+                    independent directors <span class="accent color9">5</span></td>
                 <td>Resolved</td>
                 <td>conditonal approval</td>
             </tr>
@@ -1293,8 +1293,8 @@
                 <td rowspan="3">Nov. 08</td>
                 <td class="align1">Reporting on the 2022 annual SK Group's ESG key indicators performance</td>
                 <td rowspan="3" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
-                    outside directors <span class="accent color9">5</span></td>
+                    executive directors <span class="accent color9">2</span><br>
+                    independent directors <span class="accent color9">5</span></td>
                 <td>Reported</td>
                 <td>-</td>
             </tr>
@@ -1313,9 +1313,9 @@
                 <td rowspan="3">Nov. 28</td>
                 <td class="align1">Reporting on review findings of reappointing the Representative Director</td>
                 <td rowspan="3" class="align1">
-                    internal directors <span class="accent color9">1</span><br>
+                    executive directors <span class="accent color9">1</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span></td>
+                    independent directors <span class="accent color9">5</span></td>
                 <td>Reported</td>
                 <td>-</td>
             </tr>
@@ -1334,9 +1334,9 @@
                 <td rowspan="11">Dec. 26</td>
                 <td class="align1">Approval of transaction with SK Inc. in 2023</td>
                 <td rowspan="11" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span></td>
+                    independent directors <span class="accent color9">5</span></td>
                 <td>Resolved</td>
                 <td>Approved</td>
             </tr>
@@ -1424,9 +1424,9 @@
                 <td rowspan="5">Feb. 05</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2020</td>
                 <td rowspan="5" class="align1">
-                    internal directors <span class="accent color9">1</span><br>
+                    executive directors <span class="accent color9">1</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span></td>
+                    independent directors <span class="accent color9">4</span></td>
                 <td>Reported</td>
                 <td>-</td>
             </tr>
@@ -1455,9 +1455,9 @@
                 <td rowspan="7">Mar. 10</td>
                 <td class="align1">Reporting on 2020 operational practices of the Internal Accounting Control System</td>
                 <td rowspan="7" class="align1">
-                    internal directors <span class="accent color9">1</span><br>
+                    executive directors <span class="accent color9">1</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">4</span></td>
+                    independent directors <span class="accent color9">4</span></td>
                 <td>Reported</td>
                 <td>-</td>
             </tr>
@@ -1496,8 +1496,8 @@
                 <td rowspan="6">Mar. 29</td>
                 <td class="align1">Amendment of Board Regulations</td>
                 <td rowspan="6" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    executive directors <span class="accent color9">2</span><br>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Resolved</td>
                 <td>Approved</td>
@@ -1532,8 +1532,8 @@
                 <td rowspan="5">May. 04</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q1 2021</td>
                 <td rowspan="5" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    executive directors <span class="accent color9">2</span><br>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -1563,8 +1563,8 @@
                 <td rowspan="4">Jul. 06</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q2 2021</td>
                 <td rowspan="4" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    executive directors <span class="accent color9">2</span><br>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -1589,8 +1589,8 @@
                 <td rowspan="5">Aug. 02</td>
                 <td class="align1">1st Half 2021 earnings report</td>
                 <td rowspan="5" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    executive directors <span class="accent color9">2</span><br>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Reported</td>
                 <td>-</td>
@@ -1620,9 +1620,9 @@
                 <td rowspan="2">Sep. 08</td>
                 <td class="align1">Sale of Dandong Logistics Corporation shares</td>
                 <td rowspan="2" class="align1">
-                    internal directors <span class="accent color9">2</span><br>
+                    executive directors <span class="accent color9">2</span><br>
                     non-executive director <span class="accent color9">1</span><br>
-                    outside directors <span class="accent color9">5</span>
+                    independent directors <span class="accent color9">5</span>
                 </td>
                 <td>Resolved</td>
                 <td>Approved</td>
@@ -1636,7 +1636,7 @@
                 <td rowspan="3">8</td>
                 <td rowspan="3">Nov. 05</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q3 2021</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">5</span></td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">5</span></td>
                 <td>Reported</td>
                 <td>-</td>
             </tr>
@@ -1654,7 +1654,7 @@
                 <td rowspan="2">9</td>
                 <td rowspan="2">Nov. 19</td>
                 <td class="align1">Participation in the capital increase of ZINUS Co., Ltd.</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">5</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">5</span></td>
                 <td>Resolved</td>
                 <td>Rejected</td>
             </tr>
@@ -1667,7 +1667,7 @@
                 <td>10</td>
                 <td>Dec. 01</td>
                 <td class="align1">Reporting on the Representative Director Assessment and Review for 2021</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">5</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">5</span></td>
                 <td>Reported</td>
                 <td>-</td>
             </tr>
@@ -1675,7 +1675,7 @@
                 <td rowspan="6">11</td>
                 <td rowspan="6">Dec. 23</td>
                 <td class="align1">Manager appointment</td>
-                <td rowspan="6" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">5</span></td>
+                <td rowspan="6" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">5</span></td>
                 <td>Resolved</td>
                 <td>Approved</td>
             </tr>
@@ -1735,7 +1735,7 @@
                 <td rowspan="5">1</td>
                 <td rowspan="5">Feb. 06</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2019</td>
-                <td rowspan="5" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">5</span></td>
+                <td rowspan="5" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">5</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -1758,7 +1758,7 @@
                 <td rowspan="7">2</td>
                 <td rowspan="7">Mar. 04</td>
                 <td class="align1">Reporting on 2019 operational practices of the Internal Accounting Control System</td>
-                <td rowspan="7" class="align1">internal directors <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">5</span></td>
+                <td rowspan="7" class="align1">executive directors <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">5</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -1789,11 +1789,11 @@
                 <td rowspan="4">3</td>
                 <td rowspan="4">Mar. 25</td>
                 <td class="align1">Appointment of the Representative Director</td>
-                <td rowspan="4" class="align1">internal directors <span class="accent color9">2</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">executive directors <span class="accent color9">2</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
-                <td class="align1">Organization of the Outside Director Candidate Nomination Committee</td>
+                <td class="align1">Organization of the Independent director Candidate Nomination Committee</td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -1808,7 +1808,7 @@
                 <td rowspan="4">4</td>
                 <td rowspan="4">Apr. 28</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q1 2020</td>
-                <td rowspan="4" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -1827,14 +1827,14 @@
                 <td>5</td>
                 <td>May. 27</td>
                 <td class="align1">Relocation of the head office</td>
-                <td class="align1">internal directors <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td class="align1">executive directors <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="2">6</td>
                 <td rowspan="2">Aug. 13</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q2 2020</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -1845,7 +1845,7 @@
                 <td rowspan="2">7</td>
                 <td rowspan="2">Sep. 16</td>
                 <td class="align1">Participation in the capital increase of SK Rent-a-car</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -1856,7 +1856,7 @@
                 <td rowspan="3">8</td>
                 <td rowspan="3">Oct. 26</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q3 2020</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">3</span></td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -1871,14 +1871,14 @@
                 <td>9</td>
                 <td>Nov. 25</td>
                 <td class="align1">Land donation for Walkerhill River Park development</td>
-                <td class="align1">internal directors <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td class="align1">executive directors <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="9">10</td>
                 <td rowspan="9">Dec. 22</td>
                 <td class="align1">Manager appointment</td>
-                <td rowspan="9" class="align1">internal directors <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="9" class="align1">executive directors <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -1944,7 +1944,7 @@
                 <td rowspan="7">1</td>
                 <td rowspan="7">Jan. 31</td>
                 <td class="align1">Annual management performance reporting of 2018</td>
-                <td rowspan="7" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="7" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -1975,7 +1975,7 @@
                 <td rowspan="7">2</td>
                 <td rowspan="7">Mar. 05</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2018</td>
-                <td rowspan="7" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="7" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2006,7 +2006,7 @@
                 <td rowspan="4">3</td>
                 <td rowspan="4">Mar. 22</td>
                 <td class="align1">Conclusion of a real estate lease contract with Chungcheong Energy Service</td>
-                <td rowspan="4" class="align1">internal directors <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">executive directors <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -2025,7 +2025,7 @@
                 <td rowspan="5">4</td>
                 <td rowspan="5">Apr. 29</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q1 2019</td>
-                <td rowspan="5" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">5</span></td>
+                <td rowspan="5" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">5</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2048,7 +2048,7 @@
                 <td rowspan="2">5</td>
                 <td rowspan="2">Jul. 30</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q2 2019</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2059,7 +2059,7 @@
                 <td rowspan="3">6</td>
                 <td rowspan="3">Sep. 23</td>
                 <td class="align1">Increase in the limit of the rent-a-car operating lease</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">5</span></td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">5</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -2074,7 +2074,7 @@
                 <td rowspan="2">7</td>
                 <td rowspan="2">Oct. 22</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q3 2019</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">5</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">5</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2085,21 +2085,21 @@
                 <td>8</td>
                 <td>Oct. 31</td>
                 <td class="align1">Approval of SSK business withdrawal</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">5</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">5</span></td>
                 <td>Passed with condition</td>
             </tr>
             <tr>
                 <td>9</td>
                 <td>Nov. 21</td>
                 <td class="align1">Sale of Mokgam Service Area shares</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">5</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">5</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="6">10</td>
                 <td rowspan="6">Dec. 20</td>
                 <td class="align1">Reporting on Northern Copper Industrial</td>
-                <td rowspan="6" class="align1">internal directors <span class="accent color9">2</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="6" class="align1">executive directors <span class="accent color9">2</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2153,7 +2153,7 @@
                 <td rowspan="5">1</td>
                 <td rowspan="5">Feb. 09</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings</td>
-                <td rowspan="5" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="5" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2176,7 +2176,7 @@
                 <td rowspan="9">2</td>
                 <td rowspan="9">Mar. 06</td>
                 <td class="align1">Reporting on 2017 operational practices of the Internal Accounting Control System</td>
-                <td rowspan="9" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">3</span></td>
+                <td rowspan="9" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2215,14 +2215,14 @@
                 <td>3</td>
                 <td>Mar. 14</td>
                 <td class="align1">Change of calling the 65th General Meeting of Shareholders</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br> outside directors <span class="accent color9">4</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="3">4</td>
                 <td rowspan="3">Mar. 30</td>
-                <td class="align1">Organization of the Outside Director Candidate Nomination Committee</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">2</span><br> outside directors <span class="accent color9">4</span></td>
+                <td class="align1">Organization of the Independent director Candidate Nomination Committee</td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">2</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -2237,7 +2237,7 @@
                 <td rowspan="4">5</td>
                 <td rowspan="4">Apr. 18</td>
                 <td class="align1">Management performance reporting of Q1 2018</td>
-                <td rowspan="4" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">3</span></td>
+                <td rowspan="4" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2256,7 +2256,7 @@
                 <td rowspan="6">6</td>
                 <td rowspan="6">Jul. 16</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings</td>
-                <td rowspan="6" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="6" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2283,14 +2283,14 @@
                 <td>7</td>
                 <td>Sep. 21</td>
                 <td class="align1">Acquisition of AJ ren-a-car shares</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="6">8</td>
                 <td rowspan="6">Nov. 05</td>
                 <td class="align1">Management performance reporting of Q3 2018</td>
-                <td rowspan="6" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="6" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2317,7 +2317,7 @@
                 <td rowspan="6">9</td>
                 <td rowspan="6">Dec. 21</td>
                 <td class="align1">Fund borrowing and offer of collateral</td>
-                <td rowspan="6" class="align1">internal directors <span class="accent color9">2</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="6" class="align1">executive directors <span class="accent color9">2</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -2371,7 +2371,7 @@
                 <td rowspan="9">1</td>
                 <td rowspan="9">Feb. 06</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings</td>
-                <td rowspan="9" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="9" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2410,7 +2410,7 @@
                 <td rowspan="7">2</td>
                 <td rowspan="7">Feb. 28</td>
                 <td class="align1">Reporting on 2016 operational practices of the Internal Accounting Control System</td>
-                <td rowspan="7" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">3</span></td>
+                <td rowspan="7" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2441,11 +2441,11 @@
                 <td rowspan="4">3</td>
                 <td rowspan="4">Mar. 24</td>
                 <td class="align1">Appointment of the Representative Director</td>
-                <td rowspan="4" class="align1">internal directors <span class="accent color9">2</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">executive directors <span class="accent color9">2</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
-                <td class="align1">Organization of the Outside Director Candidate Nomination Committee</td>
+                <td class="align1">Organization of the Independent director Candidate Nomination Committee</td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -2460,7 +2460,7 @@
                 <td rowspan="6">4</td>
                 <td rowspan="6">Apr. 27</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings</td>
-                <td rowspan="6" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="6" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2487,14 +2487,14 @@
                 <td>5</td>
                 <td>May 22</td>
                 <td class="align1">Sale of the Bus Terminal office building in Shenyang, China</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="3">6</td>
                 <td rowspan="3">Jun. 27</td>
                 <td class="align1">Manager job description change</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -2509,14 +2509,14 @@
                 <td>7</td>
                 <td>Jul. 31</td>
                 <td class="align1">Collateral cancellation in relation to Northern Copper Industrial</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Rejected</td>
             </tr>
             <tr>
                 <td rowspan="5">8</td>
                 <td rowspan="5">Aug. 10</td>
                 <td class="align1">Management performance reporting of the first half, 2017</td>
-                <td rowspan="5" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="5" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2539,7 +2539,7 @@
                 <td rowspan="2">9</td>
                 <td rowspan="2">Oct. 31</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2550,7 +2550,7 @@
                 <td rowspan="9">10</td>
                 <td rowspan="9">Dec. 21</td>
                 <td class="align1">Sale of the Bus Terminal corporation in Shenyang</td>
-                <td rowspan="9" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="9" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -2616,7 +2616,7 @@
                 <td rowspan="7">1</td>
                 <td rowspan="7">Feb. 24</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2015</td>
-                <td rowspan="7" class="align1">internal director <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="7" class="align1">Executive director <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2647,7 +2647,7 @@
                 <td rowspan="4">2</td>
                 <td rowspan="4">Feb. 22</td>
                 <td class="align1">Reporting on 2015 operational practices of the Internal Accounting Control System</td>
-                <td rowspan="4" class="align1">internal director <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">Executive director <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2666,7 +2666,7 @@
                 <td rowspan="8">3</td>
                 <td rowspan="8">Mar. 18</td>
                 <td class="align1">Reporting on 2015 achievements and 2016 plans regarding compliance support activities</td>
-                <td rowspan="8" class="align1">internal director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="8" class="align1">Executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2701,7 +2701,7 @@
                 <td rowspan="3">4</td>
                 <td rowspan="3">Apr. 22</td>
                 <td class="align1">Management performance reporting of Q1 2016</td>
-                <td rowspan="3" class="align1">internal director <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">3</span></td>
+                <td rowspan="3" class="align1">Executive director <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2716,7 +2716,7 @@
                 <td rowspan="2">5</td>
                 <td rowspan="2">Jun. 24</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q1 2016</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">3</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2727,7 +2727,7 @@
                 <td rowspan="2">6</td>
                 <td rowspan="2">Jul. 11</td>
                 <td class="align1">Approval of used car (business) transfer related to the rent-a-car business</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">3</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">3</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -2738,7 +2738,7 @@
                 <td rowspan="2">7</td>
                 <td rowspan="2">Jul. 22</td>
                 <td class="align1">Reporting on achievements during the first half, 2016 and plans for the second half regarding the autonomous compliance program (CP) for fair trade</td>
-                <td rowspan="2" class="align1">internal director <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="2" class="align1">Executive director <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2749,7 +2749,7 @@
                 <td rowspan="3">8</td>
                 <td rowspan="3">Sep. 24</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2764,14 +2764,14 @@
                 <td>9</td>
                 <td>Sep. 30</td>
                 <td class="align1">Acquisition of Dongyang Magic shares</td>
-                <td class="align1">internal director <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td class="align1">Executive director <span class="accent color9">1</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="2">10</td>
                 <td rowspan="2">Oct. 28</td>
                 <td class="align1">Management performance reporting of Q3 2016</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">3</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2782,7 +2782,7 @@
                 <td rowspan="6">11</td>
                 <td rowspan="6">Dec. 08</td>
                 <td class="align1">Approval of transactions with SK Inc. in 2017</td>
-                <td rowspan="6" class="align1">internal directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> outside directors <span class="accent color9">4</span></td>
+                <td rowspan="6" class="align1">executive directors <span class="accent color9">2</span><br> non-executive director <span class="accent color9">1</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -2836,14 +2836,14 @@
                 <td>1</td>
                 <td>Jan. 22</td>
                 <td class="align1">Reporting on the takeover of KT rental </td>
-                <td class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td class="td_b1">-</td>
             </tr>
             <tr>
                 <td rowspan="6">2</td>
                 <td rowspan="6">Feb. 04</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2014</td>
-                <td rowspan="6" class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="6" class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2870,7 +2870,7 @@
                 <td rowspan="4">3</td>
                 <td rowspan="4">Feb. 26</td>
                 <td class="align1">Reporting on 2014 operational practices of the Internal Accounting Control System</td>
-                <td rowspan="4" class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -2889,7 +2889,7 @@
                 <td rowspan="9">4</td>
                 <td rowspan="9">Mar. 20</td>
                 <td class="align1">Reporting on 2014 achievements and 2015 plans regarding compliance support activities</td>
-                <td rowspan="9" class="align1">internal directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="9" class="align1">executive directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2901,7 +2901,7 @@
                 <td>Approved</td>
             </tr>
             <tr>
-                <td class="align1">Organization of the Outside Director Candidate Nomination Committee</td>
+                <td class="align1">Organization of the Independent director Candidate Nomination Committee</td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -2928,7 +2928,7 @@
                 <td rowspan="3">5</td>
                 <td rowspan="3">Apr. 24</td>
                 <td class="align1">Management performance reporting of Q1 2015</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2943,7 +2943,7 @@
                 <td rowspan="4">6</td>
                 <td rowspan="4">Jun. 24</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q1 2015</td>
-                <td rowspan="4" class="align1">internal directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">executive directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2962,7 +2962,7 @@
                 <td rowspan="5">7</td>
                 <td rowspan="5">Jul. 20</td>
                 <td class="align1">Management performance reporting of 2015</td>
-                <td rowspan="5" class="align1">internal directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">3</span></td>
+                <td rowspan="5" class="align1">executive directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -2985,14 +2985,14 @@
                 <td>8</td>
                 <td>Aug. 18</td>
                 <td class="align1">Sale of SK steel assets in Australia</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td class="td_b1">Approved</td>
             </tr>
             <tr>
                 <td rowspan="4">9</td>
                 <td rowspan="4">Aug. 27</td>
                 <td class="align1">Reporting on achievements during the first half, 2015 and plans for the second half regarding the autonomous compliance program (CP) for fair trade</td>
-                <td rowspan="4" class="align1">internal directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">executive directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3011,7 +3011,7 @@
                 <td rowspan="2">10</td>
                 <td rowspan="2">Sep. 24</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q2 2015</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3022,7 +3022,7 @@
                 <td rowspan="2">11</td>
                 <td rowspan="2">Oct. 01</td>
                 <td class="align1">Reporting on the concluded merger with Steve J &amp; Yoni P</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3033,7 +3033,7 @@
                 <td rowspan="4">12</td>
                 <td rowspan="4">Oct. 22</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q3 2015</td>
-                <td rowspan="4" class="align1">internal directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">executive directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3052,21 +3052,21 @@
                 <td>13</td>
                 <td>Nov. 05</td>
                 <td class="align1">Reporting on current business status at the head office in China (Shanghai)</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td class="td_b1">-</td>
             </tr>
             <tr>
                 <td>14</td>
                 <td>Nov. 26</td>
                 <td class="align1">Reporting on the tax exemption privilege bidding</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td class="td_b1">-</td>
             </tr>
             <tr>
                 <td rowspan="8">15</td>
                 <td rowspan="8">Dec. 17</td>
                 <td class="align1">Reporting on major progresses regarding the Cockatoo Coal Ltd. project</td>
-                <td rowspan="8" class="align1">internal directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="8" class="align1">executive directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3128,7 +3128,7 @@
                 <td rowspan="7">1</td>
                 <td rowspan="7">Feb. 05</td>
                 <td class="align1">Reporting on 2013 achievements and 2014 plans regarding compliance support activities</td>
-                <td rowspan="7" class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="7" class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3159,14 +3159,14 @@
                 <td>2</td>
                 <td>Feb. 20</td>
                 <td class="align1">Transfer of ICT retail business</td>
-                <td class="align1">internal director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">Executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="4">3</td>
                 <td rowspan="4">Mar. 04</td>
                 <td class="align1">Reporting on 2013 operational practices of the Internal Accounting Control System</td>
-                <td rowspan="4" class="align1">internal director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">Executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3185,7 +3185,7 @@
                 <td rowspan="8">4</td>
                 <td rowspan="8">Mar. 21</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2013</td>
-                <td rowspan="8" class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="8" class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3193,7 +3193,7 @@
                 <td>Approved</td>
             </tr>
             <tr>
-                <td class="align1">Organization of the Outside Director Candidate Nomination Committee</td>
+                <td class="align1">Organization of the Independent director Candidate Nomination Committee</td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -3220,7 +3220,7 @@
                 <td rowspan="2">5</td>
                 <td rowspan="2">May. 30</td>
                 <td class="align1">Management performance reporting of Q1 2014</td>
-                <td rowspan="2" class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td rowspan="2" class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3231,21 +3231,21 @@
                 <td>6</td>
                 <td>Jun. 12</td>
                 <td class="align1">Payment guarantee for Cockatoo Coal Ltd.</td>
-                <td class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td>7</td>
                 <td>Jun. 26</td>
                 <td class="align1">Approval of billing with SK C&amp;C in Q3 2014</td>
-                <td class=" align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td class=" align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="6">8</td>
                 <td rowspan="6">Jul. 24</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q2 2014</td>
-                <td rowspan="6" class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="6" class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3272,21 +3272,21 @@
                 <td>9</td>
                 <td>Aug. 20</td>
                 <td class="align1">Reporting on major changes in payment guarantee for Cockatoo Coal Ltd.</td>
-                <td class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
                 <td>10</td>
                 <td>Aug. 27</td>
                 <td class="align1">Reporting on current business status at the head office in China</td>
-                <td class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
                 <td rowspan="4">11</td>
                 <td rowspan="4">Sep. 29</td>
                 <td class="align1">Approval of billing with SK C&amp;C in Q4 2014</td>
-                <td rowspan="4" class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">3</span></td>
+                <td rowspan="4" class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -3305,7 +3305,7 @@
                 <td rowspan="4">12</td>
                 <td rowspan="4">Oct. 23</td>
                 <td class="align1">Reporting on the current rent-a-car business status</td>
-                <td rowspan="4" class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3324,21 +3324,21 @@
                 <td>13</td>
                 <td>Oct. 30</td>
                 <td class="align1">Sale of real estate in Daechi-dong</td>
-                <td class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td>14</td>
                 <td>Nov. 21</td>
                 <td class="align1">Disposition of the Northern Copper Industrial shares</td>
-                <td class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="2">15</td>
                 <td rowspan="2">Nov. 21</td>
                 <td class="align1">Reporting on major progresses regarding the Cockatoo Coal Ltd. project</td>
-                <td rowspan="2" class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="2" class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3349,14 +3349,14 @@
                 <td>16</td>
                 <td>Nov. 27</td>
                 <td class="align1">Reporting on major progresses regarding the Cockatoo Coal Ltd. project</td>
-                <td class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>- </td>
             </tr>
             <tr>
                 <td rowspan="7">17</td>
                 <td rowspan="7">Dec. 11</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q3 2014</td>
-                <td rowspan="7" class="align1">internal director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td rowspan="7" class="align1">Executive director <span class="accent color9">1</span><br>non-executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3414,14 +3414,14 @@
                 <td>1</td>
                 <td>Jan. 15</td>
                 <td class="align1">Nonparticipation in MMX capital increase</td>
-                <td class="align1">internal director <span class="accent color9">1</span><br>outside directors <span class="accent color9">3</span></td>
+                <td class="align1">Executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="6">2</td>
                 <td rowspan="6">Feb. 05</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2012</td>
-                <td rowspan="6" class="align1">internal director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="6" class="align1">Executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3448,7 +3448,7 @@
                 <td rowspan="6">3</td>
                 <td rowspan="6">Feb. 28</td>
                 <td class="align1">Reporting on 2012 operational practices of the Internal Accounting Control System</td>
-                <td rowspan="6" class="align1">internal director <span class="accent color9">1</span><br>outside directors <span class="accent color9">3</span></td>
+                <td rowspan="6" class="align1">Executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3475,11 +3475,11 @@
                 <td rowspan="4">4</td>
                 <td rowspan="4">Mar. 22</td>
                 <td class="align1">Appointment of the Representative Director</td>
-                <td rowspan="4" class="align1">internal directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">executive directors <span class="accent color9">2</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
-                <td class="align1">Organization of the Outside Director Candidate Nomination Committee</td>
+                <td class="align1">Organization of the Independent director Candidate Nomination Committee</td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -3494,7 +3494,7 @@
                 <td rowspan="2">5</td>
                 <td rowspan="2">Apr. 10</td>
                 <td class="align1">Conclusion of the agreement regarding operating cost of SUPEX Council and Executive Office</td>
-                <td rowspan="2" class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="2" class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -3505,14 +3505,14 @@
                 <td>6</td>
                 <td>Apr. 26</td>
                 <td class="align1">Conclusion of a contract for office space sublease and payment for its use with SK Inc.</td>
-                <td class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">3</span></td>
+                <td class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="2">7</td>
                 <td rowspan="2">Jun. 07</td>
                 <td class="align1">Management performance reporting of Q1 2013</td>
-                <td rowspan="2" class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="2" class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3523,7 +3523,7 @@
                 <td rowspan="2">8</td>
                 <td rowspan="2">Jun. 27</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q1 2013</td>
-                <td rowspan="2" class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span></td>
+                <td rowspan="2" class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3534,7 +3534,7 @@
                 <td rowspan="2">9</td>
                 <td rowspan="2">Jul. 26</td>
                 <td class="align1">Management performance reporting of 2013</td>
-                <td rowspan="2" class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="2" class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3545,7 +3545,7 @@
                 <td rowspan="6">10</td>
                 <td rowspan="6">Aug. 23</td>
                 <td class="align1">Reporting of the Audit Committee’s review findings for Q2 2013</td>
-                <td rowspan="6" class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="6" class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3572,7 +3572,7 @@
                 <td rowspan="2">11</td>
                 <td rowspan="2">Sep. 16</td>
                 <td class="align1">Participation in the capital increase of Cockatoo Coal Ltd.</td>
-                <td rowspan="2" class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span></td>
+                <td rowspan="2" class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -3583,7 +3583,7 @@
                 <td rowspan="3">12</td>
                 <td rowspan="3">Sep. 24</td>
                 <td class="align1">Issuance of no-warranty bonds</td>
-                <td rowspan="3" class="align1">internal director <span class="accent color9">1</span><br>outside directors <span class="accent color9">3</span></td>
+                <td rowspan="3" class="align1">Executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -3598,7 +3598,7 @@
                 <td rowspan="3">13</td>
                 <td rowspan="3">Oct. 25</td>
                 <td class="align1">Management performance reporting of Q3 2013</td>
-                <td rowspan="3" class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="3" class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3613,14 +3613,14 @@
                 <td>14</td>
                 <td>Nov. 14</td>
                 <td class="align1">Approval of termination of the long-term transport agreement with SK shipping</td>
-                <td class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="2">15</td>
                 <td rowspan="2">Dec. 12</td>
                 <td class="align1">Reporting on EMD results</td>
-                <td rowspan="2" class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="2" class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3631,7 +3631,7 @@
                 <td rowspan="11">16</td>
                 <td rowspan="11">Dec. 20</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q3 2013</td>
-                <td rowspan="11" class="align1">internal director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="11" class="align1">Executive director <span class="accent color9">1</span><br>non-executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -3705,7 +3705,7 @@
                 <td rowspan="10">1</td>
                 <td rowspan="10">Feb. 09</td>
                 <td class="align1">Management performance reporting of Q4 2011</td>
-                <td rowspan="10" class="align1">internal director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="10" class="align1">Executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3748,7 +3748,7 @@
                 <td rowspan="3">2</td>
                 <td rowspan="3">Mar. 05</td>
                 <td class="align1">Reporting on 2011 operational practices of the Internal Accounting Control System</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">2</span><br>internal director <span class="accent color9">4</span></td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">2</span><br>Executive director <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3763,14 +3763,14 @@
                 <td>3</td>
                 <td>Mar. 09</td>
                 <td class="align1">Payment guarantee for Cockatoo Coal Ltd.</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="5">4</td>
                 <td rowspan="5">Mar. 23</td>
-                <td class="align1">Organization of the Outside Director Candidate Nomination Committee</td>
-                <td rowspan="5" class="align1">internal directors <span class="accent color9">2</span><br>internal director <span class="accent color9">3</span></td>
+                <td class="align1">Organization of the Independent director Candidate Nomination Committee</td>
+                <td rowspan="5" class="align1">executive directors <span class="accent color9">2</span><br>Executive director <span class="accent color9">3</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -3793,7 +3793,7 @@
                 <td rowspan="3">5</td>
                 <td rowspan="3">Apr. 20</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q1 2012</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3808,7 +3808,7 @@
                 <td rowspan="2">6</td>
                 <td rowspan="2">May 04</td>
                 <td class="align1">Management performance reporting of Q1 2012</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3819,7 +3819,7 @@
                 <td rowspan="3">7</td>
                 <td rowspan="3">Jun. 22</td>
                 <td class="align1">Approval of financial transaction limits with SK securities, the financial affiliate, in the second half, 2012</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -3834,7 +3834,7 @@
                 <td rowspan="5">8</td>
                 <td rowspan="5">Jul. 27</td>
                 <td class="align1">Management performance reporting of the first half, 2012</td>
-                <td rowspan="5" class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="5" class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3857,14 +3857,14 @@
                 <td>9</td>
                 <td>Aug. 13</td>
                 <td class="align1">Additional investment in the Mexico Boleo Copper Project</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="3">10</td>
                 <td rowspan="3">Sep. 25</td>
                 <td class="align1">Reporting on achievements during the first half, 2012 and plans for the second half regarding the autonomous compliance program (CP) for fair trade</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3879,7 +3879,7 @@
                 <td rowspan="3">11</td>
                 <td rowspan="3">Oct. 26</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q3 2012</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3894,14 +3894,14 @@
                 <td>12</td>
                 <td>Nov. 15</td>
                 <td class="align1">Sudo Gas Station fluidization</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="2">13</td>
                 <td rowspan="2">Nov. 21</td>
                 <td class="align1">Approval of amendment to the agreement for the implementation of mutually cooperative efforts</td>
-                <td rowspan="2" class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td rowspan="2" class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -3912,14 +3912,14 @@
                 <td>14</td>
                 <td>Nov. 26</td>
                 <td class="align1">Partial change to the sale of SK securities shares</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="4">15</td>
                 <td rowspan="4">Dec. 14</td>
                 <td class="align1">Reporting on 2012 achievements and 2013 plans regarding compliance support activities</td>
-                <td rowspan="4" class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3938,14 +3938,14 @@
                 <td>16</td>
                 <td>Dec. 18</td>
                 <td class="align1">Payment guarantee extension for Cockatoo Coal Ltd.</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td>17</td>
                 <td>Dec. 20</td>
                 <td class="align1">Conclusion of a real estate lease contract with SK energy</td>
-                <td class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             </tbody>
@@ -3979,7 +3979,7 @@
                 <td rowspan="4">1</td>
                 <td rowspan="4">Jan. 21</td>
                 <td class="align1">Management performance reporting of 2010</td>
-                <td rowspan="4" class="align1">internal director <span class="accent color9">1</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="4" class="align1">Executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -3998,7 +3998,7 @@
                 <td rowspan="7">2</td>
                 <td rowspan="7">Feb. 17</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q4 2010</td>
-                <td rowspan="7" class="align1">non-executive director <span class="accent color9">1</span><br>internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="7" class="align1">non-executive director <span class="accent color9">1</span><br>executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -4029,7 +4029,7 @@
                 <td rowspan="4">3</td>
                 <td rowspan="4">Mar. 11</td>
                 <td class="align1">Appointment of the Board’s chairperson</td>
-                <td rowspan="4" class="align1">internal director <span class="accent color9">1</span><br>outside directors <span class="accent color9">2</span></td>
+                <td rowspan="4" class="align1">Executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">2</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -4037,7 +4037,7 @@
                 <td>Approved</td>
             </tr>
             <tr>
-                <td class="align1">Organization of the Outside Director Candidate Nomination Committee</td>
+                <td class="align1">Organization of the Independent director Candidate Nomination Committee</td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -4048,7 +4048,7 @@
                 <td rowspan="3">4</td>
                 <td rowspan="3">Apr. 22</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q1 2011</td>
-                <td rowspan="3" class="align1">non-executive director <span class="accent color9">1</span><br>internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></td>
+                <td rowspan="3" class="align1">non-executive director <span class="accent color9">1</span><br>executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -4063,14 +4063,14 @@
                 <td>5</td>
                 <td>Jun. 02</td>
                 <td class="align1">Reporting of the current T&amp;I company business status</td>
-                <td class="align1">non-executive director <span class="accent color9">1</span><br> internal directors <span class="accent color9">2</span><br> outside directors <span class="accent color9">3</span></td>
+                <td class="align1">non-executive director <span class="accent color9">1</span><br> executive directors <span class="accent color9">2</span><br> independent directors <span class="accent color9">3</span></td>
                 <td>-</td>
             </tr>
             <tr>
                 <td rowspan="4">6</td>
                 <td rowspan="4">Jun. 28</td>
                 <td class="align1">Sale of Daehan Oil Pipeline Corporation shares</td>
-                <td rowspan="4" class="align1"><span>non-executive director <span class="accent color9">1</span><br>internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></span></td>
+                <td rowspan="4" class="align1"><span>non-executive director <span class="accent color9">1</span><br>executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -4089,7 +4089,7 @@
                 <td rowspan="4">7</td>
                 <td rowspan="4">Jul. 22</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q2 2011</td>
-                <td rowspan="4" class="align1"><span>non-executive director <span class="accent color9">1</span><br>internal director <span class="accent color9">1</span><br>outside directors <span class="accent color9">3</span></span></td>
+                <td rowspan="4" class="align1"><span>non-executive director <span class="accent color9">1</span><br>Executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">3</span></span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -4108,14 +4108,14 @@
                 <td>8</td>
                 <td>Sep. 22</td>
                 <td class="align1">Approval of billing with SK C&amp;C in Q4 2011</td>
-                <td class="align1">non-executive director <span class="accent color9">1</span><br> internal directors <span class="accent color9">2</span><br> outside directors <span class="accent color9">4</span></td>
+                <td class="align1">non-executive director <span class="accent color9">1</span><br> executive directors <span class="accent color9">2</span><br> independent directors <span class="accent color9">4</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
                 <td rowspan="5">9</td>
                 <td rowspan="5">Oct. 31</td>
                 <td class="align1">Reporting on the Audit Committee’s review findings for Q3 2011</td>
-                <td rowspan="5" class="align1"><span>non-executive director <span class="accent color9">1</span><br>internal director <span class="accent color9">1</span><br>outside directors <span class="accent color9">2</span></span></td>
+                <td rowspan="5" class="align1"><span>non-executive director <span class="accent color9">1</span><br>Executive director <span class="accent color9">1</span><br>independent directors <span class="accent color9">2</span></span></td>
                 <td>-</td>
             </tr>
             <tr>
@@ -4138,7 +4138,7 @@
                 <td rowspan="3">10</td>
                 <td rowspan="3">Nov. 25</td>
                 <td class="align1">Approval of changes to billing with the largest shareholder, etc.</td>
-                <td rowspan="3" class="align1">internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">3</span></td>
+                <td rowspan="3" class="align1">executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">3</span></td>
                 <td>Approved</td>
             </tr>
             <tr>
@@ -4153,7 +4153,7 @@
                 <td rowspan="4">11</td>
                 <td rowspan="4">Dec. 21</td>
                 <td class="align1">Approval of billing with SK C&amp;C in Q1 2012</td>
-                <td rowspan="4" class="align1"><span>internal directors <span class="accent color9">2</span><br>outside directors <span class="accent color9">4</span></span></td>
+                <td rowspan="4" class="align1"><span>executive directors <span class="accent color9">2</span><br>independent directors <span class="accent color9">4</span></span></td>
                 <td>Approved</td>
             </tr>
             <tr>

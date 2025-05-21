@@ -161,35 +161,6 @@
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <div class="section-subject">
-                                        <h4 class="section-name">AI Competency framework</h4>
-                                    </div>
-                                </div>
-                                <div class="section-body">
-                                    <div class="post-list">
-                                        <div class="post-wrap">
-                                            <div class="post-item">
-                                                <div class="post-figure">
-                                                    <img src="/assets/images/career/ai-en.svg" alt="This is an image of the AI competency system, please refer to the following for more information." class="pc-only">
-                                                    <img src="/assets/images/career/ai-en-mo.png" alt="This is an image of the AI competency system, please refer to the following for more information." class="mo-only" style="min-width: 600px;">
-                                                </div>
-                                                <div class="post-body blind">
-                                                    <ul>
-                                                        <li>Lv.1 Individuals with AI literacy</li>
-                                                        <li>Lv.2 Talents capable of applying AI to their work</li>
-                                                        <li>Lv.3 Talents capable of transforming work through AI</li>
-                                                        <li>Lv.4 Talents capable of innovating business and creating opportunities with AI</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="section design1 type1">
-                            <div class="section-wrap">
-                                <div class="section-head">
-                                    <div class="section-subject">
                                         <h4 class="section-name">AI Competence Roadmap</h4>
                                     </div>
                                 </div>

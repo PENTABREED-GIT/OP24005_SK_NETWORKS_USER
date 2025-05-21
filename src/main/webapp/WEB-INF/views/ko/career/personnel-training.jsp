@@ -151,35 +151,6 @@
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <div class="section-subject">
-                                        <h4 class="section-name">AI 역량 체계</h4>
-                                    </div>
-                                </div>
-                                <div class="section-body">
-                                    <div class="post-list">
-                                        <div class="post-wrap">
-                                            <div class="post-item">
-                                                <div class="post-figure">
-                                                    <img src="/assets/images/career/ai.svg" alt="AI 역량 체계에 대한 이미지입니다. 자세한 설명은 하단 내용을 참고하세요." class="pc-only">
-                                                    <img src="/assets/images/career/ai-mo.svg" alt="AI 역량 체계에 대한 이미지입니다. 자세한 설명은 하단 내용을 참고하세요." class="mo-only" style="min-width: 600px;">
-                                                </div>
-                                                <div class="post-body blind">
-                                                    <ul>
-                                                        <li>Lv.1 AI 리터러시를 갖춘 인재</li>
-                                                        <li>Lv.2 AI를 나의 일에 적용할 수 있는 인재</li>
-                                                        <li>Lv.3 AI를 활용하여 일을 변화시킬 수 있는 인재</li>
-                                                        <li>Lv.4 AI로 비즈니스를 혁신하고 기회를 창출할 수 있는 인재</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="section design1 type1">
-                            <div class="section-wrap">
-                                <div class="section-head">
-                                    <div class="section-subject">
                                         <h4 class="section-name">AI 역량 Roadmap</h4>
                                     </div>
                                 </div>
