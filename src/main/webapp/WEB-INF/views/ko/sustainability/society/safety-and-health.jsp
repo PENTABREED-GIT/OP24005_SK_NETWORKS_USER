@@ -123,67 +123,64 @@
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        사업장별 특성과 경영 환경 변화를 고려한 안전보건관리체계의 지속적인 진화와 개선, 실천력 강화를 통해 영역별 글로벌 Top-Tier 수준의 안전하고 건강한 사업장 실현과 ‘중대재해 Zero’를 지속적으로 달성해 나갈 것입니다. 안전보건 문화의 정착과 생활화를 통하여 모든 구성원이 VWBE한 안전보건 리더십을 실천함으로써, 구성원과 이해관계자 모두 행복한 건강하고 안전한 사업 환경을 구축해 나갈 것입니다.                                    </p>
-                                    <div class="data-display design6 case1">
+                                        사업장별 특성과 경영 환경 변화를 고려한 안전보건관리체계의 지속적인 진화와 개선, 실천력 강화를 통해 영역별 글로벌 Top-Tier 수준의 안전하고 건강한 사업장 실현과 ‘중대재해 Zero’를 지속적으로 달성해 나갈 것입니다. 안전보건 문화의 정착과 생활화를 통하여 모든 구성원이 VWBE한 안전보건 리더십을 실천함으로써, 구성원과 이해관계자 모두 행복한 건강하고 안전한 사업 환경을 구축해 나갈 것입니다.
+                                    </p>
+                                    <div class="data-display roadmap case1 type1">
                                         <div class="data-list">
                                             <div class="data-item">
-                                                <div class="item-figure">
-                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-a.svg" alt="">
-                                                </div>
-                                                <div class="item-body">
-                                                    <p class="para">
-                                                        중대재해 Zero, <br>산업재해율 동종업계<br class="mo-only"> 30% 이하 유지
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="data-item">
-                                                <div class="item-figure">
-                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-b.svg" alt="">
-                                                </div>
-                                                <div class="item-body">
-                                                    <p class="para">
-                                                        유해위험요인<br class="mo-only"> 개선율<br> 100%
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="data-item">
-                                                <div class="item-figure">
-                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-c.svg" alt="">
-                                                </div>
-                                                <div class="item-body">
-                                                    <p class="para">
-                                                        안전보건경영시스템<br class="mo-only">(ISO 45001) 인증 유지<br> (2023~)
-                                                    </p>
+                                                <div class="data-wrap">
+                                                    <div class="data-head">
+                                                        <div class="data-head-area">
+                                                            <em class="data-subject">2025~2026</em>
+                                                        </div>
+                                                    </div>
+                                                    <div class="data-body">
+                                                        <div class="bullet-display design1 case2 type1">
+                                                            <ul class="data-list">
+                                                                <li class="data-item">중대재해 예방 위한 구성원 참여 및 Comm. 활동 강화</li>
+                                                                <li class="data-item">사업장별 안전보건관리 최적화 및 SHE 리스크 관리 점검 확대</li>
+                                                                <li class="data-item">구성원 건강관리 프로그램 확대 운영</li>
+                                                                <li class="data-item">안전보건경영시스템(ISO 45001) 인증 유지<br>: 사후관리심사(2025), 갱신심사(2026)</li>
+                                                                <li class="data-item">주요 투자사(2곳) 안전보건 관리영역 확대</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="data-item">
-                                                <div class="item-figure">
-                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-d.svg" alt="">
-                                                </div>
-                                                <div class="item-body">
-                                                    <p class="para">
-                                                        안전보건교육<br class="mo-only"> 이수율<br> 100%
-                                                    </p>
+                                                <div class="data-wrap">
+                                                    <div class="data-head">
+                                                        <div class="data-head-area">
+                                                            <em class="data-subject">~ 2028</em>
+                                                        </div>
+                                                    </div>
+                                                    <div class="data-body">
+                                                        <div class="bullet-display design1 case1 type1">
+                                                            <ul class="data-list">
+                                                                <li class="data-item">안전보건 문화의 정착과 VWBE 안전보건 리더십 강화</li>
+                                                                <li class="data-item">참여와 협력을 통한 안전보건 문화 확산</li>
+                                                                <li class="data-item">안전보건경영시스템(ISO 45001) 사후관리심사</li>
+                                                                <li class="data-item">주요 투자사(5곳) 안전보건 관리영역 확대</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="data-item">
-                                                <div class="item-figure">
-                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-e.svg" alt="">
-                                                </div>
-                                                <div class="item-body">
-                                                    <p class="para">
-                                                        건강검진수검율<br> 100%
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="data-item">
-                                                <div class="item-figure">
-                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-f.svg" alt="">
-                                                </div>
-                                                <div class="item-body">
-                                                    <p class="para">
-                                                        안전이 내재화된<br class="mo-only"> 최고수준의<br> 조직문화 구축
-                                                    </p>
+                                                <div class="data-wrap">
+                                                    <div class="data-head">
+                                                        <div class="data-head-area">
+                                                            <em class="data-subject">~ 2030</em>
+                                                        </div>
+                                                    </div>
+                                                    <div class="data-body">
+                                                        <div class="bullet-display design1 case1 type1">
+                                                            <ul class="data-list">
+                                                                <li class="data-item">안전이 내재화된 최고수준의 조직문화 구축</li>
+                                                                <li class="data-item">안전보건경영시스템(ISO 45001) 인증 유지<br>: 갱신심사(2029), 사후관리심사(2030)</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

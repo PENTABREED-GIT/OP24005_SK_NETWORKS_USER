@@ -126,66 +126,62 @@
                                     <p class="para">
                                         We at SK Networks will ensure constant evolution and improvement of the safety and health management system and bolster up its effectiveness in consideration of worksite-specific characteristics and changing business landscape to create safe and healthy worksites of global top-tier level in each business domain and meet the goal of zero industrial accidents. By nurturing and embedding safety and health culture, we will empower all SK Networks people to exercise VWBE leadership in safety and health to roll out a business environment wherein SK Networks people and stakeholders can remain happy, healthy and safe.
                                     </p>
-                                    <div class="data-display design6 case1">
+                                    <div class="data-display roadmap case1 type1">
                                         <div class="data-list">
                                             <div class="data-item">
-                                                <div class="item-figure">
-                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-a.svg" alt="">
-                                                </div>
-                                                <div class="item-body">
-                                                    <p class="para">
-                                                        Zero serious accidents,<br class="pc-only"> maintaining an industrial accident rate 30% lower than the industry average
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="data-item">
-                                                <div class="item-figure">
-                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-b.svg" alt="">
-                                                </div>
-                                                <div class="item-body">
-                                                    <p class="para">
-                                                        100% improvement rate for<br class="pc-only"> hazardous risk factors
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="data-item">
-                                                <div class="item-figure">
-                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-c.svg" alt="">
-                                                </div>
-                                                <div class="item-body">
-                                                    <p class="para">
-                                                        Maintaining ISO 45001 certification for<br class="pc-only"> the occupational health and safety management system
-                                                    </p>
+                                                <div class="data-wrap">
+                                                    <div class="data-head">
+                                                        <div class="data-head-area">
+                                                            <em class="data-subject">2025~2026</em>
+                                                        </div>
+                                                    </div>
+                                                    <div class="data-body">
+                                                        <div class="bullet-display design1 case2 type1">
+                                                            <ul class="data-list">
+                                                                <li class="data-item">Strengthen employee participation and communication activities to prevent serious accidents</li>
+                                                                <li class="data-item">Optimize safety and health management at each business site and expand SHE risk management assessments</li>
+                                                                <li class="data-item">Expand employee health management programs</li>
+                                                                <li class="data-item">Maintain ISO 45001 Occupational Health and Safety Management System certification<br>: Surveillance audit in 2025; recertification audit in 2026</li>
+                                                                <li class="data-item">Expand safety and health management coverage to two key portfolio companies</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="data-item">
-                                                <div class="item-figure">
-                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-d.svg" alt="">
-                                                </div>
-                                                <div class="item-body">
-                                                    <p class="para">
-                                                        100% completion rate of health and safety training
-                                                    </p>
+                                                <div class="data-wrap">
+                                                    <div class="data-head">
+                                                        <div class="data-head-area">
+                                                            <em class="data-subject">~ 2028</em>
+                                                        </div>
+                                                    </div>
+                                                    <div class="data-body">
+                                                        <div class="bullet-display design1 case1 type1">
+                                                            <ul class="data-list">
+                                                                <li class="data-item">Foster a strong safety and health culture and strengthen VWBE leadership in safety and health</li>
+                                                                <li class="data-item">Promote a safety and health culture through employee participation and collaboration</li>
+                                                                <li class="data-item">Undergo a surveillance audit for the ISO 45001 Occupational Health and Safety Management System</li>
+                                                                <li class="data-item">Expand safety and health management coverage to five key portfolio companies</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="data-item">
-                                                <div class="item-figure">
-                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-e.svg" alt="">
-                                                </div>
-                                                <div class="item-body">
-                                                    <p class="para">
-                                                        100% health check-up participation rate
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="data-item">
-                                                <div class="item-figure">
-                                                    <img src="/assets/images/sustainability/safety-roadmap-icon-f.svg" alt="">
-                                                </div>
-                                                <div class="item-body">
-                                                    <p class="para">
-                                                        Establishing a top-tier organizational culture where safety is internalized
-                                                    </p>
+                                                <div class="data-wrap">
+                                                    <div class="data-head">
+                                                        <div class="data-head-area">
+                                                            <em class="data-subject">~ 2030</em>
+                                                        </div>
+                                                    </div>
+                                                    <div class="data-body">
+                                                        <div class="bullet-display design1 case1 type1">
+                                                            <ul class="data-list">
+                                                                <li class="data-item">Build a top-tier organizational culture with safety fully embedded</li>
+                                                                <li class="data-item">Maintain ISO 45001 Occupational Health and Safety Management System certification<br>: Recertification audit in 2029; surveillance audit in 2030</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
