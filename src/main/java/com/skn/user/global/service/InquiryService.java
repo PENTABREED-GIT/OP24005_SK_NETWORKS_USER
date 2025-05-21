@@ -55,17 +55,14 @@ public class InquiryService {
             String classification = inquiry.getClassification();
 
 
-            // [25.03.27] SK측에서 담당자에게 이메일 발송 중단 요청
-
-//            NTResult emailSent = emailService.sendEmail(classification, date, subject, body);
-//
-//            // 이메일 발송 성공 여부 체크
-//            if (!"SUCCESS".equals(emailSent.getResultCode())) {
-//                logger.error("SEND MAIL ::::::::::::::::::::::::::: FAIL");
-//                ntResult.setFail();
-//                ntResult.setResultCode("SEND_FAIL");
-//                return ntResult;  // 이메일 발송 실패 시 즉시 반환
-//            }
+            NTResult emailSent = emailService.sendEmail(classification, date, subject, body);
+            // 이메일 발송 성공 여부 체크
+            if (!"SUCCESS".equals(emailSent.getResultCode())) {
+                logger.error("SEND MAIL ::::::::::::::::::::::::::: FAIL");
+                ntResult.setFail();
+                ntResult.setResultCode("SEND_FAIL");
+                return ntResult;  // 이메일 발송 실패 시 즉시 반환
+            }
 
         } catch (Exception e) {
             // 이메일 발송이나 DB 삽입에서 예외가 발생하면 트랜잭션 롤백
