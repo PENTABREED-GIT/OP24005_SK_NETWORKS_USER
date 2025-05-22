@@ -132,7 +132,7 @@
                                                 <div class="data-wrap">
                                                     <div class="data-head">
                                                         <div class="data-head-area">
-                                                            <em class="data-subject">2025~2026</em>
+                                                            <em class="data-subject">2025 ~ 2026</em>
                                                         </div>
                                                     </div>
                                                     <div class="data-body">
