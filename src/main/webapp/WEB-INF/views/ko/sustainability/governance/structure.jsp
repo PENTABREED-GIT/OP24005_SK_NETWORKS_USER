@@ -512,7 +512,7 @@
                                                                                         <div class="post-profile">
                                                                                             <p class="caption">프로필</p>
                                                                                             <ul class="data-list">
-                                                                                                <li class="data-item">現 컨플루언트코리아 사장</li>
+                                                                                                <li class="data-item">前 컨플루언트코리아 사장</li>
                                                                                                 <li class="data-item">구글클라우드코리아 사장</li>
                                                                                                 <li class="data-item">마이크로소프트 아태지역 전략 사장</li>
                                                                                                 <li class="data-item">한국IBM 대표이사 사장</li>

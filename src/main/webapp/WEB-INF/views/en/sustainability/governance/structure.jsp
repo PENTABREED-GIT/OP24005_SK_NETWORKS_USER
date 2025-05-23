@@ -505,7 +505,7 @@
                                                                                         <div class="post-profile">
                                                                                             <p class="caption">Profile</p>
                                                                                             <ul class="data-list">
-                                                                                                <li class="data-item">President, Confluent Korea</li>
+                                                                                                <li class="data-item">Former) President, Confluent Korea</li>
                                                                                                 <li class="data-item">President, Google Cloud Korea</li>
                                                                                                 <li class="data-item">Chief strategy officer, Microsoft Asia Pacific</li>
                                                                                                 <li class="data-item">CEO / President, IBM Korea</li>
