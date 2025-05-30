@@ -6415,7 +6415,7 @@
 <script>
     // 250530 추가 : 0601 텍스트 변경 되도록
     document.addEventListener('DOMContentLoaded', function() {
-        newDateChange('2025-05-30 14:52:00');
+        newDateChange('2025-06-01 08:00:00');
     });
 
     function newDateChange(startDateTime) {
