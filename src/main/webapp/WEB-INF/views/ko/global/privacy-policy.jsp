@@ -115,7 +115,7 @@
                         });
                     }
                 });
-            });
+            })
         });
     </script>
 </head>
@@ -331,7 +331,10 @@
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>SK 주식회사<br>C&amp;C(재수탁사:한국 마이크로소프트)</td>
+                                                            <td>
+                                                                <span id="oldTd">SK 주식회사<br>C&amp;C(재수탁사:한국 마이크로소프트)</span>
+                                                                <span id="newTd" style="display: none">SK 주식회사<br> AX (재수탁사: 한국 마이크로소프트)</span>
+                                                            </td>
                                                             <td>전산시스템 유지 관리, 데이터 보관(국내)</td>
                                                             <td rowspan="3" class="accent case5 underline scale1">위탁계약 해지 시까지</td>
                                                         </tr>
@@ -6409,5 +6412,30 @@
     <!-- //page-foot -->
 </div>
 </body>
+<script>
+    // 250530 추가 : 0601 텍스트 변경 되도록
+    document.addEventListener('DOMContentLoaded', function() {
+        newDateChange('2025-05-30 14:52:00');
+    });
 
+    function newDateChange(startDateTime) {
+        var now = new Date();
+        var startDate = new Date(startDateTime);
+
+        var oldTd = document.getElementById('oldTd');
+        var newTd = document.getElementById('newTd');
+
+        if (oldTd && newTd) {
+            if (now >= startDate) {
+                oldTd.style.display = 'none';
+                newTd.style.display = 'inline';
+            } else {
+                oldTd.style.display = 'inline';
+                newTd.style.display = 'none';
+            }
+        } else {
+            // console.error('❌ oldTd 또는 newTd 요소를 찾을 수 없습니다.');
+        }
+    }
+</script>
 </html>

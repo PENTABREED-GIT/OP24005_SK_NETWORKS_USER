@@ -291,7 +291,10 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <td>SK Inc. C&amp;C</td>
+                                                                <td>
+                                                                    <span id="oldTd">SK Inc. C&amp;C</span>
+                                                                    <span id="newTd">SK Inc. AX</span>
+                                                                </td>
                                                                 <td>IT system maintenance</td>
                                                             </tr>
                                                             <tr>
@@ -542,5 +545,30 @@
     <!-- //page-foot -->
 </div>
 </body>
+<script>
+    // 250530 추가 : 0601 텍스트 변경 되도록
+    document.addEventListener('DOMContentLoaded', function() {
+        newDateChange('2025-05-30 14:52:00');
+    });
 
+    function newDateChange(startDateTime) {
+        var now = new Date();
+        var startDate = new Date(startDateTime);
+
+        var oldTd = document.getElementById('oldTd');
+        var newTd = document.getElementById('newTd');
+
+        if (oldTd && newTd) {
+            if (now >= startDate) {
+                oldTd.style.display = 'none';
+                newTd.style.display = 'inline';
+            } else {
+                oldTd.style.display = 'inline';
+                newTd.style.display = 'none';
+            }
+        } else {
+            // console.error('❌ oldTd 또는 newTd 요소를 찾을 수 없습니다.');
+        }
+    }
+</script>
 </html>
