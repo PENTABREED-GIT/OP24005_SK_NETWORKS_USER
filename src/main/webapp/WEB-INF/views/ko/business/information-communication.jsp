@@ -122,6 +122,9 @@
                                                         <strong class="contents-name type1">ICT Device/Accessory 유통</strong>
                                                         <p class="para">글로벌 제조사(Apple, 삼성)로부터 노트북, 태블릿 등 주요 ICT Device를 소싱하여 고객사의 다양한 Needs에 맞춰 Solution Customizing, 배송, 설치 등 맞춤형 서비스를 제공합니다. 아울러 다양한 ICT Accessory를 기획하여 온ㆍ오프라인 유통망 채널에 공급함으로써, 고객의 스마트폰 판매 확대 및 Mobile 사용자 경험 증대에 주력하고 있습니다.</p>
                                                     </div>
+                                                    <div class="contents-util">
+                                                        <a class="btn design3 case3 type4 color6 ar-icon-arrow-right-up2" href="https://www.apple.com/kr/" target="_blank" title="새창 열기"><span class="btn-text">[파트너사] 애플 사이트 바로가기</span></a>
+                                                    </div>
                                                 </div>
                                                 <div class="data-item back-subsidiary">
                                                     <div class="contents">

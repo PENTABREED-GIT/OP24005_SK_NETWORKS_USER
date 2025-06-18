@@ -123,6 +123,9 @@
                                                         <strong class="contents-name type1">ICT Device / Accessory B2B Distribution</strong>
                                                         <p class="para">Major ICT devices such as laptop, tablet, etc. are sourced from global manufacturers (Apple, Samsung) and such services aligned to varying customer needs as solution customization, shipping and installation are offered. Furthermore, various ICT accessories are planned and supplied to on/offline distribution channels to help B2B customers boost smartphone sales and enrich mobile user experience.</p>
                                                     </div>
+                                                    <div class="contents-util">
+                                                        <a class="btn design3 case3 type4 color6 ar-icon-arrow-right-up2" href="https://www.apple.com/" target="_blank"><span class="btn-text">[Business Partner] Visit Apple’s Website </span></a>
+                                                    </div>
                                                 </div>
                                                 <div class="data-item back-subsidiary">
                                                     <div class="contents">
