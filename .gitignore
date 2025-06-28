@@ -71,4 +71,4 @@ dist
 # svn #
 #######
 .svn
-/target/
+/target/*
