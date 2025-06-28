@@ -208,7 +208,7 @@
                         <h2 class="local-name">Sustainability</h2>
                     </div>
                     <div class="local-aside">
-                        <div class="loca-wrap">
+                        <div class="local-wrap">
                             <h3 class="local-title">Overview of Sustainable Management</h3>
                             <p class="local-summary">As an AI Company, SK Networks aims to enable more people to benefit from AI technology, adding economic value and universal human values to boost the happiness of various stakeholders.</p>
                         </div>
@@ -384,7 +384,7 @@
                                                         <h4 class="post-name">MSCI Rating of BBB</h4>
                                                     </div>
                                                 </div>
-                                                <div class="post-date">2023</div>
+                                                <div class="post-date">2024</div>
                                                 <div class="post-body">
                                                     <p class="para">Morgan Stanley Capital International (MSCI) is one of the most influential ESG rating agencies worldwide, evaluating companies’ ESG performance based on publicly available data and considering their core business models and industrial characteristics. SK Networks has received ‘BBB’ rating in the ESG category.</p>
                                                 </div>
@@ -402,30 +402,30 @@
                                                         <h4 class="post-name">CDP Climate Change<br class="pc-only"> Leadership A Grade</h4>
                                                     </div>
                                                 </div>
-                                                <div class="post-date">2023</div>
+                                                <div class="post-date">2024</div>
                                                 <div class="post-body">
                                                     <p class="para">In the Climate Change category of the CDP (Carbon Disclosure Project), which assesses the climate change responses of major listed companies worldwide, SK Networks has been honored with the highest Leadership A Grade, placing us in the top 1.5% of companies worldwide.</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="post-item">
-                                            <div class="post-wrap">
-                                                <div class="post-figure">
-                                                    <div class="post-figure-wrap">
-                                                        <img src="/assets/images/sustainability/story4-mark-04.png" alt="S&P Global Logo">
-                                                    </div>
-                                                </div>
-                                                <div class="post-head">
-                                                    <div class="post-subject">
-                                                        <h4 class="post-name">S&P Global CSA Score<br class="pc-only"> 53/100</h4>
-                                                    </div>
-                                                </div>
-                                                <div class="post-date">2023</div>
-                                                <div class="post-body">
-                                                    <p class="para">As one of the top three global credit rating agencies, S&P evaluates the sustainability (ESG) of corporations. Based on the 2023 results, SK Networks was listed as an excellent company in the S&P Global Sustainability Report.</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <%--<div class="post-item">--%>
+                                        <%--    <div class="post-wrap">--%>
+                                        <%--        <div class="post-figure">--%>
+                                        <%--            <div class="post-figure-wrap">--%>
+                                        <%--                <img src="/assets/images/sustainability/story4-mark-04.png" alt="S&P Global Logo">--%>
+                                        <%--            </div>--%>
+                                        <%--        </div>--%>
+                                        <%--        <div class="post-head">--%>
+                                        <%--            <div class="post-subject">--%>
+                                        <%--                <h4 class="post-name">S&P Global CSA Score<br class="pc-only"> 53/100</h4>--%>
+                                        <%--            </div>--%>
+                                        <%--        </div>--%>
+                                        <%--        <div class="post-date">2023</div>--%>
+                                        <%--        <div class="post-body">--%>
+                                        <%--            <p class="para">As one of the top three global credit rating agencies, S&P evaluates the sustainability (ESG) of corporations. Based on the 2023 results, SK Networks was listed as an excellent company in the S&P Global Sustainability Report.</p>--%>
+                                        <%--        </div>--%>
+                                        <%--    </div>--%>
+                                        <%--</div>--%>
                                     </div>
                                 </div>
                             </div>

@@ -25,7 +25,42 @@
         document.addEventListener("DOMContentLoaded", () => {
             localAnimations_Case02();
             Tab();
+
+            // URL 문자열 추출 (아코디언 URL 생성)
+            // 1. 현재 페이지 URL의 문자열 부분을 반환 후 ?를 제외한 나머지 쿼리 문자열을 추출(?tab=scrollTab1)
+            const qr = window.location.search.substring(1, window.location.search.length)
+
+            // 2. = 기준으로 쿼리 문자열을 나눔. [1]: 두 번째 값 가져옴 (scrollTab1)
+            const tabId = (qr.split('='))[1]
+
+            console.log("tabID : " + tabId);
+
+            // 3. ID로 가진 HTML 요소를 DOM에서 가져옴.
+            const scrollTab = document.getElementById(tabId);
+
+            if(tabId != null){
+                scrollTab.scrollIntoView()
+
+                // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
+                // scrollTab.querySelector('button').click()
+                scrollTab.click();
+            }
         });
+    </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url;
+            if(tabId != ""){
+                newUrl += `?tabId=` + tabId;
+            }
+            history.pushState(null, null, newUrl);
+        }
     </script>
 </head>
 
@@ -72,10 +107,10 @@
                             <div class="swiper tab-wrap">
                                 <ul class="swiper-wrapper tab-list" role="tablist">
                                     <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                        <button role="tab" class="tab-text">Investment Management</button>
+                                        <button role="tab" class="tab-text" id="" onclick="tabClickEvent(event)">Investment Management</button>
                                     </li>
                                     <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                        <button role="tab" class="tab-text">ESG management of first/second-tier subsidiaries</button>
+                                        <button role="tab" class="tab-text" id="esgmanagement" onclick="tabClickEvent(event)">ESG management of first/second-tier subsidiaries</button>
                                     </li>
                                 </ul>
                             </div>
@@ -109,6 +144,16 @@
                                                     </div>
                                                 </div>
                                                 <div class="section-body">
+                                                    <p class="para">
+                                                        Before an investment proposal is submitted to the Investment Review Working Group, the Agenda Review Committee conducts a preliminary assessment to determine
+                                                        whether the proposal qualifies for submission to the Investment Committee <sup>1)</sup>. The Red Team serves as a dedicated oversight body, formed on a temporary basis for each proposal, and operates independently from the initiating department to analyze risk factors and assess investment feasibility<sup>2)</sup>. For proposals requiring Board approval, the Red Team submits its findings,
+                                                        including worst-case scenarios projections, separately to both the Investment Committee and the Board of Directors <sup>3)</sup>.
+                                                    </p>
+                                                    <p class="comment design1">
+                                                        1) The Internal members of the Agenda Review Committee are the same as those of the Investment Review Working Group<br>
+                                                        2) The Red Team operates as a virtual task force under the Chief Financial Officer (CFO), led by the Head of Risk Management and composed of team members from the Investment Review Working Group<br>
+                                                        3) Proposals involving changes to existing investment amounts or expansions of ongoing businesses are generally excluded from review. However, exceptions may be granted subject to management’s decision and approval by the Agenda Review Committee.
+                                                    </p>
                                                     <div class="board-list design13">
                                                         <div class="board-item type1">
                                                             <div class="board-wrap">
@@ -118,8 +163,8 @@
                                                                 <div class="board-body">
                                                                     <div class="bullet-display design1 case1 type6">
                                                                         <ul class="data-list">
-                                                                            <li class="data-item">Members: CEO, General Business Managing Director, Head of the Management Support Division, Head of Planning Office, Head of Finance Office, Head of Sustainable Business Office</li>
-                                                                            <li class="data-item">Secretary: Head of the Global Investment Center</li>
+                                                                            <li class="data-item">Members: CEO, COO, Head of AI Division, Head of the Management Supporting Division, Head of Strategy Planning Division, Head of RM Division, Head of Sustainability Management Division</li>
+                                                                            <li class="data-item">Secretary: Head of AI Portfolio Innovation Division</li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -128,13 +173,14 @@
                                                         <div class="board-item type2">
                                                             <div class="board-wrap">
                                                                 <div class="board-head">
-                                                                    <em class="board-subject">Working-level Investment Council</em>
+                                                                    <em class="board-subject">Investment Review Working Group<br>
+                                                                        / Agenda Review Committee</em>
                                                                 </div>
                                                                 <div class="board-body">
                                                                     <div class="bullet-display design1 case1 type6">
                                                                         <ul class="data-list">
-                                                                            <li class="data-item">Members: CEO, General Business Managing Director, Head of the Management Support Division, Head of Planning Office, Head of Finance Office, Head of Sustainable Business Office</li>
-                                                                            <li class="data-item">Secretary: HR Team Leader</li>
+                                                                            <li class="data-item">Members: Global Investment Group Team Leader, Strategy Planning Team Leader, Finance Team Leader,  Accounting Team Leader, Tax Team Leader, Legal Team Leader, ESG Management Team Leader, RM Part Leader</li>
+                                                                            <li class="data-item">In the case of purchasing for investment, Supply Chain and Asset Management Team Leader is also included</li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -148,7 +194,7 @@
                                             <div class="section-wrap">
                                                 <div class="section-head">
                                                     <div class="section-subject">
-                                                        <h4 class="section-name">Investment Board Operation Process</h4>
+                                                        <h4 class="section-name">Investment Process</h4>
                                                     </div>
                                                 </div>
                                                 <div class="section-body">
@@ -158,30 +204,36 @@
                                                         <div class="blind">
                                                             <ul>
                                                                 <li>
-                                                                    <em>Review by Working-level Investment Council</em>
-                                                                    <span>Pre-review of the investment proposition</span>
+                                                                    <em>Initiating Department</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>Calling Investment Board to Order</em>
-                                                                    <span>Secretary of the investment board calls the meeting to order</span>
+                                                                    <em>Agenda Review Committee</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>Discussion of Investment Proposition</em>
-                                                                    <span>Mandatory for investment board members to discuss applicable investment propositions</span>
+                                                                    <em>Investment Review Working Group</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>Meeting Minutes &amp; Confidentiality</em>
-                                                                    <span>Documenting meeting discussion and keeping it confidential</span>
+                                                                    <em>Investment Committee or Internal Investment Committee</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>Decision-making</em>
-                                                                    <span>Decision-making Criteria : Strategic orientation, R&C availability, valuation, milestone, major issues and contingency plan, ESG/SV, exit plan, and others</span>
-                                                                    <span>Investment Board Endorsement Criteria : Attendance by at least 2/3 of all members and affirmative votes by at least 2/3 of all attending members</span>
+                                                                    <em>Result Notification</em>
+                                                                </li>
+                                                                <li>
+                                                                    <em>Board Resolution</em>
+                                                                </li>
+                                                                <li>
+                                                                    <em>Shareholders' Meeting</em>
+                                                                </li>
+                                                                <li>
+                                                                    <span>※ Decision Criteria: Strategic Alignment, Risk & Compliance (R&C) Strategy, Valuation, Milestones, Key Issues & Contingency Plans, ESG/Social Value (SV), Exit Plan, and other relevant factors</span>
+                                                                    <span>※ Investment Committee Approval Criteria: Approval requires the attendance of at least two-thirds of all committee members and the affirmative vote of at least two-thirds of those present.</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <p class="comment design1">* Where an investment proposition is subject to an approval by the board of directors, it is to be deliberated in advance by the Strategy∙ESG Committee and finally reviewed and approved by the board of directors.</p>
+                                                    <p class="comment design1">
+                                                        * For investments subject to Board approval, a preliminary review shall be conducted by the Strategic ESG Committee, followed by final review and resolution by the Board of Directors.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -347,14 +399,10 @@
                                                             <li class="data-item">Since 2020, the SV Meetup has been organized, involving all business units/subsidiaries, to monitor and manage the ESG status across these subsidiaries and sub-subsidiaries.</li>
                                                             <li class="data-item">SK Networks and eight subsidiaries and sub-subsidiaries committed to Net Zero 2040 in 2021, joined the EV100 initiative in 2021, signed up for the SBTi in September 2022, and received target approval in August 2023.</li>
                                                             <li class="data-item">Disclosure of significant ESG achievements from SK Magic, SK Networks Service, as highlighted in SK Networks' Sustainability Report.</li>
-                                                            <li class="data-item">
-                                                                Review and disclosure of ESG performance achievements by key subsidiaries (since 2022)<br> 
-                                                                - Disclosure of ESG priority management indicators’* policies, objectives (roadmap), and achievements on each company’s websites<br> 
-                                                                (5 priority management indicators of SK Networks service and 4 priority management indicators of SK Magic were disclosed.)
-                                                            </li>
+                                                            <li class="data-item">Phased ESG performance evaluation and disclosure by each subsidiary (since 2022)</li>
                                                         </ul>
                                                     </div>
-                                                    <p class="comment design1">* Priority management indicators include human rights declarations and policies, employee safety, corporate data and information protection, anti-corruption policies, and employee anti-corruption education.</p>
+                                                    <%--<p class="comment design1">* Priority management indicators include human rights declarations and policies, employee safety, corporate data and information protection, anti-corruption policies, and employee anti-corruption education.</p>--%>
                                                 </div>
                                             </div>
                                         </div>

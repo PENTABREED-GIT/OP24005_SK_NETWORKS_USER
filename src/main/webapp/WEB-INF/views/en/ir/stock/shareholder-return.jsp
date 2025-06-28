@@ -58,7 +58,8 @@
                                 <div class="section-head">
                                     <div class="section-subject">
                                         <h4 class="section-name">Shareholder Return</h4>
-                                        <p class="section-summary">SK Networks maintains a transparent dividend policy and take various measures to enhance shareholder value, including treasury stock buybacks and retirements.
+                                        <p class="section-summary">
+                                            SK Networks maintains a transparent dividend policy and undertakes a variety of initiatives to enhance shareholder value, including share repurchase and cancellation programs.
                                         </p>
                                     </div>
                                 </div>
@@ -71,8 +72,7 @@
                                                 </div>
                                                 <div class="board-body">
                                                     <p class="para">
-                                                        We will implement a transparent dividend policy aligned with our intermediary holding company structure and gradually expand the total shareholder return by introducing an interim dividend system.
-                                                    </p>
+                                                        We are committed to maintaining a transparent dividend policy that aligns with our role as a business holding company. In addition, we plan to implement an interim dividend system to strengthen shareholder returns and ensure a sustainable dividend policy.                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -83,7 +83,7 @@
                                                 </div>
                                                 <div class="board-body">
                                                     <p class="para">
-                                                        We will increase the value per share through treasury stock buybacks and retirement.
+                                                        We disclose an annual treasury stock report and actively pursue various initiatives to enhance per-share value, including share repurchase and cancellation programs.
                                                     </p>
                                                 </div>
                                             </div>
@@ -102,11 +102,12 @@
                                 </div>
                                 <div class="section-body">
                                     <div class="t-display design1 case1 type1 align3 scroll">
-                                        <table style="min-width: 740px;" class="col-w-1">
-                                            <caption>The table provides dividend details and consists of categories, 2023, 2022, 2021, 2020, and 2019.</caption>
+                                        <table style="min-width: 916px;" class="col-w-1">
+                                            <caption>The table provides dividend details and consists of categories, 2024, 2023, 2022, 2021, 2020</caption>
                                             <colgroup>
                                                 <col class="col1">
-                                                <col class="col2">
+                                                <col style="width: auto">
+                                                <col style="width: auto">
                                                 <col class="col3">
                                                 <col class="col4">
                                                 <col class="col5">
@@ -115,50 +116,55 @@
                                             <thead>
                                                 <tr>
                                                     <th scope="col">Category</th>
+                                                    <th scope="col" colspan="2">2024</th>
                                                     <th scope="col">2023</th>
                                                     <th scope="col">2022</th>
                                                     <th scope="col">2021</th>
                                                     <th scope="col">2020</th>
-                                                    <th scope="col">2019</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>Total Dividends</td>
+                                                    <td colspan="2">67,909</td>
                                                     <td>40,506</td>
                                                     <td>26,250</td>
                                                     <td>26,237</td>
                                                     <td>26,237</td>
-                                                    <td>28,881</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Net Income (연결)</td>
+                                                    <td>Net Income<br>(Consolidated)</td>
+                                                    <td colspan="2">46,292</td>
                                                     <td>5,459</td>
                                                     <td>90,765</td>
                                                     <td>103,540</td>
                                                     <td>42,053</td>
-                                                    <td>-122,613</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Dividend Payout Ratio</td>
+                                                    <td colspan="2">147%</td>
                                                     <td>724%</td>
                                                     <td>29%</td>
                                                     <td>25%</td>
                                                     <td>62%</td>
-                                                    <td>-</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Dividend Yield*</td>
-                                                    <td>3.39%</td>
-                                                    <td>3.1%</td>
-                                                    <td>2.39%</td>
-                                                    <td>2.47%</td>
-                                                    <td>2.02%</td>
+                                                    <td rowspan="2">Dividend Yield*</td>
+                                                    <td>Interim dividend</td>
+                                                    <td>2.01%</td>
+                                                    <td rowspan="2">3.39%</td>
+                                                    <td rowspan="2">3.1%</td>
+                                                    <td rowspan="2">2.39%</td>
+                                                    <td rowspan="2">2.47%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Final dividend</td>
+                                                    <td>4.92%</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
-                                    <p class="comment design1">*Common shares and based on the closing price of the day before the dividend record date</p>
+                                    <p class="comment design1">* Common shares and based on the closing price of the day before the dividend record date</p>
                                 </div>
                             </div>
                         </div>
@@ -189,6 +195,18 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
+                                                <tr>
+                                                    <td>2025.04.01</td>
+                                                    <td>2025.04.25</td>
+                                                    <td>200</td>
+                                                    <td>225</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2024.09.30</td>
+                                                    <td>2024.10.25</td>
+                                                    <td>100</td>
+                                                    <td>125</td>
+                                                </tr>
                                                 <tr>
                                                     <td>2024.04.01</td>
                                                     <td>2024.04.23</td>
@@ -315,7 +333,7 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                    <p class="comment design1">* As of June. 30. 2024 (Common shares basis)</p>
+                                    <p class="comment design1">* As of March. 31. 2025</p>
                                 </div>
                             </div>
                         </div>

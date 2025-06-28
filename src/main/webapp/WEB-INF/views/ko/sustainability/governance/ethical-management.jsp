@@ -55,7 +55,40 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             localAnimations_Case02();
+
+            // URL 문자열 추출 (아코디언 URL 생성)
+            // 1. 현재 페이지 URL의 문자열 부분을 반환 후 ?를 제외한 나머지 쿼리 문자열을 추출(?tab=scrollTab1)
+            const qr = window.location.search.substring(1, window.location.search.length)
+
+            // 2. = 기준으로 쿼리 문자열을 나눔. [1]: 두 번째 값 가져옴 (scrollTab1)
+            const tabId = (qr.split('='))[1]
+
+            console.log("tabID : " + tabId);
+
+            // 3. ID로 가진 HTML 요소를 DOM에서 가져옴.
+            const scrollTab = document.getElementById(tabId);
+
+            // 4. 자동으로 스크롤
+            if(tabId != null){
+                scrollTab.scrollIntoView()
+
+                // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
+                // scrollTab.querySelector('button').click()
+                scrollTab.click();
+            }
         });
+    </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
     </script>
 </head>
 
@@ -107,13 +140,13 @@
                                         <div class="swiper tab-wrap">
                                             <ul class="swiper-wrapper tab-list" role="tablist">
                                                 <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                                    <button class="tab-text">윤리경영 체계 및 활동</button>
+                                                    <button class="tab-text" id="ethical-management-system" onclick="tabClickEvent(event)">윤리경영 체계 및 활동</button>
                                                 </li>
                                                 <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                                    <button class="tab-text">컴플라이언스</button>
+                                                    <button class="tab-text" id="compliance" onclick="tabClickEvent(event)">컴플라이언스</button>
                                                 </li>
                                                 <li id="tab3" class="swiper-slide tab-item" aria-controls="tab-panel3">
-                                                    <button class="tab-text">부패방지방침</button>
+                                                    <button class="tab-text" id="anti-corruption-policy" onclick="tabClickEvent(event)">부패방지방침</button>
                                                 </li>
                                             </ul>
                                         </div>
@@ -345,19 +378,23 @@
                                                                                         <strong>SK네트웍스 감사위원회</strong>
                                                                                         <ul>
                                                                                             <li>윤리경영협의체장 : SK네트웍스 감사실장</li>
-                                                                                            <li>Steering Committee : 워커힐 경영지원실장, SK네트웍스서비스 경영전략실장, SK매직 RM실장</li>
+                                                                                            <li>워커힐 경영지원실장, SK네트웍스서비스 경영전략실장, SK매직 RM실장</li>
                                                                                             <li>윤리경영협의체
                                                                                                 <ul>
                                                                                                     <li>SK네트웍스(간사) : 윤리경영팀장, 윤리경영담당자</li>
                                                                                                     <li>워커힐 : 윤리경영담당자</li>
                                                                                                     <li>SK네트웍스서비스 : 준법경영팀장, 윤리경영담당자</li>
                                                                                                     <li>SK매직 : 경영진단팀장, 윤리경영담당자</li>
+                                                                                                    <li>민팃 : 업무지원팀장, 윤리경영담당자</li>
+                                                                                                    <li>엔코아 : 경영지원실장, 윤리경영담당자</li>
+                                                                                                    <li>SK스피드메이트 : 기획재무팀장, 윤리경영담당자</li>
+                                                                                                    <li>Glowide : 경영지원팀장, 윤리경영담당자</li>
                                                                                                 </ul>
                                                                                             </li>
-                                                                                            <li>신규 자회사 : SK일렉링크, 엔코아, 민팃</li>
                                                                                         </ul>
                                                                                     </div>
                                                                                 </div>
+                                                                                <%--<p class="comment design1">※ SK네트웍스가 윤리경영 업무를 Shared Service로 제공하고 있어 해당 자회사는 필요시 윤리경영협의체에 참석</p>--%>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -379,7 +416,9 @@
                                                                                         <em class="data-subject">자정시스템 운영</em>
                                                                                     </div>
                                                                                     <div class="data-body">
-                                                                                        <p class="para">SK네트웍스는 자율적인 윤리경영 실천력을 높이기 위해 업무 영역별 윤리 리스크에 대한 체크리스트를 구성하여 연 1회 자체 점검을 실시하고 있습니다.<br> 체크리스트는 HR 관리, 비용 관리, 구매/비즈니스 파트너 관리, 매출/채권관리, 투자관리 체계, 재고관리, 특이 리스크 관리 등 다양한 영역에서 업무별 특성에 맞는 위험을 점검하고 평가할 수 있도록 구성되어 있습니다.</p>
+                                                                                        <p class="para">
+                                                                                            SK네트웍스는 자율적인 윤리경영 실천력을 강화하기 위해 법·윤리적 규범을 준수하고 부정과 비리를 예방 및 통제하는 자정 점검 시스템을 운영하고 있습니다. 이를 통해 연 1회 본사 및 자회사를 대상으로 업무 영역별 윤리 리스크에 대한 체크리스트를 구성하여 리스크를 평가하고 점검합니다.<br>
+                                                                                            체크리스트는 HR관리, 비용관리, 구매 및 비즈니스 파트너 관리, 매출·채권 관리, 투자 관리 체계, 재고 관리 등으로 구성되어 있으며, 다양한 분야에서 업무별 특성에 맞는 윤리 및 반부패 리스크를 식별하고 예방하는 것을 목표로 합니다. 또한, 매년 점검 항목을 추가하여 지속적으로 개선하고 있으며, 특히 고위험 항목에 대해서는 감사실 및 자회사 내부감사 부서가 직접 점검을 수행합니다. 이를 통해 각 조직이 자체적으로 수행한 점검 결과와 증빙의 적합성을 검토하고, 윤리경영 체계를 보다 강화하고 있습니다.                                                                                        </p>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -396,8 +435,10 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="section-body">
-                                                                    <p class="para">SK네트웍스는 윤리경영 현황에 대한 모니터링과 관리를 위해 모든 이해관계자가 비윤리적 행위에 대해 제보할 수 있는 채널을 운영하고 있습니다.<br>
-                                                                        제보 채널을 통해 접수되는 제보는 감사팀과 각 자회사의 윤리경영 전담 조직에서 조사를 맡아 투명하고 체계적으로 대응하며 처리합니다.</p>
+                                                                    <p class="para">
+                                                                        SK네트웍스는 모든 이해관계자가 비윤리적 행위를 자유롭게 신고할 수 있도록 웹사이트, 대면상담, 우편 등 다양한 오/오프라인 윤리 제보 채널을 운영하고 있습니다.<br class="pc-only"> 접수된 제보는 감사팀과 각 자회사의 윤리경영 전담 조직이 면밀히 조사하며, 공정하고 투명한 절차를 통해 처리하고 있습니다. 또한 고객서비스 관련 불만은 해당 사업부서로 이관하여 신속히 처리될 수 있도록 조치하고 있습니다.<br>
+                                                                        제보자의 신변 보호를 최우선으로 고려하여 보호 규정을 마련하고, 정당한 제보로 인해 어떠한 불이익도 발생하지 않도록 철저히 관리하고 있습니다.<br class="pc-only"> 더불어, 제보 관련 조사에 협조한 임직원도 제보자와 동일한 수준으로 보호함으로써, 윤리경영 실천을 위한 안전한 환경을 조성하고 있습니다.
+                                                                    </p>
                                                                 </div>
                                                                 <div class="section-figure">
                                                                     <img src="/assets/images/sustainability/channel.png" alt="" class="pc-only">
@@ -700,200 +741,23 @@
                                                             <div class="section-wrap">
                                                                 <div class="section-head">
                                                                     <div class="section-subject">
-                                                                        <h4 class="section-name">내부감사 시행</h4>
+                                                                        <h4 class="section-name">내부감사 시행 (윤리/반부패 감사)</h4>
                                                                     </div>
                                                                 </div>
                                                                 <div class="section-body">
-                                                                    <p class="para">SK네트웍스의 내부감사는 정기감사, 이행 점검, 자정시스템 점검, 윤리 제보조사로 구성되어 있습니다. 정기감사 수행을 위해 매년 초 국내외 모든 사업장과 자회사, 지원 조직에 대해 ‘그룹 및 외부기관의 측정/진단 결과, 자정시스템의 리스크 점검결과 및 윤리실천 Survey 결과’ 등을 반영한 리스크 항목(Risk Pool)들을 도출하고 평가를 실시합니다. 리스크가 높게 평가된 사업/조직을 대상으로 연간 정기감사 계획을 수립하여, 감사위원회 보고 및 승인을 통해 감사 대상을 최종 확정하고 있습니다. 또한 감사 업무의 수행에만 그치지 않고 권고사항에 대한 이행여부를 시스템을 통해 지속적으로 점검하여 주기적으로 감사위원회에 보고함으로써 실행력을 제고합니다. 정기감사 시에는, 지배구조, 리스크 관리, 통제 프로세스의 효과성을 평가하고 개선시킴으로써 회사의 경영목표 달성을 지원하며, 비윤리 이슈의 발생 여부도 함께 점검하고 있습니다.</p>
-                                                                    <p class="para">자정시스템 점검은, 업무 영역별 리스크에 대한 점검매뉴얼을 구성하여 SK네트웍스의 모든 사업과 지원 조직을 대상으로 연 1회 점검하는 것으로 2011년부터 시행 중입니다. 점검매뉴얼은 HR 관리, 비용 관리, 구매/비즈니스 파트너 관리, 매출/채권관리, 투자관리 체계, 재고관리, 특이 리스크 관리 등 다양한 영역에서 업무별 특성에 맞는 위험을 점검하고 평가할 수 있도록 구성되어 있으며, 항목은 매년 업데이트 중입니다. 각 영역별로 발생할 수 있는 재무적 위험뿐만 아니라 비윤리 이슈가 발생할 수 있는 사례(ex. 채용 청탁, 겸업/겸직 활동 시 발생할 수 있는 비윤리 이슈, Moral Hazard에 의한 임직원 회사 자산 오남용, 비용 자가 승인, 자금의 부정 출금, 구매 Policy 위반 등)도 포함하여 점검하고 있습니다. 자정시스템 점검 항목 중 고위험 항목들은 감사실에서 직접 점검하고 있으며, 모든 사업과 지원 조직이 수행한 자정시스템 점검 결과와 증빙에 대해서도 감사실에서 그 적합성을 확인하고 있습니다.</p>
-                                                                    <p class="para">SK네트웍스(모든 자회사 포함)는 웹사이트, 대면 상담, 우편 등 다양한 온/오프라인 윤리 제보채널을 운영하고 있습니다. 제보 처리 절차에 따라 접수된 상담·제보 사항을 투명하고 공정하게 처리하고 있습니다. 고객 서비스 불만은 해당 사업부서에 이관하여 처리하도록 안내하고 있으며, 비윤리 이슈를 포함한 그 외 모든 제보는 감사실에서 직접 조사*를 진행하고 있습니다.</p>
-                                                                    <p class="para">SK네트웍스는 국내외 모든 사업장과 자회사 대상으로 내부감사를 실시하고 그 결과를 감사위원회에 주기적으로 보고하고 있습니다. 점검 결과에 따라 개선이 필요한 사항은 경영 활동에 반영하고 있으며, 위반사항이 발견되면 즉시 개선조치를 이행하고 있습니다. 또한 필요 시 유관부서와의 협의를 통해 종합적인 대응 방안을 수립하고 이행될 수 있도록 관리하고 있습니다. 2023년에는 정보보호(문서보안), 부적절한 업무처리 등 영역에서 내부 관리 기준 위반사항이 발견되어 시정 및 업무 절차 개선 등의 조치를 완료하였으며 감사위원회에도 발견사항 및 개선조치 이행결과를 분기별로 보고하였습니다. 아울러 발견된 위반사항 및 처리 결과를 전사공지하고, 윤리교육, 윤리실천 Workshop 등 사내 윤리경영활동 컨텐츠에 반영하여 동일한 문제의 재발을 방지하고 있습니다.</p>
-                                                                    <p class="comment design1">* 자회사 접수 건에 대해서는 자회사와 협조를 통해 조사 진행</p>
-                                                                    <div class="data-display design1 case2 type1">
-                                                                        <div class="data-list">
-                                                                            <div class="data-item">
-                                                                                <div class="data-head">
-                                                                                    <strong class="data-subject">내부감사 시행 내역</strong>
-                                                                                </div>
-                                                                                <div class="data-body">
-                                                                                    <div class="t-display design1 case1 type1 align3 scroll">
-                                                                                        <table class="col-w-2">
-                                                                                            <caption>이 표는 내부감사 시행 내역 정보를 제공하며 구분, 연도(2021년, 2022년, 2023년), 정기감사/이행점검, 자정 시스템 점검, 윤리 제보조사 로 구성되어 있습니다.</caption>
-                                                                                            <colgroup>
-                                                                                                <col class="col1">
-                                                                                                <col class="col2">
-                                                                                                <col class="col3">
-                                                                                                <col class="col4">
-                                                                                                <col class="col2">
-                                                                                                <col class="col3">
-                                                                                                <col class="col4">
-                                                                                                <col class="col2">
-                                                                                                <col class="col3">
-                                                                                                <col class="col4">
-                                                                                            </colgroup>
-                                                                                            <thead>
-                                                                                                <tr>
-                                                                                                    <th scope="col" rowspan="2">구분</th>
-                                                                                                    <th scope="col" colspan="3">2021</th>
-                                                                                                    <th scope="col" colspan="3">2022</th>
-                                                                                                    <th scope="col" colspan="3">2023</th>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <th scope="col">정기감사/이행점검</th>
-                                                                                                    <th scope="col">자정 시스템 점검</th>
-                                                                                                    <th scope="col">윤리<br>제보조사</th>
-                                                                                                    <th scope="col">정기감사/이행점검</th>
-                                                                                                    <th scope="col">자정 시스템 점검</th>
-                                                                                                    <th scope="col">윤리<br>제보조사</th>
-                                                                                                    <th scope="col">정기감사/이행점검</th>
-                                                                                                    <th scope="col">자정 시스템 점검</th>
-                                                                                                    <th scope="col">윤리<br>제보조사</th>
-                                                                                                </tr>
-                                                                                            </thead>
-                                                                                            <tbody>
-                                                                                                <tr>
-                                                                                                    <td class="title">SK네트웍스</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td rowspan="7">6건</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td rowspan="7">14건</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td rowspan="7">18건</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="align1 accent color3">정보통신</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="align1 accent color3">스피드메이트</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="align1 accent color3">글로벌 트레이딩</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="align1 accent color3">글로벌 투자</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="align1 accent color3">지원 조직</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="align1 accent color3 last">워커힐</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>SK매직</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>23건</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>27건</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>16건</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>SK렌터카</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>26건</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>13건</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>24건</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>SK네트웍스 서비스</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>1건</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>1건</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>3건</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>민팃</td>
-                                                                                                    <td colspan="3">N/A</td>
-                                                                                                    <td></td>
-                                                                                                    <td></td>
-                                                                                                    <td>-</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>-</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>카티니</td>
-                                                                                                    <td colspan="3">N/A</td>
-                                                                                                    <td></td>
-                                                                                                    <td></td>
-                                                                                                    <td>-</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>1건</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="t-bg">윤리 제보조사 합계</td>
-                                                                                                    <td class="t-bg" colspan="2"></td>
-                                                                                                    <td class="t-bg">56건</td>
-                                                                                                    <td class="t-bg" colspan="2"></td>
-                                                                                                    <td class="t-bg">55건</td>
-                                                                                                    <td class="t-bg" colspan="2"></td>
-                                                                                                    <td class="t-bg">62건</td>
-                                                                                                </tr>
-                                                                                            </tbody>
-                                                                                        </table>
-                                                                                    </div>
-                                                                                    <p class="comment design1">
-                                                                                        * 제보조사 건수는 고객 서비스 불만 접수 내역(해당 사업부서 이관)을 제외한 숫자임<br>
-                                                                                        * 민팃, 카티니는 2021년 10월 설립하여, 2022년 7월 자정시스템 점검 시에 ‘분사 후 1년 미만 자회사’임에 따라 점검 대상에서 제외되었으며, 2023년부터 자정시스템 점검 대상으로 포함함<br>
-                                                                                        * 최근 3년간 국내외 전 사업장과 자회사 대상 내부감사(정기감사, 이행점검, 자정시스템 점검, 윤리 제보조사 등)를 1회 이상 시행 완료하였으며, 3년간 최소 1회 이상 시행하는 것을 목표로 하고 있음
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
+                                                                    <p class="para">SK네트웍스는 이사회 산하 감사위원회 직속 조직인 감사실에서 내부감사를 시행하고 있으며, 내부감사는 정기감사(이행점검 포함), 자정시스템 점검, 윤리 제보조사로 구성되어 있습니다.</p>
+                                                                    <p class="para">정기감사는 매년 말 자회사 포함 국내외 전 사업 및 지원조직을 대상으로 리스크 평가를 실시하고, 위험도가 높은 사업/조직을 대상으로 연간 정기감사 계획을 수립하여 감사위원회의 승인 후 시행되며, 감사 결과와 권고사항 이행점검은 시스템을 통해 지속 점검하고 주기적으로 감사위원회에 보고하여 실행력을 높이고 있습니다. 자회사 포함 국내외 전 사업 및 지원조직을 대상으로 3년에 1회 이상 감사하는 것을 목표로 하고 있습니다.</p>
+                                                                    <div class="para">
+                                                                        <div class="bullet-display design1 case1 type6">
+                                                                            <ul class="data-list">
+                                                                                <li class="data-item">자정시스템 점검을 통해 매년 1회 모든 사업과 지원조직, 자회사를 대상으로 HR, 비용, 구매/비즈니스파트너 등 다양한 영역의 윤리/반부패 위험을 실무조직이 자율적으로 점검하고 평가합니다. SK네트웍스 감사실과 자회사 내부감사 부서는 고위험 항목들을 직접 점검하여 실무조직이 수행한 자정시스템 점검 결과와 증빙의 적합성을 확인합니다.</li>
+                                                                                <li class="data-item">SK네트웍스 및 모든 자회사는 웹사이트, 대면 상담, 우편 등 다양한 온/오프라인 윤리 제보 채널을 운영하고 있습니다. 제보 처리 절차에 따라 접수된 상담∙제보 사항을 투명하고 공정하게 처리하고 있습니다. 고객 서비스 불만은 해당 사업부서에 이관하여 처리하도록 안내하고 있으며, 비윤리 이슈를 포함한 모든 제보는 감사실과 자회사 내부감사 부서에서 직접 조사*를 진행하고 있습니다.</li>
+                                                                            </ul>
                                                                         </div>
+                                                                        <p class="comment design1">* 자회사 접수 건에 대해서는 자회사와 협조를 통해 조사 진행</p>
                                                                     </div>
+                                                                    <p class="para">내부감사 결과를 바탕으로 위반사항이 확인될 경우 즉시 개선조치를 이행하고, 개선이 필요한 사항은 경영활동에 반영하며 필요시 관련부서와 협력하여 종합적인 대응방안을 마련합니다.</p>
+                                                                    <p class="para">최근 3년간 SK네트웍스는 본사 및 국내외 전 사업장과 자회사를 대상으로 1회 이상의 내부감사를 진행하였으며, 이 과정에서 정보보호(문서보안), 부적절한 업무처리/절차위반, 회사 자산 사적 이용 등의 주요 리스크가 발견되어 시정조치를 완료하고, 관련 사항을 감사위원회에 분기별로 보고했습니다. 또한 전사 공지, 윤리교육, 윤리실천 워크숍 등을 통해  유사 사례 재발을 방지하고 있습니다.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -920,9 +784,9 @@
                                                                 <div class="section-head">
                                                                     <div class="section-subject">
                                                                         <h4 class="section-name">SK네트웍스 컴플라이언스협의체 운영 </h4>
-                                                                        <p class="section-summary">SK네트웍스는 본사(워커힐 포함) 및 7개 자/손회사*로 구성된 ‘SK네트웍스 컴플라이언스협의체’를 운영하며 참여사 모두가 준법경영과 공정경제에 대한 사회적 책임을 다하고 준법 수준을 향상하기 위해 노력하고 있습니다. 협의체는 법무, 공정거래, SHE(안전·보건·환경) 3가지 모듈로 운영되고 있으며, 협의체 활동을 통해 법규 및 제도에 대한 필요 정보 공유, 관련 교육, 각 사별 사례 학습(Lessons Learned) 공유 등 협의체 참여사간 상호작용 활동을 통해 사전 예방 활동과 이슈 대응 능력을 강화하고 있습니다.</p>
+                                                                        <p class="section-summary">SK네트웍스는 본사(워커힐 포함) 및 8개 자/손회사*로 구성된 ‘SK네트웍스 컴플라이언스협의체’를 운영하며 참여사 모두가 준법경영과 공정경제에 대한 사회적 책임을 다하고 준법 수준을 향상하기 위해 노력하고 있습니다. 협의체는 법무, 공정거래, SHE(안전·보건·환경) 3가지 모듈로 운영되고 있으며, 협의체 활동을 통해 법규 및 제도에 대한 필요 정보 공유, 관련 교육, 각 사별 사례 학습(Lessons Learned) 공유 등 협의체 참여사간 상호작용 활동을 통해 사전 예방 활동과 이슈 대응 능력을 강화하고 있습니다.</p>
                                                                     </div>
-                                                                    <p class="comment design1">* SK네트웍스서비스, SK매직, SK매직서비스, 민팃, SK일렉링크, 엔코아, SK스피드메이트</p>
+                                                                    <p class="comment design1">* SK네트웍스서비스, SK매직, SK매직서비스, 민팃, SK일렉링크, 엔코아, SK스피드메이트, Glowide</p>
                                                                 </div>
                                                                 <div class="section-body">
                                                                     <p class="board-name">SK네트웍스 Compliance 협의체</p>
@@ -934,7 +798,7 @@
                                                                                 </div>
                                                                                 <div class="board-name">
                                                                                     <em class="board-caption">참여사</em>
-                                                                                    <p class="para">본사(워커힐 포함) 및<br> 7개 자/손회사</p>
+                                                                                    <p class="para">본사(워커힐 포함) 및<br> 8개 자/손회사</p>
                                                                                 </div>
                                                                             </div>
                                                                         </li>
@@ -956,7 +820,7 @@
                                                                                 </div>
                                                                                 <div class="board-name">
                                                                                     <em class="board-caption">구성원 수</em>
-                                                                                    <p class="para">48명<br> (2024년 기준)</p>
+                                                                                    <p class="para">52명<br> (2025년 기준)</p>
                                                                                 </div>
                                                                             </div>
                                                                         </li>

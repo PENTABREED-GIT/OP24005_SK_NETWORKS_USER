@@ -196,23 +196,21 @@
                         <div class="section">
                             <div class="section-wrap">
                                 <div class="section-head">
-                                    <em class="section-subject"><span class="section-name">회사 분할에 따른 개인정보 이전<br> [통지/공고]</span></em>
+                                    <%--<em class="section-subject"><span class="section-name">정기주주총회 소집공고<br> <span class="small">(제72기 정기주주총회)</span></span></em>--%>
+                                    <em class="section-subject"><span class="section-name">SK네트웍스 배당 안내</span></em>
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        에스케이네트웍스 주식회사(이하 “당사”)는 2024년 8월 7일 주주총회에서 Trading 사업부문을 물적 분할(이하 “본건 분할”)하여 분할신설회사를 설립하고, 당사가 존속하면서 분할신설회사 발행주식 전부를 배정받는 내용의 분할계획서를 승인하였습니다.<br>
+										FY2024년 결산배당 조회 서비스
                                     </p>
                                     <p class="para">
-                                        본건 분할 이후 기존에 당사가 제공받아 처리하던 개인정보는 2024년 12월 1일자(예정)로 분할신설회사에 이전될 예정입니다.
-                                    </p>
-                                    <p class="para">
-                                        세부사항은 전자공고를 통해 확인하시기 바랍니다.
-                                    </p>
+										운영기간 : ’25.04.11 AM 9:00 ~ ’25.4.25 PM 6:00
+									</p>
                                 </div>
                                 <div class="section-util">
                                     <div class="btn-display design1 case1 align3">
                                         <div class="btn-area">
-                                            <a class="btn design1 case1 type1 color1" href="https://www.sknetworks.co.kr/ir/announcement/RNuXzmwLq9FYGVuF" tabindex="1"><span class="btn-text">상세 내용 확인하기</span></a>
+                                            <a class="btn design1 case1 type1 color1" href="https://sknetworks.dividend.im" tabindex="1"><span class="btn-text">바로가기</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -443,6 +441,14 @@
                                             <p class="para">화학제품 위주의 무역을 전개하며<br>비즈니스 파트너에게 가치를 전달합니다.</p>
                                         </div>
                                     </li>
+									<li class="item ai">
+										<div class="board-head">
+											<h3 class="board-name">AI</h3>
+										</div>
+										<div class="board-body">
+											<p class="para">인공지능 기술을<br> 우리 곁으로</p>
+										</div>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -614,79 +620,10 @@
 	<!-- //page-foot -->
 </div>
 <script>
-	// document.addEventListener('DOMContentLoaded', function() {
-	// 	if (!shouldHidePopup('modalNotice1')) {
-	// 		openPop('modalNotice1');
-	// 	}
-	// 	if (!shouldHidePopup('modalNotice2')) {
-	// 		openPop('modalNotice2');
-	// 	}
-	// 	document.querySelector('.modal-display').classList.add('show');
-	// });
-
-	// function popupLengthCheck() {
-	// 	let modalNotice = document.querySelectorAll('.modal.notice.show');
-	// 	let modalNoticeLength = modalNotice.length;
-
-	// 	if (modalNoticeLength < 1) {
-	// 		document.querySelector('.modal-display').classList.remove('show');
-	// 	}
-	// }
-
-	// function openPop(id) {
-	// 	document.getElementById(id).classList.add('show');
-	// }
-
-	// function closePop(id) {
-	// 	// 체크박스가 체크된 상태인지 확인
-	// 	const checkbox1 = document.querySelector('#checkbox1');
-	// 	const checkbox2 = document.querySelector('#checkbox2');
-
-	// 	if (checkbox1.checked || checkbox2.checked) {
-	// 		// 팝업을 하루 동안 숨기도록 설정
-	// 		setHidePopup(id);
-	// 	}
-
-	// 	document.getElementById(id).classList.remove('show');
-	// 	popupLengthCheck();
-	// }
-
-	// // "오늘 하루 보지 않기" 기능을 위한 함수
-	// function setHidePopup(id) {
-	// 	// 현재 날짜와 시간을 가져오기
-	// 	const now = new Date();
-
-	// 	// 자정 시간 계산
-	// 	const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() , 0, 0, 0);
-
-	// 	// 남은 시간 계산 (밀리초 단위)
-	// 	const timeUntilMidnight = midnight.getTime() - now.getTime();
-
-	// 	// 로컬 스토리지에 숨김 상태를 저장 (현재 시간 + 남은 시간)
-	// 	localStorage.setItem('hidePopup_' + id +"_"+now.getTime() + timeUntilMidnight,true);
-	// }
-
-	// function shouldHidePopup(id) {
-	// 	const hideUntil = localStorage.getItem('hidePopup_' + id);
-
-	// 	if (hideUntil) {
-	// 		const now = new Date().getTime();
-
-	// 		// 저장된 시간이 현재 시간보다 크면 팝업을 숨겨야 함
-	// 		if (now < hideUntil) {
-	// 			return true;
-	// 		} else {
-	// 			// 자정이 지나면 로컬 스토리지에서 항목을 제거
-	// 			localStorage.removeItem('hidePopup_' + id);
-	// 		}
-	// 	}
-
-	// 	return false;
-	// }
-
 	$(document).ready(function() {
-        // checkAndToggleModal('modalNotice1', '2024-10-31 09:00:00', '2025-03-07 20:30:00');
-        // checkAndToggleModal('modalNotice2', '2024-12-02 16:00:00', '2024-12-10 24:00:00');
+        checkAndToggleModal('modalNotice1', '2025-04-10 09:00:00', '2025-04-25 18:00:00');
+        // checkAndToggleModal('modalNotice1', '2025-04-08 09:00:00', '2100-04-10 24:00:00');
+        // checkAndToggleModal('modalNotice2', '2024-12-02 16:00:00', '2026-12-10 24:00:00');
 	});
 
 	function checkAndToggleModal(id, startDateTime, endDateTime) {
@@ -721,38 +658,68 @@
 		document.getElementById(id)?.classList.add('show');
 	}
 
-    function closePop(id) {
-        console.log('닫기 누름');
+    // function closePop(id) {
+    //     // console.log('닫기 누름');
+	//
+    //     // 해당 팝업의 체크박스 선택
+    //     const checkbox = document.getElementById(id);
+	//
+    //     if (checkbox && checkbox.checked) {
+    //         // 팝업을 하루 동안 숨기도록 설정
+    //         setHidePopup(id);
+    //     }
+	//
+    //     // 특정 팝업만 닫기
+    //     document.getElementById(id).classList.remove('show');
+	//
+    //     // 모든 팝업이 닫혔는지 확인
+    //     const openModals = document.querySelectorAll('.modal.show'); // 아직 열려 있는 팝업들
+    //     if (openModals.length === 0) {
+    //         // 모든 팝업이 닫혔을 때만 실행
+    //         $('.modal-display').removeClass('show');
+    //     }
+    // }
 
-        // 해당 팝업의 체크박스 선택
-        const checkbox = document.getElementById(id);
+	function closePop(id) {
+		// id 값이 존재하는지 먼저 확인
+		if (!id || typeof id !== "string") {
+			console.error("closePop 함수에 전달된 id 값이 잘못되었습니다!", id);
+			return;
+		}
 
-        if (checkbox && checkbox.checked) {
-            // 팝업을 하루 동안 숨기도록 설정
-            setHidePopup(id);
-        }
+		// console.log("닫기 버튼 클릭됨, ID:", id); // 디버깅 로그 출력
 
-        // 특정 팝업만 닫기
-        document.getElementById(id).classList.remove('show');
+		// 해당 id를 가진 모달이 실제 존재하는지 확인
+		const modal = document.getElementById(id);
+		if (!modal) {
+			console.error(`ID가 '${id}'인 모달을 찾을 수 없습니다.`);
+			return;
+		}
 
-        // 모든 팝업이 닫혔는지 확인
-        const openModals = document.querySelectorAll('.modal.show'); // 아직 열려 있는 팝업들
-        if (openModals.length === 0) {
-            // 모든 팝업이 닫혔을 때만 실행
-            $('.modal-display').removeClass('show');
-        }
-    }
+		// 모달 내부의 체크박스를 찾기
+		const checkbox = modal.querySelector(`input[type="checkbox"]`);
+		if (checkbox && checkbox.checked) {
+			// "하루 동안 보지 않기" 기능 적용
+			setHidePopup(id);
+		}
+
+		// 팝업 닫기
+		modal.classList.remove('show');
+
+		// 모든 팝업이 닫혔는지 확인 후, 배경도 닫기
+		const openModals = document.querySelectorAll('.modal.show');
+		if (openModals.length === 0) {
+			document.querySelector('.modal-display').classList.remove('show');
+		}
+	}
 
 	// "오늘 하루 보지 않기" 기능을 위한 함수
 	function setHidePopup(id) {
 		// 현재 날짜와 시간을 가져오기
-		// console.log(id);
 		const now = new Date();
 
 		// 자정 시간 계산
 		const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0);
-
-		// 남은 시간 계산 (밀리초 단위)
 		const timeUntilMidnight = midnight.getTime() - now.getTime();
 
 		// 로컬 스토리지에 숨김 상태를 저장 (현재 시간 + 남은 시간)

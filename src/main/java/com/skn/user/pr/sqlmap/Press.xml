@@ -43,7 +43,8 @@
                 <include refid="searchCondition"/>
             </otherwise>
         </choose>
-        ORDER BY P.PRESS_INDEX DESC
+--         ORDER BY P.PRESS_INDEX DESC
+        ORDER BY P.REG_DATE DESC
         <choose>
             <when test='mainBanner != null and mainBanner.equals("Y")'>
                 LIMIT 5

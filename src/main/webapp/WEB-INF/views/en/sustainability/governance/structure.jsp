@@ -73,7 +73,80 @@
                     });
                 });
             }
+
+            /////////////////////////////////////////////////////////////
+
+
+            // URL 문자열 추출 (아코디언 URL 생성)
+            // 1. 현재 페이지 URL의 문자열 부분을 반환 후 ?를 제외한 나머지 쿼리 문자열을 추출(?tab=scrollTab1)
+            const qr = window.location.search.substring(1, window.location.search.length)
+
+            // 2. = 기준으로 쿼리 문자열을 나눔. [1]: 두 번째 값 가져옴 (scrollTab1)
+            const tabId = (qr.split('='))[1]
+
+            // 3. ID로 가진 HTML 요소를 DOM에서 가져옴.
+            const scrollTab = document.getElementById(tabId);
+
+            console.log("tabId : " + tabId);
+
+            if(tabId == 'bod' || tabId == 'corporate-governance'){
+                scrollTab.click();
+            }else if(tabId == 'hr' || tabId == 'audit' || tabId == 'strategyesg'){
+                scrollTab.scrollIntoView();
+                scrollTab.querySelector('button').click();
+            }
+
+            // // 4. 자동으로 스크롤
+            // scrollTab.scrollIntoView();
+            //
+            // // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
+            //
+            // // 아코디언이라면..
+            // scrollTab.querySelector('.accordion-item button').click();
+            // // 탭이라면..
+            // scrollTab.click();
+
+            // function changeURL(tabId){
+            //     const url = window.location.origin + window.location.pathname;
+            //     console.log(url);
+            //
+            //     console.log("tabId : " + tabId);
+            //
+            //     const newUrl = url + "?tabId=" + tabId; // 원하는 URL
+            //     history.pushState(null, "", newUrl); // URL 변경 (뒤로 가기 가능)
+            // }
         });
+    </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
+
+        // [25.03.31] 아코디언 클릭 시, 아코디언별로 url 변경
+        function accordionClickEvent(_this){
+            // console.log("tabId : ", _this.id);
+            // console.log(_this.querySelector('button').getAttribute('title'));
+            let title = _this.querySelector('button').getAttribute('title');
+            let tabId = _this.id
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+
+            let newUrl = url;
+            if(title !== '열기') {
+                newUrl = url + `?tabId=\${tabId}`;
+            }
+            // console.log("newUrl : " + newUrl);
+            history.pushState(null, null, newUrl);
+        }
     </script>
 </head>
 
@@ -120,10 +193,12 @@
                             <div class="swiper tab-wrap">
                                 <ul class="swiper-wrapper tab-list" role="tablist">
                                     <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                        <button role="tab" class="tab-text">Board of Directors</button>
+<%--                                        <button role="tab" class="tab-text" id="bod" onclick="changeURL(id)">Board of Directors</button>--%>
+                                        <button role="tab" class="tab-text" id="bod" onclick="tabClickEvent(event)">Board of Directors</button>
                                     </li>
                                     <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                        <button role="tab" class="tab-text">Corporate Governance</button>
+<%--                                        <button role="tab" class="tab-text" id="corporate-governance" onclick="changeURL(id)">Corporate Governance</button>--%>
+                                        <button role="tab" class="tab-text" id="corporate-governance" onclick="tabClickEvent(event)">Corporate Governance</button>
                                     </li>
                                 </ul>
                             </div>
@@ -149,7 +224,7 @@
                                                         <div class="section-subject">
                                                             <h4 class="section-name">Greater professional insight/diversity in BoD</h4>
                                                             <p class="section-summary">
-                                                                SK Networks appoints directors having professional credentials for legal affairs, finance/accounting, marketing, etc. and ESG insight, offering training opportunities such as seminars, third party lectures, etc. in a bid to empower them continuously. Outside directors are also selected considering their nationality, gender and age to ensure greater diversity in board representation. Outside directors with even wider diversity and professional competences required for developing/executing mid to long-term strategy of the company will continue to be identified way forward.
+                                                                SK Networks appoints directors having professional credentials for legal affairs, finance/accounting, marketing, etc. and ESG insight, offering training opportunities such as seminars, third party lectures, etc. in a bid to empower them continuously. Independent directors are also selected considering their nationality, gender and age to ensure greater diversity in board representation. Independent directors with even wider diversity and professional competences required for developing/executing mid to long-term strategy of the company will continue to be identified way forward.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -174,12 +249,12 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <td>Diversity</td>
-                                                                        <td>One person<sup>¹⁾</sup></td>
+                                                                        <td>One person<sup>1)</sup></td>
                                                                         <td>More than one person</td>
                                                                         <td>More than two people</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td>Professionalism<sup>²⁾</sup></td>
+                                                                        <td>Professionalism<sup>2)</sup></td>
                                                                         <td>Two people</td>
                                                                         <td>Two people</td>
                                                                         <td>More than two people</td>
@@ -188,7 +263,7 @@
                                                             </table>
                                                         </div>
                                                         <p class="comment design1">
-                                                            1) Appointment of a female outside director (March, 2021)<br>
+                                                            1) Appointment of a female Independent director (March, 2021)<br>
                                                             2) Environment/Social/Governance, Investment, Industry/Tech, etc.
                                                         </p>
                                                     </div>
@@ -215,7 +290,7 @@
                                                         <div class="section-util">
                                                             <div class="btn-display">
                                                                 <div class="btn-area">
-                                                                    <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/upload/public/data/en/sustainability/거버넌스/지배구조/이사회 규정/2024_SKN_Regulations of the Board of Directors.pdf"><span class="btn-text"> Regulations of the Board of Directors</span></a>
+                                                                    <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/upload/public/data/en/sustainability/거버넌스/지배구조/이사회 규정/2025_SKN_Regulations of the Board of Directors_E.pdf"><span class="btn-text"> Regulations of the Board of Directors</span></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -226,7 +301,7 @@
                                                                 <div class="data-item">
                                                                     <div class="data-wrap">
                                                                         <div class="data-head">
-                                                                            <em class="data-subject">Inside Director</em>
+                                                                            <em class="data-subject">Executive Director</em>
                                                                         </div>
                                                                         <div class="data-body">
                                                                             <div class="post-list csr-governance case1">
@@ -272,7 +347,7 @@
                                                                                                     <ul class="data-list">
                                                                                                         <li class="data-item">
                                                                                                             <span class="title">Date of<br class="pc-only"> appointment</span>
-                                                                                                            <span class="data">2022.03</span>
+                                                                                                            <span class="data">2022.03<br>(Initial appointment date 2022.03)</span>
                                                                                                         </li>
                                                                                                         <li class="data-item">
                                                                                                             <span class="title">Term</span>
@@ -295,16 +370,17 @@
                                                                         </div>
                                                                         <div class="data-body">
                                                                             <div class="post-list csr-governance case1">
+                                                                                <%--250325 수정--%>
                                                                                 <div class="post-item">
                                                                                     <div class="post-wrap">
                                                                                         <div class="post-inform">
                                                                                             <div class="post-figure">
-                                                                                                <img src="/assets/images/sustainability/esg-internal-03.png" alt="Lee, Sunghyung">
+                                                                                                <img src="/assets/images/sustainability/esg-internal-08.png" alt="Kim, Keedong">
                                                                                             </div>
                                                                                             <div class="post-body">
                                                                                                 <div class="head">
                                                                                                     <p class="caption">Non Executive Director</p>
-                                                                                                    <p class="name">Lee, Sunghyung</p>
+                                                                                                    <p class="name">Kim, Keedong</p>
                                                                                                 </div>
                                                                                                 <div class="body">
                                                                                                     <ul class="data-list">
@@ -329,7 +405,7 @@
                                                                 <div class="data-item">
                                                                     <div class="data-wrap">
                                                                         <div class="data-head">
-                                                                            <em class="data-subject">Outside Director</em>
+                                                                            <em class="data-subject">Independent Director</em>
                                                                         </div>
                                                                         <div class="data-body">
                                                                             <div class="post-list csr-governance case2">
@@ -370,54 +446,18 @@
                                                                                     <div class="post-wrap">
                                                                                         <div class="post-inform">
                                                                                             <div class="post-figure">
-                                                                                                <img src="/assets/images/sustainability/esg-internal-05.png" alt="Jeong, Seokwoo">
-                                                                                            </div>
-                                                                                            <div class="post-body">
-                                                                                                <div class="head">
-                                                                                                    <p class="caption">Outside Director</p>
-                                                                                                    <p class="name">Jeong, Seokwoo</p>
-                                                                                                </div>
-                                                                                                <div class="body">
-                                                                                                    <ul class="data-list">
-                                                                                                        <li class="data-item">
-                                                                                                            <span class="title">Date of<br class="pc-only"> appointment</span>
-                                                                                                            <span class="data">2022.03</span>
-                                                                                                        </li>
-                                                                                                        <li class="data-item">
-                                                                                                            <span class="title">Term</span>
-                                                                                                            <span class="data">3 years</span>
-                                                                                                        </li>
-                                                                                                    </ul>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="post-profile">
-                                                                                            <p class="caption">Profile</p>
-                                                                                            <ul class="data-list">
-                                                                                                <li class="data-item">Professor, school of Business Administration Korea University</li>
-                                                                                                <li class="data-item">Non-Standing Commissioner, Securities and Futures</li>
-                                                                                                <li class="data-item">Committee of Financial Services Commission</li>
-                                                                                                <li class="data-item">President, Korea Accounting Association</li>
-                                                                                            </ul>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="post-item">
-                                                                                    <div class="post-wrap">
-                                                                                        <div class="post-inform">
-                                                                                            <div class="post-figure">
                                                                                                 <img src="/assets/images/sustainability/esg-internal-06.png" alt="Lee, Moonyoung">
                                                                                             </div>
                                                                                             <div class="post-body">
                                                                                                 <div class="head">
-                                                                                                    <p class="caption">Outside Director</p>
+                                                                                                    <p class="caption">Independent director</p>
                                                                                                     <p class="name">Lee, Moonyoung</p>
                                                                                                 </div>
                                                                                                 <div class="body">
                                                                                                     <ul class="data-list">
                                                                                                         <li class="data-item">
                                                                                                             <span class="title">Date of<br class="pc-only"> appointment</span>
-                                                                                                            <span class="data">2024.03</span>
+                                                                                                            <span class="data">2024.03<br>(Initial appointment date 2021.03)</span>
                                                                                                         </li>
                                                                                                         <li class="data-item">
                                                                                                             <span class="title">Term</span>
@@ -445,7 +485,7 @@
                                                                                             </div>
                                                                                             <div class="post-body">
                                                                                                 <div class="head">
-                                                                                                    <p class="caption">Outside Director</p>
+                                                                                                    <p class="caption">Independent director</p>
                                                                                                     <p class="name">Chang, Hwajin</p>
                                                                                                 </div>
                                                                                                 <div class="body">
@@ -465,10 +505,47 @@
                                                                                         <div class="post-profile">
                                                                                             <p class="caption">Profile</p>
                                                                                             <ul class="data-list">
-                                                                                                <li class="data-item">President, Confluent Korea</li>
+                                                                                                <li class="data-item">Former) President, Confluent Korea</li>
                                                                                                 <li class="data-item">President, Google Cloud Korea</li>
                                                                                                 <li class="data-item">Chief strategy officer, Microsoft Asia Pacific</li>
                                                                                                 <li class="data-item">CEO / President, IBM Korea</li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <%--250325 추가--%>
+                                                                                <div class="post-item">
+                                                                                    <div class="post-wrap">
+                                                                                        <div class="post-inform">
+                                                                                            <div class="post-figure">
+                                                                                                <img src="/assets/images/sustainability/esg-internal-09.png" alt="Jang, Geunbae">
+                                                                                            </div>
+                                                                                            <div class="post-body">
+                                                                                                <div class="head">
+                                                                                                    <p class="caption">Independent director</p>
+                                                                                                    <p class="name">Jang, Geunbae</p>
+                                                                                                </div>
+                                                                                                <div class="body">
+                                                                                                    <ul class="data-list">
+                                                                                                        <li class="data-item">
+                                                                                                            <span class="title">Date of<br class="pc-only"> appointment</span>
+                                                                                                            <span class="data">2025.03.</span>
+                                                                                                        </li>
+                                                                                                        <li class="data-item">
+                                                                                                            <span class="title">Term</span>
+                                                                                                            <span class="data">3 years</span>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="post-profile">
+                                                                                            <p class="caption">Profile</p>
+                                                                                            <ul class="data-list">
+                                                                                                <li class="data-item">Professor of Accounting, School of Management and Economics, Handong Global University</li>
+                                                                                                <li class="data-item">CFO/Strategic Programs/Advisory, Doosan Bobcat</li>
+                                                                                                <li class="data-item">CFO, Construction Equipment Sector, Doosan Infracore</li>
+                                                                                                <li class="data-item">eBay Asia Pacific Financial Controller</li>
                                                                                             </ul>
                                                                                         </div>
                                                                                     </div>
@@ -544,7 +621,7 @@
                                                                 <li class="data-item">
                                                                     <div class="item-wrap">
                                                                         <div class="item-head">
-                                                                            <p class="item-subject">2024</p>
+                                                                            <p class="item-subject">2025</p>
                                                                         </div>
                                                                         <div class="item-util">
                                                                             <div class="submit-form design1 case1 align1">
@@ -554,6 +631,7 @@
                                                                                             <label for="level-sel-activity" class="blind">Label</label>
                                                                                             <select name="name" id="level-sel-activity">
                                                                                                 <option value="0" selected hidden disabled>Year</option>
+                                                                                                <option value="2025">2025</option>
                                                                                                 <option value="2024">2024</option>
                                                                                                 <option value="2023">2023</option>
                                                                                                 <option value="2022">2022</option>
@@ -603,7 +681,7 @@
                                                                         <div class="data-body">
                                                                             <div class="t-display design1 case1 type1 align3 scroll">
                                                                                 <table class="esg-committee-table">
-                                                                                    <caption>This table provides information on the composition status of committees within the board of directors and consists of names, composition (in-house directors, other non-executive directors, outside directors), roles, and download regulations.</caption>
+                                                                                    <caption>This table provides information on the composition status of committees within the board of directors and consists of names, composition (in-house directors, other non-executive directors, Independent directors), roles, and download regulations.</caption>
                                                                                     <colgroup>
                                                                                         <col style="width: 14%;">
                                                                                         <col style="width: 15%;">
@@ -624,16 +702,17 @@
                                                                                         <tr>
                                                                                             <th scope="col">Inside Director</th>
                                                                                             <th scope="col">Non-executive Director</th>
-                                                                                            <th scope="col">Outside Director</th>
+                                                                                            <th scope="col">Independent director</th>
                                                                                         </tr>
                                                                                     </thead>
                                                                                     <tbody>
                                                                                         <tr>
                                                                                             <td>Human Resources</td>
                                                                                             <td></td>
-                                                                                            <td>Commissioner Sunghyung Lee</td>
-                                                                                            <td>Chairman Seok-woo Jeong<br>Commissioner Hwa-jin Chang</td>
-                                                                                            <td class="align1">Establishes the outside director candidate nomination process
+                                                                                            <td>Commissioner<br> Keedong Kim</td>
+                                                                                            <td>Chairperson<br> Hwa-jin Chang<br> Commissioner<br> Geunbae Jang<br></td>
+                                                                                            <td class="align1">
+                                                                                                Establishes the Independent director candidate nomination process
                                                                                                 Identifies and manages a candidate pool
                                                                                                 Reviews HR arrangements, evaluation, compensation etc. related to the CEO and key executives
                                                                                             </td>
@@ -641,20 +720,20 @@
                                                                                             <td>
                                                                                                 <div class="btn-display design1 case3 align3">
                                                                                                     <div class="btn-area">
-                                                                                                        <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/인사위원회/2024_SKN_HR Committee Regulations.pdf"><span class="btn-text">Download</span></a>
+                                                                                                        <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/인사위원회/2025_SKN_HR Committee Regulations_E.pdf"><span class="btn-text">Download</span></a>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
                                                                                             <td>Strategy∙ESG Committee</td>
-                                                                                            <td>Commissioner Ho-jeong Lee, (Representative Director),<br>Commissioner Sunghwan Choi</td>
-                                                                                            <td>Commissioner Sunghyung Lee</td>
+                                                                                            <td>Commissioner<br> Ho-jeong Lee, <br>(Representative Director),<br>Commissioner<br> Sunghwan Choi</td>
+                                                                                            <td>Commissioner Keedong Kim</td>
                                                                                             <td>
-                                                                                                Chairman Sooil Chai<br>
-                                                                                                Commissioner Seok-woo Jeong<br>
-                                                                                                Commissioner Moon-young Lee<br>
-                                                                                                Commissioner Hwa-jin Chang
+                                                                                                Chairperson<br> Sooil Chai<br>
+                                                                                                Commissioner<br> Moon-young Lee<br>
+                                                                                                Commissioner<br> Hwa-jin Chang<br>
+                                                                                                Commissioner<br> Geunbae Jang
                                                                                             </td>
                                                                                             <td class="align1">Conducts audits on work activities of the executives
                                                                                                 Reviews integrity and validity of the company’s financial activities
@@ -674,9 +753,9 @@
                                                                                             <td>-</td>
                                                                                             <td>-</td>
                                                                                             <td>
-                                                                                                Chairman Seok-woo Jeong<br>
-                                                                                                Commissioner Moon-young Lee<br>
-                                                                                                Commissioner Hwa-jin Chang
+                                                                                                Chairperson<br> Moon-young Lee<br>
+                                                                                                Commissioner<br> Hwa-jin Chang<br>
+                                                                                                Commissioner<br> Geunbae Jang
                                                                                             </td>
                                                                                             <td class="align1">Conducts audits on work activities of executives
                                                                                                 Reviews integrity and validity of the company’s financial activities
@@ -709,7 +788,7 @@
                                                                         <div class="data-body">
                                                                             <div class="accordion-display design2 case1 type2">
                                                                                 <!-- 인사위원회 -->
-                                                                                <div class="accordion-item">
+                                                                                <div class="accordion-item" id="hr">
                                                                                     <div class="accordion-wrap">
                                                                                         <div class="accordion-head">
                                                                                             <button type="button" class="btn" aria-controls="activity-status-1">
@@ -770,7 +849,7 @@
                                                                                                         <li class="data-item">
                                                                                                             <div class="item-wrap">
                                                                                                                 <div class="item-head">
-                                                                                                                    <p class="item-subject">2024</p>
+                                                                                                                    <p class="item-subject">2025</p>
                                                                                                                 </div>
                                                                                                                 <div class="item-util">
                                                                                                                     <div class="submit-form design1 case1 align1">
@@ -780,6 +859,7 @@
                                                                                                                                     <label for="level-sel-personnel" class="blind">Label</label>
                                                                                                                                     <select name="name" id="level-sel-personnel">
                                                                                                                                         <option value="0" selected hidden disabled>Year</option>
+                                                                                                                                        <option value="2025">2025</option>
                                                                                                                                         <option value="2024">2024</option>
                                                                                                                                         <option value="2023">2023</option>
                                                                                                                                         <option value="2022">2022</option>
@@ -804,7 +884,7 @@
                                                                                 </div>
                                                                                 <!-- //인사위원회 -->
                                                                                 <!-- ESG경영위원회 -->
-                                                                                <div class="accordion-item">
+                                                                                <div class="accordion-item" id="strategyesg">
                                                                                     <div class="accordion-wrap">
                                                                                         <div class="accordion-head">
                                                                                             <button type="button" class="btn" aria-controls="activity-status-2">
@@ -818,7 +898,7 @@
                                                                                                         <li class="data-item">
                                                                                                             <div class="item-wrap">
                                                                                                                 <div class="item-head">
-                                                                                                                    <p class="item-subject">2024</p>
+                                                                                                                    <p class="item-subject">2025</p>
                                                                                                                 </div>
                                                                                                                 <div class="item-util">
                                                                                                                     <div class="submit-form design1 case1 align1">
@@ -828,6 +908,7 @@
                                                                                                                                     <label for="level-sel-management" class="blind">Label</label>
                                                                                                                                     <select name="name" id="level-sel-management">
                                                                                                                                         <option value="0" selected hidden disabled>Year</option>
+                                                                                                                                        <option value="2025">2025</option>
                                                                                                                                         <option value="2024">2024</option>
                                                                                                                                         <option value="2023">2023</option>
                                                                                                                                         <option value="2022">2022</option>
@@ -852,7 +933,7 @@
                                                                                 </div>
                                                                                 <!-- //ESG경영위원회 -->
                                                                                 <!-- 감사위원회 -->
-                                                                                <div class="accordion-item">
+                                                                                <div class="accordion-item" id="audit">
                                                                                     <div class="accordion-wrap">
                                                                                         <div class="accordion-head">
                                                                                             <button type="button" class="btn" aria-controls="activity-status-3">
@@ -866,7 +947,7 @@
                                                                                                         <li class="data-item">
                                                                                                             <div class="item-wrap">
                                                                                                                 <div class="item-head">
-                                                                                                                    <p class="item-subject">2024</p>
+                                                                                                                    <p class="item-subject">2025</p>
                                                                                                                 </div>
                                                                                                                 <div class="item-util">
                                                                                                                     <div class="submit-form design1 case1 align1">
@@ -876,6 +957,7 @@
                                                                                                                                     <label for="level-sel-audit" class="blind">Label</label>
                                                                                                                                     <select name="name" id="level-sel-audit">
                                                                                                                                         <option value="0" selected hidden disabled>Year</option>
+                                                                                                                                        <option value="2025">2025</option>
                                                                                                                                         <option value="2024">2024</option>
                                                                                                                                         <option value="2023">2023</option>
                                                                                                                                         <option value="2022">2022</option>
@@ -954,7 +1036,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="section design2 type1 download2">
+                                            <div class="section design1 case4 type1 committee">
                                                 <div class="section-wrap">
                                                     <div class="section-head">
                                                         <div class="section-subject">
@@ -962,144 +1044,1140 @@
                                                         </div>
                                                     </div>
                                                     <div class="section-body">
-                                                        <div class="data-display design2 case6 type1">
+                                                        <div class="data-display design2 case5 type2">
                                                             <ul class="data-list">
                                                                 <li class="data-item">
                                                                     <div class="item-wrap">
                                                                         <div class="item-head">
-                                                                            <p class="item-date">The 71th
-                                                                                Annual General Meeting of shareholders</p>
+                                                                            <p class="item-subject">The 72nd Annual General Meeting of shareholders</p>
                                                                         </div>
                                                                         <div class="item-util">
-                                                                            <div class="btn-display design1 case3 align1">
-                                                                                <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/주주총회/2024_Annual General Meeting of shareholders_E.pdf"><span class="btn-text">Download</span></a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="data-item">
-                                                                    <div class="item-wrap">
-                                                                        <div class="item-head">
-                                                                            <p class="item-date">The 70th
-                                                                                Annual General Meeting of shareholders</p>
-                                                                        </div>
-                                                                        <div class="item-util">
-                                                                            <div class="btn-display design1 case3 align1">
-                                                                                <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/주주총회/2023_Annual General Meeting of shareholders_E.pdf"><span class="btn-text">Download</span></a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="data-item">
-                                                                    <div class="item-wrap">
-                                                                        <div class="item-head">
-                                                                            <p class="item-date">The 69th
-                                                                                Annual General Meeting of shareholders</p>
-                                                                        </div>
-                                                                        <div class="item-util">
-                                                                            <div class="btn-display design1 case3 align1">
-                                                                                <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/주주총회/2022_Annual General Meeting of shareholders_E.pdf"><span class="btn-text">Download</span></a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="data-item">
-                                                                    <div class="item-wrap">
-                                                                        <div class="item-head">
-                                                                            <p class="item-date">The 68th
-                                                                                Annual General Meeting of shareholders</p>
-                                                                        </div>
-                                                                        <div class="item-util">
-                                                                            <div class="btn-display design1 case3 align1">
-                                                                                <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/주주총회/2021_Annual General Meeting of shareholders_E.pdf"><span class="btn-text">Download</span></a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="data-item">
-                                                                    <div class="item-wrap">
-                                                                        <div class="item-head">
-                                                                            <p class="item-date">2020
-                                                                                Extraordinary Meeting of Shareholders</p>
-                                                                        </div>
-                                                                        <div class="item-util">
-                                                                            <div class="btn-display design1 case3 align1">
-                                                                                <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/주주총회/2020_Extraordinary Meeting of Shareholders_E.pdf"><span class="btn-text">Download</span></a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="data-item">
-                                                                    <div class="item-wrap">
-                                                                        <div class="item-head">
-                                                                            <p class="item-date">The 67th
-                                                                                Annual General Meeting of shareholders</p>
-                                                                        </div>
-                                                                        <div class="item-util">
-                                                                            <div class="btn-display design1 case3 align1">
-                                                                                <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/주주총회/2020_Annual General Meeting of shareholders_E.pdf"><span class="btn-text">Download</span></a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="data-item">
-                                                                    <div class="item-wrap">
-                                                                        <div class="item-head">
-                                                                            <p class="item-date">2019
-                                                                                Extraordinary Meeting of Shareholders</p>
-                                                                        </div>
-                                                                        <div class="item-util">
-                                                                            <div class="btn-display design1 case3 align1">
-                                                                                <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/주주총회/2019_Extraordinary Meeting of Shareholders_E.pdf"><span class="btn-text">Download</span></a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="data-item">
-                                                                    <div class="item-wrap">
-                                                                        <div class="item-head">
-                                                                            <p class="item-date">The 66th
-                                                                                Annual General Meeting of shareholders</p>
-                                                                        </div>
-                                                                        <div class="item-util">
-                                                                            <div class="btn-display design1 case3 align1">
-                                                                                <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/주주총회/2019_Annual General Meeting of shareholders_E.pdf"><span class="btn-text">Download</span></a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="data-item">
-                                                                    <div class="item-wrap">
-                                                                        <div class="item-head">
-                                                                            <p class="item-date">The 65th
-                                                                                Annual General Meeting of shareholders</p>
-                                                                        </div>
-                                                                        <div class="item-util">
-                                                                            <div class="btn-display design1 case3 align1">
-                                                                                <div class="btn-area">
-                                                                                    <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/거버넌스/지배구조/주주총회/2018_Annual General Meeting of shareholders_E.pdf"><span class="btn-text">Download</span></a>
+                                                                            <div class="submit-form design1 case1 align1">
+                                                                                <div class="form-list">
+                                                                                    <div class="form-item">
+                                                                                        <div class="form select design1 case1 type1">
+                                                                                            <label for="level-sel-generalMeeting" class="blind">Year</label>
+                                                                                            <select name="name" id="level-sel-generalMeeting">
+                                                                                                <option value="0" selected="" hidden="" disabled="">Year</option>
+                                                                                                <option value="2024c">The 72nd Annual General Meeting of shareholders</option>
+                                                                                                <option value="2024b">2024 Extraordinary Meeting of Shareholders (2024.8.7)</option>
+                                                                                                <option value="2024a">The 71th Annual General Meeting of shareholders (2024.3.27)</option>
+                                                                                                <option value="2023">The 70th Annual General Meeting of shareholders (2023.3.29)</option>
+                                                                                                <option value="2022">The 69th Annual General Meeting of shareholders (2022.3.29)</option>
+                                                                                                <option value="2021">The 68th Annual General Meeting of shareholders (2021.3.29)</option>
+                                                                                                <option value="2020b">2020 Extraordinary Meeting of Shareholders (2020.4.22)</option>
+                                                                                                <option value="2020a">The 67th Annual General Meeting of shareholders (2020.3.25)</option>
+                                                                                                <option value="2019b">2019 Extraordinary Meeting of Shareholders (2019.11.15)</option>
+                                                                                                <option value="2019a">The 66th Annual General Meeting of shareholders (2019.3.22)</option>
+                                                                                                <option value="2018">The 65th Annual General Meeting of shareholders (2018.3.30)</option>
+                                                                                            </select>
+                                                                                            <div class="arrow"><span class="blind">close</span></div>
+                                                                                        </div>
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </li>
                                                             </ul>
+                                                        </div>
+                                                        <div class="esg-inform-list esg-generalMeeting-table">
+                                                            <!-- 제72기 정기주주총회 -->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2024c">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-7">
+                                                                        <caption>The 72th Annual General Meeting of shareholders</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                            <col class="col8">
+                                                                            <col class="col9">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" rowspan="2">No.</th>
+                                                                                <th scope="col" rowspan="2">Agenda</th>
+                                                                                <th scope="col" rowspan="2">Result</th>
+                                                                                <th scope="col" rowspan="2">Shares with Exercisable Voting Rights</th>
+                                                                                <th scope="col" rowspan="2">Shares present</th>
+                                                                                <th scope="col">Approval</th>
+                                                                                <th scope="col" colspan="2" class="radius-type1">Number of shares with voting rights</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="col">Opposition/ abstention</th>
+                                                                                <th scope="col">Number of shares excluding those held by the largest shareholder and related parties</th>
+                                                                                <th scope="col" class="radius-type2">Attendance rate of shareholders excluding the largest shareholder and related parties</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">1</td>
+                                                                                <td rowspan="2" class="align1">Approval of the 72nd Fiscal Year Financial Statements</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,527,033</td>
+                                                                                <td>130,131,660</td>
+                                                                                <td rowspan="2">33,671,094</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,395,373</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">2</td>
+                                                                                <td rowspan="2" class="align1">Amendments to the Articles of Incorporation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,522,193</td>
+                                                                                <td>130,592,837</td>
+                                                                                <td rowspan="2">33,666,254</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>929,356</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-1</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Inside Director (Candidate: Choi, Sunghwan)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,522,193</td>
+                                                                                <td>129,622,214</td>
+                                                                                <td rowspan="2">33,666,254</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,899,979</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-2</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Other Non-Standing Director (Candidate: Kim, Kee Dong)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,522,193</td>
+                                                                                <td>130,090,889</td>
+                                                                                <td rowspan="2">33,666,254</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,431,304</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">4</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent Director to serve as an Audit Committee Member (Candidate: Jang, Geun Bae)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">95,731,174</td>
+                                                                                <td rowspan="2">34,142,060</td>
+                                                                                <td>33,060,856</td>
+                                                                                <td rowspan="2">27,635,638</td>
+                                                                                <td rowspan="2">80.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,081,204</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">5</td>
+                                                                                <td rowspan="2" class="align1">Approval of the Remuneration Cap for Directors</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">193,111,307</td>
+                                                                                <td rowspan="2">131,497,193</td>
+                                                                                <td>117,909,174</td>
+                                                                                <td rowspan="2">33,641,254</td>
+                                                                                <td rowspan="2">25.6%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>13,588,019</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //제72기 정기주주총회 -->
+                                                            <!-- 주주총회 2024년 8월 7일 -->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2024b blind">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-7">
+                                                                        <caption>2024 Extraordinary Meeting of Shareholders (2024.8.7)</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                            <col class="col8">
+                                                                            <col class="col9">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" rowspan="2">No.</th>
+                                                                                <th scope="col" rowspan="2">Agenda</th>
+                                                                                <th scope="col" rowspan="2">Result</th>
+                                                                                <th scope="col" rowspan="2">Shares with Exercisable Voting Rights</th>
+                                                                                <th scope="col" rowspan="2">Shares present</th>
+                                                                                <th scope="col">Approval</th>
+                                                                                <th scope="col" colspan="2" class="radius-type1">Number of shares with voting rights</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="col">Opposition/ abstention</th>
+                                                                                <th scope="col">Number of shares excluding those held by the largest shareholder and related parties</th>
+                                                                                <th scope="col" class="radius-type2">Attendance rate of shareholders excluding the largest shareholder and related parties</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">1</td>
+                                                                                <td rowspan="2" class="align1">Approval of Split-off Agreement</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">201,618,797</td>
+                                                                                <td rowspan="2">140,533,844</td>
+                                                                                <td>124,495,356</td>
+                                                                                <td rowspan="2">40,613,696</td>
+                                                                                <td rowspan="2">28.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>16,038,488</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //주주총회 2024년 8월 7일 -->
+                                                            <!-- 주주총회 2024 71기 -->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2024a blind">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-7">
+                                                                        <caption>The 72nd Annual General Meeting of shareholders (2024.3.27)</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                            <col class="col8">
+                                                                            <col class="col9">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" rowspan="2">No.</th>
+                                                                                
+                                                                                <th scope="col" rowspan="2">Agenda</th>
+                                                                                <th scope="col" rowspan="2">Result</th>
+                                                                                <th scope="col" rowspan="2">Shares with Exercisable Voting Rights</th>
+                                                                                <th scope="col" rowspan="2">Shares present</th>
+                                                                                <th scope="col">Approval</th>
+                                                                                <th scope="col" colspan="2" class="radius-type1">Number of shares with voting rights</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="col">Opposition/ abstention</th>
+                                                                                <th scope="col">Number of shares excluding those held by the largest shareholder and related parties</th>
+                                                                                <th scope="col" class="radius-type2">Attendance rate of shareholders excluding the largest shareholder and related parties</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">1</td>
+                                                                                <td rowspan="2" class="align1">Approval of Financial Statements for the 71st Fiscal Year</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">198,179,179</td>
+                                                                                <td rowspan="2">148,022,058</td>
+                                                                                <td>147,259,404</td>
+                                                                                <td rowspan="2">41,320,166</td>
+                                                                                <td rowspan="2">27.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>762,654</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">2</td>
+                                                                                <td rowspan="2" class="align1">Amendments to the Articles of Incorporation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">198,179,179</td>
+                                                                                <td rowspan="2">148,022,058</td>
+                                                                                <td>147,542,378</td>
+                                                                                <td rowspan="2">41,320,166</td>
+                                                                                <td rowspan="2">27.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>479,680</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent Director (Candidate : Chang, Hwa-jin)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">198,179,179</td>
+                                                                                <td rowspan="2">148,022,058</td>
+                                                                                <td>146,922,970</td>
+                                                                                <td rowspan="2">41,320,166</td>
+                                                                                <td rowspan="2">27.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,099,088</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">4</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent Director to serve as an Audit Committee Member (Candidate : Lee, Moon-young)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">95,689,505</td>
+                                                                                <td rowspan="2">45,532,384</td>
+                                                                                <td>36,554,235</td>
+                                                                                <td rowspan="2">31,564,342</td>
+                                                                                <td rowspan="2">69.3%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>8,978,149</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">5</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Audit Committee Member (Candidate : Chang, Hwa-jin)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">95,689,505</td>
+                                                                                <td rowspan="2">45,532,384</td>
+                                                                                <td>44,430,295</td>
+                                                                                <td rowspan="2">31,564,342</td>
+                                                                                <td rowspan="2">69.3%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,102,089</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">6</td>
+                                                                                
+                                                                                <td rowspan="2" class="align1">Approval of Ceiling Amount of Compensation for Directors</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">198,179,179</td>
+                                                                                <td rowspan="2">148,022,058</td>
+                                                                                <td>131,018,655</td>
+                                                                                <td rowspan="2">41,320,166</td>
+                                                                                <td rowspan="2">27.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>17,003,403</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">7</td>
+                                                                                <td rowspan="2" class="align1">Approval of Terms of Retirement Pay</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">198,179,179</td>
+                                                                                <td rowspan="2">148,022,058</td>
+                                                                                <td>146,901,692</td>
+                                                                                <td rowspan="2">41,320,166</td>
+                                                                                <td rowspan="2">27.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,120,366</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //주주총회 2024 71기-->
+                                                            <!-- 주주총회 2023 70기 -->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2023 blind">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-7">
+                                                                        <caption>The 70th Annual General Meeting of shareholders (2023.3.29)</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                            <col class="col8">
+                                                                            <col class="col9">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" rowspan="2">No.</th>
+                                                                                <th scope="col" rowspan="2">Agenda</th>
+                                                                                <th scope="col" rowspan="2">Result</th>
+                                                                                <th scope="col" rowspan="2">Shares with Exercisable Voting Rights</th>
+                                                                                <th scope="col" rowspan="2">Shares present</th>
+                                                                                <th scope="col">Approval</th>
+                                                                                <th scope="col" colspan="2" class="radius-type1">Number of shares with voting rights</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="col">Opposition/ abstention</th>
+                                                                                <th scope="col">Number of shares excluding those held by the largest shareholder and related parties</th>
+                                                                                <th scope="col" class="radius-type2">Attendance rate of shareholders excluding the largest shareholder and related parties</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">1</td>
+                                                                                <td rowspan="2" class="align1">Approval of Financial Statements for the 70th Fiscal Year</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">217,820,666</td>
+                                                                                <td rowspan="2">144,918,179</td>
+                                                                                <td>139,121,228</td>
+                                                                                <td rowspan="2">38,996,893</td>
+                                                                                <td rowspan="2">26.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>5,796,951</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">2</td>
+                                                                                <td rowspan="2" class="align1">Amendments to the Articles of Incorporation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">217,820,666</td>
+                                                                                <td rowspan="2">144,918,179</td>
+                                                                                <td>143,547,532</td>
+                                                                                <td rowspan="2">38,996,893</td>
+                                                                                <td rowspan="2">26.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,370,647</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-1</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Inside Director (Candidate : Lee, Ho-Jeong)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">217,820,666</td>
+                                                                                <td rowspan="2">144,918,179</td>
+                                                                                <td>143,009,560</td>
+                                                                                <td rowspan="2">38,996,893</td>
+                                                                                <td rowspan="2">26.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,908,619</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-2</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director (Candidate : Chai, Soo-il)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">217,820,666</td>
+                                                                                <td rowspan="2">144,918,179</td>
+                                                                                <td>143,452,161</td>
+                                                                                <td rowspan="2">38,996,893</td>
+                                                                                <td rowspan="2">26.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,466,018</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-3</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Other Non-Standing Director (Candidate : Lee, Sung-Hyung)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">217,820,666</td>
+                                                                                <td rowspan="2">144,918,179</td>
+                                                                                <td>129,855,280</td>
+                                                                                <td rowspan="2">38,996,893</td>
+                                                                                <td rowspan="2">26.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>15,062,899</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">4</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Audit Committee Member (Candidate : Chai, Soo-il)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">120,690,252</td>
+                                                                                <td rowspan="2">47,678,327</td>
+                                                                                <td>46,264,426</td>
+                                                                                <td rowspan="2">32,367,318</td>
+                                                                                <td rowspan="2">67.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,413,901</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">5</td>
+                                                                                <td rowspan="2" class="align1">Approval of Ceiling for Total Director’s Compensation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">217,820,666</td>
+                                                                                <td rowspan="2">144,918,179</td>
+                                                                                <td>130,072,572</td>
+                                                                                <td rowspan="2">38,996,893</td>
+                                                                                <td rowspan="2">26.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>14,845,607</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">6</td>
+                                                                                <td rowspan="2" class="align1">Approval of Terms of Retirement Pay</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">217,820,666</td>
+                                                                                <td rowspan="2">144,918,179</td>
+                                                                                <td>141,373,665</td>
+                                                                                <td rowspan="2">38,996,893</td>
+                                                                                <td rowspan="2">26.9%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>3,544,514</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //주주총회 2023 70기 -->
+                                                            <!-- 주주총회 2022 69기 -->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2022 blind">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-7">
+                                                                        <caption>The 69th Annual General Meeting of shareholders (2022.3.29)</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                            <col class="col8">
+                                                                            <col class="col9">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" rowspan="2">No.</th>
+                                                                                <th scope="col" rowspan="2">Agenda</th>
+                                                                                <th scope="col" rowspan="2">Result</th>
+                                                                                <th scope="col" rowspan="2">Shares with Exercisable Voting Rights</th>
+                                                                                <th scope="col" rowspan="2">Shares present</th>
+                                                                                <th scope="col">Approval</th>
+                                                                                <th scope="col" colspan="2" class="radius-type1">Number of shares with voting rights</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="col">Opposition/ abstention</th>
+                                                                                <th scope="col">Number of shares excluding those held by the largest shareholder and related parties</th>
+                                                                                <th scope="col" class="radius-type2">Attendance rate of shareholders excluding the largest shareholder and related parties</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">1</td>
+                                                                                <td rowspan="2" class="align1">Approval of Financial Statements for the 69th Fiscal Year</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">218,554,682</td>
+                                                                                <td rowspan="2">149,470,300</td>
+                                                                                <td>146,933,055</td>
+                                                                                <td rowspan="2">44,621,628</td>
+                                                                                <td rowspan="2">20.4%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>2,537,245</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">2</td>
+                                                                                <td rowspan="2" class="align1">Amendments to the Articles of Incoporation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">218,554,682</td>
+                                                                                <td rowspan="2">149,470,300</td>
+                                                                                <td>147,495,996</td>
+                                                                                <td rowspan="2">44,621,628</td>
+                                                                                <td rowspan="2">20.4%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,974,304</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-1</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Inside Director (Candidate: Choi, Sung-hwan)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">218,554,682</td>
+                                                                                <td rowspan="2">149,470,300</td>
+                                                                                <td>136,553,008</td>
+                                                                                <td rowspan="2">44,621,628</td>
+                                                                                <td rowspan="2">20.4%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>12,917,292</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-2</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Other NonStanding Director (Candidate: Kim, Hyung-Keun)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">218,554,682</td>
+                                                                                <td rowspan="2">149,470,300</td>
+                                                                                <td>136,410,130</td>
+                                                                                <td rowspan="2">44,621,628</td>
+                                                                                <td rowspan="2">20.4%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>13,060,170</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">4</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director to serve as an Audit Committee Member (Candidate: Jeong, Seok-woo)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">118,048,074</td>
+                                                                                <td rowspan="2">48,963,692</td>
+                                                                                <td>33,920,824</td>
+                                                                                <td rowspan="2">34,701,236</td>
+                                                                                <td rowspan="2">29.4%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>15,042,868</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">5</td>
+                                                                                <td rowspan="2" class="align1">Approval of Ceiling for Total Director’s Compensation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">218,554,682</td>
+                                                                                <td rowspan="2">149,470,300</td>
+                                                                                <td>146,637,577</td>
+                                                                                <td rowspan="2">44,621,628</td>
+                                                                                <td rowspan="2">20.4%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>2,832,723</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //주주총회 2022 69기 -->
+                                                            <!-- 주주총회 2021 68기 -->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2021 blind">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-7">
+                                                                        <caption>The 68th Annual General Meeting of shareholders (2021.3.29)</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                            <col class="col8">
+                                                                            <col class="col9">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" rowspan="2">No.</th>
+                                                                                <th scope="col" rowspan="2">Agenda</th>
+                                                                                <th scope="col" rowspan="2">Result</th>
+                                                                                <th scope="col" rowspan="2">Shares with Exercisable Voting Rights</th>
+                                                                                <th scope="col" rowspan="2">Shares present</th>
+                                                                                <th scope="col">Approval</th>
+                                                                                <th scope="col" colspan="2" class="radius-type1">Number of shares with voting rights</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="col">Opposition/ abstention</th>
+                                                                                <th scope="col">Number of shares excluding those held by the largest shareholder and related parties</th>
+                                                                                <th scope="col" class="radius-type2">Attendance rate of shareholders excluding the largest shareholder and related parties</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">1</td>
+                                                                                <td rowspan="2" class="align1">Approval of Financial Statement s for the 68th Fiscal Year</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">218,554,682</td>
+                                                                                <td rowspan="2">145,385,712</td>
+                                                                                <td>143,940,485</td>
+                                                                                <td rowspan="2">47,991,195</td>
+                                                                                <td rowspan="2">22.0%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,445,227</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">2</td>
+                                                                                <td rowspan="2" class="align1">Amendments to the Articles of Incoporation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">218,554,682</td>
+                                                                                <td rowspan="2">145,385,712</td>
+                                                                                <td>144,674,082</td>
+                                                                                <td rowspan="2">47,991,195</td>
+                                                                                <td rowspan="2">22.0%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>711,630</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-1</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Inside Director (Candidate: Lee, Ho-jeong)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">218,554,682</td>
+                                                                                <td rowspan="2">145,385,712</td>
+                                                                                <td>132,048,926</td>
+                                                                                <td rowspan="2">47,991,195</td>
+                                                                                <td rowspan="2">22.0%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>13,336,786</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-2</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director (Candidate: Ha, Young-won)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">218,554,682</td>
+                                                                                <td rowspan="2">145,385,712</td>
+                                                                                <td>109,255,559</td>
+                                                                                <td rowspan="2">47,991,195</td>
+                                                                                <td rowspan="2">22.0%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>36,130,153</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-3</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director (Candidate: Im, Ho)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">218,554,682</td>
+                                                                                <td rowspan="2">145,385,712</td>
+                                                                                <td>123,304,415</td>
+                                                                                <td rowspan="2">47,991,195</td>
+                                                                                <td rowspan="2">22.0%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>22,081,297</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">4</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director to serve as an Audit Committee Member (Candidate: Lee, Moon-young)</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">115,156,891</td>
+                                                                                <td rowspan="2">41,987,921</td>
+                                                                                <td>40,382,376</td>
+                                                                                <td rowspan="2">35,179,620</td>
+                                                                                <td rowspan="2">30.5%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,605,545</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">5</td>
+                                                                                <td rowspan="2" class="align1">Approval of Ceiling for Total Director’s Compensation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">218,554,682</td>
+                                                                                <td rowspan="2">145,385,712</td>
+                                                                                <td>143,904,438</td>
+                                                                                <td rowspan="2">47,991,195</td>
+                                                                                <td rowspan="2">22.0%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,481,274</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">6</td>
+                                                                                
+                                                                                <td rowspan="2" class="align1">Stock Option Grant</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">218,554,682</td>
+                                                                                <td rowspan="2">145,325,712</td>
+                                                                                <td>142,408,036</td>
+                                                                                <td rowspan="2">47,991,195</td>
+                                                                                <td rowspan="2">22.0%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>2,917,676</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //주주총회 2021 68기 -->
+                                                            <!-- 주주총회 2020b -->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2020b blind">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-9">
+                                                                        <caption>2020 Extraordinary Meeting of Shareholders (2020.4.22)</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" rowspan="2">No.</th>
+                                                                                <th scope="col" rowspan="2">Agenda</th>
+                                                                                <th scope="col" rowspan="2">Result</th>
+                                                                                <th scope="col" rowspan="2">Shares with Exercisable Voting Rights</th>
+                                                                                <th scope="col" rowspan="2">Shares present</th>
+                                                                                <th scope="col" class="radius-type1">Approval</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="col" class="radius-type2">Opposition/ abstention</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">1</td>
+                                                                                <td rowspan="2" class="align1">Approval of the Transfer of Energy Retail Business</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">234,844,601</td>
+                                                                                <td rowspan="2">138,950,494</td>
+                                                                                <td>137,633,002</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,317,492</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //주주총회 2020b -->
+                                                            <!-- 주주총회 2020a 67기-->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2020a blind">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-9">
+                                                                        <caption>The 67th Annual General Meeting of shareholders (2020.3.25)</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" rowspan="2">No.</th>
+                                                                                <th scope="col" rowspan="2">Agenda</th>
+                                                                                <th scope="col" rowspan="2">Result</th>
+                                                                                <th scope="col" rowspan="2">Shares with Exercisable Voting Rights</th>
+                                                                                <th scope="col" rowspan="2">Shares present</th>
+                                                                                <th scope="col" class="radius-type1">Approval</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="col" class="radius-type2">Opposition/ abstention</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">1</td>
+                                                                                <td rowspan="2" class="align1">Approval of Financial Statements for the 67th Fiscal Year</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">161,677,221</td>
+                                                                                <td>161,256,027</td>
+                                                                                
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>421,194</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">2</td>
+                                                                                <td rowspan="2" class="align1">Amendments to the Articles of Incorporation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">161,677,221</td>
+                                                                                <td>161,509,424</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>167,797</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-1</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Inside Director</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">161,677,221</td>
+                                                                                <td>154,721,563</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>6,955,658</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-2</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">161,677,221</td>
+                                                                                <td>141,195,390</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>20,481,831</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">4</td>
+                                                                                <td rowspan="2" class="align1">Appointment of a Member of the Audit Committee</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">138,004,377</td>
+                                                                                <td rowspan="2">59,118,341</td>
+                                                                                <td>58,719,066</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>399,275</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">5</td>
+                                                                                <td rowspan="2" class="align1">Approval of Ceiling for Total Director’s Compensation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,258</td>
+                                                                                <td rowspan="2">161,677,221</td>
+                                                                                <td>160,768,212</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>909,009</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">6</td>
+                                                                                <td rowspan="2" class="align1">Approval on Amendment of the Executive Retirement Allowance Provision</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">238,304,304</td>
+                                                                                <td rowspan="2">159,418,268</td>
+                                                                                <td>158,219,243</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,199,025</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //주주총회 2020a -->
+                                                            <!-- 주주총회 2019b -->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2019b blind">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-9">
+                                                                        <caption>2019 Extraordinary Meeting of Shareholders (2019.11.15)</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" rowspan="2">No.</th>
+                                                                                <th scope="col" rowspan="2">Agenda</th>
+                                                                                <th scope="col" rowspan="2">Result</th>
+                                                                                <th scope="col" rowspan="2">Shares with Exercisable Voting Rights</th>
+                                                                                <th scope="col" rowspan="2">Shares present</th>
+                                                                                <th scope="col" class="radius-type1">Approval</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="col" class="radius-type2">Opposition/ abstention</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">1</td>
+                                                                                <td rowspan="2" class="align1">Approval of the Transfer of Car Rental Business</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">149,679,706</td>
+                                                                                <td>149,249,385</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>430,320</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //주주총회 2019b -->
+                                                            <!-- 주주총회 2019a 66기 -->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2019a blind">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-9">
+                                                                        <caption>The 66th Annual General Meeting of shareholders (2019.3.22)</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" rowspan="2">No.</th>
+                                                                                <th scope="col" rowspan="2">Agenda</th>
+                                                                                <th scope="col" rowspan="2">Result</th>
+                                                                                <th scope="col" rowspan="2">Shares with Exercisable Voting Rights</th>
+                                                                                <th scope="col" rowspan="2">Shares present</th>
+                                                                                <th scope="col" class="radius-type1">Approval</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="col" class="radius-type2">Opposition/ abstention</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">1</td>
+                                                                                <td rowspan="2" class="align1">Approval of Financial Statements for the 66th Fiscal Year</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">151,557,010</td>
+                                                                                <td>146,786,993</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>4,770,017</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">2</td>
+                                                                                <td rowspan="2" class="align1">Amendments to the Articles of Incorporation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">151,557,010</td>
+                                                                                <td>150,470,987</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,086,023</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-1</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Inside Director</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">151,558,010</td>
+                                                                                <td>147,825,671</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>3,732,339</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-2</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Non-standing Director</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">151,397,969</td>
+                                                                                <td>129,513,265</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>21,884,704</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3-3</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">151,396,969</td>
+                                                                                <td>149,889,884</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,507,085</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">4</td>
+                                                                                <td rowspan="2" class="align1">Appointment of a Member of the Audit Committee</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">139,691,490</td>
+                                                                                <td rowspan="2">50,526,243</td>
+                                                                                <td>49,098,141</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,428,102</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">5</td>
+                                                                                <td rowspan="2" class="align1">Approval of Ceiling for Total Director’s Compensation </td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">151,398,010</td>
+                                                                                <td>148,816,784</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>2,581,226</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //주주총회 2019a 66기 -->
+                                                            <!-- 주주총회 2018 65기 -->
+                                                            <div class="esg-inform esg-generalMeeting esg-option2018 blind">
+                                                                <div class="t-display design1 case1 type1 align3 scroll">
+                                                                    <table class="col-w-9">
+                                                                        <caption>The 65th Annual General Meeting of shareholders (2018.3.30)</caption>
+                                                                        <colgroup>
+                                                                            <col class="col1">
+                                                                            <col class="col3">
+                                                                            <col class="col4">
+                                                                            <col class="col5">
+                                                                            <col class="col6">
+                                                                            <col class="col7">
+                                                                        </colgroup>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th scope="col" rowspan="2">No.</th>
+                                                                                <th scope="col" rowspan="2">Agenda</th>
+                                                                                <th scope="col" rowspan="2">Result</th>
+                                                                                <th scope="col" rowspan="2">Shares with Exercisable Voting Rights</th>
+                                                                                <th scope="col" rowspan="2">Shares present</th>
+                                                                                <th scope="col" class="radius-type1">Approval</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="col" class="radius-type2">Opposition/ abstention</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td rowspan="2">1</td>
+                                                                                <td rowspan="2" class="align1">Approval of Financial Statements for the 65th Fiscal Year</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">154,894,410</td>
+                                                                                <td>154,865,374</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>29,036</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">2-1</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Independent director</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">154,894,410</td>
+                                                                                <td>151,656,119</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>3,238,291</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">2-2</td>
+                                                                                <td rowspan="2" class="align1">Appointment of Outside Directo</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">154,894,410</td>
+                                                                                <td>154,828,816</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>65,594</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">3</td>
+                                                                                <td rowspan="2" class="align1">Appointment of a Member of the Audit Commi</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">141,350,895</td>
+                                                                                <td rowspan="2">55,682,562</td>
+                                                                                <td>52,478,913</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>3,203,649</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">4</td>
+                                                                                <td rowspan="2" class="align1">Approval of Ceiling for Total Director’s Compensation</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">154,894,410</td>
+                                                                                <td>142,920,880</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>11,973,530</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td rowspan="2">5</td>
+                                                                                <td rowspan="2" class="align1">Stock Option Grant</td>
+                                                                                <td rowspan="2">Approved as originally submitted</td>
+                                                                                <td rowspan="2">240,563,257</td>
+                                                                                <td rowspan="2">154,894,410</td>
+                                                                                <td>153,784,472</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1,109,938</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //주주총회 2019a 66기 -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1158,6 +2236,7 @@
     addSelectChangeListener('level-sel-personnel', 'esg-personnel');
     addSelectChangeListener('level-sel-management', 'esg-management');
     addSelectChangeListener('level-sel-audit', 'esg-audit');
+    addSelectChangeListener('level-sel-generalMeeting', 'esg-generalMeeting');
 </script>
 </body>
 

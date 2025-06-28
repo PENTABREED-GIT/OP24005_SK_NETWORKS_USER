@@ -174,6 +174,57 @@
 
 <body class="en">
 <%@ include file="/WEB-INF/views/en/include/body-header-inc.jsp" %>
+<div class="modal-display">
+	<div class="modal notice" id="modalNotice1">
+		<div class="modal-inner modal-dialog">
+			<div class="modal-area">
+				<div class="modal-wrap">
+					<div class="modal-body">
+						<div class="section">
+							<div class="section-wrap">
+								<div class="section-head">
+									<em class="section-subject"><span class="section-name">Dividend Notice</span></em>
+								</div>
+								<div class="section-body">
+									<p class="para">
+										FY 2024 Dividend Inquiry Service
+									</p>
+									<p class="para">
+										Service Period: ’25.04.11 AM 9:00 ~ ’25.4.25 PM 6:00
+									</p>
+								</div>
+								<div class="section-util">
+									<div class="btn-display design1 case1 align3">
+										<div class="btn-area">
+											<a class="btn design1 case1 type1 color1" href="https://sknetworks.dividend.im" target="_blank" tabindex="1"><span class="btn-text">Learn more</span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<div class="form checkbox design1 case1 type1">
+							<div class="checkbox-list">
+								<div class="checkbox-item">
+									<label for="checkbox1">
+										<input type="checkbox" name="temp" value="chk1" id="checkbox1" tabindex="2">
+										<span class="option">Do not open for a day</span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="btn-display design1 case1 align3">
+							<div class="btn-area">
+								<a href="javascript:void(0);" onclick="closePop('modalNotice1');" class="btn design3 case2 type1 color4 ar-icon-close modal-close" tabindex="3"><span class="btn-text">close</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <div id="wrap" class="main">
 	<%@ include file="/WEB-INF/views/en/include/navigation-inc.jsp" %>
 	<header class="transparent" id="header">
@@ -325,6 +376,14 @@
                                             <p class="para">Engaging in trade focused on chemicals and delivering value to our business partners</p>
                                         </div>
                                     </li>
+									<li class="item ai">
+										<div class="board-head">
+											<h3 class="board-name">AI</h3>
+										</div>
+										<div class="board-body">
+											<p class="para">Bringing AI Technology<br> Closer to You</p>
+										</div>
+									</li>
                                 </ul>
                             </div>
 						</div>
@@ -443,41 +502,74 @@
 	<!-- //page-foot -->
 </div>
 <script>
-	document.addEventListener('DOMContentLoaded', function() {
-		if (!shouldHidePopup('modalNotice1')) {
-			openPop('modalNotice1');
-		}
-		if (!shouldHidePopup('modalNotice2')) {
-			openPop('modalNotice2');
-		}
-		document.querySelector('.modal-display').classList.add('show');
+	$(document).ready(function() {
+		checkAndToggleModal('modalNotice1', '2025-04-10 09:00:00', '2025-04-25 18:00:00');
+		// checkAndToggleModal('modalNotice1', '2025-04-08 09:00:00', '2100-04-10 24:00:00');
 	});
 
-	function popupLengthCheck() {
-		let modalNotice = document.querySelectorAll('.modal.notice.show');
-		let modalNoticeLength = modalNotice.length;
+	function checkAndToggleModal(id, startDateTime, endDateTime) {
 
-		if (modalNoticeLength < 1) {
-			document.querySelector('.modal-display').classList.remove('show');
+		if(checkTodayHidePopup("hidePopup_"+id)) return;
+
+		// 모달 오픈 시간
+		var now = new Date();
+		let startDate = new Date(startDateTime);
+		let endDate = new Date(endDateTime);
+
+		if (now >= startDate && now <= endDate) {
+			openPop(id);
+			$('.modal-display').addClass('show');
 		}
+	}
+
+	function checkTodayHidePopup(id) {
+		var nowTime = new Date().getTime();
+		const hideUntil = localStorage.getItem(id);
+		if (nowTime < hideUntil) {
+			return true;
+		} else {
+			// 자정이 지나면 로컬 스토리지에서 항목을 제거
+			localStorage.removeItem(id);
+		}
+
+		return false;
 	}
 
 	function openPop(id) {
-		document.getElementById(id).classList.add('show');
+		document.getElementById(id)?.classList.add('show');
 	}
 
 	function closePop(id) {
-		// 체크박스가 체크된 상태인지 확인
-		const checkbox1 = document.querySelector('#checkbox1');
-		const checkbox2 = document.querySelector('#checkbox2');
+		// id 값이 존재하는지 먼저 확인
+		if (!id || typeof id !== "string") {
+			console.error("closePop 함수에 전달된 id 값이 잘못되었습니다!", id);
+			return;
+		}
 
-		if (checkbox1.checked || checkbox2.checked) {
-			// 팝업을 하루 동안 숨기도록 설정
+		// console.log("닫기 버튼 클릭됨, ID:", id); // 디버깅 로그 출력
+
+		// 해당 id를 가진 모달이 실제 존재하는지 확인
+		const modal = document.getElementById(id);
+		if (!modal) {
+			console.error(`ID가 '${id}'인 모달을 찾을 수 없습니다.`);
+			return;
+		}
+
+		// 모달 내부의 체크박스를 찾기
+		const checkbox = modal.querySelector(`input[type="checkbox"]`);
+		if (checkbox && checkbox.checked) {
+			// "하루 동안 보지 않기" 기능 적용
 			setHidePopup(id);
 		}
 
-		document.getElementById(id).classList.remove('show');
-		popupLengthCheck();
+		// 팝업 닫기
+		modal.classList.remove('show');
+
+		// 모든 팝업이 닫혔는지 확인 후, 배경도 닫기
+		const openModals = document.querySelectorAll('.modal.show');
+		if (openModals.length === 0) {
+			document.querySelector('.modal-display').classList.remove('show');
+		}
 	}
 
 	// "오늘 하루 보지 않기" 기능을 위한 함수
@@ -487,15 +579,13 @@
 
 		// 자정 시간 계산
 		const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0);
-
-		// 남은 시간 계산 (밀리초 단위)
 		const timeUntilMidnight = midnight.getTime() - now.getTime();
 
 		// 로컬 스토리지에 숨김 상태를 저장 (현재 시간 + 남은 시간)
 		localStorage.setItem('hidePopup_' + id, now.getTime() + timeUntilMidnight);
 	}
 
-	function shouldHidePopup(id) {
+	function shouldHidePopup() {
 		const hideUntil = localStorage.getItem('hidePopup_' + id);
 
 		if (hideUntil) {
@@ -512,6 +602,7 @@
 
 		return false;
 	}
+
 </script>
 </body>
 

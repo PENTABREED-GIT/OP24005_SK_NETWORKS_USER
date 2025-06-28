@@ -18,6 +18,25 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             Tab();
+
+            // URL 문자열 추출 (아코디언 URL 생성)
+            // 1. 현재 페이지 URL의 문자열 부분을 반환 후 ?를 제외한 나머지 쿼리 문자열을 추출(?tab=scrollTab1)
+            const qr = window.location.search.substring(1, window.location.search.length)
+
+            // 2. = 기준으로 쿼리 문자열을 나눔. [1]: 두 번째 값 가져옴 (scrollTab1)
+            const tabId = (qr.split('='))[1]
+
+            // 3. ID로 가진 HTML 요소를 DOM에서 가져옴.
+            const scrollTab = document.getElementById(tabId);
+
+            // 4. 자동으로 스크롤
+            if(tabId != null){
+                scrollTab.scrollIntoView()
+
+                // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
+                // scrollTab.querySelector('button').click()
+                scrollTab.click();
+            }
         });
     </script>
     <script>
@@ -227,6 +246,17 @@
                 }
             });
         }
+
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
     </script>
 </head>
 
@@ -252,7 +282,7 @@
                         <h2 class="local-name">Introduction</h2>
                     </div>
                     <div class="local-aside">
-                        <div class="loca-wrap">
+                        <div class="local-wrap">
                             <h3 class="local-title">AI Company, SK Networks</h3>
                             <p class="local-summary">Through AI-powered innovations, we are continuously working to create value and happiness for a diverse range of stakeholders.</p>
                         </div>
@@ -272,8 +302,8 @@
                         <div class="tab-display design1 case1 type1">
                             <div class="swiper tab-wrap">
                                 <ul class="swiper-wrapper tab-list" role="tablist">
-                                    <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1"><button role="tab" class="tab-text">SK Networks</button></li>
-                                    <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2"><button role="tab" class="tab-text">Subsidiaries and Brand</button></li>
+                                    <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1"><button role="tab" class="tab-text" id="headquarter" onclick="tabClickEvent(event)">SK Networks</button></li>
+                                    <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2"><button role="tab" class="tab-text" id="subsidiaries" onclick="tabClickEvent(event)">Subsidiaries and Brand</button></li>
                                 </ul>
                             </div>
                         </div>
@@ -558,8 +588,8 @@
                                                                     <em class="data-name">Sales(Consolidated)</em>
                                                                 </div>
                                                             </div>
-                                                            <p class="data-body">KRW 9.1 trillion</p>
-                                                            <span class="data-base">As of 2023</span>
+                                                            <p class="data-body">KRW 7.7 trillion</p>
+                                                            <span class="data-base">As of 2024</span>
                                                         </div>
                                                     </div>
                                                     <div class="data-item pallarax">
@@ -569,8 +599,8 @@
                                                                     <em class="data-name">Operating Profit(Consolidated)</em>
                                                                 </div>
                                                             </div>
-                                                            <p class="data-body">KRW 237 billion</p>
-                                                            <span class="data-base">As of 2023</span>
+                                                            <p class="data-body">KRW 114 billion</p>
+                                                            <span class="data-base">As of 2024</span>
                                                         </div>
                                                     </div>
                                                     <div class="data-item pallarax">
@@ -581,7 +611,7 @@
                                                                 </div>
                                                             </div>
                                                             <p class="data-body">AA-(Stable)</p>
-                                                            <span class="data-base">As of 2023</span>
+                                                            <span class="data-base">As of 2024</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -623,7 +653,7 @@
                                                                     <div class="data-item"><span class="data-text">SK Networks Japan Co., Ltd.</span></div>
                                                                     <div class="data-item"><span class="data-text">SK Networks Hong Kong Ltd.</span></div>
                                                                     <div class="data-item"><span class="data-text">MINTIT Vina</span></div>
-                                                                    <div class="data-item"><span class="data-text">Hico Capital</span></div>
+                                                                    <div class="data-item"><span class="data-text">SK Networks Americas</span></div>
                                                                     <div class="data-item"><span class="data-text">SK Magic Malaysia</span></div>
                                                                 </div>
                                                             </div>
@@ -696,11 +726,14 @@
                                                     <button data-bs-toggle="modal" data-bs-target="#modalEncore" class="data-item">
                                                         <img src="/assets/images/company/company-logo-en-core.png" alt="En-core">
                                                     </button>
+                                                    <button data-bs-toggle="modal" data-bs-target="#modalGlowide" class="data-item">
+                                                        <img src="/assets/images/company/company-logo-glowide.png" alt="Glowide">
+                                                    </button>
                                                     <button data-bs-toggle="modal" data-bs-target="#modalHicocapital" class="data-item">
                                                         <img src="/assets/images/company/company-logo-hico-ventures.png" alt="HICO CAPITAL">
                                                     </button>
-                                                    <button data-bs-toggle="modal" data-bs-target="#modalGlowide" class="data-item">
-                                                        <img src="/assets/images/company/company-logo-glowide.png" alt="Glowide">
+                                                    <button data-bs-toggle="modal" data-bs-target="#modalPhnyXLab" class="data-item">
+                                                        <img src="/assets/images/company/company-logo-phnyx-lab.png" alt="PhnyX Lab">
                                                     </button>
                                                 </div>
                                             </div>
@@ -1136,27 +1169,20 @@
             <div class="modal-area">
                 <div class="modal-wrap">
                     <div class="modal-head" id="modalHicocapitalLabel">
-                        <em class="modal-subjec"><span class="modal-name">Hico Capital</span></em>
+                        <em class="modal-subjec"><span class="modal-name">SK Networks Americas LLC</span></em>
                     </div>
                     <div class="modal-body">
                         <div class="section design1 case7 type4 align1">
                             <div class="section-wrap">
                                 <div class="section-head">
-                                    <a class="btn design2 case1 type1 color4" href="javascript:void(0)">
+                                    <a class="btn design2 case1 type1 color4" href="/${LANG}/business/global-investment">
                                         <span class="btn-text">Learn more</span>
                                     </a>
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        As SK Networks’ investment arm based in Silicon Valley, Hico Capital actively seeks investment opportunities in promising global tech sectors while continuously enhancing its global network and corporate value.
+                                        As SK Networks’ investment arm based in Silicon Valley, SK Networks Americas actively seeks investment opportunities in promising global tech sectors while continuously enhancing its global network and corporate value.
                                     </p>
-                                </div>
-                                <div class="section-util">
-                                    <div class="btn-display design1 case2">
-                                        <div class="btn-area">
-                                            <a href="https://hico.vc/hico-ventures/" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Go to Website</span></a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1194,6 +1220,36 @@
                                             <a href="https://www.glowide.kr/" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Go to Website</span></a>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-fuc">
+                    <button type="button" data-bs-dismiss="modal" class="btn icon case1 modal-close"><span class="btn-text blind">close</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal design1 medium" id="modalPhnyXLab" tabindex="-1" aria-labelledby="modalPhnyXLabLabel" aria-hidden="true">
+        <div class="modal-inner modal-dialog">
+            <div class="modal-area">
+                <div class="modal-wrap">
+                    <div class="modal-head" id="modalPhnyXLabLabel">
+                        <em class="modal-subjec"><span class="modal-name">PhnyX Lab</span></em>
+                    </div>
+                    <div class="modal-body">
+                        <div class="section design1 case7 type4 align1">
+                            <div class="section-wrap">
+                                <div class="section-head">
+                                    <a class="btn design2 case1 type1 color4" href="/${LANG}/business/phnyx-lab">
+                                        <span class="btn-text">Learn more</span>
+                                    </a>
+                                </div>
+                                <div class="section-body">
+                                    <p class="para">
+                                        PhnyX Lab, founded in Silicon Valley, USA, develops and provides AI-powered services.
+                                    </p>
                                 </div>
                             </div>
                         </div>

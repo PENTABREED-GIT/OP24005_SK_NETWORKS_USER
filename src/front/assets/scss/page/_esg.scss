@@ -46,8 +46,6 @@
                 }
 
                 .section-body{
-
-
                     .section-figure{
                         @include mobile{
                             img{
@@ -338,6 +336,7 @@
                                 }
                             }
                         }
+
                     }
                     .board-list {
                         .data-body {
@@ -345,6 +344,12 @@
                                 + .bullet-display {
                                     margin-top: 0.8rem;
                                 }
+                            }
+                        }
+                        + .t-display {
+                            margin-top: 8rem;
+                            @include mobile {
+                                margin-top: 4.8rem;
                             }
                         }
                     }
@@ -739,6 +744,11 @@
                                         .post-inform {
                                             width: 45.5%;
                                         }
+                                        @at-root .kr & {
+                                            .post-inform {
+                                                width: 100%;
+                                            }
+                                        }
                                         .post-body {
                                             width: 49.17%;
                                         }
@@ -823,6 +833,11 @@
                                         .data-list {
                                             display: flex;
                                             justify-content: space-between;
+                                            .data-body {
+                                                @include mobile {
+                                                    @include scroll-x;
+                                                }
+                                            }
                                             .data-item {
                                                 &.dispersion {
                                                     width: 67.92%;
@@ -1519,6 +1534,11 @@
                         min-width: 1024px;
                     }
                 }
+                .esg-generalMeeting-table {
+                    table {
+                        min-width: 1126px;
+                    }
+                }
             }
 
             //table col width
@@ -1683,6 +1703,102 @@
     
                             @include mobile {
                                 @each $index, $width in (1: 7%, 2: 11%, 3: auto, 4: 15%, 5: 17%, 6: 12%) {
+                                    &.col#{$index} {
+                                        width: $width;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.col-w-7 {
+                    col {
+                        @each $index, $width in (1: 7%, 2: 7%, 3: auto, 4: 7%, 5: 12%, 6: 12.5%, 7: 12.5%, 8: 11.5%, 9: 11.5%) {
+                            &.col#{$index} {
+                                width: $width;
+                            }
+                        }
+
+                        @include mobile {
+                            @each $index, $width in (1: 8%, 2: 7%, 3: auto, 4: 7%, 5: 12.5%, 6: 13.5%, 7: 12.8%, 8: 12%, 9: 11.5%) {
+                                &.col#{$index} {
+                                    width: $width;
+                                }
+                            }
+                        }
+                        @at-root .en & {
+                            @each $index, $width in (1: 6%, 3: auto, 4: 12%, 5: 12.5%, 6: 12.5%, 7: 12.5%, 8: 12%, 9: 12%) {
+                                &.col#{$index} {
+                                    width: $width;
+                                }
+                            }
+    
+                            @include mobile {
+                                @each $index, $width in (1: 7%, 3: auto, 4: 12%, 5: 13%, 6: 13%, 7: 13%, 8: 12%, 9: 12%) {
+                                    &.col#{$index} {
+                                        width: $width;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.col-w-8 {
+                    col {
+                        @each $index, $width in (1: 9%, 2: 7%, 3: auto, 4: 7%, 5: 12.5%, 6: 12.5%, 7: 12.5%, 8: 11.5%, 9: 11.5%) {
+                            &.col#{$index} {
+                                width: $width;
+                            }
+                        }
+
+                        @include mobile {
+                            @each $index, $width in (1: 10%, 2: 7%, 3: auto, 4: 7%, 5: 13.5%, 6: 12.5%, 7: 13.5%, 8: 12.5%, 9: 11.5%) {
+                                &.col#{$index} {
+                                    width: $width;
+                                }
+                            }
+                        }
+                        @at-root .en & {
+                            @each $index, $width in (1: 9%, 2: 7%, 3: auto, 4: 7%, 5: 12.5%, 6: 12.5%, 7: 12.5%, 8: 11.5%, 9: 11.5%) {
+                                &.col#{$index} {
+                                    width: $width;
+                                }
+                            }
+    
+                            @include mobile {
+                                @each $index, $width in (1: 9%, 2: 7%, 3: auto, 4: 7%, 5: 12.5%, 6: 12.5%, 7: 12.5%, 8: 11.5%, 9: 11.5%) {
+                                    &.col#{$index} {
+                                        width: $width;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.col-w-9 {
+                    col {
+                        @each $index, $width in (1: 10%, 2: 10%, 3: auto, 4: 10%, 5: 13%, 6: 13%, 7: 13%) {
+                            &.col#{$index} {
+                                width: $width;
+                            }
+                        }
+
+                        @include mobile {
+                            @each $index, $width in (1: 10%, 2: 10%, 3: auto, 4: 10%, 5: 13%, 6: 13%, 7: 13%) {
+                                &.col#{$index} {
+                                    width: $width;
+                                }
+                            }
+                        }
+                        @at-root .en & {
+                            @each $index, $width in (1: 10%, 3: auto, 4: 14%, 5: 13%, 6: 13%, 7: 14%) {
+                                &.col#{$index} {
+                                    width: $width;
+                                }
+                            }
+    
+                            @include mobile {
+                                @each $index, $width in (1: 10%, 3: auto, 4: 14%, 5: 13%, 6: 13%, 7: 14%) {
                                     &.col#{$index} {
                                         width: $width;
                                     }
@@ -1937,6 +2053,11 @@
                                 }
                                 &.internal-audit {
                                     .section-body {
+                                        .bullet-display {
+                                            + .comment {
+                                                padding-left: 11px;
+                                            }
+                                        }
                                         .comment {
                                             + .data-display {
                                                 margin-top: 8rem;

@@ -208,7 +208,7 @@
                         <h2 class="local-name">Sustainability</h2>
                     </div>
                     <div class="local-aside">
-                        <div class="loca-wrap">
+                        <div class="local-wrap">
                             <h3 class="local-title">지속가능경영 개요</h3>
                             <p class="local-summary">SK네트웍스는 AI Company로서 더 많은 사람들이 AI 관련 혜택을 누리게 하고, 경제적 가치와 인류의 보편적 가치를 더해 다양한 이해관계자들의 행복에 기여하겠습니다.</p>
                         </div>
@@ -389,7 +389,7 @@
                                                         <h4 class="post-name">MSCI 등급 BBB</h4>
                                                     </div>
                                                 </div>
-                                                <div class="post-date">2023</div>
+                                                <div class="post-date">2024</div>
                                                 <div class="post-body">
                                                     <p class="para">전 세계에서 가장 영향력 있는 ESG 평가기관으로, 기업의 공개 정보를 바탕으로 대상 기업의 핵심 비즈니스 모델과 산업군의 특성을 고려해 평가하며, ESG 영역 ‘BBB’ 등급 획득</p>
                                                 </div>
@@ -407,30 +407,30 @@
                                                         <h4 class="post-name">CDP 기후변화 부문<br> Leadership A 등급</h4>
                                                     </div>
                                                 </div>
-                                                <div class="post-date">2023</div>
+                                                <div class="post-date">2024</div>
                                                 <div class="post-body">
                                                     <p class="para">전 세계 주요 상장기업들의 기후변화 대응을 평가해 공개하는 글로벌 ESG 평가인 CDP(Carbon Disclosure Project) 기후변화 부문에서 SK네트웍스는 최고 등급인 ‘Leadership A등급’ 획득. (전 세계 상위 1.5%)</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="post-item">
-                                            <div class="post-wrap">
-                                                <div class="post-figure">
-                                                    <div class="post-figure-wrap">
-                                                        <img src="/assets/images/sustainability/story4-mark-04.png" alt="S&P Global 로고">
-                                                    </div>
-                                                </div>
-                                                <div class="post-head">
-                                                    <div class="post-subject">
-                                                        <h4 class="post-name">S&amp;P Global CSA Score<br class="pc-only"> 53/100</h4>
-                                                    </div>
-                                                </div>
-                                                <div class="post-date">2023</div>
-                                                <div class="post-body">
-                                                    <p class="para">세계 3대 신용평가기관 중 하나로, 기업의 지속가능성(ESG)에 대해 평가하고 있으며 2023년 결과를 바탕으로 지속가능경영 연례보고서에 우수 기업으로 등재</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <%--<div class="post-item">--%>
+                                        <%--    <div class="post-wrap">--%>
+                                        <%--        <div class="post-figure">--%>
+                                        <%--            <div class="post-figure-wrap">--%>
+                                        <%--                <img src="/assets/images/sustainability/story4-mark-04.png" alt="S&P Global 로고">--%>
+                                        <%--            </div>--%>
+                                        <%--        </div>--%>
+                                        <%--        <div class="post-head">--%>
+                                        <%--            <div class="post-subject">--%>
+                                        <%--                <h4 class="post-name">S&amp;P Global CSA Score<br class="pc-only"> 53/100</h4>--%>
+                                        <%--            </div>--%>
+                                        <%--        </div>--%>
+                                        <%--        <div class="post-date">2023</div>--%>
+                                        <%--        <div class="post-body">--%>
+                                        <%--            <p class="para">세계 3대 신용평가기관 중 하나로, 기업의 지속가능성(ESG)에 대해 평가하고 있으며 2023년 결과를 바탕으로 지속가능경영 연례보고서에 우수 기업으로 등재</p>--%>
+                                        <%--        </div>--%>
+                                        <%--    </div>--%>
+                                        <%--</div>--%>
                                     </div>
                                 </div>
                             </div>

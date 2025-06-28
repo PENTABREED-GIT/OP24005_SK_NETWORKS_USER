@@ -60,6 +60,7 @@
                                                     <div class="form select design1 case1 type1">
                                                         <label for="yearbox" class="blind">Label</label>
                                                         <select id="yearbox" name="selectYear" onchange="changeYearSelect()">
+                                                            <option value="2024">2024</option>
                                                             <option value="2023">2023</option>
                                                             <option value="2022">2022</option>
                                                             <option value="2021">2021</option>
@@ -77,6 +78,131 @@
                             <div class="section-body">
                             </div>
                         </div>
+                        <!-- 2024 -->
+                        <div class="section credit-area design2 type1 dataCont" id="2024Data">
+                            <div class="section-wrap">
+                                <div class="section-head">
+                                    <div class="section-subject">
+                                        <h4 class="section-name">Corporate<br class="pc-only"> Bond</h4>
+                                    </div>
+                                </div>
+                                <div class="section-body">
+                                    <div class="board-list design6 case1 type1 scroll">
+                                        <div class="board-item">
+                                            <div class="board-wrap">
+                                                <div class="board-head">
+                                                    <p class="board-rank">AA-</p>
+                                                </div>
+                                                <div class="board-info">
+                                                    <div class="data-head">
+                                                        <p class="data-subject">NICE Credit<br> Information</p>
+                                                    </div>
+                                                    <div class="data-body">
+                                                        <span class="head">Evaluation Date</span>
+                                                        <span class="body">2024.05.10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="board-item">
+                                            <div class="board-wrap">
+                                                <div class="board-head">
+                                                    <p class="board-rank">AA-</p>
+                                                </div>
+                                                <div class="board-info">
+                                                    <div class="data-head">
+                                                        <p class="data-subject">Korea Investors Service</p>
+                                                    </div>
+                                                    <div class="data-body">
+                                                        <span class="head">Evaluation Date</span>
+                                                        <span class="body">2024.05.09</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="board-item">
+                                            <div class="board-wrap">
+                                                <div class="board-head">
+                                                    <p class="board-rank">AA-</p>
+                                                </div>
+                                                <div class="board-info">
+                                                    <div class="data-head">
+                                                        <p class="data-subject">Korea Ratings</p>
+                                                    </div>
+                                                    <div class="data-body">
+                                                        <span class="head">Evaluation Date</span>
+                                                        <span class="body">2024.05.09</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment design1">* Credit Rating Agency (Grade) : AAA~D</p>
+                                </div>
+                            </div>
+                            <div class="section-wrap">
+                                <div class="section-head">
+                                    <div class="section-subject">
+                                        <h4 class="section-name">Commercial<br class="pc-only"> Paper</h4>
+                                    </div>
+                                </div>
+                                <div class="section-body">
+                                    <div class="board-list design6 case1 type1 scroll">
+                                        <div class="board-item">
+                                            <div class="board-wrap">
+                                                <div class="board-head">
+                                                    <p class="board-rank">A1</p>
+                                                </div>
+                                                <div class="board-info">
+                                                    <div class="data-head">
+                                                        <p class="data-subject">NICE Credit<br class="pc-only"> Information</p>
+                                                    </div>
+                                                    <div class="data-body">
+                                                        <span class="head">Evaluation Date</span>
+                                                        <span class="body">2024.12.23</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section-util"></div>
+                                        </div>
+                                        <div class="board-item">
+                                            <div class="board-wrap">
+                                                <div class="board-head">
+                                                    <p class="board-rank">A1</p>
+                                                </div>
+                                                <div class="board-info">
+                                                    <div class="data-head">
+                                                        <p class="data-subject">Korea Investors Service</p>
+                                                    </div>
+                                                    <div class="data-body">
+                                                        <span class="head">Evaluation Date</span>
+                                                        <span class="body">2024.12.16</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="board-item">
+                                            <div class="board-wrap">
+                                                <div class="board-head">
+                                                    <p class="board-rank">A1</p>
+                                                </div>
+                                                <div class="board-info">
+                                                    <div class="data-head">
+                                                        <p class="data-subject">Korea Ratings</p>
+                                                    </div>
+                                                    <div class="data-body">
+                                                        <span class="head">Evaluation Date</span>
+                                                        <span class="body">2024.12.20</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment design1">*Credit Rating Agency (Grade) : A1~D</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //2024-->
                         <!-- 2023 -->
                         <div class="section credit-area design2 type1 dataCont" id="2023Data">
                             <div class="section-wrap">

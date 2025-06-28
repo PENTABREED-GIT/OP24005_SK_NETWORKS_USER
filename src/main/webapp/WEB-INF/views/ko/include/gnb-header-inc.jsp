@@ -61,9 +61,9 @@
                             <a href="/business/en-core" target="_self" class="depth2">엔코아</a>
                         </li>
                         <!-- 히든처리 추후에 반영 -->
-                        <!-- <li class="depth2-item">
-                            <a href="/business/phnyx-lab" target="_self" class="depth2">피닉스 랩</a>
-                        </li> -->
+                        <li class="depth2-item">
+                            <a href="/business/phnyx-lab" target="_self" class="depth2">피닉스랩</a>
+                        </li>
                     </ul>
                 </div>
             </li>
@@ -164,6 +164,9 @@
                                     </li>
                                     <li class="depth3-item">
                                         <a href="/ir/stock/shareholder-return" target="_self" class="depth3">주주환원</a>
+                                    </li>
+                                    <li class="depth3-item">
+                                        <a href="https://sknetworks.dividend.im " target="_blank" class="depth3">배당조회</a>
                                     </li>
                                 </ul>
                             </div>

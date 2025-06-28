@@ -32,7 +32,7 @@
                     <ul class="data-list">
                         <li class="data-item"><span class="data-text">경기도 수원시 장안구 경수대로 976번길 19(송죽동)</span></li>
                         <li class="data-item"><span class="data-text">Tel : 070-7800-2114</span></li>
-                        <li class="data-item"><span class="data-text">Copyright ⓒ 2024 by SK Networks Co. Ltd. All Rights Reserved</span></li>
+                        <li class="data-item"><span class="data-text">Copyright ⓒ SK Networks Co. Ltd. All Rights Reserved</span></li>
                     </ul>
                 </div>
             </div>
@@ -72,9 +72,6 @@
                     </li>
                     <li class="site-item">
                         <a href="https://www.en-core.com/" target="_blank" title="새창 열기" class="site">엔코아</a>
-                    </li>
-                    <li class="site-item">
-                        <a href="https://hico.vc/hico-ventures/" target="_blank" title="새창 열기" class="site">하이코캐피탈</a>
                     </li>
                     <li class="site-item">
                         <a href="https://www.glowide.kr/" target="_blank" title="새창 열기" class="site">글로와이드</a>

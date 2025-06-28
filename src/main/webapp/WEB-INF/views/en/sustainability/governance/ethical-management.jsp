@@ -55,7 +55,40 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             localAnimations_Case02();
+
+            // URL 문자열 추출 (아코디언 URL 생성)
+            // 1. 현재 페이지 URL의 문자열 부분을 반환 후 ?를 제외한 나머지 쿼리 문자열을 추출(?tab=scrollTab1)
+            const qr = window.location.search.substring(1, window.location.search.length)
+
+            // 2. = 기준으로 쿼리 문자열을 나눔. [1]: 두 번째 값 가져옴 (scrollTab1)
+            const tabId = (qr.split('='))[1]
+
+            console.log("tabID : " + tabId);
+
+            // 3. ID로 가진 HTML 요소를 DOM에서 가져옴.
+            const scrollTab = document.getElementById(tabId);
+
+            // 4. 자동으로 스크롤
+            if(tabId != null){
+                scrollTab.scrollIntoView()
+
+                // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
+                // scrollTab.querySelector('button').click()
+                scrollTab.click();
+            }
         });
+    </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
     </script>
 </head>
 
@@ -106,13 +139,13 @@
                                         <div class="swiper tab-wrap">
                                             <ul class="swiper-wrapper tab-list" role="tablist">
                                                 <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                                    <button class="tab-text">Ethical Management System and Activities</button>
+                                                    <button class="tab-text" id="ethical-management-system" onclick="tabClickEvent(event)">Ethical Management System and Activities</button>
                                                 </li>
                                                 <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                                    <button class="tab-text">Compliance</button>
+                                                    <button class="tab-text" id="compliance" onclick="tabClickEvent(event)">Compliance</button>
                                                 </li>
                                                 <li id="tab3" class="swiper-slide tab-item" aria-controls="tab-panel3">
-                                                    <button class="tab-text">Anti-Corruption Policy</button>
+                                                    <button class="tab-text" id="anti-corruption-policy" onclick="tabClickEvent(event)">Anti-Corruption Policy</button>
                                                 </li>
                                             </ul>
                                         </div>
@@ -346,7 +379,7 @@
                                                                                         <strong>SK Networks Audit Committee</strong>
                                                                                         <ul>
                                                                                             <li>Chief of Ethical Management Council  : SK Networks Audit Division Head</li>
-                                                                                            <li>Steering Committee : Walkerhill Management Supporting Division Leader, SK Networks service Management Strategy Division Leader, SK Magic Risk Management Division Leader </li>
+                                                                                            <li>Walkerhill Management Supporting Division Leader, SK Networks service Management Strategy Division Leader, SK Magic Risk Management Division Leader </li>
                                                                                             <li>Ethical Management Council
                                                                                                 <ul>
                                                                                                     <li>SK Networks (Secretary) : Ethics &amp; Audit Team Leader, The person in charge of Ethical Management</li>
@@ -355,10 +388,10 @@
                                                                                                     <li>SK Magic : Corporate Audit Team Leader, The person in charge of Ethical Management</li>
                                                                                                 </ul>
                                                                                             </li>
-                                                                                            <li>New Subsidiaries : SK Electlink, En-core, MINTIT</li>
                                                                                         </ul>
                                                                                     </div>
                                                                                 </div>
+                                                                                <%--<p class="comment design1">※ SK Networks provides ethical management services as shared services, and the subsidiaries participates in the ethical management council when needed.</p>--%>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -377,10 +410,13 @@
                                                                             <div class="data-item">
                                                                                 <div class="data-wrap">
                                                                                     <div class="data-head">
-                                                                                        <em class="data-subject">Self-Regulatory Examination System</em>
+                                                                                        <em class="data-subject">Operation of the Self-Compliance System</em>
                                                                                     </div>
                                                                                     <div class="data-body">
-                                                                                        <p class="para">SK Networks is conducting an annual in-house examination to enhance autonomy in practicing ethical management. A checklist has been created for ethical risks covering a range of areas, including HR management, cost management, purchasing/business partner management, sales/receivables management, investment management system, inventory management, and unusual risk management. The checklist is designed to assess and evaluate risks specific to each business area.</p>
+                                                                                        <p class="para">
+                                                                                            To strengthen its autonomous commitment to ethical management, SK Networks operates a self-compliance system that ensures adherence to legal and ethical standards while preventing and controlling misconduct and corruption. As part of this initiative, an annual checklist is developed to assess and monitor ethical risks across business area at the headquarters and its subsidiaries.<br>
+                                                                                            The checklist covers key functions such as HR management, expense control, procurement and business partner management, sales and receivables management, investment oversight, and inventory management. It is designed to identify and mitigate ethics and anti-corruption risks tailored  to the specific characteristics of each business function. The checklist is continuously improved each year with the addition of new assessment items. In particular, high-risk areas are subject to direct inspections conducted by the Audit Office and the internal audit departments of subsidiaries. Through this process, SK Networks verifies the adequacy of the self-assessment results and supporting documentation submitted by each unit, thereby reinforcing the company’s ethical management system.
+                                                                                        </p>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -397,7 +433,10 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="section-body">
-                                                                    <p class="para">SK Networks operates a channel for all stakeholders to report unethical behavior in order to monitor and manage the current status of ethical management. Reports received through this reporting channel are investigated by the audit team and the dedicated ethical management organizations of each subsidiary, ensuring a transparent and systematic response and handling.</p>
+                                                                    <p class="para">
+                                                                        SK Networks operates a range of online and offline ethics reporting channels—including its website, in-person consultations, and postal mail to enable all stakeholders to freely report unethical conduct. Reports received are thoroughly investigated by the Audit Team and the ethics management units of each subsidiary and are handled fairly and transparently in accordance with established procedures. Customer complaints related to service are referred to the relevant business units for prompt and appropriate resolution.<br>
+                                                                        We place the utmost importance on safeguarding whistleblowers’ identities and safety by enforcing clear protection policies and rigorously managing all reporting procedures to prevent any retaliation against legitimate disclosures. Furthermore, employees who cooperate with whistleblowing-related investigations are afforded the same level of protection as whistleblowers themselves, thereby fostering a secure environment for ethical management practices.
+                                                                    </p>
                                                                 </div>
                                                                 <div class="section-figure">
                                                                     <img src="/assets/images/sustainability/channel.png" alt="" class="pc-only">
@@ -706,201 +745,23 @@
                                                             <div class="section-wrap">
                                                                 <div class="section-head">
                                                                     <div class="section-subject">
-                                                                        <h4 class="section-name">Internal Audit</h4>
+                                                                        <h4 class="section-name">Implementation of Internal Audits (Ethics/Anti-Corruption Audits)</h4>
                                                                     </div>
                                                                 </div>
                                                                 <div class="section-body">
-                                                                    <p class="para">SK Networks conducts internal audits comprising routine audits, compliance checks, self inspection system, and investigations into ethical violations. To conduct its routine audit, SK Networks annually develops and evaluates a risk pool encompassing all of its business sites, subsidiaries and supporting organizations at home and abroad. This process reflects measurement and diagnosis results from SK Group and third-party institutions, risk check findings conducted through the voluntary inspection system and ethical practice surveys. Subsequently, an annual routine audit plan is developed for businesses and organizations identified as having high risks, with audit targets being finalized upon reporting to and approval by the Audit Committee. Furthermore, beyond mere audit execution, we systematically monitor compliance with recommendations and regularly report our findings to the Audit Committee to ensure adherence to applicable guidelines. Throughout the routine audit, we assess and enhance the effectiveness of governance structure, risk management, and control processes to assist the Company in meeting its business targets. Additionally, we inspect unethical issues as they arise.</p>
-                                                                    <p class="para">The self inspection system was established in 2011 with the aim of creating risk inspection manuals for each business area and conducting annual inspection of all SK Networks’ businesses and supporting organizations. Updated annually, these manuals are configured to assess and evaluate risks specific to each business area, including HR management, cost management, procurement/business partner management, revenue/credit management, investment management system, inventory management, extraordinary risk management. The scope of the inspection encompasses not only financial risks in each area but also scenarios that may be linked to unethical issues. These include situations such as solicitation of employment, unethical issues that could arise from businesses or positions competing with the Company, moral hazards related to the abuse or misuse of the Company properties by executives or employees, self-approval of expenditures by individuals with authority, illegal fund expenditures, and violation of procurement policy. High-risk items identified during the self inspection system process are directly examined by the Audit Office, which also verifies the adequacy of the self inspection system results and evidence provided by all businesses and supporting organizations.</p>
-                                                                    <p class="para">SK Networks, along with all its subsidiaries, operate a range of ethical reporting channels both online and offline, including website, face-to-face counseling, and mailing services. Counseling requests and informant reports are managed with transparency and fairness in accordance with established reporting procedures. Customer complaints regarding services are directed to the relevant business units, while all other informant reports, including unethical issues, are directly investigated by the Audit Office. *Reports concerning subsidiaries are investigated in cooperation with the applicable subsidiary.</p>
-                                                                    <p class="para">SK Networks conducts internal audits of all domestic and international business sites and subsidiaries, regularly reporting audit findings to the Audit Committee. Depending on the inspection results, opportunities for improvement are integrated into management activities, and corrective actions are promptly taken upon discovery of violations. In addition, comprehensive response strategies are developed and implemented in consultation with relevant departments as necessary. In 2023, violations of internal control guidelines were identified in areas such as information protection (document security) and inappropriate business handling, leading to corrective actions and process improvement. The Audit Committee also received reports on findings and results of corrective actions for each quarter. At the same time, violation findings and action results are communicated enterprise-wide and incorporated into internal ethical management program materials including ethics education and ethical practice workshop to prevent the recurrence of identical issues.</p>
-                                                                    <p class="comment design1">* For cases received by subsidiaries, investigations are conducted in cooperation with the respective subsidiary
-                                                                    </p>
-                                                                    <div class="data-display design1 case2 type1">
-                                                                        <div class="data-list">
-                                                                            <div class="data-item">
-                                                                                <div class="data-head">
-                                                                                    <strong class="data-subject">Overview of Internal Audits</strong>
-                                                                                </div>
-                                                                                <div class="data-body">
-                                                                                    <div class="t-display design1 case1 type1 align3 scroll">
-                                                                                        <table class="col-w-2">
-                                                                                            <caption>This table provides Overview of Internal Audits information and consists of year, audit target business, and audit details.</caption>
-                                                                                            <colgroup>
-                                                                                                <col class="col1">
-                                                                                                <col class="col2">
-                                                                                                <col class="col3">
-                                                                                                <col class="col4">
-                                                                                                <col class="col2">
-                                                                                                <col class="col3">
-                                                                                                <col class="col4">
-                                                                                                <col class="col2">
-                                                                                                <col class="col3">
-                                                                                                <col class="col4">
-                                                                                            </colgroup>
-                                                                                            <thead>
-                                                                                                <tr>
-                                                                                                    <th scope="col" rowspan="2">Category</th>
-                                                                                                    <th scope="col" colspan="3">2021</th>
-                                                                                                    <th scope="col" colspan="3">2022</th>
-                                                                                                    <th scope="col" colspan="3">2023</th>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <th scope="col">Routine audit / Compliance Check</th>
-                                                                                                    <th scope="col">Voluntary Inspection</th>
-                                                                                                    <th scope="col">Ethical Violation Report Investigation</th>
-                                                                                                    <th scope="col">Routine audit / Compliance Check</th>
-                                                                                                    <th scope="col">Voluntary Inspection</th>
-                                                                                                    <th scope="col">Ethical Violation Report Investigation</th>
-                                                                                                    <th scope="col">Routine audit / Compliance Check</th>
-                                                                                                    <th scope="col">Voluntary Inspection</th>
-                                                                                                    <th scope="col">Ethical Violation Report Investigation</th>
-                                                                                                </tr>
-                                                                                            </thead>
-                                                                                            <tbody>
-                                                                                                <tr>
-                                                                                                    <td class="title">SK Networks</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td rowspan="7">6</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td rowspan="7">14</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td rowspan="7">18</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="align1 accent color3">ICT Marketing</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="align1 accent color3">Speedmate</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="align1 accent color3">Global Trading</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="align1 accent color3">Global Investment</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="align1 accent color3">Staff</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="align1 accent color3 last">Walkerhill</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>SK Magic</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>23</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>27</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>16</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>SK Rent-a-car</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>26</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>13</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>24</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>SK Networks Service</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>1</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>1</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>3</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>MINTIT</td>
-                                                                                                    <td colspan="3">N/A</td>
-                                                                                                    <td></td>
-                                                                                                    <td></td>
-                                                                                                    <td>-</td>
-                                                                                                    <td></td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>-</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td>Cartini</td>
-                                                                                                    <td colspan="3">N/A</td>
-                                                                                                    <td></td>
-                                                                                                    <td></td>
-                                                                                                    <td>-</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>O</td>
-                                                                                                    <td>1</td>
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <td class="t-bg">Total</td>
-                                                                                                    <td class="t-bg" colspan="2"></td>
-                                                                                                    <td class="t-bg">56</td>
-                                                                                                    <td class="t-bg" colspan="2"></td>
-                                                                                                    <td class="t-bg">55</td>
-                                                                                                    <td class="t-bg" colspan="2"></td>
-                                                                                                    <td class="t-bg">62</td>
-                                                                                                </tr>
-                                                                                            </tbody>
-                                                                                        </table>
-                                                                                    </div>
-                                                                                    <p class="comment design1">
-                                                                                        * The number of report investigations does not include customer complaints regarding services, which are forwarded to the relevant business organizations.<br> 
-                                                                                        * MINTIT and Cartini were incorporated in October, 2021 and classified as ‘subsidiaries spun off less than a year ago’ during the voluntary inspection in July, 2022. Therefore, they were excluded from the scope of the inspection at that time and included in the scope starting from 2023.<br> 
-                                                                                        * Over the past three years, all business sites and subsidiaries underwent one or more internal audits (routine audits, compliance checks, voluntary inspections, ethical violation report investigation, etc.), as these audits are required to be conducted at least once every three years.
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
+                                                                    <p class="para">SK Networks conducts internal audits through its Audit Office, which operates under the Audit Committee of the Board of Directors. These audits consist of regular audits (including follow-up reviews), self-compliance system reviews, and investigations into whistleblowing cases.</p>
+                                                                    <p class="para">At the end of each year, SK Networks conducts risk assessments across all domestic and overseas businesses and support functions, including its subsidiaries. Based on the results, an annual audit plan is established for high-risk businesses units and implemented upon approval by the Audit Committee. Audit findings and implementation status of recommendations are continuously monitored through a centralized system and reported to the Audit Committee on a regular basis to enhance strong execution and accountability. The Company aims to conduct audit all business units and support functions, including subsidiaries, at least once every three years.</p>
+                                                                    <div class="para">
+                                                                        <div class="bullet-display design1 case1 type6">
+                                                                            <ul class="data-list">
+                                                                                <li class="data-item">Through self-compliance system reviews, operational teams conduct an annual evaluation of ethics and anti-corruption risks across all business units, support functions, and subsidiaries, covering key areas such as HR, expense control, procurement, and business partner management. SK Networks Audit Office, along with the internal audit departments of its subsidiaries, conducts direct reviews of high-risk items to verify the adequacy of both the self-assessment results and the supporting documentation provided by operational teams.</li>
+                                                                                <li class="data-item">SK Networks and all its subsidiaries operate a variety of online and offline ethics reporting channels, including a website, in-person consultations, and postal mail. Reports and inquiries received are handled fairly and transparently in accordance with established procedures. Customer service complaints are referred to the relevant business units for resolution, while all reports, including those related to unethical issues, are independently investigated* by the Audit Office and the internal audit departments of the subsidiaries.</li>
+                                                                            </ul>
                                                                         </div>
+                                                                        <p class="comment design1">* Reports received from subsidiaries are investigated in coordination with the respective subsidiaries.</p>
                                                                     </div>
+                                                                    <p class="para">Based on the results of internal audits, if any violations are identified, immediate corrective actions are taken. Matters requiring improvement are reflected in business operations, and when necessary, comprehensive response measures are developed in collaboration with relevant departments.</p>
+                                                                    <p class="para">Over the past three years, SK Networks has conducted at least one internal audit covering its headquarters, all domestic and overseas business units, and subsidiaries. During these audits, key risks were identified, including information security issues (e.g., document security), improper business practices and procedural violations, and the misuse of company assets for personal purpose. Appropriate corrective actions are taken, and all related matters has been reported to the Audit Committee on a quarterly basis. To prevent the recurrence of similar cases, the company has implemented company-wide announcements, ethics training sessions, and ethics practice workshops.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -927,9 +788,9 @@
                                                                 <div class="section-head">
                                                                     <div class="section-subject">
                                                                         <h4 class="section-name">Operating Compliance Council</h4>
-                                                                        <p class="section-summary">SK Networks operates the SK Networks Compliance Council, which includes the head office (including Walkerhill) and seven subsidiaries and sub-subsidiaries. This council ensures that all participating companies are committed to fulfilling their social responsibilities in compliance management and fair trade, continuously striving to elevate their compliance levels. The council is structured around three areas: Legal Affairs, Fair Trade, and SHE (Safety, Health, Environment). Through its activities, the council facilitates the sharing of necessary regulatory information, educational resources, and lessons learned among the member companies. These interactions strengthen proactive prevention and enhance the ability to respond to issues effectively.</p>
+                                                                        <p class="section-summary">SK Networks operates the SK Networks Compliance Council, which includes the head office (including Walkerhill) and eight subsidiaries and sub-subsidiaries. This council ensures that all participating companies are committed to fulfilling their social responsibilities in compliance management and fair trade, continuously striving to elevate their compliance levels. The council is structured around three areas: Legal Affairs, Fair Trade, and SHE (Safety, Health, Environment). Through its activities, the council facilitates the sharing of necessary regulatory information, educational resources, and lessons learned among the member companies. These interactions strengthen proactive prevention and enhance the ability to respond to issues effectively.</p>
                                                                     </div>
-                                                                    <p class="comment design1">* SK Networks Service, SK Magic, SK Magic Service, Mintit, SK Electlink, En-core, SK Speedmate</p>
+                                                                    <p class="comment design1">* SK Networks Service, SK Magic, SK Magic Service, MINTIT, SK Electlink, En-core, SK Speedmate, Glowide</p>
                                                                 </div>
                                                                 <div class="section-body">
                                                                     <p class="board-name">SK Networks Compliance Council</p>
@@ -941,7 +802,7 @@
                                                                                 </div>
                                                                                 <div class="board-name">
                                                                                     <em class="board-caption">Participants</em>
-                                                                                    <p class="para">SK Networks(including Walkerhill) and seven first and second-tier subsidiaries</p>
+                                                                                    <p class="para">SK Networks(including Walkerhill) and eight first and second-tier subsidiaries</p>
                                                                                 </div>
                                                                             </div>
                                                                         </li>
@@ -963,7 +824,7 @@
                                                                                 </div>
                                                                                 <div class="board-name">
                                                                                     <em class="board-caption">Members</em>
-                                                                                    <p class="para">48<br> (as of 2024)</p>
+                                                                                    <p class="para">52<br> (as of 2025)</p>
                                                                                 </div>
                                                                             </div>
                                                                         </li>

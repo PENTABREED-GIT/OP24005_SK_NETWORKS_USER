@@ -55,7 +55,9 @@ public class EmailService {
             // 이메일 본문 설정
             helper.setText(contentBody, false);
 
-            javaMailSender.send(message);
+
+            // [25.05.15] 고객문의 접수 시 >> 이전 관리자한테 메일 전송 X
+//            javaMailSender.send(message);
 
             logger.debug("EMail Sent Successfully!!  :::::::::::::::::::::::::::");
             ntResult.setSuccess();

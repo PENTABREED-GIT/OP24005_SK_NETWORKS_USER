@@ -105,7 +105,7 @@
                                                     <div class="contents">
                                                         <strong class="contents-name type1">WHOLESALE OF MOBILE DEVICES</strong>
                                                         <p class="para">SK Networks, as the biggest mobile phone distributor in Korea, supplies mobile devices demanded by customers through the nationwide logistics infrastructure and purchase platform-based distribution network.</p>
-                                                        <p class="para">Based on the partnerships with SK telecom, the Korea’s largest mobile communication service provider, and other manufacturers over the world, we accomplished to sell 4.33 million mobile phone devices in 2022.</p>
+                                                        <p class="para">Based on the partnerships with SK telecom, the Korea’s largest mobile communication service provider, and other manufacturers over the world, we accomplished to sell 3.89 million mobile phone devices in 2024.</p>
                                                         <p class="para">Even in the gradually stagnating market environment, we have provided loan/payment services and purchase system to improve agencies’ purchase convenience and strengthened the business model through sales consulting to develop together with 1,041 agencies nationwide.</p>
                                                         <p class="para">The Mobile Device Business will expand the role of SK Networks in the mobile phone distribution market through a continuous value creation for its clients, thereby securing significant profits and stable growth.</p>
                                                     </div>
@@ -122,6 +122,9 @@
                                                     <div class="contents">
                                                         <strong class="contents-name type1">ICT Device / Accessory B2B Distribution</strong>
                                                         <p class="para">Major ICT devices such as laptop, tablet, etc. are sourced from global manufacturers (Apple, Samsung) and such services aligned to varying customer needs as solution customization, shipping and installation are offered. Furthermore, various ICT accessories are planned and supplied to on/offline distribution channels to help B2B customers boost smartphone sales and enrich mobile user experience.</p>
+                                                    </div>
+                                                    <div class="contents-util">
+                                                        <a class="btn design3 case3 type4 color6 ar-icon-arrow-right-up2" href="https://www.apple.com/" target="_blank"><span class="btn-text">[Business Partner] Visit Apple’s Website </span></a>
                                                     </div>
                                                 </div>
                                                 <div class="data-item back-subsidiary">

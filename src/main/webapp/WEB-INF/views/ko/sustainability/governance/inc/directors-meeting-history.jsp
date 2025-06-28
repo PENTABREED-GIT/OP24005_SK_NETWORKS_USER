@@ -1,6 +1,168 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<!-- 이사회활동내역 2025 -->
+<div class="esg-inform esg-activity esg-option2025">
+    <div class="t-display design1 case1 type1 align3 scroll">
+        <table class="col-w-3">
+            <caption>이 표는 2025년 이사회 활동내역 정보를 제공하며 회차, 개최일자, 의안내용, 참석현황, 구분, 가결여부로 구성되어 있습니다.</caption>
+            <colgroup>
+                <col class="col1">
+                <col class="col2">
+                <col class="col3">
+                <col class="col4">
+                <col class="col5">
+                <col class="col6">
+            </colgroup>
+            <thead>
+            <tr>
+                <th scope="col">회차</th>
+                <th scope="col">개최일자</th>
+                <th scope="col">의안내용</th>
+                <th scope="col">참석현황</th>
+                <th scope="col">구분</th>
+                <th scope="col">가결여부</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td rowspan="3">01월 23일</td>
+                    <td class="align1">이사회 평가(안) 보고</td>
+                    <td rowspan="3" class="align1">
+                        사내이사 <span class="accent color9">2</span><br>
+                        기타비상무이사 <span class="accent color9">1</span><br>
+                        사외이사 <span class="accent color9">4</span>
+                    </td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년도 대표이사 평가의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">대표이사 보상의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td rowspan="6">2</td>
+                    <td rowspan="6">02월 11일</td>
+                    <td class="align1">2024년 4분기 감사위원회 심의결과 보고</td>
+                    <td rowspan="6" class="align1">
+                        사내이사 <span class="accent color9">2</span><br>
+                        기타비상무이사 <span class="accent color9">1</span><br>
+                        사외이사 <span class="accent color9">4</span>
+                    </td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 연간 경영실적 보고</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">준법지원인 변경의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">공정거래 자율준수관리자 변경의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">제72기(2024년도) 재무제표 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">제72기(2024년도) 영업보고서 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td rowspan="9">3</td>
+                    <td rowspan="9">03월 11일</td>
+                    <td class="align1">2024년 내부회계관리제도 운영실태 보고</td>
+                    <td rowspan="9" class="align1">
+                        사내이사 <span class="accent color9">2</span><br>
+                        기타비상무이사 <span class="accent color9">1</span><br>
+                        사외이사 <span class="accent color9">4</span>
+                    </td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">2024년 내부회계관리제도 운영실태 평가 보고</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">이사회 평가 결과 보고</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">아카디아 임대계약 변경 체결의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 안전 및 보건에 관한 계획 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">자동차대여사업 폐업의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">자기주식 보고서 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">제72기(2024년도) 영업보고서 변경 내역 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">제72기(2024년도) 정기주주총회 소집의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">4</td>
+                    <td rowspan="3">03월 26일</td>
+                    <td class="align1">위원회 구성의 건</td>
+                    <td rowspan="3" class="align1">
+                        사내이사 <span class="accent color9">2</span><br>
+                        기타비상무이사 <span class="accent color9">1</span><br>
+                        사외이사 <span class="accent color9">4</span>
+                    </td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">이사회 규정 개정의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">인사위원회 규정 개정의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- //이사회활동내역 2025 -->
 <!-- 이사회활동내역 2024 -->
-<div class="esg-inform esg-activity esg-option2024">
+<div class="esg-inform esg-activity esg-option2024 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-3">
             <caption>이 표는 2024년 이사회 활동내역 정보를 제공하며 회차, 개최일자, 의안내용, 참석현황, 구분, 가결여부로 구성되어 있습니다.</caption>
@@ -434,6 +596,63 @@
                 </tr>
                 <tr>
                     <td class="align1">자기주식 처분의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td rowspan="10">16</td>
+                    <td rowspan="10">12월 18일</td>
+                    <td class="align1">SK㈜와의 2025년 거래 승인의 건</td>
+                    <td rowspan="10" class="align1">
+                        사내이사 <span class="accent color9">2</span><br>
+                        기타비상무이사 <span class="accent color9">1</span>
+                        사외이사 <span class="accent color9">4</span>
+                    </td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">최대주주 등과의 거래총액 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK이노베이션㈜와의 2025년 거래 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK에너지㈜와의 2025년 거래 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK핀크스㈜와의 2025년 거래 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK임업㈜와의 2025년 거래 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">아카디아 임대계약 체결의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">사채 발행 한도 위임의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 경영계획 승인의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 CEO KPI 수립의 건</td>
                     <td>결의</td>
                     <td>가결</td>
                 </tr>

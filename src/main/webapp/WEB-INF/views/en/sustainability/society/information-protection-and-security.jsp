@@ -254,25 +254,35 @@
                                                         <em class="data-subject">Information Security Management System</em>
                                                     </div>
                                                     <div class="data-body">
-                                                        <p class="para">SK Networks appointed the Head of the Information Protection Division as the Chief Information Security Officer (CISO) and Chief Privacy Officer (CPO) to manage, direct, and supervise the information protection and personal information protection duties of the company. A dedicated organization for information protection (Information Protection Team) prevents the leakage of (personal) information and responds to security compliance issues. Personnel in the organization dedicated to information protection is strictly prohibited from holding another position concurrently with the information protection duty pursuant to the Act on Promotion of Information and Communications Network Utilization and Information Protection, and the organization complies with the qualifications for CISO, as regulated by laws. SK Networks operates an Information Protection Committee, which is the highest decision-making body that comprises key executives and team leaders. The committee reviews, deliberates, and resolves matters and policies related to information protection and personal information protection, makes decisions on disciplinary actions against internal security accidents and violations, and approves action plans according to internal and external security audit results. The discussion results of the Information Protection Committee are reported to the top management. Additionally, we strengthen our ability to execute information protection duties by forming and operating a working-level council on (personal) information protection</p>
+                                                        <p class="para">SK Networks appointed the Head of the Information Protection Division as the Chief Information Security Officer (CISO) and Chief Privacy Officer (CPO) to manage, direct, and supervise the information protection and personal information protection duties of the company. A dedicated organization for information protection (Information Protection Team) prevents the leakage of (personal) information and responds to security compliance issues. SK Networks operates an Information Protection Committee, which is the highest decision-making body that comprises key executives and team leaders. The committee reviews, deliberates, and resolves matters and policies related to information protection and personal information protection, makes decisions on disciplinary actions against internal security accidents and violations, and approves action plans according to internal and external security audit results. The discussion results of the Information Protection Committee are reported to the top management. Additionally, we strengthen our ability to execute information protection duties by forming and operating a working-level council on (personal) information protection</p>
                                                     </div>
                                                     <div class="data-figure">
                                                         <img src="/assets/images/sustainability/info-protection-diagram-2-en.png" alt="This is an organizational image of the Information Protection Committee, CISO, CPO Working-level Council. Please refer to the following for more information." class="pc-only">
-                                                        <img src="/assets/images/sustainability/info-protection-diagram-2-mo-en.png" alt="This is an organizational image of the Information Protection Committee, CISO, CPO Working-level Council. Please refer to the following for more information." class="mo-only" style="min-width: 600px;">
+                                                        <img src="/assets/images/sustainability/info-protection-diagram-2-mo-en.png" alt="This is an organizational image of the Information Protection Committee, CISO, CPO Working-level Council. Please refer to the following for more information." class="mo-only" style="min-width: 601px;">
                                                         <div class="blind">
                                                             <em>CISO (Chief Information Security Officer) Chief Privacy Officer (CPO)</em>
+                                                            <ul>
+                                                                <li><em>Information Protection Committee</em></li>
+                                                                <li>Chief Operation Officer (COo)(Chair)</li>
+                                                                <li>Chief Sustainability Officer</li>
+                                                                <li>(CSO) (member)</li>
+                                                                <li>Chief Information Security</li>
+                                                                <li>Officer (member)</li>
+                                                                <li>Head of Corporate Culture</li>
+                                                                <li> Division (member)</li>
+                                                            </ul>
                                                             <ul>
                                                                 <li>Information Protection Officer Information Protection Team Leader
                                                                     <ul>
                                                                         <li>Party in Charge of InformationProtection Information Protection Team
                                                                             <ul>
-                                                                                <li>Party in Charge of Servers/ Networks/ Information Protection System Security Information Protection Team</li>
+                                                                                <li>Party in Charge of Servers/Networks/ Information Protection System Security Information Protection Team</li>
                                                                                 <li>Application Security Officer Information Protection Team Leader
                                                                                     <ul>
-                                                                                        <li>Party in Charge of Application SecurityInformation Protection Team
+                                                                                        <li>Party in Charge of Application Security Information Protection Team
                                                                                             <ul>
-                                                                                                <li>Biz. Security Organizations Trading Business Division, ICT Marketing Division, Walkerhill</li>
-                                                                                                <li>Security Organizations of Subsidiaries CISO and persons in charge (SK Magic, SK Networks Service, MINTIT, SK Electlink, SK Speedmate)</li>
+                                                                                                <li>Biz. Security Organizations ICT Marketing Division, Walkerhill</li>
+                                                                                                <li>Security Organizations of Subsidiaries CISO and persons in charge (SK Magic, SK Networks Service, MINTIT, SK Electlink, SK Speedmate, Glowide, En-core)</li>
                                                                                             </ul>
                                                                                         </li>
                                                                                     </ul>
@@ -286,13 +296,6 @@
                                                                         </li>
                                                                     </ul>
                                                                 </li>
-                                                            </ul>
-                                                            <em>Information Protection Committee</em>
-                                                            <ul>
-                                                                <li>Chief Operation Officer (COo)(Chair)</li>
-                                                                <li>Chief Sustainability Officer (CSO) (member)</li>
-                                                                <li>Chief Information Security Officer (member)</li>
-                                                                <li>Head of Corporate Culture Division (member)</li>
                                                             </ul>
                                                         </div>
                                                     </div>

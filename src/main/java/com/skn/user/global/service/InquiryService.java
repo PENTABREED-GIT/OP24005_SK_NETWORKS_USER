@@ -56,8 +56,8 @@ public class InquiryService {
             String body = inquiry.getContent();
             String classification = inquiry.getClassification();
 
-            NTResult emailSent = emailService.sendEmail(classification, date, subject, body);
 
+            NTResult emailSent = emailService.sendEmail(classification, date, subject, body);
             // 이메일 발송 성공 여부 체크
             if (!"SUCCESS".equals(emailSent.getResultCode())) {
                 logger.error("SEND MAIL ::::::::::::::::::::::::::: FAIL");

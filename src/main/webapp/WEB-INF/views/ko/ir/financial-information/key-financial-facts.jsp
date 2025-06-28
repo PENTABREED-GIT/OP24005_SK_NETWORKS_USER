@@ -66,12 +66,13 @@
                                         <div class="subsection-body">
                                             <div class="data-display onePair-table">
                                                 <div class="data-list">
-                                                    <div class="data-item" style="min-width: 450px;">
+                                                    <div class="data-item" style="min-width: 572px;">
                                                         <div class="data-wrap">
                                                             <div class="data-head">
-                                                                <p class="blind">이 표는 재무상태표 정보를 제공하며 구분(자산총계(유동자산,비유동자산), 부채총계(유동부채,비유동부채), 자본총계, 현금 단기금융상품, 차입금(단기차입금,장기차입금,리스부채)), 2023년, 2022년 으로 구성되어 있습니다.</p>
+                                                                <p class="blind">이 표는 재무상태표 정보를 제공하며 구분(자산총계(유동자산,비유동자산), 부채총계(유동부채,비유동부채), 자본총계, 현금 단기금융상품, 차입금(단기차입금,장기차입금,리스부채)), 2024년, 2023년, 2022년 으로 구성되어 있습니다.</p>
                                                                 <div class="data-tr">
                                                                     <span class="data-th">구분</span>
+                                                                    <span class="data-th">2024</span>
                                                                     <span class="data-th">2023</span>
                                                                     <span class="data-th">2022</span>
                                                                 </div>
@@ -85,6 +86,7 @@
                                                                                     <span class="data-th al">
                                                                                         <button type="button" class="btn design3 case4 type1 color8 ar-icon-arrow-down1-line" title="열기" aria-controls="total-assets"><span class="btn-text">자산총계</span></button>
                                                                                     </span>
+                                                                                    <span class="data-th"><span class="blind">2024년 자산총계</span> 51,571</span>
                                                                                     <span class="data-th"><span class="blind">2023년 자산총계</span> 91,104</span>
                                                                                     <span class="data-th"><span class="blind">2022년 자산총계</span> 94,993</span>
                                                                                 </div>
@@ -92,11 +94,13 @@
                                                                             <div class="accordion-body" id="total-assets">
                                                                                 <div class="data-tr">
                                                                                     <span class="data-td">유동자산</span>
+                                                                                    <span class="data-td"><span class="blind">2024년 유동자산</span> 20,067</span>
                                                                                     <span class="data-td"><span class="blind">2023년 유동자산</span> 23,715</span>
                                                                                     <span class="data-td"><span class="blind">2022년 유동자산</span> 27,032</span>
                                                                                 </div>
                                                                                 <div class="data-tr">
                                                                                     <span class="data-td">비유동자산</span>
+                                                                                    <span class="data-td"><span class="blind">2024년 비유동자산</span> 31,505</span>
                                                                                     <span class="data-td"><span class="blind">2023년 비유동자산</span> 67,389</span>
                                                                                     <span class="data-td"><span class="blind">2022년 비유동자산</span> 67,960</span>
                                                                                 </div>
@@ -112,6 +116,7 @@
                                                                                     <span class="data-th al">
                                                                                         <button type="button" class="btn design3 case4 type1 color8 ar-icon-arrow-down1-line" title="열기" aria-controls="total-liabilities"><span class="btn-text">부채총계</span></button>
                                                                                     </span>
+                                                                                    <span class="data-th"><span class="blind">2024년 부채총계</span> 31,038</span>
                                                                                     <span class="data-th"><span class="blind">2023년 부채총계</span> 69,545</span>
                                                                                     <span class="data-th"><span class="blind">2022년 부채총계</span> 70,485</span>
                                                                                 </div>
@@ -119,11 +124,13 @@
                                                                             <div class="accordion-body" id="total-liabilities">
                                                                                 <div class="data-tr">
                                                                                     <span class="data-td">유동부채</span>
+                                                                                    <span class="data-td"><span class="blind">2024년 유동부채</span> 19,645</span>
                                                                                     <span class="data-td"><span class="blind">2023년 유동부채</span> 39,084</span>
                                                                                     <span class="data-td"><span class="blind">2022년 유동부채</span> 35,678</span>
                                                                                 </div>
                                                                                 <div class="data-tr">
                                                                                     <span class="data-td">비유동부채</span>
+                                                                                    <span class="data-td"><span class="blind">2024년 비유동부채</span> 11,393</span>
                                                                                     <span class="data-td"><span class="blind">2023년 비유동부채</span> 30,461</span>
                                                                                     <span class="data-td"><span class="blind">2022년 비유동부채</span> 34,807</span>
                                                                                 </div>
@@ -133,11 +140,13 @@
                                                                 </div>
                                                                 <div class="data-tr">
                                                                     <span class="data-th">자본총계</span>
+                                                                    <span class="data-th"><span class="blind">2024년 자본총계</span> 20,533</span>
                                                                     <span class="data-th"><span class="blind">2023년 자본총계</span> 21,558</span>
                                                                     <span class="data-th"><span class="blind">2022년 자본총계</span> 24,507</span>
                                                                 </div>
                                                                 <div class="data-tr">
                                                                     <span class="data-th">현금ㆍ단기금융상품</span>
+                                                                    <span class="data-th"><span class="blind">2024년 현금ㆍ단기금융상품</span> 6,887</span>
                                                                     <span class="data-th"><span class="blind">2023년 현금ㆍ단기금융상품</span> 6,889</span>
                                                                     <span class="data-th"><span class="blind">2022년 현금ㆍ단기금융상품</span> 8,450</span>
                                                                 </div>
@@ -149,6 +158,7 @@
                                                                                     <span class="data-th al">
                                                                                         <button type="button" class="btn design3 case4 type1 color8 ar-icon-arrow-down1-line" title="열기" aria-controls="debt"><span class="btn-text">차입금</span></button>
                                                                                     </span>
+                                                                                    <span class="data-th"><span class="blind">2024년 차입금</span> 20,473</span>
                                                                                     <span class="data-th"><span class="blind">2023년 차입금</span> 51,625</span>
                                                                                     <span class="data-th"><span class="blind">2022년 차입금</span> 50,395</span>
                                                                                 </div>
@@ -156,16 +166,19 @@
                                                                             <div class="accordion-body" id="debt">
                                                                                 <div class="data-tr">
                                                                                     <span class="data-td">단기차입금</span>
+                                                                                    <span class="data-td"><span class="blind">2024년 단기차입금</span> 4,737</span>
                                                                                     <span class="data-td"><span class="blind">2023년 단기차입금</span> 10,411</span>
                                                                                     <span class="data-td"><span class="blind">2022년 단기차입금</span> 9,631</span>
                                                                                 </div>
                                                                                 <div class="data-tr">
                                                                                     <span class="data-td">장기차입금</span>
+                                                                                    <span class="data-td"><span class="blind">2024년 장기차입금</span> 14,062</span>
                                                                                     <span class="data-td"><span class="blind">2023년 장기차입금</span> 34,287</span>
                                                                                     <span class="data-td"><span class="blind">2022년 장기차입금</span> 30,475</span>
                                                                                 </div>
                                                                                 <div class="data-tr">
                                                                                     <span class="data-td">리스부채</span>
+                                                                                    <span class="data-td"><span class="blind">2024년 리스부채</span> 1,674</span>
                                                                                     <span class="data-td"><span class="blind">2023년 리스부채</span> 6,927</span>
                                                                                     <span class="data-td"><span class="blind">2022년 리스부채</span> 10,289</span>
                                                                                 </div>
@@ -194,10 +207,11 @@
                                 <div class="section-body">
                                     <div class="section-table">
                                         <div class="t-display design1 case1 type1 align3 scroll">
-                                            <table style="min-width: 525px;" class="col-w-1">
-                                                <caption>이 표는 손익계산서 정보를 제공하며 구분(매출액, 매출 총이익, 영업이익, 법인세 비용 차감전 순이익, 당기 순이익, EBITDA), 2023년, 2022년, 2021년으로 구성되어 있습니다.</caption>
+                                            <table style="min-width: 625px;" class="col-w-1">
+                                                <caption>이 표는 손익계산서 정보를 제공하며 구분(매출액, 매출 총이익, 영업이익, 법인세 비용 차감전 순이익, 당기 순이익, EBITDA), 2024년, 2023년, 2022년, 2021년으로 구성되어 있습니다.</caption>
                                                 <colgroup>
                                                     <col class="col1">
+                                                    <col class="col2">
                                                     <col class="col2">
                                                     <col class="col2">
                                                     <col class="col2">
@@ -205,6 +219,7 @@
                                                 <thead>
                                                     <tr>
                                                         <th scope="col">구분</th>
+                                                        <th scope="col">2024</th>
                                                         <th scope="col">2023</th>
                                                         <th scope="col">2022</th>
                                                         <th scope="col">2021</th>
@@ -213,36 +228,42 @@
                                                 <tbody>
                                                     <tr>
                                                         <td>매출액</td>
+                                                        <td>76,573</td>
                                                         <td>91,339</td>
                                                         <td>96,664</td>
                                                         <td>110,181</td>
                                                     </tr>
                                                     <tr>
                                                         <td>매출 총이익</td>
+                                                        <td>8,599</td>
                                                         <td>12,322</td>
                                                         <td>11,977</td>
                                                         <td>11,362</td>
                                                     </tr>
                                                     <tr>
                                                         <td>영업이익</td>
+                                                        <td>1,139</td>
                                                         <td>2,373</td>
                                                         <td>1,542</td>
                                                         <td>1,220</td>
                                                     </tr>
                                                     <tr>
                                                         <td>법인세 비용 차감전 순이익</td>
+                                                        <td>292</td>
                                                         <td>707</td>
                                                         <td>815</td>
                                                         <td>1,071</td>
                                                     </tr>
                                                     <tr>
                                                         <td>당기 순이익</td>
+                                                        <td>463</td>
                                                         <td>55</td>
                                                         <td>907</td>
                                                         <td>1,035</td>
                                                     </tr>
                                                     <tr>
                                                         <td>EBITDA</td>
+                                                        <td>2,966</td>
                                                         <td>10,475</td>
                                                         <td>10,070</td>
                                                         <td>9,731</td>

@@ -1,4 +1,9 @@
 <%@ taglib prefix="ntUtil" uri="tld/NTUtil.tld" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ page import="com.skn.user.util.*" %>
+
 <%--
   Created by IntelliJ IDEA.
   User: 최지연
@@ -24,7 +29,13 @@
                 </div>
                 <div class="post-inform base-board-detail">
                     <div class="post-head">
-                        <p class="post-caption"><c:out value="${item.businessAreaNameKo}"/></p>
+                        <c:if test="${item.businessAreaNameKo == 'NAMUHx'}">
+                            <p class="post-caption">NAMUH<sup>x</sup></p>
+                        </c:if>
+                        <c:if test="${item.businessAreaNameKo != 'NAMUHx'}">
+                            <p class="post-caption"><c:out value="${item.businessAreaNameKo}"/></p>
+                        </c:if>
+<%--                        <p class="post-caption"><c:out value="${item.businessAreaNameKo}"/></p>--%>
                         <p class="post-subject"><c:out value="${item.title}"/></p>
                         <p class="post-summary "><c:out value="${ntUtil:toBr(ntUtil:removeHtml(item.content))}"/></p>
                     </div>

@@ -28,7 +28,7 @@
                     <ul class="data-list">
                         <li class="data-item"><span class="data-text">19, Gyeongsu-daero 976beon-gil, Jangan-gu, Suwon-si, Gyeonggi-do, Republic of Korea</span></li>
                         <li class="data-item"><span class="data-text">Tel : 070-7800-2114</span></li>
-						<li class="data-item"><span class="data-text">Copyright ⓒ 2024 by SK Networks Co. Ltd. All Rights Reserved.</span></li>
+						<li class="data-item"><span class="data-text">Copyright ⓒ SK Networks Co. Ltd. All Rights Reserved</span></li>
                     </ul>
                 </div>
             </div>
@@ -68,9 +68,6 @@
                     </li>
                     <li class="site-item">
                         <a href="https://www.en-core.com/?language=eng" target="_blank" title="Opens in a new window." class="site">En-core</a>
-                    </li>
-                    <li class="site-item">
-                        <a href="https://hico.vc/hico-ventures/" target="_blank" title="Opens in a new window." class="site">HICO CAPITAL</a>
                     </li>
                     <li class="site-item">
                         <a href="https://www.glowide.kr/" target="_blank" title="Opens in a new window." class="site">Glowide</a>

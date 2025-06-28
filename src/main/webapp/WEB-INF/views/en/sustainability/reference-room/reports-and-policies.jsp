@@ -79,7 +79,7 @@
                                         <h4 class="section-name">Sustainability Report Download</h4>
                                     </div>
                                 </div>
-                                <div class="section-body">
+                                <div id="oldTd" class="section-body">
                                     <div class="post-list design5 case1 type1">
                                         <div class="post-item">
                                             <div class="post-wrap">
@@ -100,6 +100,35 @@
                                                         <div class="btn-display design1 case3 align1">
                                                             <div class="btn-area">
                                                                 <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/자료실/보고서 및 정책/SK networks_2023 Sustainability Report_(Eng).pdf"><span class="btn-text">Download</span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="newTd" class="section-body">
+                                    <div class="post-list design5 case1 type1">
+                                        <div class="post-item">
+                                            <div class="post-wrap">
+                                                <div class="post-figure">
+                                                    <img src="/assets/images/sustainability/sustain-report-thumb-2024-en.jpg" alt="Cover of 2024 Sustainable Management Report">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="data-display design2 case1 type1">
+                                        <ul class="data-list network">
+                                            <li class="data-item">
+                                                <div class="item-wrap">
+                                                    <div class="item-head">
+                                                        <p class="item-date">2024 Sustainability Report</p>
+                                                    </div>
+                                                    <div class="item-util">
+                                                        <div class="btn-display design1 case3 align1">
+                                                            <div class="btn-area">
+                                                                <div class="btn design3 case2 type3 color5" style="pointer-events: none"><span class="btn-text">Available end of June</span></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -221,4 +250,30 @@
 </div>
 </body>
 
+<script>
+    // 250620 추가 : 0623 텍스트 변경 되도록
+    document.addEventListener('DOMContentLoaded', function() {
+        newDateChange('2025-06-23 00:00:00');
+    });
+
+    function newDateChange(startDateTime) {
+        var now = new Date();
+        var startDate = new Date(startDateTime);
+
+        var oldTd = document.getElementById('oldTd');
+        var newTd = document.getElementById('newTd');
+
+        if (oldTd && newTd) {
+            if (now >= startDate) {
+                oldTd.style.display = 'none';
+                newTd.style.display = 'block';
+            } else {
+                oldTd.style.display = 'block';
+                newTd.style.display = 'none';
+            }
+        } else {
+            // console.error('❌ oldTd 또는 newTd 요소를 찾을 수 없습니다.');
+        }
+    }
+</script>
 </html>

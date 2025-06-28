@@ -1,6 +1,67 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
-<!-- ESG경영위원회 2024 -->
-<div class="esg-inform esg-management esg-option2024">
+<!-- 전략∙ESG위원회 2025 -->
+<div class="esg-inform esg-management esg-option2025">
+    <div class="t-display design1 case1 type1 align3 scroll">
+        <table class="col-w-5">
+            <caption>이 표는 2025년 ESG경영위원회 활동현황 정보를 제공하며 회차, 개최일자, 주요 안건, 구분, 이사참석률로 구성되어 있습니다.</caption>
+            <colgroup>
+                <col class="col1">
+                <col class="col2">
+                <col class="col3">
+                <col class="col4">
+                <col class="col5">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col">회차</th>
+                    <th scope="col">개최일자</th>
+                    <th scope="col">주요 안건</th>
+                    <th scope="col">구분</th>
+                    <th scope="col">이사참석률</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td rowspan="2">02월 05일</td>
+                    <td class="align1">준법지원인 변경의 건</td>
+                    <td>심의</td>
+                    <td rowspan="2">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">공정거래 자율준수관리자 변경의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">2</td>
+                    <td rowspan="5">03월 10일</td>
+                    <td class="align1">아카디아 임대계약 변경 체결의 건</td>
+                    <td>심의</td>
+                    <td rowspan="5">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 안전 및 보건에 관한 계획 승인의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">자동차대여사업 폐업의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">자기주식 보고서 승인의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">제72기(2024년도) 정기주주총회 소집의 건</td>
+                    <td>심의</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- //전략∙ESG위원회 2025 -->
+<!-- 전략∙ESG위원회 2024 -->
+<div class="esg-inform esg-management esg-option2024 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-5">
             <caption>이 표는 2024년 ESG경영위원회 활동현황 정보를 제공하며 회차, 개최일자, 주요 안건, 구분, 이사참석률로 구성되어 있습니다.</caption>
@@ -185,12 +246,51 @@
                     <td class="align1">자기주식 처분의 건</td>
                     <td>심의</td>
                 </tr>
+                <tr>
+                    <td rowspan="9">13</td>
+                    <td rowspan="9">12월 16일</td>
+                    <td class="align1">SK㈜와의 2025년 거래 승인의 건</td>
+                    <td>심의</td>
+                    <td rowspan="9">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">최대주주 등과의 거래총액 승인의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK이노베이션㈜와의 2025년 거래 승인의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK에너지㈜와의 2025년 거래 승인의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK핀크스㈜와의 2025년 거래 승인의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK임업㈜와의 2025년 거래 승인의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">아카디아 임대계약 체결의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">사채 발행 한도 위임의 건</td>
+                    <td>심의</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 경영계획 승인의 건</td>
+                    <td>심의</td>
+                </tr>
             </tbody>
         </table>
     </div>
 </div>
 <!-- //ESG경영위원회 2024 -->
-<!-- ESG경영위원회 2023 -->
+<!-- 전략∙ESG위원회 2023 -->
 <div class="esg-inform esg-management esg-option2023 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-5">
@@ -364,7 +464,7 @@
     </div>
 </div>
 <!-- //ESG경영위원회 2023 -->
-<!-- ESG경영위원회 2022 -->
+<!-- 전략∙ESG위원회 2022 -->
 <div class="esg-inform esg-management esg-option2022 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-5">
@@ -520,7 +620,7 @@
     </div>
 </div>
 <!-- //ESG경영위원회 2022 -->
-<!-- ESG경영위원회 2021 -->
+<!-- 전략∙ESG위원회 2021 -->
 <div class="esg-inform esg-management esg-option2021 blind">
     <div class="t-display design1 case1 type1 align3 scroll">
         <table class="col-w-5">

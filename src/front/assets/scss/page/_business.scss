@@ -305,6 +305,14 @@
                                 }
                             }
                             .article-body {
+                                .board-list {
+                                    + .comment {
+                                        margin-top: 1.6rem;
+                                        @include mobile {
+                                            margin-top: 1.2rem;
+                                        }
+                                    }
+                                }
                                 .board-item {
                                     opacity: 0;
                                     transform: translateY(80%);
@@ -314,6 +322,13 @@
                                             transition-delay: ($i - 1) * 0.2s;
                                         }
                                     }
+                                }
+                                .comment.design1 {
+                                    color: #fff;
+                                    opacity: 0;
+                                    transform: translateY(100px);
+                                    transition: 1s cubic-bezier(0, 0, 0.2, 1);
+                                    transition-delay: 0.6s;
                                 }
                             }
                             &.active1 {
@@ -343,6 +358,10 @@
                             &.active2 {
                                 .article-body {
                                     .board-item {
+                                        transform: translateY(0);
+                                        opacity: 1;
+                                    }
+                                    .comment.design1 {
                                         transform: translateY(0);
                                         opacity: 1;
                                     }

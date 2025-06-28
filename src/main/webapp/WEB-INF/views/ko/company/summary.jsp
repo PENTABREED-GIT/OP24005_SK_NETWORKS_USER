@@ -18,6 +18,25 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             Tab();
+
+            // URL 문자열 추출 (아코디언 URL 생성)
+            // 1. 현재 페이지 URL의 문자열 부분을 반환 후 ?를 제외한 나머지 쿼리 문자열을 추출(?tab=scrollTab1)
+            const qr = window.location.search.substring(1, window.location.search.length)
+
+            // 2. = 기준으로 쿼리 문자열을 나눔. [1]: 두 번째 값 가져옴 (scrollTab1)
+            const tabId = (qr.split('='))[1]
+
+            // 3. ID로 가진 HTML 요소를 DOM에서 가져옴.
+            const scrollTab = document.getElementById(tabId);
+
+            // 4. 자동으로 스크롤
+            if(tabId != null){
+                scrollTab.scrollIntoView()
+
+                // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
+                // scrollTab.querySelector('button').click()
+                scrollTab.click();
+            }
         });
     </script>
     <script>
@@ -209,6 +228,17 @@
                 }
             });
         }
+
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url + `?tabId=` + tabId;
+            history.pushState(null, null, newUrl);
+        }
     </script>
 </head>
 
@@ -234,7 +264,7 @@
                         <h2 class="local-name">Introduction</h2>
                     </div>
                     <div class="local-aside">
-                        <div class="loca-wrap">
+                        <div class="local-wrap">
                             <h3 class="local-title">AI Company</h3>
                             <p class="local-summary">AI 기술을 활용한 비즈니스로, 다양한 이해관계자의 행복을 창출하기 위해 끊임없이 노력하고 있습니다.</p>
                         </div>
@@ -252,8 +282,8 @@
                         <div class="tab-display design1 case1 type1">
                             <div class="swiper tab-wrap">
                                 <ul class="swiper-wrapper tab-list" role="tablist">
-                                    <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1"><button role="tab" class="tab-text">본사 소개</button></li>
-                                    <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2"><button role="tab" class="tab-text">자회사/브랜드 소개</button></li>
+                                    <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1"><button role="tab" class="tab-text" id="headquarter" onclick="tabClickEvent(event)">본사 소개</button></li>
+                                    <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2"><button role="tab" class="tab-text" id="subsidiaries" onclick="tabClickEvent(event)">자회사/브랜드 소개</button></li>
                                 </ul>
                             </div>
                         </div>
@@ -483,8 +513,8 @@
                                                                     <em class="data-name">매출액</em>
                                                                 </div>
                                                             </div>
-                                                            <p class="data-body">9조 1,339억 원</p>
-                                                            <span class="data-base">(2023년 연결 기준)</span>
+                                                            <p class="data-body">7조 6,573억 원</p>
+                                                            <span class="data-base">(2024년 연결 기준)</span>
                                                         </div>
                                                     </div>
                                                     <div class="data-item pallarax">
@@ -494,8 +524,8 @@
                                                                     <em class="data-name">영업이익</em>
                                                                 </div>
                                                             </div>
-                                                            <p class="data-body">2,373억원</p>
-                                                            <span class="data-base">(2023년 연결 기준)</span>
+                                                            <p class="data-body">1,139억원</p>
+                                                            <span class="data-base">(2024년 연결 기준)</span>
                                                         </div>
                                                     </div>
                                                     <div class="data-item pallarax">
@@ -506,7 +536,7 @@
                                                                 </div>
                                                             </div>
                                                             <p class="data-body">AA-(안정적)</p>
-                                                            <span class="data-base">(2023년 기준)</span>
+                                                            <span class="data-base">(2024년 기준)</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -543,7 +573,7 @@
                                                                     <div class="data-item"><span class="data-text">도쿄 법인</span></div>
                                                                     <div class="data-item"><span class="data-text">홍콩 법인</span></div>
                                                                     <div class="data-item"><span class="data-text">MINTIT Vina</span></div>
-                                                                    <div class="data-item"><span class="data-text">Hico Capital</span></div>
+                                                                    <div class="data-item"><span class="data-text">SK Networks Americas</span></div>
                                                                     <div class="data-item"><span class="data-text">SK Magic Malaysia</span></div>
                                                                 </div>
                                                             </div>
@@ -617,11 +647,14 @@
                                                     <button data-bs-toggle="modal" data-bs-target="#modalEncore" class="data-item">
                                                         <img src="/assets/images/company/company-logo-en-core.png" alt="en-core">
                                                     </button>
+                                                    <button data-bs-toggle="modal" data-bs-target="#modalGlowide" class="data-item">
+                                                        <img src="/assets/images/company/company-logo-glowide.png" alt="Glowide">
+                                                    </button>
                                                     <button data-bs-toggle="modal" data-bs-target="#modalHicocapital" class="data-item">
                                                         <img src="/assets/images/company/company-logo-hico-ventures.png" alt="HICO CAPITAL">
                                                     </button>
-                                                    <button data-bs-toggle="modal" data-bs-target="#modalGlowide" class="data-item">
-                                                        <img src="/assets/images/company/company-logo-glowide.png" alt="Glowide">
+                                                    <button data-bs-toggle="modal" data-bs-target="#modalPhnyXLab" class="data-item">
+                                                        <img src="/assets/images/company/company-logo-phnyx-lab.png" alt="PhnyX Lab">
                                                     </button>
                                                 </div>
                                             </div>
@@ -1034,27 +1067,20 @@
             <div class="modal-area">
                 <div class="modal-wrap">
                     <div class="modal-head" id="modalHicocapitalLabel">
-                        <em class="modal-subjec"><span class="modal-name">하이코캐피탈</span></em>
+                        <em class="modal-subjec"><span class="modal-name">SK Networks Americas LLC</span></em>
                     </div>
                     <div class="modal-body">
                         <div class="section design1 case7 type4 align1">
                             <div class="section-wrap">
                                 <div class="section-head">
-                                    <a class="btn design2 case1 type1 color4" href="javascript:void(0)">
+                                    <a class="btn design2 case1 type1 color4" href="/business/global-investment">
                                         <span class="btn-text">사업소개 바로가기</span>
                                     </a>
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        미국 실리콘밸리 투자법인, 하이코캐피탈은 미래 유망 글로벌 기술 영역에 대한 투자기회를 적극 발굴하고, 다양한 글로벌 네트워크를 강화해 기업가치를 지속적으로 높여 나가겠습니다.
+                                        미국 실리콘밸리 투자법인, SK Networks Americas는 미래 유망 글로벌 기술 영역에 대한 투자기회를 적극 발굴하고, 다양한 글로벌 네트워크를 강화해 기업가치를 지속적으로 높여 나가겠습니다.
                                     </p>
-                                </div>
-                                <div class="section-util">
-                                    <div class="btn-display design1 case2">
-                                        <div class="btn-area">
-                                            <a href="https://hico.vc/hico-ventures/" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">홈페이지 바로가기</span></a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1092,6 +1118,36 @@
                                             <a href="https://www.glowide.kr/" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">홈페이지 바로가기</span></a>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-fuc">
+                    <button type="button" data-bs-dismiss="modal" class="btn icon case1 modal-close"><span class="btn-text blind">닫기</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal design1 medium" id="modalPhnyXLab" tabindex="-1" aria-labelledby="modalPhnyXLabLabel" aria-hidden="true">
+        <div class="modal-inner modal-dialog">
+            <div class="modal-area">
+                <div class="modal-wrap">
+                    <div class="modal-head" id="modalPhnyXLabLabel">
+                        <em class="modal-subjec"><span class="modal-name">피닉스랩</span></em>
+                    </div>
+                    <div class="modal-body">
+                        <div class="section design1 case7 type4 align1">
+                            <div class="section-wrap">
+                                <div class="section-head">
+                                    <a class="btn design2 case1 type1 color4" href="/business/phnyx-lab">
+                                        <span class="btn-text">사업소개 바로가기</span>
+                                    </a>
+                                </div>
+                                <div class="section-body">
+                                    <p class="para">
+                                        미국 실리콘밸리에 설립된 PhnyX Lab(피닉스랩)은 AI 기반 서비스를 개발해 제공합니다.
+                                    </p>
                                 </div>
                             </div>
                         </div>

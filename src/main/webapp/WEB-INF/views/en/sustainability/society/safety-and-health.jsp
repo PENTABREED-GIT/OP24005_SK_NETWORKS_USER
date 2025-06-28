@@ -132,17 +132,17 @@
                                                 <div class="data-wrap">
                                                     <div class="data-head">
                                                         <div class="data-head-area">
-                                                            <em class="data-subject">2024</em>
-                                                            <p class="para">Establishing a Self-regulated<br> Prevention System</p>
+                                                            <em class="data-subject">2025 ~ 2026</em>
                                                         </div>
                                                     </div>
                                                     <div class="data-body">
                                                         <div class="bullet-display design1 case2 type1">
                                                             <ul class="data-list">
-                                                                <li class="data-item">Strengthening employees participation and communication to prevent major disasters</li>
-                                                                <li class="data-item">Conducting risk assessment with increased employees participation</li>
-                                                                <li class="data-item">Establishing a health management system that accounts for the characteristics of employees</li>
-                                                                <li class="data-item">Ex-post review of safety and health management systems (ISO 45001)</li>
+                                                                <li class="data-item">Strengthen employee participation and communication activities to prevent serious accidents</li>
+                                                                <li class="data-item">Optimize safety and health management at each business site and expand SHE risk management assessments</li>
+                                                                <li class="data-item">Expand employee health management programs</li>
+                                                                <li class="data-item">Maintain ISO 45001 Occupational Health and Safety Management System certification<br>: Surveillance audit in 2025; recertification audit in 2026</li>
+                                                                <li class="data-item">Expand safety and health management coverage to two key portfolio companies</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -152,17 +152,16 @@
                                                 <div class="data-wrap">
                                                     <div class="data-head">
                                                         <div class="data-head-area">
-                                                            <em class="data-subject">2025</em>
-                                                            <p class="para">Fostering and Habituating the<br class="pc-only"> VWBE Safety and Health Culture</p>
+                                                            <em class="data-subject">~ 2028</em>
                                                         </div>
                                                     </div>
                                                     <div class="data-body">
                                                         <div class="bullet-display design1 case1 type1">
                                                             <ul class="data-list">
-                                                                <li class="data-item">Creating a culture promoting safety and health and strengthening VWBE safety and health leadership</li>
-                                                                <li class="data-item">Spreading the safety and health culture through participation and cooperation</li>
-                                                                <li class="data-item">Expanding access to safety and health education and opportunities for participation</li>
-                                                                <li class="data-item">Ex-post review of safety and health management systems (ISO 45001)</li>
+                                                                <li class="data-item">Foster a strong safety and health culture and strengthen VWBE leadership in safety and health</li>
+                                                                <li class="data-item">Promote a safety and health culture through employee participation and collaboration</li>
+                                                                <li class="data-item">Undergo a surveillance audit for the ISO 45001 Occupational Health and Safety Management System</li>
+                                                                <li class="data-item">Expand safety and health management coverage to five key portfolio companies</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -172,16 +171,14 @@
                                                 <div class="data-wrap">
                                                     <div class="data-head">
                                                         <div class="data-head-area">
-                                                            <em class="data-subject">2026 ~</em>
-                                                            <p class="para">Creating a Healthy and<br class="pc-only"> Happy Workplace</p>
+                                                            <em class="data-subject">~ 2030</em>
                                                         </div>
                                                     </div>
                                                     <div class="data-body">
                                                         <div class="bullet-display design1 case1 type1">
                                                             <ul class="data-list">
-                                                                <li class="data-item">Creating the highest level of organizational culture with safety internalized</li>
-                                                                <li class="data-item">Strengthening employees' safety and health responsibilities and participation</li>
-                                                                <li class="data-item">Going through audit for renewal of occupational health and safety management system (ISO 45001)</li>
+                                                                <li class="data-item">Build a top-tier organizational culture with safety fully embedded</li>
+                                                                <li class="data-item">Maintain ISO 45001 Occupational Health and Safety Management System certification<br>: Recertification audit in 2029; surveillance audit in 2030</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -198,7 +195,7 @@
                                     <div class="section-subject">
                                         <h4 class="section-name">Identifying and mitigating safety and health risks</h4>
                                         <p class="section-summary">
-                                            We are steadfast in our commitment to proactively mitigate serious accident risks and cultivate a safe and health work environment. This entails identifying safety hazards at worksites through risk assessment, developing and implementing recommended actions, and verifying their effectiveness. Since 2022, we have conducted risk assessments twice a year, ensuring that all 93 safety hazards identified in 2023 (with a risk level of 6 or higher) have been diligently addressed. Furthermore, SK Networks is taking proactive actions to eliminate hazards found from feedback contributed by workers via the health and safety council. Walkerhill has implemented an enterprise risk management (ERM) system to enhance its risk assessment scheme specific to the needs of its worksite.
+                                            We are steadfast in our commitment to proactively mitigate serious accident risks and cultivate a safe and health work environment. This entails identifying safety hazards at worksites through risk assessment, developing and implementing recommended actions, and verifying their effectiveness. Since 2022, we have conducted risk assessments twice a year, ensuring that all 85 safety hazards identified in 2024 (with a risk level of 6 or higher) have been diligently addressed. Furthermore, SK Networks is taking proactive actions to eliminate hazards found from feedback contributed by workers via the health and safety council. Walkerhill has implemented an enterprise risk management (ERM) system to enhance its risk assessment scheme specific to the needs of its worksite.
 
                                         </p>
                                     </div>
@@ -317,14 +314,14 @@
                                     <ul class="board-list design12 case1 type1">
                                         <li class="board-item">
                                             <div class="board-wrap">
-                                                <div class="board-name">Prevention of Adult Diseases</div>
+                                                <div class="board-name">Lifestyle Disease Prevention Program</div>
                                                 <div class="board-body">
                                                     <div class="data-display design1 case4 type5">
                                                         <div class="data-list">
                                                             <div class="data-item">
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
-                                                                        <em class="data-subject">1. Smoking rate : 19.5%(2021) → 10%(~2025)</em>
+                                                                        <em class="data-subject">1. Smoking rate : 24%(2024) > 15% (~2028)</em>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case1 type3">
@@ -343,7 +340,7 @@
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case1 type3">
                                                                             <ul class="data-list">
-                                                                                <li class="data-item">BMI Assessment</li>
+                                                                                <li class="data-item">Evaluating BMI and waist circumference</li>
                                                                                 <li class="data-item">Diet and exercise coaching</li>
                                                                                 <li class="data-item">Health-friendly environment including cafeteria</li>
                                                                             </ul>
@@ -354,7 +351,7 @@
                                                             <div class="data-item">
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
-                                                                        <em class="data-subject">3. Physical exercise ratio : 44.5%(2021) → 50%(~2025)</em>
+                                                                        <em class="data-subject">3. Physical exercise ratio : 33% (2024) > 45% (~2028)</em>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case1 type3">
@@ -370,12 +367,12 @@
                                                             <div class="data-item">
                                                                 <div class="data-wrap">
                                                                     <div class="data-head">
-                                                                        <em class="data-subject">4. Minimizing SK Networks people with high blood pressure or diabetes</em>
+                                                                        <em class="data-subject">4. Minimize individuals with abnormal findings and manage individuals with medical conditions</em>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <div class="bullet-display design1 case1 type3">
                                                                             <ul class="data-list">
-                                                                                <li class="data-item">Focused care for SK Networks people with high blood pressure or diabetes</li>
+                                                                                <li class="data-item">Providing intensive management of individuals with abnormal findings such as hypertension, diabetes, dyslipidemia, and obesity</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -401,6 +398,7 @@
                                                                         <div class="bullet-display design1 case1 type3">
                                                                             <ul class="data-list">
                                                                                 <li class="data-item">Various educational programs to improve accessibility to mental health care (2022~)<br>Ex) &lt;Misunderstanding of psychological counseling &gt;, &lt;Interpretation of MBTI&gt;, etc.</li>
+                                                                                <li class="data-item">Running a visiting counseling service (starting in 2025)</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -416,7 +414,7 @@
                                                                             <ul class="data-list">
                                                                                 <li class="data-item">Introduction and development of ‘healing program(2021-)<br>Ex) Personality test and interpretation by organization</li>
                                                                                 <li class="data-item">SK Networks people stress measurement program (2022~)<br>Ex) Job stress level and resilience check, special lecture on stress management</li>
-                                                                                <li class="data-item">Meditation programs available in ‘Wings of Happiness’ Training Institute (2023~)</li>
+                                                                                <li class="data-item">Meditation programs available in ‘Wings of Happiness’ Training Institute (2023~)<br> Ex) 10-minute medication challenge, deep sleep medication</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -442,7 +440,7 @@
                                     <p class="para">
                                         SK Networks provides annual health check-ups to all SK Networks people, aiming for a completion of 100%*. All SK Networks people are encouraged to undergo these check-ups annually, with SK Networks covering the expenses for detailed health assessments. Individuals identified with health issues receive one-one-one health counseling with nurses, while those deemed to be at high risks and requiring focused care are managed accordingly.
                                     </p>
-                                    <p class="comment design1">* Available to legally qualified recipients (biennial checkups compulsory for office workers, based on their birth year), and exceptions are applied to those who are on a leave of absence, deceased, retired, pregnant, or under treatment and received health checkups independently.</p>
+                                    <p class="comment design1">* Available to legally eligible individuals (mandatory every 2 years for office workers and annually for non-office workers) and exceptions are applied to those who are on a leave of absence, deceased, retired, pregnant, or under treatment and received health checkups independently.</p>
                                 </div>
                             </div>
                         </div>
@@ -450,12 +448,12 @@
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <div class="section-subject">
-                                        <h4 class="section-name">SOKSOK Counseling Room : Promoting mental health</h4>
+                                        <h4 class="section-name">SOKSOK Counseling Center: Mental Health Enhancement</h4>
                                     </div>
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        SK Networks is providing professional psychological consultation services as the company has set up the management of mental health, to which office workers are vulnerable, as a specialized area. Consultation services are offered to employees and their immediate family members and tackle a wide spectrum of areas, including not only work-related stress and private emotions but also family issues, child-rearing, and legal advice. Quarterly notices and promotions are also made so that many employees can take advantage of those services. Health counseling services are provided not only in person but also over the phone or via video conference to ensure better accessibility. All personal information collected during counseling is strictly kept confidential in accordance with relevant statutory provisions (Article 83 of the Framework Act on Workers’ Welfare). Services are further improved by collecting feedbacks with a target to achieve a satisfaction score of 4.5 points (out of 5) from those who have used the consultation services.
+                                        SK Networks is providing professional psychological consultation services as the company has set up the management of mental health, to which office workers are vulnerable, as a specialized area. Consultation services are offered to employees and their immediate family members and tackle a wide spectrum of areas, including not only work-related stress and private emotions but also family issues, child-rearing, and legal advice. Quarterly notices and promotions are also made so that many employees can take advantage of those services. Health counseling services are provided not only in person but also over the phone or via video conference to ensure better accessibility. Providing face-to-face, phone, and video counseling services, as well as running a visiting counseling service to improve accessibility. All personal information collected during counseling is strictly kept confidential in accordance with relevant statutory provisions (Article 83 of the Framework Act on Workers’ Welfare). Services are further improved by collecting feedbacks with a target to achieve a satisfaction score of 4.5 points (out of 5) from those who have used the consultation services.
                                     </p>
                                 </div>
                             </div>
@@ -464,12 +462,14 @@
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <div class="section-subject">
-                                        <h4 class="section-name">Infectious diseases control</h4>
+                                        <h4 class="section-name">Infectious Disease Management</h4>
                                     </div>
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        SK Networks safeguards its employees against infectious diseases such as the flu by providing them with annual flu vaccinations, covered by the company. Additionally, personal disinfectant products are supplied to all employees.<br> COVID test kits, hand sanitizers, and face masks are disseminated to individuals with respiratory conditions, and company canteens exposed to significant health risks undergo monthly disinfection procedures.
+                                        SK Networks safeguards its employees against infectious diseases such as the flu by providing them with annual flu vaccinations, covered by the company. Additionally, personal disinfectant products are supplied to all employees.
+                                        COVID test kits, hand sanitizers, and face masks are disseminated to individuals with respiratory conditions, and company canteens exposed to significant health risks undergo monthly disinfection procedures.
+                                        Precautions are in place, including establishing an infectious disease response manual to protect members, suppliers, customers, and stakeholders while minimizing company losses.
                                     </p>
                                 </div>
                             </div>
@@ -483,7 +483,9 @@
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        Since the end of August 2022, SK Networks has been running a health enhancement program for all members including contract workers. The program titled Workout in daily life is implemented so that members can develop a healthy workout routine and prevent adult diseases. SK Networks people who engage in physical activity for 30 minutes or longer per day receive rewards, with additional incentives for those who maintain this routine for 15 days or more each month to foster exercise habits. Furthermore, stress management lectures and stress level assessment programs are provided to support the mental health of SK Networks people. Furthermore, Stress diagnosis program is also available for assess mental health. A member’s mental condition is checked through a stress test conducted twice a year, and customized solutions are offered according to the results. Also, programs are recommended and offered for each organization’s members according to their stress source (such as job, relationship and organizational culture) and stress level.
+                                        SK Networks is committed to providing health promotion programs for all members, including contract workers. The “Healthy Exercise Certification Program” is implemented to help members form healthy exercise routines to prevent various lifestyle diseases. Members receive rewards for exercising at least 30 minutes a day, and an additional reward is given for exercising 15 times or more per month to help them build a habit of exercising.<br>
+                                        The Wings of Happiness Training Center App offers remote exercise programs, contributing to the physical and mental health of the members. The Vita Day Program provides health information and vitamins to strengthen members’ immunity and recovery from fatigue. A smoker clinic program is operated in collaboration with Jongno-gu Community Health Center, providing support to prevent smoke-related diseases and improve work efficiency.<br>
+                                        Additionally, special lectures on stress and the “Stress Diagnosis Program” are offered for mental health. Members undergo stress assessments twice a year to check their mental state and receive personalized solutions according to the results. Members can also participate in recommended programs for each organization based on the cause (job roles, relationships, and organizational culture) and stress level.
                                     </p>
                                     <div class="board-list design3 case1 type1">
                                         <div class="board-item">
@@ -493,11 +495,11 @@
                                                         <div class="data-item">
                                                             <div class="data-wrap">
                                                                 <div class="data-body">
-                                                                    <p class="para accent case4 color6">* Performance of the Workout in daily life program(as of end of December 2023)</p>
+                                                                    <p class="para accent case4 color6">* Performance of the Workout in daily life program(as of end of December 2025)</p>
                                                                     <div class="bullet-display design1 case1 type1">
                                                                         <ul class="data-list">
-                                                                            <li class="data-item">Number of participants : 46 persons (ca. 11%)</li>
-                                                                            <li class="data-item">Number of participations : 1,833 cases</li>
+                                                                            <li class="data-item">Number of participants : 33 persons (ca. 9%)</li>
+                                                                            <li class="data-item">Number of participations : 2,280 cases</li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -507,6 +509,38 @@
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="t-display design1 case1 type1 align3">
+                                        <div class="table-info">
+                                            <span class="info-text">* Performance of the Workout in daily life program</span>
+                                        </div>
+                                        <table>
+                                            <caption>This table provides performance information for the exercise habituation program and consists of categories, 2023 and 2024.</caption>
+                                            <colgroup>
+                                                <col style="width: 33.333%;">
+                                                <col style="width: 33.333%;">
+                                                <col style="width: 33.333%;">
+                                            </colgroup>
+                                            <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">2023</th>
+                                                <th scope="col">2024</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>Number of participants</td>
+                                                <td>46 persons (ca. 11%)</td>
+                                                <td>33 persons (ca. 9%)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Number of participations</td>
+                                                <td>3,599 cases</td>
+                                                <td>2,280 cases</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -520,13 +554,19 @@
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        SK Networks provides support to employees to effectively manage their health by fostering a health-friendly environment. In-house nurses are stationed at the head office to provide medical products and services, and cafeteria nutritionists provide nutritionally balanced diets. Moreover, an indoor fitness facility is set up in an area of 496m2, housed with fitness equipment to assist employees' fitness management and in-house 'health-keepers(who provides professional massage services),' and massage chairs are also offered to prevent musculoskeletal disorders as a result of long hours of work. SK Networks people who opt for the healthy choice of using stairways are rewarded through the Hangarae app to promote the adoption of healthy daily routines. In addition to health checkup data and infectious disease data, various indexes related to fostering a health-friendly environment, including fitness use rate and canteen use rate, are also managed as valuable data.
+                                        SK Networks provides support to employees to effectively manage their health by fostering a health-friendly environment.
+                                        In-house nurses are stationed at the head office to provide medical products and services, and cafeteria nutritionists provide nutritionally balanced diets.
+                                        Moreover, an indoor fitness facility is set up in an area of 496m2, housed with fitness equipment to assist employees' fitness management and in-house
+                                        'health-keepers(who provides professional massage services)' are also offered to prevent musculoskeletal disorders as a result of long hours of work.
+                                        SK Networks people who opt for the healthy choice of using stairways are rewarded through the Hangarae app to promote the adoption of healthy daily routines.
+                                        In addition to health checkup data and infectious disease data, various indexes related to fostering a health-friendly environment,
+                                        including fitness use rate and canteen use rate, are also managed as valuable data.
                                     </p>
                                     <div class="board-list esg-health">
                                         <div class="board-item">
                                             <div class="board-wrap">
                                                 <div class="board-figure medi"></div>
-                                                <div class="board-name">Medical Office</div>
+                                                <div class="board-name">Health Promotion Office</div>
                                             </div>
                                         </div>
                                         <div class="board-item">
@@ -549,12 +589,6 @@
                                         </div>
                                         <div class="board-item">
                                             <div class="board-wrap">
-                                                <div class="board-figure mass"></div>
-                                                <div class="board-name">Massage Chairs</div>
-                                            </div>
-                                        </div>
-                                        <div class="board-item">
-                                            <div class="board-wrap">
                                                 <div class="board-figure stairs"></div>
                                                 <div class="board-name">'Stairs for health'</div>
                                             </div>
@@ -572,7 +606,7 @@
                                 </div>
                                 <div class="section-body">
                                     <p class="para">
-                                        SK Networks relieves the medical expense burden of the employees through an in-house medical fee support system. Up to KRW 5 million is annually provided to employees with permanent employment, their spouses, and children. All SK Networks employees are supported under the company's group personal accident insurance that covers major diseases such as cancer and strokes. In 2021, group dental insurance has also been offered to relieve people's financial burden of dental treatment.
+                                        SK Networks has an in-house medical expense support system to lessen the burden of medical expenses for the members. Full-time employees, their spouses, and children receive up to KRW 5 million a year in medical expense support. Members are covered by group accident insurance for major diseases, such as cancer and stroke. Since 2021, group dental insurance has been added to reduce the burden of dental treatment. The company’s active support for members’ health management extends based on social changes.
                                     </p>
                                 </div>
                             </div>

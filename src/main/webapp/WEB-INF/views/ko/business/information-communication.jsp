@@ -104,7 +104,7 @@
                                                     <div class="contents">
                                                         <strong class="contents-name type1">휴대폰 단말기 도매</strong>
                                                         <p class="para">전국적인 물류 인프라 및 구매 플랫폼 기반 유통망을 토대로 고객이 요구하는 모바일 기기를 적시에 공급하고 있으며, 이를 통해 국내 최대 규모의 휴대폰 유통 사업자로서의 위상을 보여주고 있습니다.</p>
-                                                        <p class="para">국내 1위 이동통신 사업자인 SK텔레콤 및 국내외 제조사와 공고한 파트너십을 바탕으로 2023년 394만 대의 휴대전화 단말기 판매 실적을 달성하였습니다.</p>
+                                                        <p class="para">국내 1위 이동통신 사업자인 SK텔레콤 및 국내외 제조사와 공고한 파트너십을 바탕으로 2024년 389만 대의 휴대전화 단말기 판매 실적을 달성하였습니다.</p>
                                                         <p class="para">통신 유통 시장이 지속 축소되는 환경 속에서도 여신ㆍ결제 서비스 및 구매 시스템을 제공하여 대리점의 구매 편의성을 개선하였으며, 영업 컨설팅을 통해 전국 1천여 개 대리점과 상생 발전하는 비즈니스 모델을 강화하였습니다.</p>
                                                         <p class="para">단말 유통 사업은 향후에도 고객사를 대상으로 한 지속적인 가치 창출을 통해 휴대폰 유통 시장 내 SK네트웍스의 역할을 확대하여, 의미 있는 수익을 확보하고 안정적 성장을 이어나가겠습니다.</p>
                                                     </div>
@@ -121,6 +121,9 @@
                                                     <div class="contents">
                                                         <strong class="contents-name type1">ICT Device/Accessory 유통</strong>
                                                         <p class="para">글로벌 제조사(Apple, 삼성)로부터 노트북, 태블릿 등 주요 ICT Device를 소싱하여 고객사의 다양한 Needs에 맞춰 Solution Customizing, 배송, 설치 등 맞춤형 서비스를 제공합니다. 아울러 다양한 ICT Accessory를 기획하여 온ㆍ오프라인 유통망 채널에 공급함으로써, 고객의 스마트폰 판매 확대 및 Mobile 사용자 경험 증대에 주력하고 있습니다.</p>
+                                                    </div>
+                                                    <div class="contents-util">
+                                                        <a class="btn design3 case3 type4 color6 ar-icon-arrow-right-up2" href="https://www.apple.com/kr/" target="_blank" title="새창 열기"><span class="btn-text">[파트너사] 애플 사이트 바로가기</span></a>
                                                     </div>
                                                 </div>
                                                 <div class="data-item back-subsidiary">

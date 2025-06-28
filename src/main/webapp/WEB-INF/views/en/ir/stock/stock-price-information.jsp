@@ -38,12 +38,8 @@
                     <ul class="data-list breadcrumb design1 case1 dark">
                         <li class="data-item"><span class="item-text">Home</span></li>
                         <li class="data-item"><span class="item-text">IR</span></li>
-
                         <li class="data-item"><span class="item-text">Stocks</span></li>
-
-
                         <li class="data-item"><span class="item-text">Stock Prices</span></li>
-
                     </ul>
                 </div>
                 <div class="local-head design3">
@@ -84,12 +80,12 @@
                                                     <td>248,187,647</td>
                                                     <td>26,909,745</td>
                                                     <td>221,277,902</td>
-                                                    <td>18,837,617</td>
+                                                    <td>27,345,276</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
-                                    <p class="comment design1">* As of June 30, 2023</p>
+                                    <p class="comment design1">* As of March 31, 2025</p>
                                 </div>
                             </div>
                         </div>
@@ -138,28 +134,28 @@
                                                             </tr>
                                                             <tr>
                                                                 <td>Affiliated person</td>
-                                                                <td>3,824,954</td>
-                                                                <td>1.73%</td>
+                                                                <td>2,756,079</td>
+                                                                <td>1.25%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>Treasury stock</td>
-                                                                <td>18,837,617</td>
-                                                                <td>8.51%</td>
+                                                                <td>27,345,276</td>
+                                                                <td>12.36%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>National Pension Service</td>
-                                                                <td>14,231,406</td>
-                                                                <td>6.43%</td>
+                                                                <td>12,021,020</td>
+                                                                <td>5.43%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>Others</td>
-                                                                <td>87,241,069</td>
-                                                                <td>39.43%</td>
+                                                                <td>82,012,671</td>
+                                                                <td>37.06%</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                                <p class="comment design1">* As of December 31, 2023 / Common Share</p>
+                                                <p class="comment design1">* As of March 31, 2025 / Common Share</p>
                                             </div>
                                         </li>
                                         <!-- <li class="chart-item">

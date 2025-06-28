@@ -24,7 +24,14 @@
                 </div>
                 <div class="post-inform">
                     <div class="post-head">
-                        <p class="post-caption"><c:out value="${item.businessAreaNameEn}"/></p>
+                        <c:if test="${item.businessAreaNameKo == 'NAMUHx'}">
+                            <p class="post-caption">NAMUH<sup>x</sup></p>
+                        </c:if>
+                        <c:if test="${item.businessAreaNameKo != 'NAMUHx'}">
+                            <p class="post-caption"><c:out value="${item.businessAreaNameEn}"/></p>
+                        </c:if>
+
+<%--                        <p class="post-caption"><c:out value="${item.businessAreaNameEn}"/></p>--%>
                         <p class="post-subject"><c:out value="${item.title}"/></p>
                         <p class="post-summary"><c:out value="${ntUtil:toBr(ntUtil:removeHtml(item.content))}"/></p>
                     </div>

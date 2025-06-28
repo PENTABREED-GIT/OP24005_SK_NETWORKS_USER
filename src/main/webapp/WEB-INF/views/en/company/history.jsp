@@ -359,12 +359,12 @@
                                                             <div class="data-wrap">
                                                                 <div class="data-inform">
                                                                     <div class="data-subject">
-                                                                        <p class="data-name">Established US subsidiary Hico Capital</p>
+                                                                        <p class="data-name">Established US subsidiary SK Networks Americas LLC</p>
                                                                     </div>
                                                                     <p class="data-date">2020</p>
                                                                 </div>
                                                                 <div class="data-figure">
-                                                                    <div class="figure-item"><img src="/assets/images/company/thumb-history-2020.jpg" alt="HICO CAPITAL Logo"></div>
+                                                                    <div class="figure-item"><img src="/assets/images/company/thumb-history-2020.jpg" alt="SK Networks Americas Logo"></div>
                                                                 </div>
                                                             </div>
                                                         </div>

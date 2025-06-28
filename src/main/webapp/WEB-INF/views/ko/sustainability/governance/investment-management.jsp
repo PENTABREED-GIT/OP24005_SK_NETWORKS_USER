@@ -25,7 +25,42 @@
         document.addEventListener("DOMContentLoaded", () => {
             localAnimations_Case02();
             Tab();
+
+            // URL 문자열 추출 (아코디언 URL 생성)
+            // 1. 현재 페이지 URL의 문자열 부분을 반환 후 ?를 제외한 나머지 쿼리 문자열을 추출(?tab=scrollTab1)
+            const qr = window.location.search.substring(1, window.location.search.length)
+
+            // 2. = 기준으로 쿼리 문자열을 나눔. [1]: 두 번째 값 가져옴 (scrollTab1)
+            const tabId = (qr.split('='))[1]
+
+            console.log("tabID : " + tabId);
+
+            // 3. ID로 가진 HTML 요소를 DOM에서 가져옴.
+            const scrollTab = document.getElementById(tabId);
+
+            if(tabId != null){
+                scrollTab.scrollIntoView()
+
+                // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
+                // scrollTab.querySelector('button').click()
+                scrollTab.click();
+            }
         });
+    </script>
+    <script>
+        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
+        function tabClickEvent(e){
+            let tabId = e.target.id;
+            let url = window.location.href.split('?')[0];
+            if(url == null){
+                url = window.location.href;
+            }
+            let newUrl = url;
+            if(tabId != ""){
+                newUrl += `?tabId=` + tabId;
+            }
+            history.pushState(null, null, newUrl);
+        }
     </script>
 </head>
 
@@ -72,10 +107,10 @@
                             <div class="swiper tab-wrap">
                                 <ul class="swiper-wrapper tab-list" role="tablist">
                                     <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                        <button role="tab" class="tab-text">투자관리</button>
+                                        <button role="tab" class="tab-text" id="" onclick="tabClickEvent(event)">투자관리</button>
                                     </li>
                                     <li id="tab2" class="swiper-slide tab-item" aria-controls="tab-panel2">
-                                        <button role="tab" class="tab-text">자회사ㆍ손자회사 ESG관리</button>
+                                        <button role="tab" class="tab-text" id="esgmanagement" onclick="tabClickEvent(event)">자회사ㆍ손자회사 ESG관리</button>
                                     </li>
                                 </ul>
                             </div>
@@ -100,7 +135,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="section design1 case3 type1 configuration">
+                                        <div class="section design1 case1 type1 configuration">
                                             <div class="section-wrap">
                                                 <div class="section-head">
                                                     <div class="section-subject">
@@ -109,6 +144,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="section-body">
+                                                    <p class="para">
+                                                        상정위원회는 투자실무협의체 이전에 안건의 투자위원회 상정 여부를 사전 검토하며<sup>1)</sup>, 견제 전담 조직(Red Team)은 투자위원회에 상정된 안건에 대해 발의부서와 별도로 Risk
+                                                        및 투자 타당성을 분석∙검토하는 안건별 임시 조직<sup>2)</sup>으로서, 이사회 부의 대상 투자 건에 한하여 Worst Case Projection 제시 등 검토 결과물을 투자위원회와 이사회에 별도로 제출합니다<sup>3)</sup>
+                                                    </p>
+                                                    <p class="comment design1">
+                                                        1) 내부 구성원은 투자실무협의체와 동일<br>
+                                                        2) 경영지원본부장(CFO) 산하 Virtual TF로 운영, RM실장 실무 총괄 및 투자실무협의체 구성팀의 팀원들로 구성<br>
+                                                        3) 기존 투자 금액 변경의 건, 기존 사업의 확장에 따른 투자는 검토 대상에서 제외하되, 예외적으로 경영진의 결정 및 상정위원회 의결로 대상을 추가할 수 있음.
+                                                    </p>
                                                     <div class="board-list design13">
                                                         <div class="board-item type1">
                                                             <div class="board-wrap">
@@ -118,8 +162,8 @@
                                                                 <div class="board-body">
                                                                     <div class="bullet-display design1 case1 type6">
                                                                         <ul class="data-list">
-                                                                            <li class="data-item">위원 : CEO, 사업총괄사장, 경영지원본부장, 신성장추진본부장, 기획재무실장, 회계실장, 지속경영실장</li>
-                                                                            <li class="data-item">간사 : Global Investment Group팀장</li>
+                                                                            <li class="data-item">위원 : 대표이사, 사업총괄사장, AI본부장, 경영지원본부장, 기획재무실장, RM실장, 지속경영실장</li>
+                                                                            <li class="data-item">간사 : AI Portfolio Innovation 실장</li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -128,13 +172,13 @@
                                                         <div class="board-item type2">
                                                             <div class="board-wrap">
                                                                 <div class="board-head">
-                                                                    <em class="board-subject">투자실무협의체</em>
+                                                                    <em class="board-subject">투자실무협의체 / 상정위원회</em>
                                                                 </div>
                                                                 <div class="board-body">
                                                                     <div class="bullet-display design1 case1 type6">
                                                                         <ul class="data-list">
-                                                                            <li class="data-item">위원 : Global Investment Group팀장, 전략팀장, 재무팀장,회계팀장, 세무팀장, 법무팀장, SV추진팀장</li>
-                                                                            <li class="data-item">구매성 투자의 경우, HR팀장 포함</li>
+                                                                            <li class="data-item">위원 : Global Investment Group팀장, 전략팀장, 재무팀장, 회계팀장, 세무팀장, 법무팀장, ESG경영팀장, RM파트장</li>
+                                                                            <li class="data-item">구매성 투자의 경우, 구매/자산관리팀장 포함</li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -148,7 +192,7 @@
                                             <div class="section-wrap">
                                                 <div class="section-head">
                                                     <div class="section-subject">
-                                                        <h4 class="section-name">투자위원회 운영 프로세스</h4>
+                                                        <h4 class="section-name">투자 프로세스</h4>
                                                     </div>
                                                 </div>
                                                 <div class="section-body">
@@ -158,30 +202,38 @@
                                                         <div class="blind">
                                                             <ul>
                                                                 <li>
-                                                                    <em>투자실무협의체 검토</em>
-                                                                    <span>투자 사안의 사전 검토</span>
+                                                                    <em>발의부서</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>회의 소집</em>
-                                                                    <span>투자위원회 간사에 의한 회의 소집</span>
+                                                                    <em>상정위원회</em>
+                                                                    <span>실패시 보완사항으로 발의부서 단계로 이동</span>
+                                                                    <span>조건 충족 시, 필요 시 견제 전담 조직을 총해 투자위원회 or 내부투자위원회 단계로 이동</span>
                                                                 </li>
                                                                 <li>
-                                                                    <em>의견청취 및 진행</em>
-                                                                    <span>투자위원회 위원으로만 구성된 별도의 협의 과정을 필수로 진행</span>
+                                                                    <em>투자실무협의체</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>회의 기록 및 기밀유지</em>
-                                                                    <span>회의 내용의 문서화 및 보안 유지</span>
+                                                                    <em>투자위원회 or 내부투자위원회</em>
                                                                 </li>
                                                                 <li>
-                                                                    <em>의사 결정</em>
-                                                                    <span>의결 기준 : 전략적 방향성, R&amp;C 확보방안, Valuation, Milestone, 주요 Issue 및 Contingency Plan, ESG/SV, Exit Plan, 기타</span>
-                                                                    <span>투자 위원회 통과 기준 : 전체 위원의 2/3 이상 참석 및 참석 위원의 2/3 이상 찬성 필요</span>
+                                                                    <em>결과 통보</em>
+                                                                    <span>조건 충족 시 이사회 결의 단계로 이동</span>
+                                                                </li>
+                                                                <li>
+                                                                    <em>이사회 결의</em>
+                                                                    <span>조건 충족 시 주주총회 단계로 이동</span>
+                                                                </li>
+                                                                <li>
+                                                                    <em>주주총회</em>
+                                                                </li>
+                                                                <li>
+                                                                    <span>※ 의결기준 : 전략적 방향성, R&C 확보방안, Valuation, Milestone, 주요 issue 및 Contingency Plan, ESG/SV, Exit plan 기타 등</span>
+                                                                    <span>※ 투자위원회 통과 기준 : 전체 위원의 2/3 이상 참석 위원의 2/3 이상 찬성 필요</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <p class="comment design1">* 이사회 승인 가결을 필요로 하는 투자 대상일 경우, ESG경영위원회를 통한 사전 심의 절차 진행 후 이사회의 최종 검토를 거쳐 의결합니다.</p>
+                                                    <p class="comment design1">* 이사회 승인 가결을 필요로 하는 투자 대상일 경우, 전략·ESG경영위원회를 통한 사전 심의 절차 진행 후 이사회의 최종 검토를 거쳐 의결합니다.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -346,17 +398,11 @@
                                                         <ul class="data-list">
                                                             <li class="data-item">2020년부터 전 사업부·자회사가 참여하는 SV밋업 시행을 통해 자/손회사 ESG 현황 파악 및 관리</li>
                                                             <li class="data-item">SK네트웍스 및 자/손회사 총 8개사 Net Zero 2040 선언(2021년), EV100 가입(2021년), SBTi 가입(2022년 9월) 및 목표 승인 (2023년 8월)</li>
-                                                            <li class="data-item">
-                                                                SK네트웍스 지속가능경영보고서 내 SK매직, SK네트웍스서비스 등 자회사 주요 ESG 성과 공시
-                                                            </li>
-                                                            <li class="data-item">
-                                                                주요 자회사 ESG 성과 점검 및 공시 진행 (2022년~)<br> 
-                                                                - ESG 우선 관리 지표* 정책/목표(Roadmap)/성과를 각 사 홈페이지 내 공시<br> 
-                                                                (SK네트웍스서비스 우선 관리 지표 5개 공시 완료, SK매직 우선 관리 지표 4개 공시 완료)
-                                                            </li>
+                                                            <li class="data-item">SK네트웍스 지속가능경영보고서 내 SK매직, SK네트웍스서비스 등 자회사 주요 ESG 성과 공시</li>
+                                                            <li class="data-item">자회사별 단계적 ESG 성과 점검 및 공시 진행 (2022년~)</li>
                                                         </ul>
                                                     </div>
-                                                    <p class="comment design1">* 우선 관리 지표 : 인권선언 및 정책, 구성원 안전, 기업데이터 및 정보보호, 반부패 정책, 구성원 반부패 관련 교육</p>
+                                                    <%--<p class="comment design1">* 우선 관리 지표 : 인권선언 및 정책, 구성원 안전, 기업데이터 및 정보보호, 반부패 정책, 구성원 반부패 관련 교육</p>--%>
                                                 </div>
                                             </div>
                                         </div>

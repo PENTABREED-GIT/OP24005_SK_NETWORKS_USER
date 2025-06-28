@@ -130,7 +130,7 @@
                                                             <em class="title">Startup Founder</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">188</span>
+                                                            <span class="accent color10">226</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -140,7 +140,7 @@
                                                             <em class="title">Investor</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">146</span>
+                                                            <span class="accent color10">167</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -150,11 +150,12 @@
                                                             <em class="title">Advisor</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">47</span>
+                                                            <span class="accent color10">48</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <p class="comment design1">* as of December 2024</p>
                                         </div>
                                     </div>
                                 </div>
@@ -198,29 +199,29 @@
                                             </h4>
                                             <div class="data-display investment">
                                                 <div class="data-list">
-                                                    <button type="button" class="data-item active">
+                                                    <button type="button" id="all" class="data-item active" onclick="filterButton('all');">
                                                         <span class="data-head">
                                                             <strong class="data-name">All</strong>
                                                         </span>
                                                         <span class="data-body">
-                                                            <span class="accent">31</span>
+                                                            <span class="accent">36</span>
                                                         </span>
                                                     </button>
-                                                    <button type="button" class="data-item">
+                                                    <button type="button" id="direct" class="data-item" onclick="filterButton('direct');">
                                                         <span class="data-head">
                                                             <strong class="data-name">direct investment</strong>
                                                         </span>
                                                         <span class="data-body">
-                                                            <span class="accent">10</span>
+                                                            <span class="accent">15</span>
                                                         </span>
                                                     </button>
-                                                    <button type="button" class="data-item">
+                                                    <button type="button" id="fund" class="data-item" onclick="filterButton('fund');">
                                                         <span class="data-head">
                                                             <strong class="data-name">*fund investment</strong>
                                                         </span>
                                                         <span class="data-body">
                                                             <span class="accent">21</span>
-                                                        </span>
+                                                        </span> 
                                                     </button>
                                                 </div>
                                                 <div class="data-aside">
@@ -243,8 +244,8 @@
                                                             <div class="form-item">
                                                                 <div class="form select design1 case1 type1">
                                                                     <label for="local" class="blind">Nation</label>
-                                                                    <select name="local" id="local">
-                                                                        <option value="local-total">All</option>
+                                                                    <select name="local" id="local" onchange="filterList()">
+                                                                        <option value="all">All</option>
                                                                         <option value="domestic">Domestic</option>
                                                                         <option value="overseas">Overseas</option>
                                                                     </select>
@@ -253,11 +254,10 @@
                                                             </div>
                                                             <div class="form-item">
                                                                 <div class="form select design1 case1 type1">
-                                                                    <label for="type" class="blind">Type</label>
-                                                                    <select name="type" id="type">
-                                                                        <option value="type-total">All</option>
-                                                                        <option value="direct">direct investment
-                                                                        </option>
+                                                                    <label for="investment" class="blind">Type</label>
+                                                                    <select name="investment" id="investment" onchange="filterListAndButtonSync()">
+                                                                        <option value="all">All</option>
+                                                                        <option value="direct">direct investment</option>
                                                                         <option value="fund">fund investment</option>
                                                                     </select>
                                                                     <div class="arrow"><span class="blind">Close</span></div>
@@ -267,7 +267,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="data-body">
-                                                    <ul class="data-list">
+                                                    <ul class="data-list portfolio-list">
                                                         <li class="data-item">
                                                             <a href="https://www.kurly.com/introduce" target="_blank" title="Opens in a new window." class="portfolio-figure">
                                                                 <img src="../../assets/images/business/logo-kurly.svg" alt="Kurly">
@@ -564,7 +564,7 @@
                                                         </li>
                                                         <li class="data-item">
                                                             <a href="https://www.sbvacorp.com/ko/" target="_blank" title="Opens in a new window." class="portfolio-figure">
-                                                                <img src="../../assets/images/business/logo-sbva.svg" alt="SBVA">
+                                                                <img src="../../assets/images/business/logo-sbva.png" alt="SBVA">
                                                             </a>
                                                             <div class="portfolio-info">
                                                                 <div class="portfolio-head">
@@ -630,7 +630,7 @@
                                                         </li>
                                                         <li class="data-item">
                                                             <a href="https://www.sbvacorp.com/ko/" target="_blank" title="Opens in a new window." class="portfolio-figure">
-                                                                <img src="../../assets/images/business/logo-sbva.svg" alt="SBVA">
+                                                                <img src="../../assets/images/business/logo-sbva.png" alt="SBVA">
                                                             </a>
                                                             <div class="portfolio-info">
                                                                 <div class="portfolio-head">
@@ -940,3 +940,65 @@
 </div>
 </body>
 </html>
+
+<script>
+    function filterListAndButtonSync() {
+        // Select box 값 가져오기
+        let investmentFilterValue = document.getElementById('investment').value;
+
+        // 해당 값에 맞는 filterButton 활성화
+        document.querySelectorAll('.data-item').forEach(button => {
+            button.classList.remove('active');
+            if (button.id === investmentFilterValue) {
+                button.classList.add('active');
+            }
+        });
+
+        // 기존 filterList 함수 호출
+        filterList();
+    }
+
+    function filterList() {
+        let activeButtonId = document.querySelector('.data-item.active')?.id || 'all';
+        let regionFilterValue = document.getElementById('local').value;
+        let investmentFilterValue = document.getElementById('investment').value;
+        let items = document.querySelectorAll('ul.portfolio-list .data-item');
+
+        items.forEach(item => {
+            const region = item.querySelector('.label-data.region').innerText.trim();
+            const investment = item.querySelector('.label-data.investment').innerText.trim();
+
+            let regionMatch = (regionFilterValue === 'all') ||
+                (regionFilterValue === 'domestic' && region === 'Korea') ||
+                (regionFilterValue === 'overseas' && region !== 'Korea');
+
+            let investmentMatch = (investmentFilterValue === 'all') ||
+                (activeButtonId === 'all') ||
+                (investmentFilterValue === 'direct' && investment === 'direct investment') ||
+                (activeButtonId === 'direct' && investment === 'direct investment') ||
+                (investmentFilterValue === 'fund' && investment === 'fund investment') ||
+                (activeButtonId === 'fund' && investment === 'fund investment');
+
+            if (regionMatch && investmentMatch) {
+                item.style.display = '';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    }
+    function filterButton(type) {
+        // 모든 버튼의 active 클래스 제거
+        document.querySelectorAll('.data-item').forEach(button => {
+            button.classList.remove('active');
+        });
+
+        // 클릭한 버튼에 active 클래스 추가
+        document.getElementById(type).classList.add('active');
+
+        // select box 값 변경
+        document.getElementById('investment').value = type;
+
+        // 리스트 필터링
+        filterList();
+    }
+</script>

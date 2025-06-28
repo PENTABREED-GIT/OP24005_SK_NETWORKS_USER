@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.skn.user.sustainability.mapper.ReportAndPoliciesMapper">
+    <select id="selectSustainableManagementReportList" parameterType="map" resultType="com.skn.user.sustainability.dto.ReportAndPolicies">
+        SELECT
+            RAP.REPORTS_AND_POLICIES_INDEX,
+            DATE_FORMAT(RAP.OPEN_DATE, '%Y') AS OPEN_YEAR,
+            RAP.TITLE,
+            RAP.OPEN_DATE,
+            RAP.LANG,
+            RAP.IS_OPEN,
+            MAX(CASE WHEN F.PARENT_TYPE = 'PDF_KO' THEN F.UID END) AS KO_PDF_UID,
+            MAX(CASE WHEN F.PARENT_TYPE = 'PDF_EN' THEN F.UID END) AS EN_PDF_UID
+        FROM REPORTS_AND_POLICIES RAP
+                 JOIN FILE F ON RAP.UID = F.PARENT_UID
+        WHERE F.PARENT_TABLE = 'REPORTS_AND_POLICIES' AND F.PARENT_TYPE IN ('PDF_EN', 'PDF_KO')
+          AND RAP.LANG = #{lang}
+        GROUP BY RAP.REPORTS_AND_POLICIES_INDEX, RAP.OPEN_DATE
+        ORDER BY RAP.OPEN_DATE DESC
+    </select>
+</mapper>

@@ -157,7 +157,13 @@ public class IrController {
 
         reqMap.put("lang", lang.toUpperCase());
         int totalCount = irService.getIrAnnouncementListCount(reqMap);
-        int currentPage = Integer.parseInt(NTUtil.isNull(reqMap.get("page"), "1"));
+//        int currentPage = Integer.parseInt(NTUtil.isNull(reqMap.get("page"), "1"));
+
+        String pageStr = NTUtil.isNull(reqMap.get("page"), "1");
+        if (pageStr.trim().isEmpty()) {
+            pageStr = "1";
+        }
+        int currentPage = Integer.parseInt(pageStr);
 
         Page page = new Page(5, currentPage, 10, totalCount);
 

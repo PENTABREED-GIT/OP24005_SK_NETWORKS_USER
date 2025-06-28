@@ -55,7 +55,7 @@
                                     <div class="section-subject">
                                         <h4 class="section-name">주주환원</h4>
                                         <p class="section-summary">SK네트웍스는 투명한 배당 정책을 운영하고,<br>
-                                            자사주 매입 및 소각을 활용하여 주주 가치 제고를 위한 다양한 노력을 기울이고 있습니다.
+                                            자사주 매입 및 소각 등 주주 가치 제고를 위한 다양한 노력을 기울이고 있습니다.
                                         </p>
                                     </div>
                                 </div>
@@ -68,8 +68,7 @@
                                                 </div>
                                                 <div class="board-body">
                                                     <p class="para">
-                                                        사업 지주회사 형태에 맞는 투명한 배당 정책을 운영하고, 중간 배당 제도를 도입하여 주주 환원 총액을 점진적으로 확대해 나가겠습니다.
-                                                    </p>
+                                                        사업 지주회사 형태에 맞는 투명한 배당 정책을 운영하겠습니다. 더불어 중간 배당 제도를 실시하여 주주환원을 강화하는 동시에 지속 가능한 배당 정책을 이어가겠습니다.                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -80,7 +79,7 @@
                                                 </div>
                                                 <div class="board-body">
                                                     <p class="para">
-                                                        자사주 매입 및 소각을 통해 주당 가치를 제고할 수 있도록 하겠습니다.
+                                                        자기주식 보고서를 매해 공시하고, 자사주 매입 및 소각을 통해 주당 가치를 제고할 수 있는 다양한 노력을 기울이고 있습니다.
                                                     </p>
                                                 </div>
                                             </div>
@@ -99,11 +98,12 @@
                                 </div>
                                 <div class="section-body">
                                     <div class="t-display design1 case1 type1 align3 scroll">
-                                        <table style="min-width: 700px;" class="col-w-1">
-                                            <caption>이 표는 배당내역 정보를 제공하며 구분(배당금 총액, (연결)당기순이익, 배당성향, 배당수익률), 2023년, 2022년, 2021년, 2020년, 2019년으로 구성되어 있습니다.</caption>
+                                        <table style="min-width: 938px;" class="col-w-1">
+                                            <caption>이 표는 배당내역 정보를 제공하며 구분(배당금 총액, (연결)당기순이익, 배당성향, 배당수익률), 2024년, 2023년, 2022년, 2021년, 2020년으로 구성되어 있습니다.</caption>
                                             <colgroup>
                                                 <col class="col1">
-                                                <col class="col2">
+                                                <col style="width: auto">
+                                                <col style="width: auto">
                                                 <col class="col3">
                                                 <col class="col4">
                                                 <col class="col5">
@@ -112,45 +112,50 @@
                                             <thead>
                                                 <tr>
                                                     <th scope="col">구분</th>
+                                                    <th scope="col" colspan="2">2024년</th>
                                                     <th scope="col">2023년</th>
                                                     <th scope="col">2022년</th>
                                                     <th scope="col">2021년</th>
                                                     <th scope="col">2020년</th>
-                                                    <th scope="col">2019년</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>배당금 총액</td>
+                                                    <td colspan="2">67,909</td>
                                                     <td>40,506</td>
                                                     <td>26,250</td>
                                                     <td>26,237</td>
                                                     <td>26,237</td>
-                                                    <td>28,881</td>
                                                 </tr>
                                                 <tr>
                                                     <td>(연결)당기순이익</td>
+                                                    <td colspan="2">46,292</td>
                                                     <td>5,459</td>
                                                     <td>90,765</td>
                                                     <td>103,540</td>
                                                     <td>45,053</td>
-                                                    <td>- 122,613</td>
                                                 </tr>
                                                 <tr>
                                                     <td>배당성향</td>
+                                                    <td colspan="2">147%</td>
                                                     <td>724%</td>
                                                     <td>29%</td>
                                                     <td>25%</td>
                                                     <td>62%</td>
-                                                    <td>-</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>배당수익률</td>
-                                                    <td>3.39%</td>
-                                                    <td>3.1%</td>
-                                                    <td>2.39%</td>
-                                                    <td>2.47%</td>
-                                                    <td>2.02%</td>
+                                                    <td rowspan="2">배당수익률*</td>
+                                                    <td>중간배당</td>
+                                                    <td>2.01%</td>
+                                                    <td rowspan="2">3.39%</td>
+                                                    <td rowspan="2">3.1%</td>
+                                                    <td rowspan="2">2.39%</td>
+                                                    <td rowspan="2">2.47%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>결산배당</td>
+                                                    <td>4.92%</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -186,6 +191,18 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
+                                                <tr>
+                                                    <td>2025.04.01</td>
+                                                    <td>2025.04.25</td>
+                                                    <td>200</td>
+                                                    <td>225</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2024.09.30</td>
+                                                    <td>2024.10.25</td>
+                                                    <td>100</td>
+                                                    <td>125</td>
+                                                </tr>
                                                 <tr>
                                                     <td>2024.04.01</td>
                                                     <td>2024.04.23</td>
@@ -312,7 +329,7 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                    <p class="comment design1">* 2024.06.30 보통주 기준</p>
+                                    <p class="comment design1">* 2025.03.31 기준</p>
                                 </div>
                             </div>
                         </div>
