@@ -16,6 +16,7 @@
 <script src="/assets/js/ScrollTrigger.min.js"></script>
 <script src="/assets/js/ScrollToPlugin.min.js"></script>
 <script src="/assets/js/swiper-bundle.min.js"></script>
+<script src="/assets/js/sj_common.js"></script>
 <script src="/assets/js/common.js"></script>
 <script src="/assets/js/bootstrap.bundle.min.js"></script>
 <script src="/assets/js/file.js"></script>
