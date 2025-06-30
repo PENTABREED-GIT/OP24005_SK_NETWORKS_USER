@@ -638,9 +638,6 @@
                                                     <button data-bs-toggle="modal" data-bs-target="#modalSpeedMate" class="data-item">
                                                         <img src="/assets/images/company/company-logo-speedmate-kr.png" alt="SK 스피드메이트">
                                                     </button>
-                                                    <button data-bs-toggle="modal" data-bs-target="#modalSKElectlink" class="data-item">
-                                                        <img src="/assets/images/company/company-logo-skelectric-kr.png" alt="SK 일렉링크">
-                                                    </button>
                                                     <button data-bs-toggle="modal" data-bs-target="#modalMintit" class="data-item">
                                                         <img src="/assets/images/company/company-logo-mintit.png" alt="MINTIT">
                                                     </button>
@@ -896,46 +893,6 @@
                                             <a href="https://cafe.naver.com/magicovenlove" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">네이버카페</span></a>
                                             <a href="https://post.naver.com/tymagic_magic" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">네이버 포스트</span></a>
                                             <a href="https://www.youtube.com/channel/UCcKmzgW07IZonw7H9MXuN7g" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">유튜브</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-fuc">
-                    <button type="button" data-bs-dismiss="modal" class="btn icon case1 modal-close"><span class="btn-text blind">닫기</span></button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal design1 medium" id="modalSKElectlink" tabindex="-1" aria-labelledby="modalSKElectlinkLabel" aria-hidden="true">
-        <div class="modal-inner modal-dialog">
-            <div class="modal-area">
-                <div class="modal-wrap">
-                    <div class="modal-head" id="modalSKElectlinkLabel">
-                        <em class="modal-subjec"><span class="modal-name">SK일렉링크</span></em>
-                    </div>
-                    <div class="modal-body">
-                        <div class="section design1 case7 type4 align1">
-                            <div class="section-wrap">
-                                <div class="section-head">
-                                    <a class="btn design2 case1 type1 color4" href="/business/sk-eleclink">
-                                        <span class="btn-text">사업소개 바로가기</span>
-                                    </a>
-                                </div>
-                                <div class="section-body">
-                                    <p class="para">
-                                        전기차 이용 고객들의 불편함을 앞장서서 해결하고, 지속가능한 미래에 한 발 더 다가갈 수 있도록 노력하겠습니다
-
-                                    </p>
-                                </div>
-                                <div class="section-util">
-                                    <div class="btn-display design1 case2">
-                                        <div class="btn-area">
-                                            <a href="https://skelectlink.co.kr/" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">홈페이지 바로가기</span></a>
-                                            <a href="https://www.instagram.com/skelectlink/" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">인스타그램</span></a>
-                                            <a href="https://blog.naver.com/skelectlink_ev" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">네이버 블로그</span></a>
                                         </div>
                                     </div>
                                 </div>

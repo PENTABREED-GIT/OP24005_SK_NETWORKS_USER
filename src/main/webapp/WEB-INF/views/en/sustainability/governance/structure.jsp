@@ -1013,7 +1013,7 @@
                                                                 <div class="board-util">
                                                                     <div class="btn-display align2">
                                                                         <div class="btn-area">
-                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/upload/public/data/en/sustainability/거버넌스/지배구조/기업지배구조헌장/Corporate Governance Charter(E).pdf"><span class="btn-text">Download</span></a>
+                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/assets/upload/public/data/en/sustainability/거버넌스/지배구조/기업지배구조헌장/Corporate Governance Charter(E).pdf"><span class="btn-text">Download</span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>

@@ -128,7 +128,7 @@
                                                     <div class="item-util">
                                                         <div class="btn-display design1 case3 align1">
                                                             <div class="btn-area">
-                                                                <div class="btn design3 case2 type3 color5" style="pointer-events: none"><span class="btn-text">Available end of June</span></div>
+                                                                <div class="btn design3 case2 type3 color5" style="pointer-events: none"><span class="btn-text">Available end of July</span></div>
                                                             </div>
                                                         </div>
                                                     </div>

@@ -65,9 +65,6 @@
                         <a href="https://www.speedmate.com/Company" target="_blank" title="새창 열기" class="site">SK스피드메이트</a>
                     </li>
                     <li class="site-item">
-                        <a href="https://skelectlink.co.kr/" target="_blank" title="새창 열기" class="site">SK일렉링크</a>
-                    </li>
-                    <li class="site-item">
                         <a href="https://www.mintit.co.kr/" target="_blank" title="새창 열기" class="site">민팃</a>
                     </li>
                     <li class="site-item">

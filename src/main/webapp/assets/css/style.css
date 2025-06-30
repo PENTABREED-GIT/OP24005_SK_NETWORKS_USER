@@ -19922,12 +19922,12 @@ sub {
 }
 @media (min-width: 1024px) {
   #wrap .business.speedmate .content-body .section .article.intro .article-wrap .article-body::before {
-    background: url("../../assets/images/business/bg-intro-section-speedmate-pc.jpg") no-repeat center/cover;
+    background: url("../../assets/images/business/bg-local-head-business-speedmate.jpg") no-repeat center/cover;
   }
 }
 @media (max-width: 1023px) {
   #wrap .business.speedmate .content-body .section .article.intro .article-wrap .article-body::before {
-    background: url("../../assets/images/business/bg-intro-section-speedmate-pc.jpg") no-repeat center/cover;
+    background: url("../../assets/images/business/bg-local-head-business-speedmate.jpg") no-repeat center/cover;
   }
 }
 #wrap .business.speedmate .content-body .section.banner-section .banner-head img {
@@ -24191,6 +24191,14 @@ sub {
     margin-top: 4.8rem;
   }
 }
+.esg:not(.overview).ethical-man .panel-display .panel-list .panel-item .panel-body .section.internal-audit .section-util {
+  margin-top: 8rem;
+}
+@media (max-width: 1023px) {
+  .esg:not(.overview).ethical-man .panel-display .panel-list .panel-item .panel-body .section.internal-audit .section-util {
+    margin-top: 4.8rem;
+  }
+}
 @media (min-width: 1024px) {
   .esg:not(.overview).ethical-man .panel-display .panel-list .panel-item .panel-body .section.compliance .section-head + .section-body {
     margin-top: 8rem;
@@ -24216,6 +24224,27 @@ sub {
     margin-bottom: 1.6rem;
     font-weight: 700;
     font-size: 2rem;
+  }
+}
+.esg:not(.overview).ethical-man .panel-display .panel-list .panel-item .panel-body .section.ethical-system .section-head .para {
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-top: 2.4rem;
+  color: rgb(63, 63, 70);
+}
+@media (max-width: 1023px) {
+  .esg:not(.overview).ethical-man .panel-display .panel-list .panel-item .panel-body .section.ethical-system .section-head .para {
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+  }
+}
+.esg:not(.overview).ethical-man .panel-display .panel-list .panel-item .panel-body .section.ethical-system .section-head .btn-display {
+  margin-top: 8rem;
+}
+@media (max-width: 1023px) {
+  .esg:not(.overview).ethical-man .panel-display .panel-list .panel-item .panel-body .section.ethical-system .section-head .btn-display {
+    margin-top: 4.8rem;
   }
 }
 .esg:not(.overview).ethical-man .panel-display .panel-list .panel-item .panel-body .section.ethical-system .section-body .post-list + .data-display {
@@ -26362,5 +26391,3 @@ button.swiper-pagination-bullet {
   backface-visibility: hidden;
   overflow: hidden;
 }
-
-/*# sourceMappingURL=style.css.map */

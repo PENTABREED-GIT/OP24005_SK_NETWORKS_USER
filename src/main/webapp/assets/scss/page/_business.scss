@@ -1284,10 +1284,10 @@
                             .article-wrap {
                                 .article-body::before {
                                     @include web {
-                                        background: url("../../assets/images/business/bg-intro-section-speedmate-pc.jpg") no-repeat center/cover;
+                                        background: url("../../assets/images/business/bg-local-head-business-speedmate.jpg") no-repeat center/cover;
                                     }
                                     @include mobile {
-                                        background: url("../../assets/images/business/bg-intro-section-speedmate-pc.jpg") no-repeat center/cover;
+                                        background: url("../../assets/images/business/bg-local-head-business-speedmate.jpg") no-repeat center/cover;
                                     }
                                 }
                             }

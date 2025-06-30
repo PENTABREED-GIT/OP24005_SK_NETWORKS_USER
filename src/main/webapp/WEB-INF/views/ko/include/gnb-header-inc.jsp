@@ -49,9 +49,6 @@
                             <a href="/business/skspeedmate" target="_self" class="depth2">SK스피드메이트</a>
                         </li>
                         <li class="depth2-item">
-                            <a href="/business/sk-eleclink" target="_self" class="depth2">SK일렉링크</a>
-                        </li>
-                        <li class="depth2-item">
                             <a href="/business/glowide" target="_self" class="depth2">글로와이드</a>
                         </li>
                         <li class="depth2-item">

@@ -109,7 +109,7 @@
                                                         </div>
                                                         <div class="contents-item">
                                                             <strong class="contents-name type1">비대면 ATM 방식</strong>
-                                                            <p class="para">전국 6,600여개 생활 거점으로 고객 접점을 확대하여 복잡하던 중고폰 판매 방식을 비대면 기반으로 편리하게 이용이 가능합니다.</p>
+                                                            <p class="para">대형마트, 통신사 대리점 등 전국의 생활 거점에 설치된 민팃 ATM을 통해 비대면으로 편리하게 중고폰을 판매할 수 있습니다.</p>
                                                         </div>
                                                         <div class="contents-item">
                                                             <strong class="contents-name type1">DATA 완전 삭제</strong>

@@ -50,9 +50,6 @@
                             <a href="/${LANG}/business/skspeedmate" target="_self" class="depth2">SK Speedmate</a>
                         </li>
                         <li class="depth2-item">
-                            <a href="/${LANG}/business/sk-eleclink" target="_self" class="depth2">SK Electlink</a>
-                        </li>
-                        <li class="depth2-item">
                             <a href="/${LANG}/business/glowide" target="_self" class="depth2">Glowide</a>
                         </li>
                         <li class="depth2-item">

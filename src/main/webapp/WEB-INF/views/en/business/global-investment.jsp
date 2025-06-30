@@ -136,7 +136,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="comment design1">* as of April 2025</p>
+                                            <p class="comment design1">* as of June 2025</p>
                                         </div>
                                     </div>
                                 </div>
@@ -958,7 +958,7 @@
                                                     <p class="comment design1">
                                                         * Excluding portfolios that are not allowed to be disclosed.
                                                         <br>
-                                                        * As of Mar 2025
+                                                        * As of June 2025
                                                     </p>
                                                 </div>
                                             </div>

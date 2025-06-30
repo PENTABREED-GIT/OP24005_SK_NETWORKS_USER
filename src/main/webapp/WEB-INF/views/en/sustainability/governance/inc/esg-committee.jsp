@@ -62,6 +62,24 @@
                     <td class="align1">Convening of the 72nd (2024) Annual General Meeting of Shareholders</td>
                     <td>Deliberated</td>
                 </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2025.4.11</td>
+                    <td class="align1">Sale of SK Electlink shares</td>
+                    <td>Deliberated</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">2025.5.8</td>
+                    <td class="align1">Disposition of treasury stock</td>
+                    <td>Deliberated</td>
+                    <td rowspan="2">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">Report on the FY2024 Sustainability Report Publication Plan and Material ESG Issues</td>
+                    <td>Discussion</td>
+                </tr>
             </tbody>
         </table>
     </div>

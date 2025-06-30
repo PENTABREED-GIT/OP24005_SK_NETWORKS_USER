@@ -61,9 +61,6 @@
                         <a href="https://www.speedmate.com/Company" target="_blank" title="Opens in a new window." class="site">SK Speedmate</a>
                     </li>
                     <li class="site-item">
-                        <a href="https://skelectlink.co.kr/" target="_blank" title="Opens in a new window." class="site">SK Electlink</a>
-                    </li>
-                    <li class="site-item">
                         <a href="https://www.mintit.co.kr/" target="_blank" title="Opens in a new window." class="site">MINTIT</a>
                     </li>
                     <li class="site-item">

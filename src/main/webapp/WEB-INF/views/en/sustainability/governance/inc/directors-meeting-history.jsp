@@ -143,7 +143,7 @@
                 </tr>
                 <tr>
                     <td rowspan="3">4</td>
-                    <td rowspan="9">Mar. 26</td>
+                    <td rowspan="3">Mar. 26</td>
                     <td class="align1">Organization of the Committees</td>
                     <td rowspan="3" class="align1">
                         executive directors  <span class="accent color9">2</span><br>
@@ -160,6 +160,40 @@
                 </tr>
                 <tr>
                     <td class="align1">Amendment to the HR Committee Regulations</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">Apr. 16</td>
+                    <td class="align1">Reporting on the Audit Committee’s review findings for Q1 2025</td>
+                    <td rowspan="2" class="align1">
+                        executive directors  <span class="accent color9">2</span><br>
+                        non-executive director <span class="accent color9">1</span><br>
+                        independent directors <span class="accent color9">4</span>
+                    </td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">Sale of SK Electlink shares</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">May. 13</td>
+                    <td class="align1">Reporting on Q1 2025 earnings</td>
+                    <td rowspan="2" class="align1">
+                        executive directors  <span class="accent color9">2</span><br>
+                        non-executive director <span class="accent color9">1</span><br>
+                        independent directors <span class="accent color9">4</span>
+                    </td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">Disposition of treasury stock</td>
                     <td>Resolved</td>
                     <td>Approved</td>
                 </tr>

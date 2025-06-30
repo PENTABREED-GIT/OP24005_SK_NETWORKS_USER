@@ -2083,6 +2083,12 @@
                                             }
                                         }
                                     }
+                                    .section-util {
+                                        margin-top: 8rem;
+                                        @include  mobile {
+                                            margin-top: 4.8rem;
+                                        }
+                                    }
                                 }
                                 &.compliance {
                                     .section-head {
@@ -2110,6 +2116,24 @@
                                     }
                                 }
                                 &.ethical-system {
+                                    .section-head {
+                                        .para {
+                                            @include font(small-3x, medium);
+                                            margin-top: 2.4rem;
+                                            color: color(typo, 010);
+
+                                            @include mobile {
+                                                @include font(small-4x, medium);
+                                                margin-top: 1.6rem;
+                                            }
+                                        }
+                                        .btn-display {
+                                            margin-top: 8rem;
+                                            @include mobile {
+                                                margin-top: 4.8rem;
+                                            }
+                                        }
+                                    }
                                     .section-body {
                                         .post-list {
                                             + .data-display {

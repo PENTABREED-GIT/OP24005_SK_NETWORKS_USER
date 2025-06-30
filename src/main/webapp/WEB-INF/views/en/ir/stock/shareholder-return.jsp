@@ -126,7 +126,7 @@
                                             <tbody>
                                                 <tr>
                                                     <td>Total Dividends</td>
-                                                    <td colspan="2">67,909</td>
+                                                    <td colspan="2">58,207</td>
                                                     <td>40,506</td>
                                                     <td>26,250</td>
                                                     <td>26,237</td>
@@ -142,7 +142,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>Dividend Payout Ratio</td>
-                                                    <td colspan="2">147%</td>
+                                                    <td colspan="2">126%</td>
                                                     <td>724%</td>
                                                     <td>29%</td>
                                                     <td>25%</td>
@@ -151,7 +151,7 @@
                                                 <tr>
                                                     <td rowspan="2">Dividend Yield*</td>
                                                     <td>Interim dividend</td>
-                                                    <td>2.01%</td>
+                                                    <td>2.06%</td>
                                                     <td rowspan="2">3.39%</td>
                                                     <td rowspan="2">3.1%</td>
                                                     <td rowspan="2">2.39%</td>
@@ -159,7 +159,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>Final dividend</td>
-                                                    <td>4.92%</td>
+                                                    <td>4.88%</td>
                                                 </tr>
                                             </tbody>
                                         </table>

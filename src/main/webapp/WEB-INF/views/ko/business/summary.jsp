@@ -413,31 +413,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="board-item">
-                                            <div class="board-wrap">
-                                                <div class="board-head">
-                                                    <strong class="board-name">
-                                                        SK일렉링크
-                                                        <a class="btn icon case1 arrow-right2-bg" href="/business/sk-eleclink">
-                                                            <span class="btn-text blind">SK일렉링크 페이지 바로가기</span>
-                                                        </a>
-                                                    </strong>
-                                                    <p class="board-summary">똑똑하고 원활한 전기차 충전 서비스로 전기차 시대를 준비합니다.</p>
-                                                </div>
-                                                <div class="board-body">
-                                                    <div class="board-list-sub">
-                                                        <div class="board-item-sub">
-                                                            <strong class="board-name-sub">사업영역</strong>
-                                                            <p class="para">전기차 급속 충전기 구축/운영</p>
-                                                        </div>
-                                                        <div class="board-item-sub">
-                                                            <strong class="board-name-sub">FY2023 매출액</strong>
-                                                            <p class="para">379억원</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>

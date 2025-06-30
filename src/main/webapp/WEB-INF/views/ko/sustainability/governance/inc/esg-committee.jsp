@@ -55,6 +55,24 @@
                     <td class="align1">제72기(2024년도) 정기주주총회 소집의 건</td>
                     <td>심의</td>
                 </tr>
+                <tr>
+                    <td>3</td>
+                    <td>04월 11일</td>
+                    <td class="align1">SK일렉링크㈜ 지분 매각의 건</td>
+                    <td>심의</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">4</td>
+                    <td rowspan="2">05월 08일</td>
+                    <td class="align1">자기주식 처분의 건</td>
+                    <td>심의</td>
+                    <td rowspan="2">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">FY2024 지속가능경영보고서 발간 계획 및 ESG 중대 이슈 보고</td>
+                    <td>토의</td>
+                </tr>
             </tbody>
         </table>
     </div>

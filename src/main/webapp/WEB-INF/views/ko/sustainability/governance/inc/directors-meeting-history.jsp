@@ -156,6 +156,40 @@
                     <td>결의</td>
                     <td>가결</td>
                 </tr>
+                <tr>
+                    <td rowspan="2">5</td>
+                    <td rowspan="2">04월 16일</td>
+                    <td class="align1">2025년 1분기 감사위원회 심의결과 보고</td>
+                    <td rowspan="2" class="align1">
+                        사내이사 <span class="accent color9">2</span><br>
+                        기타비상무이사 <span class="accent color9">1</span><br>
+                        사외이사 <span class="accent color9">4</span>
+                    </td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">SK일렉링크㈜ 지분 매각의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">05월 13일</td>
+                    <td class="align1">2025년 1분기 경영실적 보고</td>
+                    <td rowspan="2" class="align1">
+                        사내이사 <span class="accent color9">2</span><br>
+                        기타비상무이사 <span class="accent color9">1</span><br>
+                        사외이사 <span class="accent color9">4</span>
+                    </td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">자기주식 처분의 건</td>
+                    <td>결의</td>
+                    <td>가결</td>
+                </tr>
             </tbody>
         </table>
     </div>

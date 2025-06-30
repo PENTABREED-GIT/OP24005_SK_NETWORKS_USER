@@ -122,7 +122,7 @@
                                             <tbody>
                                                 <tr>
                                                     <td>배당금 총액</td>
-                                                    <td colspan="2">67,909</td>
+                                                    <td colspan="2">58,207</td>
                                                     <td>40,506</td>
                                                     <td>26,250</td>
                                                     <td>26,237</td>
@@ -138,7 +138,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>배당성향</td>
-                                                    <td colspan="2">147%</td>
+                                                    <td colspan="2">126%</td>
                                                     <td>724%</td>
                                                     <td>29%</td>
                                                     <td>25%</td>
@@ -147,7 +147,7 @@
                                                 <tr>
                                                     <td rowspan="2">배당수익률*</td>
                                                     <td>중간배당</td>
-                                                    <td>2.01%</td>
+                                                    <td>2.06%</td>
                                                     <td rowspan="2">3.39%</td>
                                                     <td rowspan="2">3.1%</td>
                                                     <td rowspan="2">2.39%</td>
@@ -155,7 +155,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>결산배당</td>
-                                                    <td>4.92%</td>
+                                                    <td>4.88%</td>
                                                 </tr>
                                             </tbody>
                                         </table>

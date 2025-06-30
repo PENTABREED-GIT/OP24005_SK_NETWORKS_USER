@@ -717,9 +717,6 @@
                                                     <button data-bs-toggle="modal" data-bs-target="#modalSpeedMate" class="data-item">
                                                         <img src="/assets/images/company/company-logo-speedmate-en.png" alt="SK SpeedMate">
                                                     </button>
-                                                    <button data-bs-toggle="modal" data-bs-target="#modalSKElectlink" class="data-item">
-                                                        <img src="/assets/images/company/company-logo-skelectric-en.png" alt="SK Electlink">
-                                                    </button>
                                                     <button data-bs-toggle="modal" data-bs-target="#modalMintit" class="data-item">
                                                         <img src="/assets/images/company/company-logo-mintit.png" alt="MINTIT">
                                                     </button>
@@ -989,47 +986,6 @@
                                             <a href="https://cafe.naver.com/magicovenlove" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Cafe</span></a>
                                             <a href="https://post.naver.com/tymagic_magic" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Post</span></a>
                                             <a href="https://www.youtube.com/channel/UCcKmzgW07IZonw7H9MXuN7g" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Youtube</span></a>
-                                        </div>
-                                    </div>
-                                    <!-- //btn-display -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-fuc">
-                    <button type="button" data-bs-dismiss="modal" class="btn icon case1 modal-close"><span class="btn-text blind">close</span></button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal design1 medium" id="modalSKElectlink" tabindex="-1" aria-labelledby="modalSKElectlinkLabel" aria-hidden="true">
-        <div class="modal-inner modal-dialog">
-            <div class="modal-area">
-                <div class="modal-wrap">
-                    <div class="modal-head" id="modalSKElectlinkLabel">
-                        <em class="modal-subjec"><span class="modal-name">SK Electlink</span></em>
-                    </div>
-                    <div class="modal-body">
-                        <div class="section design1 case7 type4 align1">
-                            <div class="section-wrap">
-                                <div class="section-head">
-                                    <a class="btn design2 case1 type1 color4" href="/${LANG}/business/sk-eleclink">
-                                        <span class="btn-text">Learn more</span>
-                                    </a>
-                                </div>
-                                <div class="section-body">
-                                    <p class="para">
-                                        SK Electlink is committed to addressing the challenges faced by electric vehicle users and advancing towards a more sustainable future.
-                                    </p>
-                                </div>
-                                <div class="section-util">
-                                    <!-- btn-display -->
-                                    <div class="btn-display design1 case2">
-                                        <div class="btn-area">
-                                            <a href="https://skelectlink.co.kr/" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Go to Website</span></a>
-                                            <a href="https://www.instagram.com/skelectlink/" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Instagram</span></a>
-                                            <a href="https://blog.naver.com/skelectlink_ev" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Blog</span></a>
                                         </div>
                                     </div>
                                     <!-- //btn-display -->

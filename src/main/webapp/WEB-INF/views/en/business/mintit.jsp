@@ -109,8 +109,8 @@
                                                             <p class="para">Utilizing AI machine learning-based technology for phone exterior evaluation, our ATM provides real-time appraisal results, improving transparency in the secondhand phone market.</p>
                                                         </div>
                                                         <div class="contents-item">
-                                                            <strong class="contents-name type1">Non-Face-to-Face ATM</strong>
-                                                            <p class="para">With over 6,600 locations nationwide, our non-face-to-face ATM system simplifies the secondhand phone trading process, making it more convenient for users.</p>
+                                                            <strong class="contents-name type1">Contactless ATM Method</strong>
+                                                            <p class="para">You can easily and securely sell your used phone through MINTIT ATMs located at major supermarkets, mobile carrier stores, and other key spots nationwide—all without face-to-face contact.</p>
                                                         </div>
                                                         <div class="contents-item">
                                                             <strong class="contents-name type1">Complete Data Deletion</strong>

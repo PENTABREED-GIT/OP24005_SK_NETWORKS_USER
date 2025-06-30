@@ -268,7 +268,7 @@
                                                 <div class="data-body">
                                                     <div class="form textArea">
                                                         <label for="inquiry-content" class="blind">문의내용 입력</label>
-                                                        <textarea name="content" class="input-elem" id="inquiry-content" cols="20" rows="4" placeholder="문의내용을 입력해 주세요." required></textarea>
+                                                        <textarea name="content" class="input-elem" id="inquiry-content" cols="20" rows="4" placeholder="보다 정확한 안내를 위해 문의하실 내용을 구체적으로 작성해 주세요. 단, 고유식별번호나 인증정보 등의 민감한 개인정보는 포함되지 않도록 주의해 주세요." required></textarea>
                                                     </div>
                                                     <div class="form-text error">
                                                         <p class="comment design1">* 문의내용을 입력해주세요.</p>

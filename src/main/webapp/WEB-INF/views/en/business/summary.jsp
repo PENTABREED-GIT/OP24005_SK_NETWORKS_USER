@@ -401,31 +401,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="board-item">
-                                            <div class="board-wrap">
-                                                <div class="board-head">
-                                                    <strong class="board-name">
-                                                        SK Electlink
-                                                        <a class="btn icon case1 arrow-right2-bg" href="/${LANG}/business/sk-eleclink">
-                                                            <span class="btn-text blind">Go to the SK Electlink</span>
-                                                        </a>
-                                                    </strong>
-                                                    <p class="board-summary">We are preparing for the electric vehicle era with smart and seamless EV charging services.</p>
-                                                </div>
-                                                <div class="board-body">
-                                                    <div class="board-list-sub">
-                                                        <div class="board-item-sub">
-                                                            <strong class="board-name-sub">Business Areas</strong>
-                                                            <p class="para">Installation and operation of fast EV chargers</p>
-                                                        </div>
-                                                        <div class="board-item-sub">
-                                                            <strong class="board-name-sub">FY2023 Sales</strong>
-                                                            <p class="para">KRW 37.9 billion</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
