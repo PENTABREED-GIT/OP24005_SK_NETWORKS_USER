@@ -55,6 +55,49 @@
         </choose>
     </select>
 
+
+    <!--PR > 뉴스룸 -->
+    <!--새로 만든거  -->
+    <select id="selectPrPressList2" parameterType="map" resultType="com.skn.user.pr.dto.Press">
+        /* selectPrPressList2 */
+        SELECT P.UID
+        , P.PRESS_INDEX
+        , P.TITLE
+        , P.LANG
+        , P.CONTENT
+        , BA.NAME_KO AS BUSINESS_AREA_NAME_KO
+        , BA.NAME_EN AS BUSINESS_AREA_NAME_EN
+        , CONCAT('/upload/public/press/', F.PARENT_UID, '/', F.UID, '.', F.FILE_EXTENSION) AS ADDED_FILE
+        , F.DESCRIPTION
+        , DATE_FORMAT(P.REG_DATE, '%Y.%m.%d') AS REG_DATE
+        FROM PRESS P
+        INNER JOIN BUSINESS_AREA BA ON P.BUSINESS_AREA_INDEX = BA.BUSINESS_AREA_INDEX
+        LEFT JOIN FILE F ON P.UID = F.PARENT_UID AND F.PARENT_TABLE = 'PRESS'
+        WHERE LANG = #{lang}
+            AND P.IS_PRESS = 'Y'
+            AND P.IS_OPEN = 'Y'
+        <if test="searchWord != '' and searchWord != null">
+            AND TITLE LIKE CONCAT('%', #{searchWord}, '%')
+        </if>
+        ORDER BY P.PRESS_INDEX DESC
+        LIMIT #{offset}, #{limit}
+    </select>
+
+    <select id="selectPrPressListCount2" parameterType="map" resultType="int">
+        /* selectPrPressListCount2 */
+        SELECT count(*)
+        FROM PRESS P
+        INNER JOIN BUSINESS_AREA BA ON P.BUSINESS_AREA_INDEX = BA.BUSINESS_AREA_INDEX
+        LEFT JOIN FILE F ON P.UID = F.PARENT_UID AND F.PARENT_TABLE = 'PRESS'
+        WHERE LANG = #{lang}
+            AND P.IS_PRESS = 'Y'
+            AND P.IS_OPEN = 'Y'
+        <if test="searchWord != '' and searchWord != null">
+            AND TITLE LIKE CONCAT('%', #{searchWord}, '%')
+        </if>
+    </select>
+
+
     <select id="selectPrPressListCount" parameterType="map" resultType="int">
         SELECT
         COUNT(*)

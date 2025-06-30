@@ -1,8 +1,10 @@
 package com.skn.user.common;
 
 import lombok.Getter;
+import lombok.ToString;
 
 @Getter
+@ToString
 public class Page {
     public static final int PAGE_BLOCK_SIZE = 5;
     private int currentPage;        // 현재 페이지

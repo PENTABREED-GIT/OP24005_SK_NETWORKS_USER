@@ -3,6 +3,8 @@
 # Place a copy if this at ~/.gitignore_global
 # Run `git config --global core.excludesfile ~/.gitignore_global`
 
+
+
 # Compiled source #
 ###################
 *.com
@@ -71,3 +73,5 @@ dist
 # svn #
 #######
 .svn
+
+target/

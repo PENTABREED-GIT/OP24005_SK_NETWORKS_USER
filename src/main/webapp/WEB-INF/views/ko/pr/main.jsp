@@ -290,8 +290,10 @@
                                                 <div id="pressListDiv" class="post-list design2 case1 type1 base-board-detail">
                                                 </div>
                                                 <div id="moreLoadDiv" class="btn-display case1 align3">
-                                                    <div class="btn-area">
-                                                        <button id="moreLoad" class="btn design3 case1 type1 color2 ar-icon-plus-bg" onclick="getPressList(2, ${search.searchWord})"><span class="btn-text">더보기</span></button>
+                                                    <div class="btn-area" id="moreBtn">
+                                                        <button id="moreLoad" class="btn design3 case1 type1 color2 ar-icon-plus-bg" onclick="getPressList(2)">
+                                                            <span class="btn-text">더보기</span>
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -419,16 +421,24 @@
     let urlParams = new URLSearchParams(window.location.search);
     let curPage = urlParams.get('currentPage');
     let sWord = urlParams.get('searchWord');
+    // resultSearchWord
+    console.log('sWord', sWord)
+
+    if(sWord)  document.getElementById('resultSearchWord').value = sWord;
 
     document.addEventListener("DOMContentLoaded", () => {
+        console.log('로드!')
+        /*
         // 쿼리 파라미터를 사용하여 초기 검색어 및 페이지 설정
         if (curPage || sWord) {
             document.querySelector('#resultSearchWord').value = sWord;
             detailToList(curPage, sWord);
         } else {
             // 보도자료 게시판 호출
-            getPressList(1, '');
+            getPressList(1);
         }
+        */
+        getPressList(1);
     })
 
     let currentPage = 1;
@@ -439,10 +449,88 @@
 
     /**
      * 게시물 목록 갱신
-     * @param page
-     * @returns {Promise<void>}
      */
-    async function getPressList(page, sWord) {
+    async function getPressList(currentPage = 1) {
+
+        const searchWord = fnGetValueById('resultSearchWord');
+        console.log({searchWord});
+
+        const url = '/${LANG}/pr/news-room-inc2?page=' + currentPage + '&searchWord=' + searchWord;
+        const {data, metaData} = await fnAsyncGet(url);
+
+        console.log({data, metaData});
+        const {totalCount, limit, reqMap} = metaData;
+        console.log({totalCount, limit, reqMap});
+
+        const htmlArr = [];
+
+        data.forEach((obj) => {
+
+            const {
+                uid,                    //  "ZcjsLbcI3G5rWX1x",
+                adminId,                //  null,
+                adminIndex,             //  null,
+                adminName,              //  null,
+                modDate,                //  null,
+                regDate,                //  "2025.06.27",
+                rowNumber,              //  null,
+                lang,                   //  "KO",
+                pressIndex,             //  "129",
+                businessAreaIndex,      //  null,
+                isPress,                //  null,
+                isBusiness,             //  null,
+                title,                  //  "ㄴㅇㅎㄴㅇ",
+                content,                //  "ㄴㅇㅎㅎㄴㄴㅇㅎ",
+                addedFile,              //  null,
+                businessAreaNameKo,     //  "글로벌 투자",
+                businessAreaNameEn,     //  "Global Investment",
+                description,            //  null
+            } = obj;
+
+
+            <%--htmlArr.push(`<a href="/pr/news-room/${uid}?currentPage=${page.currentPage}&searchWord=${searchWord}>" class="post-item" data-total-page="${totalPage}">`);--%>
+            //htmlArr.push(`<a href="/pr/news-room/\${uid}?currentPage=\${currentPage}&searchWord=\${searchWord}" class="post-item">`);
+            htmlArr.push(`<a href="/pr/news-room/\${uid}?currentPage=\${currentPage}" class="post-item" data-uid=\${uid}>`);
+            htmlArr.push(`    <div class="post-wrap">`);
+            htmlArr.push(`        <div class="post-figure">`);
+            if (addedFile) {
+                htmlArr.push(`                    <img src="\${addedFile}" alt="\${description}">`);
+            } else {
+                htmlArr.push(`                    <img src="/upload/public/press/newsroom/Default-thumbnail.png" alt="Press now 썸네일 이미지">`);
+            }
+            htmlArr.push(`        </div>`);
+            htmlArr.push(`        <div class="post-inform base-board-detail">`);
+            htmlArr.push(`            <div class="post-head">`);
+            htmlArr.push(`                <p class="post-caption">\${businessAreaNameKo}</p>`);
+            htmlArr.push(`                <p class="post-subject">\${title}</p>`);
+            htmlArr.push(`                <p class="post-summary ">\${content}</p>`);
+            htmlArr.push(`            </div>`);
+            htmlArr.push(`            <p class="post-date" title="등록일">\${regDate}</p>`);
+            htmlArr.push(`        </div>`);
+            htmlArr.push(`    </div>`);
+            htmlArr.push(`</a>`);
+
+        });
+
+        fnAppend('pressListDiv', htmlArr);
+
+        // 더보기 X
+        if(Array.isArray(data) && data.length < limit || totalCount < limit) {
+            fnRemoveById('moreBtn');
+        // 더보기 O
+        } else {
+            const moreHtml = `
+                <button id="moreLoad" class="btn design3 case1 type1 color2 ar-icon-plus-bg" onclick="getPressList(\${currentPage+1}, \${searchWord})">
+                    <span class="btn-text">더보기</span>
+                </button>
+            `;
+
+            fnHtml('moreBtn', [moreHtml])
+
+        }
+
+/*
+
         upcomingPage ++;
 
         if (sWord === undefined && searchWord === '') {
@@ -472,7 +560,13 @@
         let content2 = await fetch('/${LANG}/pr/news-room?page=' + currentPage + '&searchWord=' + searchWord, {
             method: 'GET',
             contentType: 'text/html'
-        })
+        });
+
+        console.log('---------------------------------------------');
+        console.log(content);
+        console.log(`page = ${page}`);
+        console.log(`currentPage = ${currentPage}`);
+        console.log(`searchWord = ${searchWord}`);
 
         if (page == 1 && searchWord !== '') {
             document.getElementById('pressListDiv').innerHTML = '';
@@ -500,25 +594,27 @@
                 else document.getElementById('moreLoad').style.display = 'block';
             }
         }
+*/
     }
 
     function searchPrPress() {
         searchWord = document.querySelector('#resultSearchWord').value.trim();
-        getPressList(1, searchWord);
+        // getPressList(1, searchWord);
+        // getPressList(1);
         location.href = '/pr/news-room?currentPage=1&searchWord=' + searchWord;
     }
 
-    async function detailToList(pageNo, sWord) {
-        totalCount = document.getElementById('totalCountTemp').value;
-        if (totalCount > 10) {
-            await getPressList(1, sWord);
-            for (let i = 0; i < pageNo-1; i++) {
-                await getPressList(2, sWord);
-            }
-        } else {
-            await getPressList(1, sWord);
-        }
-    }
+    // async function detailToList(pageNo, sWord) {
+    //     totalCount = document.getElementById('totalCountTemp').value;
+    //     if (totalCount > 10) {
+    //         await getPressList(1, sWord);
+    //         for (let i = 0; i < pageNo-1; i++) {
+    //             await getPressList(2, sWord);
+    //         }
+    //     } else {
+    //         await getPressList(1, sWord);
+    //     }
+    // }
 
     // 검색 입력 필드에서 엔터 키를 감지하여 검색 함수 호출
     const searchInput = document.querySelector('#resultSearchWord');

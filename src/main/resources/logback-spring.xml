@@ -9,6 +9,9 @@ lease see                            -->
 <!--    http://www.qos.ch/shop/products/professionalSupport         -->
 <!--                                                                -->
 <configuration>
+    <property name="LOG_PATTERN" value="%magenta([%d{yyyy-MM-dd HH:mm:ss}:%-3relative]) %green(%-5level) %boldWhite(${PID:-}) %boldWhite(---) %boldWhite([%15.15thread]) [%boldGreen(%X{thread_id})] [%blue(%X{request_id})] [%yellow(%X{request_ip})] %cyan(%-40.40logger{36}) %gray(:) %n %msg%n"/>
+
+
     <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <!--
@@ -22,6 +25,13 @@ lease see                            -->
         </filter>
     </appender>
 
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+
     <logger name="org.apache"          level="WARN" />
     <logger name="org.springframework" level="WARN" />
     <logger name="org.springframework.web.servlet.i18n" level="INFO" />
@@ -32,8 +42,11 @@ lease see                            -->
     <logger name="org.springframework.session.jdbc" level="OFF"/>
     <logger name="com.amazonaws"       level="INFO" />
     <logger name="jdbc"                level="OFF" />
-    <logger name="jdbc.sqlonly"        level="INFO" />
-    <logger name="jdbc.resultsettable" level="INFO" />
+<!--    <logger name="jdbc"                level="INFO" />-->
+<!--    <logger name="jdbc.sqlonly"        level="INFO" />-->
+    <logger name="jdbc.sqlonly"        level="OFF" />
+<!--    <logger name="jdbc.resultsettable" level="INFO" />-->
+    <logger name="jdbc.resultsettable" level="OFF" />
     <logger name="jdbc.sqltiming"      level="INFO" />
     <logger name="log4jdbc.debug"      level="INFO" />
     <logger name="org.quartz"          level="INFO" />
@@ -52,7 +65,9 @@ lease see                            -->
     <logger name="com.zaxxer.hikari"         level="OFF" />
     <logger name="com.zaxxer.hikari.HikariConfig"   level="OFF" />
 
-    <root level="ERROR">
+<!--    <root level="ERROR">-->
+    <root level="INFO">
         <appender-ref ref="stdout" />
+        <appender-ref ref="CONSOLE" />
     </root>
 </configuration>

@@ -24,14 +24,21 @@ public class PressService {
      * @return
      */
     public List<Press> getPrPressList(Map<String, Object> reqMap, Page page) {
+        // page.getCurrentPage() = 5
         if (page.getCurrentPage() > 1) {
+            // offset = 25
             reqMap.put("offset", page.getCurrentPage() * 5);
         } else {
+            // [안옴] offset = 40
             reqMap.put("offset", page.getOffset());
         }
         reqMap.put("size", page.getPageListSize());
 
         return pressMapper.selectPrPressList(reqMap);
+    }
+
+    public List<Press> getPrPressList2(Map<String, Object> reqMap) {
+        return pressMapper.selectPrPressList2(reqMap);
     }
 
     /**
@@ -41,6 +48,9 @@ public class PressService {
      */
     public int getPrPressListCount(Map<String, Object> reqMap) {
         return pressMapper.selectPrPressListCount(reqMap);
+    }
+    public int getPrPressListCount2(Map<String, Object> reqMap) {
+        return pressMapper.selectPrPressListCount2(reqMap);
     }
 
     public void updateViewCount(String uid) {
