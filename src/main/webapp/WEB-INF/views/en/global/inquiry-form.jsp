@@ -91,14 +91,6 @@
                                                 </a>
                                             </div>
                                         </li>
-                                        <li class="board-item electlink">
-                                            <div class="board-wrap">
-                                                <a class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2" href="https://skelectlink.co.kr/support/inquiry" target="_blank" title="Opens in a new window.">
-                                                    <span class="btn-text pc-only">Go to Customer Service Center<span class="blind">(SK Electlink)</span></span>
-                                                    <span class="btn-text mo-only">SK Electlink</span>
-                                                </a>
-                                            </div>
-                                        </li>
                                         <li class="board-item mintit">
                                             <div class="board-wrap">
                                                 <a class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2" href="https://mintit.co.kr/cscenter/faq" target="_blank" title="Opens in a new window.">
