@@ -197,7 +197,7 @@
                                                             Cheiron is South Korea’s first generative AI solution designed specifically for medical and pharmaceutical sectors. It understands MeSH (Medical Subject Headings) keywords and leverages platforms such as PubMed and Semantic Scholar to deliver specialized and reliable information.
                                                         </p>
                                                         <p class="para">
-                                                            Cheiron enhances work efficiency by enabling seamless data searches across various sources, including general search engines and internal corporate documents, all within a single platform. Additionally, its multilingual capabilities ensure exceptional global scalability. Building on Cheiron, PhnyX Lab aims to expand its AI solutions across multiple industries, contributing to the democratization of enterprise AI.                                                        </p>
+                                                            Cheiron enhances work efficiency by enabling seamless data searches across various sources, including general search engines and internal corporate documents, all within a single platform. Additionally, its multilingual capabilities ensure exceptional global scalability. PhnyX Lab strives to foster innovation in the pharmaceutical and healthcare industries by addressing the various complexities and inefficiencies within the sector.</p>
                                                     </div>
                                                 </div>
                                                 <div class="data-item">
