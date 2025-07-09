@@ -100,7 +100,7 @@
                                             <a href="/business/hotel-and-resort" class="sitemap">워커힐 호텔앤리조트</a>
                                         </li>
                                         <li class="sitemap-item">
-                                            <a href="/business/sk-magic" class="sitemap">SK매직</a>
+                                            <a href="/business/sk-intellix" class="sitemap">SK매직</a>
                                         </li>
                                         <li class="sitemap-item">
                                             <a href="/business/skspeedmate" class="sitemap">SK스피드메이트</a>

@@ -343,7 +343,7 @@
                                                 <div class="board-head">
                                                     <strong class="board-name">
                                                         SK Magic
-                                                        <a class="btn icon case1 arrow-right2-bg" href="/${LANG}/business/sk-magic">
+                                                        <a class="btn icon case1 arrow-right2-bg" href="/${LANG}/business/sk-intellix">
                                                             <span class="btn-text blind">Go to the SK Magic</span>
                                                         </a>
                                                     </strong>

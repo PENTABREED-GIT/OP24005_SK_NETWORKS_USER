@@ -44,7 +44,7 @@
                             <a href="/${LANG}/business/hotel-and-resort" target="_self" class="depth2 spec">Walkerhill Hotels &amp; Resorts</a>
                         </li>
                         <li class="depth2-item">
-                            <a href="/${LANG}/business/sk-magic" target="_self" class="depth2">SK Magic</a>
+                            <a href="/${LANG}/business/sk-intellix" target="_self" class="depth2">SK Magic</a>
                         </li>
                         <li class="depth2-item">
                             <a href="/${LANG}/business/skspeedmate" target="_self" class="depth2">SK Speedmate</a>

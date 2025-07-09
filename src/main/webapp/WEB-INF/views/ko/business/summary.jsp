@@ -355,7 +355,7 @@
                                                 <div class="board-head">
                                                     <strong class="board-name">
                                                         SK매직
-                                                        <a class="btn icon case1 arrow-right2-bg" href="/business/sk-magic">
+                                                        <a class="btn icon case1 arrow-right2-bg" href="/business/sk-intellix">
                                                             <span class="btn-text blind">SK매직 페이지 바로가기</span>
                                                         </a>
                                                     </strong>

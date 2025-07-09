@@ -70,7 +70,7 @@ public class BusinessController {
         return lang + "/business/hotel-and-resort";
     }
 
-    @RequestMapping(value={"/business/sk-magic", "/{lang:ko|en}/business/sk-magic"})
+    @RequestMapping(value={"/business/sk-intellix", "/{lang:ko|en}/business/sk-intellix"})
     public String skMagic(@PathVariable(required = false) String lang, HttpServletRequest request, Model model) {
         lang = NTUtil.isNull(lang, "ko");
         Map<String, Object> reqMap = new HashMap<>();
@@ -80,7 +80,7 @@ public class BusinessController {
         model.addAttribute("pressList", pressService.getBusinessPressList(reqMap));
         model.addAttribute("achievementsList", businessContentsService.getBusinessContentsList(reqMap));
 
-        return lang + "/business/sk-magic";
+        return lang + "/business/sk-intellix";
     }
 
     @RequestMapping(value={"/business/sk-rental-car", "/{lang:ko|en}/business/sk-rental-car"})
