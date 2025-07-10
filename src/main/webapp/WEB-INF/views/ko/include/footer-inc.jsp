@@ -59,7 +59,7 @@
                         <a href="https://www.sknservice.com/index.do" target="_blank" title="새창 열기" class="site">SK네트웍스 서비스</a>
                     </li>
                     <li class="site-item">
-                        <a href="https://www.skmagic.com/?_ga=2.199319278.1937658122.1716172891-198197358.1712136793" target="_blank" title="새창 열기" class="site">SK매직</a>
+                        <a href="https://www.skintellix.com" target="_blank" title="새창 열기" class="site">SK인텔릭스</a>
                     </li>
                     <li class="site-item">
                         <a href="https://www.speedmate.com/Company" target="_blank" title="새창 열기" class="site">SK스피드메이트</a>

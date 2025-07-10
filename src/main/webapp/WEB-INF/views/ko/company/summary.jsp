@@ -633,7 +633,7 @@
                                                         <img src="/assets/images/company/company-logo-sknetworks-kr.png" alt="SK 네트웍스 서비스">
                                                     </button>
                                                     <button data-bs-toggle="modal" data-bs-target="#modalSKMagic" class="data-item">
-                                                        <img src="/assets/images/company/company-logo-skmasic-kr.png" alt="SK 매직">
+                                                        <img src="/assets/images/company/company-logo-skIntellix-kr.png" alt="SK 인텔릭스">
                                                     </button>
                                                     <button data-bs-toggle="modal" data-bs-target="#modalSpeedMate" class="data-item">
                                                         <img src="/assets/images/company/company-logo-speedmate-kr.png" alt="SK 스피드메이트">
@@ -866,7 +866,7 @@
             <div class="modal-area">
                 <div class="modal-wrap">
                     <div class="modal-head" id="modalSKMagicLabel">
-                        <em class="modal-subjec"><span class="modal-name">SK매직</span></em>
+                        <em class="modal-subjec"><span class="modal-name">SK인텔릭스</span></em>
                     </div>
                     <div class="modal-body">
                         <div class="section design1 case7 type4 align1">
@@ -886,7 +886,7 @@
                                 <div class="section-util">
                                     <div class="btn-display design1 case2">
                                         <div class="btn-area">
-                                            <a href="https://www.skmagic.com/" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">홈페이지 바로가기</span></a>
+                                            <a href="https://www.skintellix.com" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">홈페이지 바로가기</span></a>
                                             <a href="https://www.facebook.com/SKmagic.life" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">페이스북</span></a>
                                             <a href="https://goo.gl/Ku5ejU" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">인스타그램</span></a>
                                             <a href="https://story.kakao.com/ch/tymagic" target="_blank" title="새창 열기" class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">카카오스토리</span></a>

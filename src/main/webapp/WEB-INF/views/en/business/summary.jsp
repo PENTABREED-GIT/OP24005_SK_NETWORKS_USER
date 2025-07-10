@@ -342,9 +342,9 @@
                                             <div class="board-wrap">
                                                 <div class="board-head">
                                                     <strong class="board-name">
-                                                        SK Magic
+                                                        SK Intellix
                                                         <a class="btn icon case1 arrow-right2-bg" href="/${LANG}/business/sk-magic">
-                                                            <span class="btn-text blind">Go to the SK Magic</span>
+                                                            <span class="btn-text blind">Go to the SK Intellix</span>
                                                         </a>
                                                     </strong>
                                                     <p class="board-summary">We develop innovative solutions empowered by AI technology to promote health and sustainable living for our customers.</p>
@@ -353,11 +353,11 @@
                                                     <div class="board-list-sub">
                                                         <div class="board-item-sub">
                                                             <strong class="board-name-sub">Business Areas</strong>
-                                                            <p class="para">Tankless water purifier, air purifier, bidet, etc</p>
+                                                            <p class="para">Health Platform, Wellness Robotics</p>
                                                         </div>
                                                         <div class="board-item-sub">
                                                             <strong class="board-name-sub">FY2023 Sales</strong>
-                                                            <p class="para">KRW 840 billion</p>
+                                                            <p class="para">KRW 844.3 billion</p>
                                                         </div>
                                                     </div>
                                                 </div>

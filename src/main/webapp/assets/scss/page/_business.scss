@@ -701,7 +701,7 @@
                                 &.hotel {
                                     background-image: url("../../assets/images/business/profile3-figure.jpg");
                                 }
-                                &.rental {
+                                &.wellness {
                                     background-image: url("../../assets/images/business/profile4-figure.jpg");
                                 }
                                 &.mobility {
@@ -963,10 +963,10 @@
                         }
                     }
                 }
-                &.rental {
+                &.wellness {
                     .section-head {
                         &::after {
-                            background: url("../../assets/images/business/bg-rental-pc.jpg") no-repeat bottom/cover;
+                            background: url("../../assets/images/business/bg-wellness-pc.jpg") no-repeat center/cover;
                             clip-path: inset(0% 0% 0% 0% round 1.6rem);
                         }
                     }
@@ -1121,10 +1121,10 @@
                             }
                         }
                     }
-                    &.rental {
+                    &.wellness {
                         .section-head {
                             &::after {
-                                background: url("../../assets/images/business/bg-rental-mo.jpg") no-repeat center/cover;
+                                background: url("../../assets/images/business/bg-wellness-mo.jpg") no-repeat center/cover;
                                 clip-path: inset(0% 0% 0% 0% round 0.8rem);
                             }
                         }

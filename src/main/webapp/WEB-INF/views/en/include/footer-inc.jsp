@@ -55,7 +55,7 @@
                         <a href="https://www.sknservice.com/en/index.do" target="_blank" title="Opens in a new window." class="site">SK Networks Service</a>
                     </li>
                     <li class="site-item">
-                        <a href="https://company.skmagic.com/en/" target="_blank" title="Opens in a new window." class="site">SK Magic</a>
+                        <a href="https://www.skintellix.com" target="_blank" title="Opens in a new window." class="site">SK Intellix</a>
                     </li>
                     <li class="site-item">
                         <a href="https://www.speedmate.com/Company" target="_blank" title="Opens in a new window." class="site">SK Speedmate</a>

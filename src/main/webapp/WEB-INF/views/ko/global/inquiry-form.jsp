@@ -75,11 +75,11 @@
                                                 </a>
                                             </div>
                                         </li>
-                                        <li class="board-item magic">
+                                        <li class="board-item intellix">
                                             <div class="board-wrap">
                                                 <a class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2" href="https://service.skmagic.com/web/easy/easyMain.do?tabIndex=0#Back" target="_blank" title="새창 열기">
-                                                    <span class="btn-text pc-only"><span class="blind">SK매직</span>고객센터 바로가기</span>
-                                                    <span class="btn-text mo-only">SK매직</span>
+                                                    <span class="btn-text pc-only"><span class="blind">SK인텔릭스</span>고객센터 바로가기</span>
+                                                    <span class="btn-text mo-only">SK인텔릭스</span>
                                                 </a>
                                             </div>
                                         </li>

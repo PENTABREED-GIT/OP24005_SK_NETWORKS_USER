@@ -75,11 +75,11 @@
                                                 </a>
                                             </div>
                                         </li>
-                                        <li class="board-item magic">
+                                        <li class="board-item intellix">
                                             <div class="board-wrap">
                                                 <a class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2" href="https://service.skmagic.com/web/easy/easyMain.do?tabIndex=0#Back" target="_blank" title="Opens in a new window.">
-                                                    <span class="btn-text pc-only">Go to Customer Service Center<span class="blind">(SK Magic)</span></span>
-                                                    <span class="btn-text mo-only">SK Magic</span>
+                                                    <span class="btn-text pc-only">Go to Customer Service Center<span class="blind">(SK Intellix)</span></span>
+                                                    <span class="btn-text mo-only">SK Intellix</span>
                                                 </a>
                                             </div>
                                         </li>

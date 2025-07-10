@@ -2069,9 +2069,14 @@
                                     background: url('../images/business/thumb-12-pc.jpg') no-repeat center / cover;
                                 }
                             }
-                            &rental {
+                            &wellness {
                                 &::after {
                                     background: url('../images/business/thumb-14-pc.jpg') no-repeat center / cover;
+                                }
+                            }
+                            &namuh {
+                                &::after {
+                                    background: url('../images/business/thumb-15-pc.jpg') no-repeat center / cover;
                                 }
                             }
                             &pers {
@@ -2287,9 +2292,15 @@
                                         clip-path: inset(0% 0% 0% 0% round .8rem);
                                     }
                                 }
-                                &rental {
+                                &wellness {
                                     &::after {
                                         background: url('../images/business/thumb-14-mo.jpg') no-repeat center / cover;
+                                        clip-path: inset(0% 0% 0% 0% round .8rem);
+                                    }
+                                }
+                                &namuh {
+                                    &::after {
+                                        background: url('../images/business/thumb-15-mo.jpg') no-repeat center / cover;
                                         clip-path: inset(0% 0% 0% 0% round .8rem);
                                     }
                                 }
@@ -2753,7 +2764,7 @@
     }
 
     // business : SK매직
-    &.rental {
+    &.wellness {
         .data-item {
             position: relative;
             padding: 6.4rem 0 6.4rem 41%;
@@ -2775,17 +2786,17 @@
                     @include font(small-3x, medium);
                 }
             }
-            &.rental01 {
-                background-image: url('../images/business/bg-rental01.jpg');
+            &.wellness01 {
+                background-image: url('../images/business/bg-wellness01.jpg');
             }
-            &.rental02 {
-                background-image: url('../images/business/bg-rental02.jpg');
+            &.wellness02 {
+                background-image: url('../images/business/bg-wellness02.jpg');
             }
-            &.rental03 {
-                background-image: url('../images/business/bg-rental03.jpg');
+            &.wellness03 {
+                background-image: url('../images/business/bg-wellness03.jpg');
             }
-            &.rental04 {
-                background-image: url('../images/business/bg-rental04.jpg');
+            &.wellness04 {
+                background-image: url('../images/business/bg-wellness04.jpg');
             }
         }
         @include mobile {

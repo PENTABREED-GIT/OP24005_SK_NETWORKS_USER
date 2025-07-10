@@ -14,7 +14,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-        SK 매직 &lt; Business &lt; SK Networks</title>
+        SK 인텔릭스 &lt; Business &lt; SK Networks</title>
     <%@ include file="/WEB-INF/views/ko/include/page-header-inc.jsp" %>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -46,13 +46,13 @@
                         <ul class="data-list breadcrumb design1 case2 dark">
                             <li class="data-item"><span class="item-text">Home</span></li>
                             <li class="data-item"><span class="item-text">Business</span></li>
-                            <li class="data-item"><span class="item-text">SK 매직</span></li>
+                            <li class="data-item"><span class="item-text">SK 인텔릭스</span></li>
                         </ul>
                     </div>
-                    <div class="local-subject"><h2 class="local-name">건강하고 편리한,<br>친환경적인 일상을 시작합니다.</h2></div>
+                    <div class="local-subject"><h2 class="local-name">당신만을 위한 웰니스 파트너,<br>Your Everyday Wellness Partner</h2></div>
                     <div class="local-aside">
                         <div class="local-wrap">
-                            <h2 class="local-title">웰니스 가전</h2>
+                            <h2 class="local-title">AI Wellness Platform</h2>
                         </div>
                     </div>
                     <div class="local-figure">
@@ -63,26 +63,27 @@
                     </div>
                 </div>
                 <div class="local-body">
-                    <div class="content-head">SK매직 페이지</div>
+                    <div class="content-head">SK인텔릭스 페이지</div>
                     <div class="content-body">
                         <div class="section design1 case3 type1 core">
                             <div class="section-wrap">
                                 <div class="article intro">
                                     <div class="article-wrap">
                                         <div class="article-head">
-                                            <h3 class="title">SK매직</h3>
-                                            <h4 class="sub-title">행복한 Life AI 웰니스 플랫폼을 제시하다</h4>
+                                            <h3 class="title">SK인텔릭스</h3>
+                                            <h4 class="sub-title">AI Wellness Platform Company</h4>
                                         </div>
                                         <div class="article-body">
                                             <p class="para case2">
-                                                SK매직은 1985년 창립 이래 차별화된 기술력과 고객 친화서비스로 국내 시장 트렌드를 이끌어 왔습니다. 2008년 정수기, 공기청정기 등 가전 렌털사업으로 영역을 확장한 SK매직은 지속적인 연구개발로 세계적 수준의 기술력을 인정받으며 시장 패러다임을 주도하고 있습니다.
+                                                SK인텔릭스는 기존 환경가전에 국한된 ‘SK매직’의 브랜드 이미지를 넘어, 새롭게 선보이는 웰니스 로보틱스 ‘NAMUHX(나무엑스)’의 혁신성과 미래지향적인 브랜드 가치를 포괄할 수 있는 통합 브랜드 체계를 마련했다.
                                             </p>
                                             <p class="para case2">
-                                                앞으로 SK매직은 빠르게 변하는 시장환경에 발맞춰 국내·외 AI 협업 생태계를 구축, 기존 제품에 AI 기반 혁신을 추진해 사업 경쟁력을 강화하는 한편, 웰니스 영역에서 AI 신규 제품 및 서비스를 도입해 고객관계 기반의 ‘AI 웰니스 플랫폼 기업’으로 진화ㆍ발전해 국내를 넘어 글로벌 시장까지 확장해 나갈 계획입니다.
+                                                헬스 플랫폼 브랜드 SK매직은 환경가전 제조·판매 및 렌탈 서비스 역량과 브랜드 자산을 기반으로 신규 혁신 제품 카테고리를 창출해 신뢰 받는 헬스 사업 브랜드로 성장해 나갈 계획이며,
+                                                웰니스 로보틱스 브랜드 NAMUHX는 오픈 생태계 구축과 지속적인 기능 확장 등을 통해 웰니스 혁신을 이끄는 로보틱스 전문 브랜드로 성장해 나갈 계획입니다.
                                             </p>
                                         </div>
                                         <div class="article-util">
-                                            <a class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2" href="https://company.skmagic.com/" target="_blank" title="새창 열기"><span class="btn-text">SK매직 웹사이트로 이동하기</span></a>
+                                            <a class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2" href="https://www.skintellix.com" target="_blank" title="새창 열기"><span class="btn-text">SK인텔릭스 웹사이트로 이동하기</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -100,39 +101,42 @@
                                         </div>
                                         <div class="data-body">
                                             <div class="data-list">
-                                                <div class="data-item back-rental">
+                                                <div class="data-item back-wellness">
                                                     <div class="contents">
-                                                        <strong class="contents-name type1">렌털 사업</strong>
-                                                        <p class="para">SK매직의 가전 렌털 사업은 국내 최초의 제품들을 론칭시키며 지속 성장하고 있습니다. 국내 최초 직수 정수기, 국내 최초 직수 얼음정수기, 국내 최초 스테인리스 직수관, 국내 최초 UV LED 코크 살균, 국내 최초 6중 살균 비데 등 혁신적 기술력을 바탕으로 이노스타, 그린스타, CES 혁신상 등 다수의 상을 수상하며 고객의 편의성 개선에 힘쓰고 있습니다.</p>
+                                                        <strong class="contents-name type1">SK매직</strong>
+                                                        <p class="para">
+                                                            <strong>Health Platform</strong>
+                                                        </p>
+                                                        <p class="para">SK인텔릭스의 헬스 플랫폼 브랜드, SK매직은 국내 최초의 제품들을 론칭시키며 지속 성장하고 있습니다. 국내 최초 직수 정수기, 국내 최초 직수 얼음정수기, 국내 최초 스테인리스 직수관, 국내 최초 UV LED 코크 살균, 국내 최초 6중 살균 비데 등 혁신적 기술력을 바탕으로 이노스타, 그린스타, CES 혁신상 등 다수의 상을 수상하며 고객의 편의성 개선에 힘쓰고 있습니다.</p>
                                                         <p class="para">또한 관리 중심의 렌털 제품에 안심OK서비스라는 브랜드로 위생적으로 깨끗한 물, 깨끗한 공기를 제공받을 수 있도록 최상의 서비스를 제공하고 있습니다.</p>
                                                     </div>
                                                     <div class="contents-util">
                                                         <a class="btn design3 case3 type4 color6 ar-icon-arrow-right-up2" href="https://www.skmagic.com/" target="_blank" title="새창 열기">
-                                                            <span class="btn-text">SK매직 웹사이트로 이동하기</span>
+                                                            <span class="btn-text">SK매직몰로 이동하기</span>
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <div class="data-item">
                                                     <div class="contents">
-                                                        <div class="data-display rental">
+                                                        <div class="data-display wellness">
                                                             <ul class="data-list">
-                                                                <li class="data-item rental01">
+                                                                <li class="data-item wellness01">
                                                                     <div class="data-head">
-                                                                        <strong class="data-name">원코크 얼음물 정수기</strong>
+                                                                        <strong class="data-name">원코크 플러스 얼음물 정수기</strong>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <p class="para">국내 최초 하나의 코크에서 얼음과 물, 동시 출수 가능한 얼음정수기로 ‘올(All)-직수시스템’과 ‘자가 관리 시스템’을 탑재해 더욱 깨끗한 물과 얼음을 제공합니다.</p>
                                                                     </div>
                                                                 </li>
-                                                                <li class="data-item rental02">
+                                                                <li class="data-item wellness02">
                                                                     <div class="data-head">
-                                                                        <strong class="data-name">초소형 직수 정수기</strong>
+                                                                        <strong class="data-name">초소형 플러스 직수 정수기</strong>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <p class="para">작고 슬림한 크기에 고온수 등 다양한 편의 기능을 제공함은 물론 에너지 및 자원 절감 등 ESG 가치를 반영한 친환경 정수기로 CES혁신상을 수상했습니다.</p>
                                                                     </div>
                                                                 </li>
-                                                                <li class="data-item rental03">
+                                                                <li class="data-item wellness03">
                                                                     <div class="data-head">
                                                                         <strong class="data-name">올클린 디아트 공기청정기</strong>
                                                                     </div>
@@ -140,7 +144,7 @@
                                                                         <p class="para">‘분리형 워셔블’ 구조로 항상 새 제품처럼 위생적으로 관리하며 공기 오염도에 따라 토출구 높이가 자동 변경되는 3단계 ‘청정팝업시스템’이 오염 공간을 빠르게 감지하고 집중 청정합니다.</p>
                                                                     </div>
                                                                 </li>
-                                                                <li class="data-item rental04">
+                                                                <li class="data-item wellness04">
                                                                     <div class="data-head">
                                                                         <strong class="data-name">올클린 버블 살균 비데</strong>
                                                                     </div>
@@ -150,6 +154,21 @@
                                                                 </li>
                                                             </ul>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="data-item back-namuh">
+                                                    <div class="contents">
+                                                        <strong class="contents-name type1">NAMUH<sup>X</sup></strong>
+                                                        <p class="para"><strong>Wellness Robotics</strong></p>
+                                                        <p class="para">
+                                                            Robotics를 통한 Wellness 혁신<br>
+                                                            우리는 기능을 소구하는 유틸리티 로봇과는 다르게,<br>
+                                                            경험을 소구하는 웰니스 로봇을 지향합니다.<br>
+                                                            우리는 인간성 강화라는 철학정 방향성과 Robotics를 유기적으로<br>
+                                                            통합하는 기술적 완성도, 그리고 오픈 생태계를 바탕으로<br>
+                                                            웰니스 로봇 시장의 First Mover로서 시장을 리딩해 나갈 것입니다.
+                                                        </p>
+                                                        <p class="para">이것이 바로 NAMUH<sup>X</sup>의 지향점인 인류를 위한 혁신입니다.</p>
                                                     </div>
                                                 </div>
                                             </div>

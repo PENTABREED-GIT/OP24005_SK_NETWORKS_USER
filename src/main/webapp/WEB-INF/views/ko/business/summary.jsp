@@ -114,9 +114,9 @@
                                                     <strong class="data-title">호텔앤리조트</strong>
                                                 </a>
                                             </li>
-                                            <li class="data-item rental">
-                                                <a href="#rental">
-                                                    <strong class="data-title">웰니스 가전</strong>
+                                            <li class="data-item wellness">
+                                                <a href="#wellness">
+                                                    <strong class="data-title">AI 웰니스 플랫폼</strong>
                                                 </a>
                                             </li>
                                             <li class="data-item mobility">
@@ -341,11 +341,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="rental" class="section design1 case4 type3 align3 rental">
+                        <div id="wellness" class="section design1 case4 type3 align3 wellness">
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <div class="section-subject">
-                                        <h4 class="section-name">웰니스 가전</h4>
+                                        <h4 class="section-name">AI 웰니스 플랫폼</h4>
                                     </div>
                                 </div>
                                 <div class="section-body">
@@ -354,9 +354,9 @@
                                             <div class="board-wrap">
                                                 <div class="board-head">
                                                     <strong class="board-name">
-                                                        SK매직
+                                                        SK인텔릭스
                                                         <a class="btn icon case1 arrow-right2-bg" href="/business/sk-magic">
-                                                            <span class="btn-text blind">SK매직 페이지 바로가기</span>
+                                                            <span class="btn-text blind">SK인텔릭스 페이지 바로가기</span>
                                                         </a>
                                                     </strong>
                                                     <p class="board-summary">고객의 삶이 건강하고 지속가능할 수 있도록 AI기술을 기반으로 혁신적인 솔루션을 만들어갑니다.</p>
@@ -365,11 +365,11 @@
                                                     <div class="board-list-sub">
                                                         <div class="board-item-sub">
                                                             <strong class="board-name-sub">사업영역</strong>
-                                                            <p class="para">직수 정수기, 공기청정기, 비데 등</p>
+                                                            <p class="para">Health Platform, Wellness Robotics</p>
                                                         </div>
                                                         <div class="board-item-sub">
-                                                            <strong class="board-name-sub">FY2023 매출액</strong>
-                                                            <p class="para">8,400억 원</p>
+                                                            <strong class="board-name-sub">FY2024 매출액</strong>
+                                                            <p class="para">8,443억 원</p>
                                                         </div>
                                                     </div>
                                                 </div>

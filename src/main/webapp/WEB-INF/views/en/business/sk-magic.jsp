@@ -14,7 +14,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-        SK Magic &lt; Business &lt; SK Networks</title>
+        SK Intellix &lt; Business &lt; SK Networks</title>
     <%@ include file="/WEB-INF/views/en/include/page-header-inc.jsp" %>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -46,7 +46,7 @@
                         <ul class="data-list breadcrumb design1 case2 dark">
                             <li class="data-item"><span class="item-text">Home</span></li>
                             <li class="data-item"><span class="item-text">Business</span></li>
-                            <li class="data-item"><span class="item-text">SK Magic</span></li>
+                            <li class="data-item"><span class="item-text">SK Intellix</span></li>
                         </ul>
                     </div>
                     <div class="local-subject"><h2 class="local-name">Promoting healthy, convenient, <br>and eco-friendly lifestyles</h2></div>
@@ -63,26 +63,26 @@
                     </div>
                 </div>
                 <div class="local-body">
-                    <div class="content-head">SK Magic</div>
+                    <div class="content-head">SK Intellix</div>
                     <div class="content-body">
                         <div class="section design1 case3 type1 core">
                             <div class="section-wrap">
                                 <div class="article intro">
                                     <div class="article-wrap">
                                         <div class="article-head">
-                                            <h3 class="title">SK Magic</h3>
+                                            <h3 class="title">SK Intellix</h3>
                                             <h4 class="sub-title">Proposing a Happy Life AI Wellness platform</h4>
                                         </div>
                                         <div class="article-body">
                                             <p class="para case2">
-                                                Since its founding in 1985, SK Magic has been at the forefront of domestic market trends with its innovative technology and customer-centric services. Expanding into home appliance rental market in 2008 with products such as water purifiers, air purifiers, SK Magic has gained recognition for its world-class technology and leadership in market shifts.
+                                                Since its founding in 1985, SK Intellix has been at the forefront of domestic market trends with its innovative technology and customer-centric services. Expanding into home appliance rental market in 2008 with products such as water purifiers, air purifiers, SK Intellix has gained recognition for its world-class technology and leadership in market shifts.
                                             </p>
                                             <p class="para case2">
-                                                Moving forward. SK Magic aims to enhance its business competitiveness by developing AI collaboration ecosystems both domestically and internationally. We will drive AI in our existing products and introduce new AI-driven solutions in wellness areas. Our goal is to evolve into an AI Wellness Platform Company, expanding our reach from the domestic market to global markets.
+                                                Moving forward. SK Intellix aims to enhance its business competitiveness by developing AI collaboration ecosystems both domestically and internationally. We will drive AI in our existing products and introduce new AI-driven solutions in wellness areas. Our goal is to evolve into an AI Wellness Platform Company, expanding our reach from the domestic market to global markets.
                                             </p>
                                         </div>
                                         <div class="article-util">
-                                            <a class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2" href="https://company.skmagic.com/en/" target="_blank" title="Opens in a new window."><span class="btn-text">Go to the SK Magic</span></a>
+                                            <a class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2" href="https://company.skmagic.com/en/" target="_blank" title="Opens in a new window."><span class="btn-text">Go to the SK Intellix</span></a>
                                         </div>
                                     </div>
                                 </div>

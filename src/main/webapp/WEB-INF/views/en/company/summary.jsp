@@ -712,7 +712,7 @@
                                                         <img src="/assets/images/company/company-logo-sknetworks-en.png" alt="SK Networks">
                                                     </button>
                                                     <button data-bs-toggle="modal" data-bs-target="#modalSKMagic" class="data-item">
-                                                        <img src="/assets/images/company/company-logo-skmasic-en.png" alt="SK Magic">
+                                                        <img src="/assets/images/company/company-logo-skIntellix-en.png" alt="SK Intellix">
                                                     </button>
                                                     <button data-bs-toggle="modal" data-bs-target="#modalSpeedMate" class="data-item">
                                                         <img src="/assets/images/company/company-logo-speedmate-en.png" alt="SK SpeedMate">
@@ -960,7 +960,7 @@
             <div class="modal-area">
                 <div class="modal-wrap">
                     <div class="modal-head" id="modalSKMagicLabel">
-                        <em class="modal-subjec"><span class="modal-name">SK Magic</span></em>
+                        <em class="modal-subjec"><span class="modal-name">SK Intellix</span></em>
                     </div>
                     <div class="modal-body">
                         <div class="section design1 case7 type4 align1">
@@ -979,7 +979,7 @@
                                     <!-- btn-display -->
                                     <div class="btn-display design1 case2">
                                         <div class="btn-area">
-                                            <a href="https://www.skmagic.com/" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Go to Website</span></a>
+                                            <a href="https://www.skintellix.com" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Go to Website</span></a>
                                             <a href="https://www.facebook.com/SKmagic.life" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Facebook</span></a>
                                             <a href="https://goo.gl/Ku5ejU" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Instagram</span></a>
                                             <a href="https://story.kakao.com/ch/tymagic" target="_blank" title="Opens in a new window." class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2"><span class="btn-text">Kakao Story</span></a>
