@@ -2406,6 +2406,14 @@
                     }
                 }
             }
+            &.magic {
+                .board-wrap {
+                    background: url("../images/etc/logo-skMagic.svg") no-repeat center -1.7rem / 20.3rem;
+                    @at-root .en & {
+                        background: url("../images/logo/logo-skMagic.svg") no-repeat center 4.2rem / 12rem;
+                    }
+                }
+            }
             &.speedmate {
                 .board-wrap {
                     background: url("../images/logo/logo-speedmate-k.svg") no-repeat center 2.3rem / 17.2rem;

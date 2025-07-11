@@ -2069,7 +2069,8 @@
                                     background: url('../images/business/thumb-12-pc.jpg') no-repeat center / cover;
                                 }
                             }
-                            &wellness {
+                            &wellness,
+                            &rental {
                                 &::after {
                                     background: url('../images/business/thumb-14-pc.jpg') no-repeat center / cover;
                                 }
@@ -2292,7 +2293,8 @@
                                         clip-path: inset(0% 0% 0% 0% round .8rem);
                                     }
                                 }
-                                &wellness {
+                                &wellness,
+                                &rental {
                                     &::after {
                                         background: url('../images/business/thumb-14-mo.jpg') no-repeat center / cover;
                                         clip-path: inset(0% 0% 0% 0% round .8rem);
@@ -2764,7 +2766,8 @@
     }
 
     // business : SK매직
-    &.wellness {
+    &.wellness,
+    &.rental {
         .data-item {
             position: relative;
             padding: 6.4rem 0 6.4rem 41%;
@@ -2797,6 +2800,19 @@
             }
             &.wellness04 {
                 background-image: url('../images/business/bg-wellness04.jpg');
+            }
+
+            &.rental01 {
+                background-image: url('../images/business/bg-rental01.jpg');
+            }
+            &.rental02 {
+                background-image: url('../images/business/bg-rental01.jpg');
+            }
+            &.rental03 {
+                background-image: url('../images/business/bg-rental01.jpg');
+            }
+            &.rental04 {
+                background-image: url('../images/business/bg-rental01.jpg');
             }
         }
         @include mobile {

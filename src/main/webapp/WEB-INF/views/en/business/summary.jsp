@@ -101,8 +101,8 @@
                                                     <strong class="data-title">Hotels & Resorts</strong>
                                                 </a>
                                             </li>
-                                            <li class="data-item rental">
-                                                <a href="#rental">
+                                            <li class="data-item wellness">
+                                                <a href="#wellness">
                                                     <strong class="data-title">Wellness Appliances</strong>
                                                 </a>
                                             </li>
