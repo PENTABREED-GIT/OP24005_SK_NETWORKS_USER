@@ -440,7 +440,7 @@
             htmlArr.push(`        </div>`);
             htmlArr.push(`        <div class="post-inform base-board-detail">`);
             htmlArr.push(`            <div class="post-head">`);
-            htmlArr.push(`                <p class="post-caption">\${businessAreaNameKo}</p>`);
+            htmlArr.push(`                <p class="post-caption">\${businessAreaNameEn}</p>`);
             htmlArr.push(`                <p class="post-subject">\${title}</p>`);
             htmlArr.push(`                <p class="post-summary ">\${content}</p>`);
             htmlArr.push(`            </div>`);

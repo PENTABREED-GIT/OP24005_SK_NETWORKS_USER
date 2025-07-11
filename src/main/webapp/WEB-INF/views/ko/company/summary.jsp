@@ -872,7 +872,7 @@
                         <div class="section design1 case7 type4 align1">
                             <div class="section-wrap">
                                 <div class="section-head">
-                                    <a class="btn design2 case1 type1 color4" href="/business/sk-magic">
+                                    <a class="btn design2 case1 type1 color4" href="/business/sk-intellix">
                                         <span class="btn-text">사업소개 바로가기</span>
                                     </a>
                                 </div>

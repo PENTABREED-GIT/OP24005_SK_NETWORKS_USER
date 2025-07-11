@@ -98,7 +98,7 @@
                                             <a href="/${LANG}/business/hotel-and-resort" class="sitemap">Hotels &amp; Resorts</a>
                                         </li>
                                         <li class="sitemap-item">
-                                            <a href="/${LANG}/business/sk-magic" class="sitemap">SK Magic</a>
+                                            <a href="/${LANG}/business/sk-intellix" class="sitemap">SK Magic</a>
                                         </li>
                                         <li class="sitemap-item">
                                             <a href="/${LANG}/business/skspeedmate" class="sitemap">SK Speedmate</a>
