@@ -43,7 +43,7 @@
                             <a href="/business/hotel-and-resort" target="_self" class="depth2">워커힐 호텔앤리조트</a>
                         </li>
                         <li class="depth2-item">
-                            <a href="/business/sk-magic" target="_self" class="depth2">SK인텔릭스</a>
+                            <a href="/business/sk-intellix" target="_self" class="depth2">SK인텔릭스</a>
                         </li>
                         <li class="depth2-item">
                             <a href="/business/skspeedmate" target="_self" class="depth2">SK스피드메이트</a>
