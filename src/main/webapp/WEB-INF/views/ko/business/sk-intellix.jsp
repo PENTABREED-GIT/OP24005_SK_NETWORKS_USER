@@ -183,17 +183,17 @@
                                     <div class="banner design1 case1 type1">
                                         <div class="banner-wrap">
                                             <div class="banner-head">
-                                                <img src="/assets/images/logo/logo-skMagic.svg" alt="SK magic 로고 이미지">
+                                                <img src="/assets/images/logo/logo-skIntellix.svg" alt="SK intellix 로고 이미지">
                                             </div>
                                             <div class="banner-body">
-                                                <p class="para">사업제안·고객문의가 필요하신가요?</p>
+                                                <p class="para">SK Intellix에 대해 궁금하신가요?</p>
                                             </div>
                                             <div class="banner-footer">
-                                                <span class="summary">SK매직은 여러분의 소중한 제안을 기다리고 있습니다.</span>
+                                                <span class="summary">지금 공식 웹사이트에서 자세히 확인해보세요.</span>
                                             </div>
                                             <div class="banner-util">
-                                                <a class="btn design3 case1 type1 color2 ar-icon-arrow-right2-bg" href="https://service.skmagic.com/web/easy/easyMain.do?tabIndex=0#Back" target="_blank">
-                                                    <span class="btn-text">문의하기</span>
+                                                <a class="btn design3 case1 type1 color2 ar-icon-arrow-right2-bg" href="https://www.skintellix.com/" target="_blank">
+                                                    <span class="btn-text">바로가기</span>
                                                 </a>
                                             </div>
                                         </div>
