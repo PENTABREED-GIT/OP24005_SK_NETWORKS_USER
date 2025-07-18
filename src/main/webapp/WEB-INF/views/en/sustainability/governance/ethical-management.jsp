@@ -369,7 +369,7 @@
                                                                     <p class="para">"In addition to conducting internal audits, the Audit Office supports overall ethical practices by investigating unethical behavior and coordinating with the internal audit teams of subsidiaries through a consultative body. Key audit plans, internal audit results, and corporate ethics-related measures are reported to and approved by the Audit Committee on a quarterly basis, with additional reports submitted as needed to ensure transparency in operations.</p>
                                                                     <div class="btn-display">
                                                                         <div class="btn-area">
-                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/uploads/public/data/en/sustainability/governance/ethical/results_of_audits_by_audit_committee.pdf"><span class="btn-text">Download Details of Audit Committee Review</span></a>
+                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/assets/upload/public/data/en/sustainability/governance/ethical/results_of_audits_by_audit_committee.pdf"><span class="btn-text">Download Details of Audit Committee Review</span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -774,7 +774,7 @@
                                                                 <div class="section-util">
                                                                     <div class="btn-display">
                                                                         <div class="btn-area">
-                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/uploads/public/data/en/sustainability/governance/ethical/ethics_risk_revised_details.pdf"><span class="btn-text">Download Ethics Risk Assessment Report</span></a>
+                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/assets/upload/public/data/en/sustainability/governance/ethical/ethics_risk_revised_details.pdf"><span class="btn-text">Download Ethics Risk Assessment Report</span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>

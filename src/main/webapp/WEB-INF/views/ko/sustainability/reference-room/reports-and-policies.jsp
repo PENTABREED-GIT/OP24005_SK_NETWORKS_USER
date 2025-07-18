@@ -96,7 +96,7 @@
                                                     <div class="item-util">
                                                         <div class="btn-display design1 case3 align1">
                                                             <div class="btn-area">
-                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/assets/upload/public/data/ko/sustainability/자료실/보고서 및 정책/FY2024 SK네트웍스 SR_국문.pdf"><span class="btn-text">국문 <span class="pc-only">&nbsp;다운로드</span></span></a>
+                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/assets/upload/public/data/ko/sustainability/reference_room/Sustainability_Report_and_Policy/FY2024_SK네트웍스_국문.pdf"><span class="btn-text">국문 <span class="pc-only">&nbsp;다운로드</span></span></a>
 <%--                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/자료실/보고서 및 정책/SK networks_2023 Sustainability Report_(Eng).pdf"><span class="btn-text">영문 <span class="pc-only">&nbsp;다운로드</span></span></a>--%>
                                                             </div>
                                                         </div>

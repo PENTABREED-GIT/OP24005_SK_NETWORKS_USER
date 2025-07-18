@@ -329,7 +329,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="rental" class="section design1 case4 type3 align3 rental">
+                        <div id="wellness" class="section design1 case4 type3 align3 wellness">
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <div class="section-subject">

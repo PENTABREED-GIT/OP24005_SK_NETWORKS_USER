@@ -100,7 +100,7 @@
                                         </div>
                                         <div class="data-body">
                                             <div class="data-list">
-                                                <div class="data-item back-rental">
+                                                <div class="data-item back-wellness">
                                                     <div class="contents">
                                                         <strong class="contents-name type1">Rental Business</strong>
                                                         <p class="para">SK Magic's home appliance rental business is continually evolving, having launched several industry-first products in Korea. Thanks to its pioneering technological innovations, we have developed groundbreaking products such as the first tankless water purifier, tankless ice water purifier, stainless steel direct water pipe, UV LED nozzle sterilization, and 6-stage sterilization bidet. These advancements have earned us numerous accolades, including the InnoStar, GreenStar, and CES Innovation Awards, and have significantly enhanced customer convenience.</p>
@@ -114,9 +114,9 @@
                                                 </div>
                                                 <div class="data-item">
                                                     <div class="contents">
-                                                        <div class="data-display rental">
+                                                        <div class="data-display wellness">
                                                             <ul class="data-list">
-                                                                <li class="data-item rental01">
+                                                                <li class="data-item wellness01">
                                                                     <div class="data-head">
                                                                         <strong class="data-name">One-cock ice-dispensing water purifier</strong>
                                                                     </div>
@@ -124,7 +124,7 @@
                                                                         <p class="para">Korea’s first water purifier to dispense ice and water simultaneously from a single tap, ensuring cleanness of both water and ice through an all-tankless system and self-cleaning system.</p>
                                                                     </div>
                                                                 </li>
-                                                                <li class="data-item rental02">
+                                                                <li class="data-item wellness02">
                                                                     <div class="data-head">
                                                                         <strong class="data-name">Ultra-compact tankless water purifier</strong>
                                                                     </div>
@@ -132,7 +132,7 @@
                                                                         <p class="para">An eco-friendly water purifier, winner of the CES Innovation Award, characterized by its compact and slim design alongside a range of convenient features including warm water dispensing. Committed to ESG values, it emphasizes.</p>
                                                                     </div>
                                                                 </li>
-                                                                <li class="data-item rental03">
+                                                                <li class="data-item wellness03">
                                                                     <div class="data-head">
                                                                         <strong class="data-name">All-clean the Art air purifier</strong>
                                                                     </div>
@@ -140,7 +140,7 @@
                                                                         <p class="para">The ‘Separable and washable’ architecture ensures that the product remains as clean as new at all times. The three-step clean pop-up system automatically adjusts outlet elevation in response to air contamination levels, swiftly detecting spatial contamination and purifying the air in the affected area intensively.</p>
                                                                     </div>
                                                                 </li>
-                                                                <li class="data-item rental04">
+                                                                <li class="data-item wellness04">
                                                                     <div class="data-head">
                                                                         <strong class="data-name">All-clean bubble-sanitizing bidet</strong>
                                                                     </div>

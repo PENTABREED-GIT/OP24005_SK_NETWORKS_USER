@@ -365,10 +365,10 @@
                                                                     </div>
                                                                     <p class="para">SK네트웍스는 윤리경영을 체계적으로 운영하기 위해, 이사회 산하 감사위원회 직속의 감사실을 윤리경영 전담 조직으로 두고 있습니다. 감사위원회는 회계 및 경영진 업무를 감독하고, 리스크 관리와 윤리경영 관련 계획 및 이행 결과를 검토·승인하는 윤리경영 관련 최고 의사결정기구로 기능합니다.</p>
                                                                     <p class="para">감사위원회 직속 조직인 감사실은 윤리경영의 추진 계획 수립과 이행 관리를 총괄하며, 이를 감사위원회에 보고하여 검토 및 승인을 받습니다. 또한 윤리경영 문화가 조직 내에 안착될 수 있도록 다양한 제도와 프로그램을 운영하고, 윤리경영 현황을 지속적으로 모니터링하며 필요한 개선 활동도 추진합니다.</p>
-                                                                    <p class="para">감사실은 내부감사 수행 외에도, 비윤리 행위에 대한 조사, 자회사 내부감사 조직과의 협의체 운영 등 윤리 실천 전반을 지원하고 있습니다. 이와 관련된 주요 감사 계획, 내부감사 결과, 기업윤리 관련 조치 사항은 분기별로 감사위원회에 보고 및 의결을 받고 있으며, 필요 시 수시 보고를 통해 운영의 투명성을 높이고 있습니다.</p>
+                                                                    <p class="para">감사실은 내부감사 수행 외에도, 비윤리 행위에 대한 조사, 자회사 내부감사 조직과의 협의체 운영 등 윤리 실천 전반을 지원하고 있습니다. 이와 관련된 주요 감사 계획, 내부감사 결과, 기업윤리 관련 조치 사항은 분기별로 감사위원회에 보고 및 의결을 받고 있으며, 필요 시 수시 보고를 통해 운영의 투명성을rk 높이고 있습니다.</p>
                                                                     <div class="btn-display">
                                                                         <div class="btn-area">
-                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/assets/upload/public/data/ko/sustainability/거버넌스/윤리규범/감사위원회 검토 내역.pdf"><span class="btn-text">감사위원회 검토 내역 다운로드</span></a>
+                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/assets/upload/public/data/ko/sustainability/governance/ethical/감사위원회_검토_내역.pdf"><span class="btn-text">감사위원회 검토 내역 다운로드</span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -770,7 +770,7 @@
                                                                 <div class="section-util">
                                                                     <div class="btn-display">
                                                                         <div class="btn-area">
-                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/assets/upload/public/data/ko/sustainability/거버넌스/윤리규범/윤리리스크 점검 내역.pdf"><span class="btn-text">윤리 리스크 점검 내역</span></a>
+                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/assets/upload/public/data/ko/sustainability/governance/ethical/윤리리스크_점검_내역.pdf"><span class="btn-text">윤리 리스크 점검 내역</span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
