@@ -1,7 +1,6 @@
 package com.skn.user.pr.controller;
 
 import com.skn.user.common.Page;
-import com.skn.user.common.xss.utils.XssUtils;
 import com.skn.user.global.response.ApiResponse;
 import com.skn.user.pr.dto.Press;
 import com.skn.user.pr.service.MediaService;
@@ -146,23 +145,26 @@ public class PrController {
 
         List<Press> pressList = pressService.getPrPressList2(reqMap);
         for (Press press : pressList) {
+            String newContent = NTUtil.removeHtml(press.getContent());
+            press.setContent(newContent);
+        }
             /*
             String newTitle = NTUtil.removeHtml(press.getTitle());
             String newContent = NTUtil.removeHtml(press.getContent());
             String newBusinessAreaNameKo = NTUtil.removeHtml(press.getBusinessAreaNameKo());
             String newBusinessAreaNameEn = NTUtil.removeHtml(press.getBusinessAreaNameEn());
             */
-            String newTitle = XssUtils.cleanXSS(press.getTitle());
-            String newContent = XssUtils.cleanXSS(press.getContent());
-            String newBusinessAreaNameKo = XssUtils.cleanXSS(press.getBusinessAreaNameKo());
-            String newBusinessAreaNameEn = XssUtils.cleanXSS(press.getBusinessAreaNameEn());
-            String newDescription = XssUtils.cleanXSS(press.getDescription());
-            press.setTitle(newTitle);
-            press.setContent(newContent);
-            press.setBusinessAreaNameKo(newBusinessAreaNameKo);
-            press.setBusinessAreaNameEn(newBusinessAreaNameEn);
-            press.setDescription(newDescription);
-        }
+//            String newTitle = XssUtils.cleanXSS(press.getTitle());
+//            String newContent = XssUtils.cleanXSS(press.getContent());
+//            String newBusinessAreaNameKo = XssUtils.cleanXSS(press.getBusinessAreaNameKo());
+//            String newBusinessAreaNameEn = XssUtils.cleanXSS(press.getBusinessAreaNameEn());
+//            String newDescription = XssUtils.cleanXSS(press.getDescription());
+//            press.setTitle(newTitle);
+//            press.setContent(newContent);
+//            press.setBusinessAreaNameKo(newBusinessAreaNameKo);
+//            press.setBusinessAreaNameEn(newBusinessAreaNameEn);
+//            press.setDescription(newDescription);
+//        }
 
 //        model.addAttribute("pressList", pressList);
 //        model.addAttribute("totalCount", totalCount);
