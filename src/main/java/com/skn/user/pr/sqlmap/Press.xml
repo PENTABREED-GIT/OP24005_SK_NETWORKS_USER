@@ -19,6 +19,31 @@
         </if>
     </sql>
 
+    <!-- business -> sk-intellix 에서 더보기 했을때 NAMUH와 같이 검색하기 위한 눈물 젖은 똥꼬쇼 -->
+    <sql id="searchConditionForMultiSearch">
+        <if test="searchWord != '' and searchWord != null">
+            <if test="searchKind eq '' or searchKind eq null or searchKind eq 'TITLE'">
+                <choose>
+                    <when test="lang != '' and lang.equals('KO')">
+                        <foreach collection="searchWords" item="word" separator="OR" open="AND (" close=")">
+                            (TITLE LIKE CONCAT('%', #{word}, '%') OR BA.NAME_KO LIKE CONCAT('%', #{word}, '%'))
+                        </foreach>
+                    </when>
+                    <otherwise>
+                        <foreach collection="searchWords" item="word" separator="OR" open="AND (" close=")">
+                            (TITLE LIKE CONCAT('%', #{word}, '%') OR BA.NAME_EN LIKE CONCAT('%', #{word}, '%'))
+                        </foreach>
+                    </otherwise>
+                </choose>
+            </if>
+            <if test="searchKind eq 'CONTENT'">
+                <foreach collection="searchWords" item="word" separator="OR" open="AND (" close=")">
+                    (TITLE LIKE CONCAT('%', #{word}, '%') OR BA.NAME_KO LIKE CONCAT('%', #{word}, '%'))
+                </foreach>
+            </if>
+        </if>
+    </sql>
+
     <select id="selectPrPressList" parameterType="map" resultType="com.skn.user.pr.dto.Press">
         SELECT P.UID
         , P.PRESS_INDEX
@@ -43,8 +68,42 @@
                 <include refid="searchCondition"/>
             </otherwise>
         </choose>
---         ORDER BY P.PRESS_INDEX DESC
-        ORDER BY P.REG_DATE DESC
+           ORDER BY P.PRESS_INDEX DESC
+        <choose>
+            <when test='mainBanner != null and mainBanner.equals("Y")'>
+                LIMIT 5
+            </when>
+            <otherwise>
+                LIMIT #{offset}, #{size}
+            </otherwise>
+        </choose>
+    </select>
+
+    <select id="selectPrPressListForMultiSearch" parameterType="map" resultType="com.skn.user.pr.dto.Press">
+        SELECT P.UID
+        , P.PRESS_INDEX
+        , P.TITLE
+        , P.LANG
+        , P.CONTENT
+        , BA.NAME_KO AS BUSINESS_AREA_NAME_KO
+        , BA.NAME_EN AS BUSINESS_AREA_NAME_EN
+        , CONCAT('/upload/public/press/', F.PARENT_UID, '/', F.UID, '.', F.FILE_EXTENSION) AS ADDED_FILE
+        , F.DESCRIPTION
+        , DATE_FORMAT(P.REG_DATE, '%Y.%m.%d') AS REG_DATE
+        FROM PRESS P
+        INNER JOIN BUSINESS_AREA BA ON P.BUSINESS_AREA_INDEX = BA.BUSINESS_AREA_INDEX
+        LEFT JOIN FILE F ON P.UID = F.PARENT_UID AND F.PARENT_TABLE = 'PRESS'
+        WHERE LANG = #{lang}
+        AND P.IS_PRESS = 'Y'
+        AND P.IS_OPEN = 'Y'
+        <choose>
+            <when test='mainBanner != null and mainBanner.equals("Y")'>
+            </when>
+            <otherwise>
+                <include refid="searchConditionForMultiSearch"/>
+            </otherwise>
+        </choose>
+           ORDER BY P.PRESS_INDEX DESC
         <choose>
             <when test='mainBanner != null and mainBanner.equals("Y")'>
                 LIMIT 5
@@ -108,6 +167,18 @@
         AND F.PARENT_TABLE = 'PRESS'
         AND IS_PRESS = 'Y'
         <include refid="searchCondition"/>
+    </select>
+
+    <select id="selectPrPressListCountForMultiSearch" parameterType="map" resultType="int">
+        SELECT
+        COUNT(*)
+        FROM PRESS P
+        INNER JOIN BUSINESS_AREA BA ON P.BUSINESS_AREA_INDEX = BA.BUSINESS_AREA_INDEX
+        INNER JOIN FILE F ON P.UID = F.PARENT_UID
+        WHERE LANG = #{lang}
+        AND F.PARENT_TABLE = 'PRESS'
+        AND IS_PRESS = 'Y'
+        <include refid="searchConditionForMultiSearch"/>
     </select>
 
     <select id="selectPrPress" parameterType="map" resultType="com.skn.user.pr.dto.Press">

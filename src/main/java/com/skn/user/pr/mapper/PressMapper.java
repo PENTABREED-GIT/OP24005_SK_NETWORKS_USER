@@ -14,6 +14,7 @@ public interface PressMapper {
      */
     List<Press> selectPrPressList(Map reqMap);
     List<Press> selectPrPressList2(Map reqMap);
+    List<Press> selectPrPressListForMultiSearch(Map reqMap);
 
     /**
      * PR > 뉴스룸 보도자료 목록 개수 조회
@@ -22,6 +23,7 @@ public interface PressMapper {
      */
     int selectPrPressListCount(Map reqMap);
     int selectPrPressListCount2(Map reqMap);
+    int selectPrPressListCountForMultiSearch(Map reqMap);
 
     /**
      * PR > 뉴스룸 보도자료 상세 조회

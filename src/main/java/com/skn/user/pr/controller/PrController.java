@@ -17,9 +17,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @Controller
 @Slf4j
@@ -35,11 +37,29 @@ public class PrController {
         reqMap.put("lang", lang.toUpperCase());
         reqMap.put("mainBanner", "Y");
         reqMap.put("mainVideo", "Y");
-        int totalCount = pressService.getPrPressListCount(reqMap);
+        Object rawSearchWord = reqMap.get("searchWord");
+
+        boolean isMultiSearch = rawSearchWord != null && rawSearchWord.toString().contains("|");
+
+        if (isMultiSearch) {
+            // | 기준으로 나눔
+            List<String> searchWords = Arrays.stream(rawSearchWord.toString().split("\\|"))
+                    .map(String::trim)
+                    .filter(s -> !s.isEmpty())
+                    .collect(Collectors.toList());
+            reqMap.put("searchWords", searchWords);
+        }
+
+        int totalCount = isMultiSearch
+                ? pressService.getPrPressListCountForMultiSearch(reqMap)
+                : pressService.getPrPressListCount(reqMap);
+
         int currentPage = Integer.parseInt(NTUtil.isNull(reqMap.get("page"), "1"));
         Page page = new Page(5, currentPage, 10, totalCount);
 
-        List<Press> pressList = pressService.getPrPressList(reqMap, page);
+        List<Press> pressList = isMultiSearch
+                ? pressService.getPrPressListForMultiSearch(reqMap, page)
+                : pressService.getPrPressList(reqMap, page);
 
         model.addAttribute("pressList", pressList);
         model.addAttribute("videoList", videoService.getVideoList(reqMap));
