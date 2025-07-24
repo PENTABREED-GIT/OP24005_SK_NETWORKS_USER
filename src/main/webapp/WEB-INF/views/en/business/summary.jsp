@@ -103,7 +103,7 @@
                                             </li>
                                             <li class="data-item wellness">
                                                 <a href="#wellness">
-                                                    <strong class="data-title">Wellness Appliances</strong>
+                                                    <strong class="data-title">AI Wellness Platform</strong>
                                                 </a>
                                             </li>
                                             <li class="data-item mobility">
@@ -154,7 +154,7 @@
                                                         </div>
                                                         <div class="board-item-sub">
                                                             <strong class="board-name-sub">Portfolio</strong>
-                                                            <p class="para">Total 26 (Direct Investment : 9, Fund Investment : 17)</p>
+                                                            <p class="para">Total 27 (Direct Investment : 15, Fund Investment : 12)</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -201,8 +201,8 @@
                                                                             <p class="para">Mobile phone wholesale, logistics service, ICT Device/Accessory B2B distribution</p>
                                                                         </div>
                                                                         <div class="board-item-sub">
-                                                                            <strong class="board-name-sub">FY2023 Sales</strong>
-                                                                            <p class="para">KRW 4.5 trillion</p>
+                                                                            <strong class="board-name-sub">FY2024 Sales</strong>
+                                                                            <p class="para">KRW 4.2 trillion</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -275,8 +275,8 @@
                                                                             <p class="para">Enterprise AI Platform, Data Consulting, Data Solutions such as DATAWARE™</p>
                                                                         </div>
                                                                         <div class="board-item-sub">
-                                                                            <strong class="board-name-sub">FY2023 Sales</strong>
-                                                                            <p class="para">KRW 25.7 billion</p>
+                                                                            <strong class="board-name-sub">FY2024 Sales</strong>
+                                                                            <p class="para">KRW 313 billion</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -318,8 +318,8 @@
                                                             <p class="para">Grand Walkerhill Seoul, VISTA Walkerhill Seoul, Douglas House, DARAKHYU,  Incheon Airport Transit Hotel</p>
                                                         </div>
                                                         <div class="board-item-sub">
-                                                            <strong class="board-name-sub">FY2023 Sales</strong>
-                                                            <p class="para">KRW 280 billion</p>
+                                                            <strong class="board-name-sub">FY2024 Sales</strong>
+                                                            <p class="para">KRW 300.6 billion</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -333,7 +333,7 @@
                             <div class="section-wrap">
                                 <div class="section-head">
                                     <div class="section-subject">
-                                        <h4 class="section-name">Wellness Appliances</h4>
+                                        <h4 class="section-name">AI Wellness Platform</h4>
                                     </div>
                                 </div>
                                 <div class="section-body">
@@ -356,7 +356,7 @@
                                                             <p class="para">Health Platform, Wellness Robotics</p>
                                                         </div>
                                                         <div class="board-item-sub">
-                                                            <strong class="board-name-sub">FY2023 Sales</strong>
+                                                            <strong class="board-name-sub">FY2024 Sales</strong>
                                                             <p class="para">KRW 844.3 billion</p>
                                                         </div>
                                                     </div>
@@ -394,8 +394,8 @@
                                                             <p class="para">Vehicle maintenance, emergency roadside assistance, and distribution of automotive accessories and import auto parts</p>
                                                         </div>
                                                         <div class="board-item-sub">
-                                                            <strong class="board-name-sub">FY2023 Sales</strong>
-                                                            <p class="para">KRW 360 billion</p>
+                                                            <strong class="board-name-sub">FY2024 Sales</strong>
+                                                            <p class="para">KRW 343.9 billion</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -432,8 +432,8 @@
                                                             <p class="para">Trade focused on petrochemical products</p>
                                                         </div>
                                                         <div class="board-item-sub">
-                                                            <strong class="board-name-sub">FY2023 Sales</strong>
-                                                            <p class="para">KRW 1.4 trillion</p>
+                                                            <strong class="board-name-sub">FY2024 Sales</strong>
+                                                            <p class="para">KRW 1.6 trillion</p>
                                                         </div>
                                                     </div>
                                                 </div>

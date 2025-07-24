@@ -352,6 +352,7 @@
                                                                         <div class="btn-area">
                                                                             <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/upload/public/data/en/sustainability/거버넌스/윤리규범/SK_networks_Code_of_Ethics.pdf"><span class="btn-text">Download &lt;Code of Ethics&gt;</span></a>
                                                                             <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/upload/public/data/en/sustainability/거버넌스/윤리규범/(영문) 2. SKN 윤리규범실천가이드.pdf"><span class="btn-text">Download &lt;Guidelines for the Code of Ethics&gt;</span></a>
+                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="#"><span class="btn-text">Download &lt;Regulations on compliance with anti-bribery and anti-corruption policies&gt;</span></a>
                                                                             <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/upload/public/data/en/sustainability/거버넌스/윤리규범/Business Partner Ethical Practices Agreement.pdf"><span class="btn-text">Download &lt;Business Partner Ethical Practices Agreement&gt;</span></a>
                                                                         </div>
                                                                     </div>

@@ -82,7 +82,7 @@
                                             </p>
                                         </div>
                                         <div class="article-util">
-                                            <a class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2" href="https://www.speedmate.com/Company" target="_blank" title="새창 열기"><span class="btn-text">SK 스피드메이트 웹사이트로 이동하기</span></a>
+                                            <a class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2" href="https://www.speedmate.com" target="_blank" title="새창 열기"><span class="btn-text">SK 스피드메이트 웹사이트로 이동하기</span></a>
                                         </div>
                                     </div>
                                 </div>

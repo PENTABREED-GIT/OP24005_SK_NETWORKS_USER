@@ -112,7 +112,7 @@
                                                             <em class="title">Startup Founder</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">236</span>명
+                                                            <span class="accent color10">261</span>명
                                                         </div>
                                                     </div>
                                                 </div>
@@ -122,7 +122,7 @@
                                                             <em class="title">Investor</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">175</span>명
+                                                            <span class="accent color10">199</span>명
                                                         </div>
                                                     </div>
                                                 </div>
@@ -132,12 +132,12 @@
                                                             <em class="title">Advisor</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">48</span>명
+                                                            <span class="accent color10">54</span>명
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="comment design1">* '25년 6월 기준</p>
+                                            <p class="comment design1">* '25년 6월 30일 기준</p>
                                         </div>
                                     </div>
                                 </div>
@@ -212,7 +212,7 @@
                                                         <br>
                                                         * Contact : 
                                                         <a href="mailto:rurumie@sk.com" class="mail">
-                                                            안윤궐 (ykahn@sk.com)
+                                                            최대영 (djohnchoi@sk.com)
                                                         </a>
                                                     </p>
                                                 </div>
@@ -273,7 +273,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:yeonhong@sk.com" class="mail">소연홍 (yeonhong@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -302,7 +302,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:wonho@sk.com" class="mail">송원호 (wonho@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -331,7 +331,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:seungsoo.lee@sk.com" class="mail">이승수 (seungsoo.lee@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -360,7 +360,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:chloe.l@sk.com" class="mail">임지영(chloe.l@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -389,7 +389,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:wonho@sk.com" class="mail">송원호 (wonho@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -418,7 +418,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:chloe.l@sk.com" class="mail">임지영 (chloe.l@sk.com)</a>
+                                                                            <a href="mailto:chloe.l@sk.com" class="mail">임지영(chloe.l@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -447,7 +447,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:chloe.l@sk.com" class="mail">임지영 (chloe.l@sk.com)</a>
+                                                                            <a href="mailto:chloe.l@sk.com" class="mail">임지영(chloe.l@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -476,7 +476,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:chloe.l@sk.com" class="mail">임지영(chloe.l@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -505,7 +505,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:chloe.l@sk.com" class="mail">임지영(chloe.l@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -538,7 +538,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:seungsoo.lee@sk.com" class="mail">이승수 (seungsoo.lee@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -571,7 +571,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:djohnchoi@sk.com" class="mail">최대영 (djohnchoi@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -604,7 +604,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:wonho@sk.com" class="mail">송원호 (wonho@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -637,7 +637,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:djohnchoi@sk.com" class="mail">최대영 (djohnchoi@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -670,7 +670,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:wonho@sk.com" class="mail">송원호 (wonho@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -802,7 +802,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:seungsoo.lee@sk.com" class="mail">이승수 (seungsoo.lee@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -831,7 +831,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">안윤궐 (ykahn@sk.com)</a>
+                                                                            <a href="mailto:wonho@sk.com" class="mail">송원호 (wonho@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -860,7 +860,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:rurumie@sk.com" class="mail">송해인 (rurumie@sk.com)</a>
+                                                                            <a href="mailto:wonho@sk.com" class="mail">송원호 (wonho@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -889,7 +889,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:mj@sk.com" class="mail">김민준 (mj@sk.com)</a>
+                                                                            <a href="mailto:djohnchoi@sk.com" class="mail">최대영 (djohnchoi@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -918,7 +918,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:mj@sk.com" class="mail">김민준 (mj@sk.com)</a>
+                                                                            <a href="mailto:djohnchoi@sk.com" class="mail">최대영 (djohnchoi@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -947,7 +947,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">담당자</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:rurumie@sk.com" class="mail">송해인 (rurumie@sk.com)</a>
+                                                                            <a href="mailto:yeonhong@sk.com" class="mail">소연홍 (yeonhong@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>

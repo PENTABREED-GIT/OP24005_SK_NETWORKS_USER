@@ -49,10 +49,10 @@
                             <li class="data-item"><span class="item-text">SK Intellix</span></li>
                         </ul>
                     </div>
-                    <div class="local-subject"><h2 class="local-name">Promoting healthy, convenient, <br>and eco-friendly lifestyles</h2></div>
+                    <div class="local-subject"><h2 class="local-name">Your Everyday Wellness Partner</h2></div>
                     <div class="local-aside">
                         <div class="local-wrap">
-                            <h2 class="local-title">Wellness Appliances</h2>
+                            <h2 class="local-title">AI Wellness Platform</h2>
                         </div>
                     </div>
                     <div class="local-figure">
@@ -71,14 +71,15 @@
                                     <div class="article-wrap">
                                         <div class="article-head">
                                             <h3 class="title">SK Intellix</h3>
-                                            <h4 class="sub-title">Proposing a Happy Life AI Wellness platform</h4>
+                                            <h4 class="sub-title">AI Wellness Platform Company</h4>
                                         </div>
                                         <div class="article-body">
                                             <p class="para case2">
-                                                Since its founding in 1985, SK Intellix has been at the forefront of domestic market trends with its innovative technology and customer-centric services. Expanding into home appliance rental market in 2008 with products such as water purifiers, air purifiers, SK Intellix has gained recognition for its world-class technology and leadership in market shifts.
+                                                SK Intellix has established an integrated brand system that goes beyond the existing image of SK Magic—once limited to environmental home appliances—to embrace the innovation and forward-looking brand values of its newly launched wellness robotics brand, NAMUH<sup>X</sup>.
                                             </p>
                                             <p class="para case2">
-                                                Moving forward. SK Intellix aims to enhance its business competitiveness by developing AI collaboration ecosystems both domestically and internationally. We will drive AI in our existing products and introduce new AI-driven solutions in wellness areas. Our goal is to evolve into an AI Wellness Platform Company, expanding our reach from the domestic market to global markets.
+                                                As a health platform brand, SK Magic aims to become a trusted name in the wellness industry by leveraging its strengths in environmental appliance manufacturing, sales, and rental services, along with its established brand equity, to create a new category of innovative products.
+Meanwhile, the wellness robotics brand NAMUH<sup>X</sup> aspires to lead the way in wellness innovation by building an open ecosystem and continuously expanding its technological capabilities.
                                             </p>
                                         </div>
                                         <div class="article-util">
@@ -102,7 +103,10 @@
                                             <div class="data-list">
                                                 <div class="data-item back-wellness">
                                                     <div class="contents">
-                                                        <strong class="contents-name type1">Rental Business</strong>
+                                                        <strong class="contents-name type1">SK Magic</strong>
+                                                        <p class="para">
+                                                            <strong>Health Platform</strong>
+                                                        </p>
                                                         <p class="para">SK Magic's home appliance rental business is continually evolving, having launched several industry-first products in Korea. Thanks to its pioneering technological innovations, we have developed groundbreaking products such as the first tankless water purifier, tankless ice water purifier, stainless steel direct water pipe, UV LED nozzle sterilization, and 6-stage sterilization bidet. These advancements have earned us numerous accolades, including the InnoStar, GreenStar, and CES Innovation Awards, and have significantly enhanced customer convenience.</p>
                                                         <p class="para">Additionally, our rental products come with the Reassuring OK Service brand, providing customers receive hygienically clean water and air, backed by our top-notch service.</p>
                                                     </div>
@@ -118,7 +122,7 @@
                                                             <ul class="data-list">
                                                                 <li class="data-item wellness01">
                                                                     <div class="data-head">
-                                                                        <strong class="data-name">One-cock ice-dispensing water purifier</strong>
+                                                                        <strong class="data-name">One-cock Plus ice-dispensing water purifier</strong>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <p class="para">Korea’s first water purifier to dispense ice and water simultaneously from a single tap, ensuring cleanness of both water and ice through an all-tankless system and self-cleaning system.</p>
@@ -126,7 +130,7 @@
                                                                 </li>
                                                                 <li class="data-item wellness02">
                                                                     <div class="data-head">
-                                                                        <strong class="data-name">Ultra-compact tankless water purifier</strong>
+                                                                        <strong class="data-name">Ultra-compact plus tankless water purifier</strong>
                                                                     </div>
                                                                     <div class="data-body">
                                                                         <p class="para">An eco-friendly water purifier, winner of the CES Innovation Award, characterized by its compact and slim design alongside a range of convenient features including warm water dispensing. Committed to ESG values, it emphasizes.</p>
@@ -152,6 +156,21 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="data-item back-namuh">
+                                                    <div class="contents">
+                                                        <strong class="contents-name type1">NAMUH<sup>X</sup></strong>
+                                                        <p class="para"><strong>Wellness Robotics</strong></p>
+                                                        <p class="para">
+                                                            Wellness Innovation through Robotics<br><br>
+                                                            Unlike conventional utility robots that focus solely on functionality,<br>
+we pursue wellness robots that elevate the user experience.<br><br>
+                                                            Rooted in the philosophy of enhancing humanity,<br>
+                                                            we seamlessly integrate this vision with advanced robotics technology and an open ecosystem,
+positioning ourselves as a first mover in the wellness robotics market.<br><br>
+                                                            This is the very essence of NAMUH<sup>X</sup>: Innovation for Humanity.
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -164,16 +183,16 @@
                                     <div class="banner design1 case1 type1">
                                         <div class="banner-wrap">
                                             <div class="banner-head">
-                                                <img src="/assets/images/logo/logo-skMagic.svg" alt="SK magic Logo Image">
+                                                <img src="/assets/images/logo/logo_skintellix_e.svg" alt="SK Intellix Logo Image">
                                             </div>
                                             <div class="banner-body">
                                                 <p class="para">Interested in a business proposals or <br class="pc-only">have customer inquiries</p>
                                             </div>
                                             <div class="banner-footer">
-                                                <span class="summary">SK Magic welcome your valuable suggestions and inquires.</span>
+                                                <span class="summary">SK Intellix welcome your valuable suggestions and inquires.</span>
                                             </div>
                                             <div class="banner-util">
-                                                <a class="btn design3 case1 type1 color2 ar-icon-arrow-right2-bg" href="https://service.skmagic.com/web/easy/easyMain.do?tabIndex=0#Back" target="_blank">
+                                                <a class="btn design3 case1 type1 color2 ar-icon-arrow-right2-bg" href="/en/global/sk-inquiry-form" target="_blank">
                                                     <span class="btn-text">Go to Inquiry</span>
                                                 </a>
                                             </div>

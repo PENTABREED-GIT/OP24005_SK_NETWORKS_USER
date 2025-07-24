@@ -265,7 +265,8 @@
                                                     <div class="data-body">
                                                         <div class="form textArea">
                                                             <label for="inquiry-content" class="blind">enter the content of inquiry</label>
-                                                            <textarea name="content" class="input-elem" id="inquiry-content" cols="20" rows="4" placeholder="Please enter the content of your inquiry." required></textarea>
+                                                            <textarea name="content" class="input-elem" id="inquiry-content" cols="20" rows="4" placeholder="For more accurate guidance, please provide detailed information about your inquiry.
+Be sure not to include sensitive personal information, such as unique identification numbers or authentication details." required></textarea>
                                                         </div>
                                                         <div class="form-text error">
                                                             <p class="comment design1">* Please enter the content of your inquiry.</p>

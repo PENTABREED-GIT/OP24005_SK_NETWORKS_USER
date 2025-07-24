@@ -188,6 +188,9 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="section-aside">
+                                                    <span class="note">* As of Q1 2025</span>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="section design1 case1 type1 process">

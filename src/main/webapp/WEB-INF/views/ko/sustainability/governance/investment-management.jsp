@@ -186,6 +186,9 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="section-aside">
+                                                    <span class="note">* 2025년 1분기 기준</span>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="section design1 case1 type1 process">

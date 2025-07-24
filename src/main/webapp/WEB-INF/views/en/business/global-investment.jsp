@@ -111,7 +111,7 @@
                                                             <em class="title">Startup Founder</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">236</span>
+                                                            <span class="accent color10">261</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -121,7 +121,7 @@
                                                             <em class="title">Investor</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">175</span>
+                                                            <span class="accent color10">199</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -131,12 +131,12 @@
                                                             <em class="title">Advisor</em>
                                                         </div>
                                                         <div class="board-body">
-                                                            <span class="accent color10">48</span>
+                                                            <span class="accent color10">54</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="comment design1">* as of June 2025</p>
+                                            <p class="comment design1">* as of June 30th, 2025</p>
                                         </div>
                                     </div>
                                 </div>
@@ -211,7 +211,7 @@
                                                         <br>
                                                         * Contact : 
                                                         <a href="mailto:rurumie@sk.com" class="mail">
-                                                            ykahn@sk.com
+                                                            Choi, Dae-young (djohnchoi@sk.com)
                                                         </a>
                                                     </p>
                                                 </div>
@@ -272,7 +272,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:yeonhong@sk.com" class="mail">Su, Yan-hong (yeonhong@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -301,7 +301,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:wonho@sk.com" class="mail">Song, Won-ho (wonho@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -330,7 +330,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:seungsoo.lee@sk.com" class="mail">Lee, Seung-soo (seungsoo.lee@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -359,7 +359,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:chloe.l@sk.com" class="mail">Lim, Ji Young (chloe.l@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -388,7 +388,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:wonho@sk.com" class="mail">Song, Won-ho (wonho@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -475,7 +475,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:chloe.l@sk.com" class="mail">Lim, Ji-Young (chloe.l@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -504,7 +504,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:chloe.l@sk.com" class="mail">Lim, Ji-Young (chloe.l@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -537,7 +537,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:seungsoo.lee@sk.com" class="mail">Lee, Seung-soo (seungsoo.lee@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -570,7 +570,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:djohnchoi@sk.com" class="mail">Choi, Dae-young (djohnchoi@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -603,7 +603,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:wonho@sk.com" class="mail">Song, Won-ho (wonho@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -636,7 +636,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:djohnchoi@sk.com" class="mail">Choi, Dae-young (djohnchoi@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -669,7 +669,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:wonho@sk.com" class="mail">Song, Won-ho (wonho@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -801,7 +801,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:seungsoo.lee@sk.com" class="mail">Lee, Seung-soo (seungsoo.lee@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -830,7 +830,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:ykahn@sk.com" class="mail">Ahn, Yun-koul (ykahn@sk.com)</a>
+                                                                            <a href="mailto:wonho@sk.com" class="mail">Song, Won-ho (wonho@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -859,7 +859,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:rurumie@sk.com" class="mail">Song, Hae-In (rurumie@sk.com)</a>
+                                                                            <a href="mailto:wonho@sk.com" class="mail">Song, Won-ho (wonho@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -888,7 +888,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:mj@sk.com" class="mail">Kim, Min-jun (mj@sk.com)</a>
+                                                                            <a href="mailto:djohnchoi@sk.com" class="mail">Choi, Dae-young (djohnchoi@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -917,7 +917,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:mj@sk.com" class="mail">Kim, Min-jun (mj@sk.com)</a>
+                                                                            <a href="mailto:djohnchoi@sk.com" class="mail">Choi, Dae-young (djohnchoi@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>
@@ -946,7 +946,7 @@
                                                                     <span class="label">
                                                                         <span class="label-name">Person in charge</span>
                                                                         <em class="label-data">
-                                                                            <a href="mailto:rurumie@sk.com" class="mail">Song, Hae-In (rurumie@sk.com)</a>
+                                                                            <a href="mailto:yeonhong@sk.com" class="mail">Su, Yan-hong (yeonhong@sk.com)</a>
                                                                         </em>
                                                                     </span>
                                                                 </div>

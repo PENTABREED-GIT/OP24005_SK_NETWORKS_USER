@@ -48,7 +48,7 @@
                 <tr>
                     <td>3</td>
                     <td>04월 15일</td>
-                    <td class="align1">인사위원회 의원장 선임의 건</td>
+                    <td class="align1">인사위원회 위원장 선임의 건</td>
                     <td>의결</td>
                     <td>가결</td>
                     <td>100%</td>

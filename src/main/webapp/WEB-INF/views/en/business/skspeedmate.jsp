@@ -82,7 +82,7 @@
                                             </p>
                                         </div>
                                         <div class="article-util">
-                                            <a class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2" href="https://www.speedmate.com/Company" target="_blank" title="Opens in a new window."><span class="btn-text">Go to the SK Speedmate</span></a>
+                                            <a class="btn design3 case3 type1 color6 ar-icon-arrow-right-up2" href="https://www.speedmate.com" target="_blank" title="Opens in a new window."><span class="btn-text">Go to the SK Speedmate</span></a>
                                         </div>
                                     </div>
                                 </div>

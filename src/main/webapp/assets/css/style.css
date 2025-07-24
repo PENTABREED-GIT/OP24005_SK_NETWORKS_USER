@@ -2657,6 +2657,13 @@
   background: url("../images/logo/logo_skintellix_e.svg") no-repeat center 4.2rem/12rem;
 }
 
+.board-list.brand-inquiry .board-item.magic .board-wrap {
+  background: url("../images/etc/logo-skMagic.svg") no-repeat center -1.7rem/20.3rem;
+}
+.en .board-list.brand-inquiry .board-item.magic .board-wrap {
+  background: url("../images/logo/logo-skMagic.svg") no-repeat center 4.2rem/12rem;
+}
+
 .board-list.brand-inquiry .board-item.speedmate .board-wrap {
   background: url("../images/logo/logo-speedmate-k.svg") no-repeat center 2.3rem/17.2rem;
 }
@@ -6231,7 +6238,7 @@
 .data-display.business-network > .data-body > .data-list > .data-item[class*=back-].back-outside::after {
   background: url("../images/business/thumb-12-pc.jpg") no-repeat center/cover;
 }
-.data-display.business-network > .data-body > .data-list > .data-item[class*=back-].back-wellness::after {
+.data-display.business-network > .data-body > .data-list > .data-item[class*=back-].back-wellness::after, .data-display.business-network > .data-body > .data-list > .data-item[class*=back-].back-rental::after {
   background: url("../images/business/thumb-14-pc.jpg") no-repeat center/cover;
 }
 .data-display.business-network > .data-body > .data-list > .data-item[class*=back-].back-namuh::after {
@@ -6378,7 +6385,7 @@
     background: url("../images/business/thumb-12-mo.jpg") no-repeat center/cover;
     clip-path: inset(0% 0% 0% 0% round 0.8rem);
   }
-  .data-display.business-network > .data-body > .data-list > .data-item[class*=back-].back-wellness::after {
+  .data-display.business-network > .data-body > .data-list > .data-item[class*=back-].back-wellness::after, .data-display.business-network > .data-body > .data-list > .data-item[class*=back-].back-rental::after {
     background: url("../images/business/thumb-14-mo.jpg") no-repeat center/cover;
     clip-path: inset(0% 0% 0% 0% round 0.8rem);
   }
@@ -6772,7 +6779,7 @@
     margin-left: 0;
   }
 }
-.data-display.wellness .data-item {
+.data-display.wellness .data-item, .data-display.rental .data-item {
   position: relative;
   padding: 6.4rem 0 6.4rem 41%;
   min-height: 37.8rem;
@@ -6781,40 +6788,52 @@
   background-position-y: 6.4rem;
   background-size: 41%;
 }
-.data-display.wellness .data-item .data-head .data-name {
+.data-display.wellness .data-item .data-head .data-name, .data-display.rental .data-item .data-head .data-name {
   font-weight: 700;
   font-size: 2rem;
 }
-.data-display.wellness .data-item .data-head + .data-body {
+.data-display.wellness .data-item .data-head + .data-body, .data-display.rental .data-item .data-head + .data-body {
   padding-top: 2.4rem;
 }
-.data-display.wellness .data-item .data-body .para {
+.data-display.wellness .data-item .data-body .para, .data-display.rental .data-item .data-body .para {
   font-weight: 500;
   font-size: 1.8rem;
 }
-.data-display.wellness .data-item.wellness01 {
+.data-display.wellness .data-item.wellness01, .data-display.rental .data-item.wellness01 {
   background-image: url("../images/business/bg-wellness01.jpg");
 }
-.data-display.wellness .data-item.wellness02 {
+.data-display.wellness .data-item.wellness02, .data-display.rental .data-item.wellness02 {
   background-image: url("../images/business/bg-wellness02.jpg");
 }
-.data-display.wellness .data-item.wellness03 {
+.data-display.wellness .data-item.wellness03, .data-display.rental .data-item.wellness03 {
   background-image: url("../images/business/bg-wellness03.jpg");
 }
-.data-display.wellness .data-item.wellness04 {
+.data-display.wellness .data-item.wellness04, .data-display.rental .data-item.wellness04 {
   background-image: url("../images/business/bg-wellness04.jpg");
 }
+.data-display.wellness .data-item.rental01, .data-display.rental .data-item.rental01 {
+  background-image: url("../images/business/bg-rental01.jpg");
+}
+.data-display.wellness .data-item.rental02, .data-display.rental .data-item.rental02 {
+  background-image: url("../images/business/bg-rental01.jpg");
+}
+.data-display.wellness .data-item.rental03, .data-display.rental .data-item.rental03 {
+  background-image: url("../images/business/bg-rental01.jpg");
+}
+.data-display.wellness .data-item.rental04, .data-display.rental .data-item.rental04 {
+  background-image: url("../images/business/bg-rental01.jpg");
+}
 @media (max-width: 1023px) {
-  .data-display.wellness .data-item {
+  .data-display.wellness .data-item, .data-display.rental .data-item {
     padding: 30.6rem 0 3.2rem;
     min-height: unset;
     background-position: center 3.2rem;
     background-size: auto;
   }
-  .data-display.wellness .data-item .data-head + .data-body {
+  .data-display.wellness .data-item .data-head + .data-body, .data-display.rental .data-item .data-head + .data-body {
     padding-top: 1.6rem;
   }
-  .data-display.wellness .data-item:last-child {
+  .data-display.wellness .data-item:last-child, .data-display.rental .data-item:last-child {
     padding-bottom: 0;
   }
 }
@@ -19728,7 +19747,7 @@ sub {
   position: absolute;
   top: 7.7rem;
   right: 4rem;
-  width: 11rem;
+  width: 12rem;
 }
 #wrap .business.overview .section.infocom .section-body .board-list .board-item .board-wrap .board-body .board-list-sub .accordion-display .accordion-item .accordion-head .btn .btn-text {
   justify-content: end;
@@ -24464,6 +24483,19 @@ sub {
   }
   .esg:not(.overview).award .section .data-display.design2 > .data-list > .data-item .item-util .btn-text::after {
     margin-left: 0;
+  }
+}
+.esg:not(.overview).info-protection .note {
+  font-weight: 500;
+  font-size: 1.4rem;
+  display: block;
+  color: rgb(63, 63, 70);
+  margin-top: 1.6rem;
+}
+@media (max-width: 1023px) {
+  .esg:not(.overview).info-protection .note {
+    font-weight: 500;
+    font-size: 1.2rem;
   }
 }
 .esg:not(.overview).info-protection .section.security .section-body .para + .board-list {

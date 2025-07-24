@@ -2401,6 +2401,15 @@
         }
         // 정보보호 및 보안
         &.info-protection {
+            .note {
+                @include font(small-5x, medium);
+                display: block;
+                color: color(neutral, 080);
+                margin-top: 1.6rem;
+                @include mobile {
+                    @include font(small-6x, medium);
+                }
+            }
             .section {
                 &.security {
                     .section-body {

@@ -167,7 +167,7 @@
                                                         </div>
                                                         <div class="board-item-sub">
                                                             <strong class="board-name-sub">Portfolio</strong>
-                                                            <p class="para">총 26건 (직접투자 9건, 펀드 17건)</p>
+                                                            <p class="para">총 27건 (직접투자 15건, 펀드 12건)</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -214,8 +214,8 @@
                                                                             <p class="para">휴대폰 단말기 도매, 물류 서비스, ICT Device/Accessory B2B 유통</p>
                                                                         </div>
                                                                         <div class="board-item-sub">
-                                                                            <strong class="board-name-sub">FY2023 매출액</strong>
-                                                                            <p class="para">4조 5,000억 원</p>
+                                                                            <strong class="board-name-sub">FY2024 매출액</strong>
+                                                                            <p class="para">4조 2,759억 원</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -288,8 +288,8 @@
                                                                             <p class="para">Enterprise AI Platform, 데이터 컨설팅, 데이터 솔루션 DATAWARE™ 등</p>
                                                                         </div>
                                                                         <div class="board-item-sub">
-                                                                            <strong class="board-name-sub">FY2023 매출액</strong>
-                                                                            <p class="para">257억 원</p>
+                                                                            <strong class="board-name-sub">FY2024 매출액</strong>
+                                                                            <p class="para">313억 원</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -330,8 +330,8 @@
                                                             <p class="para">그랜드 워커힐 서울, 비스타 워커힐 서울, 더글라스 하우스, 다락휴, 인천공항 환승호텔</p>
                                                         </div>
                                                         <div class="board-item-sub">
-                                                            <strong class="board-name-sub">FY2023 매출액</strong>
-                                                            <p class="para">2,800억 원</p>
+                                                            <strong class="board-name-sub">FY2024 매출액</strong>
+                                                            <p class="para">3,006억 원</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -406,8 +406,8 @@
                                                             <p class="para">자동차 경정비, 긴급출동 서비스, 자동차 용품 및 수입차 부품 유통 등</p>
                                                         </div>
                                                         <div class="board-item-sub">
-                                                            <strong class="board-name-sub">FY2023 매출액</strong>
-                                                            <p class="para">3,600억 원</p>
+                                                            <strong class="board-name-sub">FY2024 매출액</strong>
+                                                            <p class="para">3,439억 원</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -444,8 +444,8 @@
                                                             <p class="para">석유화학 제품 위주 무역</p>
                                                         </div>
                                                         <div class="board-item-sub">
-                                                            <strong class="board-name-sub">FY2023 매출액</strong>
-                                                            <p class="para">1조 4,000억 원</p>
+                                                            <strong class="board-name-sub">FY2024 매출액</strong>
+                                                            <p class="para">1조 6,172억 원</p>
                                                         </div>
                                                     </div>
                                                 </div>

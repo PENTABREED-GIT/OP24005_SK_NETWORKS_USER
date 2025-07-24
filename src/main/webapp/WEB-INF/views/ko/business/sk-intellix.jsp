@@ -75,7 +75,7 @@
                                         </div>
                                         <div class="article-body">
                                             <p class="para case2">
-                                                SK인텔릭스는 기존 환경가전에 국한된 ‘SK매직’의 브랜드 이미지를 넘어, 새롭게 선보이는 웰니스 로보틱스 ‘NAMUH<sup>X</sup>(나무엑스)’의 혁신성과 미래지향적인 브랜드 가치를 포괄할 수 있는 통합 브랜드 체계를 마련했다.
+                                                SK인텔릭스는 기존 환경가전에 국한된 ‘SK매직’의 브랜드 이미지를 넘어, 새롭게 선보이는 웰니스 로보틱스 ‘NAMUH<sup>X</sup>(나무엑스)’의 혁신성과 미래지향적인 브랜드 가치를 포괄할 수 있는 통합 브랜드 체계를 마련했습니다.
                                             </p>
                                             <p class="para case2">
                                                 헬스 플랫폼 브랜드 SK매직은 환경가전 제조·판매 및 렌탈 서비스 역량과 브랜드 자산을 기반으로 신규 혁신 제품 카테고리를 창출해 신뢰 받는 헬스 사업 브랜드로 성장해 나갈 계획이며,
@@ -186,13 +186,13 @@
                                                 <img src="/assets/images/logo/logo-skIntellix.svg" alt="SK intellix 로고 이미지">
                                             </div>
                                             <div class="banner-body">
-                                                <p class="para">SK Intellix에 대해 궁금하신가요?</p>
+                                                <p class="para">사업제안·고객문의가 필요하신가요?</p>
                                             </div>
                                             <div class="banner-footer">
-                                                <span class="summary">지금 공식 웹사이트에서 자세히 확인해보세요.</span>
+                                                <span class="summary">SK인텔릭스는 여러분의 소중한 제안을 기다리고 있습니다.</span>
                                             </div>
                                             <div class="banner-util">
-                                                <a class="btn design3 case1 type1 color2 ar-icon-arrow-right2-bg" href="https://www.skintellix.com/" target="_blank">
+                                                <a class="btn design3 case1 type1 color2 ar-icon-arrow-right2-bg" href="/ko/global/sk-inquiry-form" target="_blank">
                                                     <span class="btn-text">바로가기</span>
                                                 </a>
                                             </div>
