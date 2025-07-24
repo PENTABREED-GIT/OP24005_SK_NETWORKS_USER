@@ -7,6 +7,8 @@
 --%>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%@ include file="/WEB-INF/views/ko/include/header-inc.jsp" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<c:set var="encodedSearchWord" value="${fn:replace(param.searchWord, '|', '%7C')}" />
 <!DOCTYPE html>
 <html lang="ko">
 
@@ -84,20 +86,20 @@
                                 </div>
                                 <div class="section-util">
                                     <div class="btn-display">
-                                        <a href="/pr/news-room?currentPage=${param.currentPage}&searchWord=${param.searchWord}" class="btn design1 case1 type1 color1"><span class="btn-text">목록</span></a>
+                                        <a href="/pr/news-room?currentPage=${param.currentPage}&searchWord=${encodedSearchWord}" class="btn design1 case1 type1 color1"><span class="btn-text">목록</span></a>
                                     </div>
                                     <div class="board-dipslay">
                                         <c:if test="${not empty previousPrPress and not empty nextPrPress}">
                                             <div class="board-list design2 case1 type1">
                                                 <div class="board-item">
                                                     <c:if test="${not empty previousPrPress}">
-                                                        <a href="/pr/news-room/<c:out value="${previousPrPress.uid}"/>?currentPage=${param.currentPage}&searchWord=${param.searchWord}" class="board-info">
+                                                        <a href="/pr/news-room/<c:out value="${previousPrPress.uid}"/>?currentPage=${param.currentPage}&searchWord=${encodedSearchWord}" class="board-info">
                                                             <span class="board-name">이전글</span>
                                                             <span class="board-caption"><c:out value="${previousPrPress.title}"/></span>
                                                         </a>
                                                     </c:if>
                                                     <c:if test="${not empty nextPrPress}">
-                                                        <a href="/pr/news-room/<c:out value="${nextPrPress.uid}"/>?currentPage=${param.currentPage}&searchWord=${param.searchWord}" class="board-info">
+                                                        <a href="/pr/news-room/<c:out value="${nextPrPress.uid}"/>?currentPage=${param.currentPage}&searchWord=${encodedSearchWord}" class="board-info">
                                                             <span class="board-name">다음글</span>
                                                             <span class="board-caption"><c:out value="${nextPrPress.title}"/></span>
                                                         </a>

@@ -86,8 +86,23 @@ public class PrController {
     public String newsRoomInclude(@PathVariable(required = false) String lang, @RequestParam Map<String, Object> reqMap, HttpServletRequest request, Model model) {
         lang = NTUtil.isNull(lang, "ko");
         reqMap.put("lang", lang.toUpperCase());
-        int totalCount = pressService.getPrPressListCount(reqMap);
 
+        Object rawSearchWord = reqMap.get("searchWord");
+
+        boolean isMultiSearch = rawSearchWord != null && rawSearchWord.toString().contains("|");
+
+        if (isMultiSearch) {
+            // | 기준으로 나눔
+            List<String> searchWords = Arrays.stream(rawSearchWord.toString().split("\\|"))
+                    .map(String::trim)
+                    .filter(s -> !s.isEmpty())
+                    .collect(Collectors.toList());
+            reqMap.put("searchWords", searchWords);
+        }
+
+        int totalCount = isMultiSearch
+                ? pressService.getPrPressListCountForMultiSearch(reqMap)
+                : pressService.getPrPressListCount(reqMap);
         // currentPage = 5
         int currentPage = Integer.parseInt(NTUtil.isNull(reqMap.get("page"), "1"));
 
@@ -97,12 +112,16 @@ public class PrController {
         if (currentPage > 1) {
             pageListSize = 5;
         }
-
         // this.offset = 40
         Page page = new Page(5, currentPage, pageListSize, totalCount);
+
+        List<Press> pressList = isMultiSearch
+                ? pressService.getPrPressListForMultiSearch(reqMap, page)
+                : pressService.getPrPressList(reqMap, page);
+
         System.out.println("page = " + page);
 
-        List<Press> pressList = pressService.getPrPressList(reqMap, page);
+//        List<Press> pressList = pressService.getPrPressList(reqMap, page);
 
         model.addAttribute("pressList", pressList);
         model.addAttribute("totalCount", totalCount);
@@ -215,14 +234,32 @@ public class PrController {
         Map<String, Object> reqMap = new HashMap<>();
         reqMap.put("lang", lang.toUpperCase());
         reqMap.put("uid", uid);
-        reqMap.put("searchWord", request.getParameter("searchWord"));
+
+        Object rawSearchWord = request.getParameter("searchWord");
+        boolean isMultiSearch = rawSearchWord != null && rawSearchWord.toString().contains("|");
+        if (isMultiSearch) {
+            List<String> searchWords = Arrays.stream(rawSearchWord.toString().split("\\|"))
+                    .map(String::trim)
+                    .filter(s -> !s.isEmpty())
+                    .collect(Collectors.toList());
+            reqMap.put("searchWords", searchWords);
+        } else {
+            reqMap.put("searchWord", rawSearchWord);
+        }
+
+        model.addAttribute("prPress", isMultiSearch
+                ? pressService.getPrPressForMultiSearch(reqMap)
+                : pressService.getPrPress(reqMap));
+
+        model.addAttribute("previousPrPress", isMultiSearch
+                ? pressService.getPreviousPrPressForMultiSearch(reqMap)
+                : pressService.getPreviousPrPress(reqMap));
+
+        model.addAttribute("nextPrPress", isMultiSearch
+                ? pressService.getNextPrPressForMultiSearch(reqMap)
+                : pressService.getNextPrPress(reqMap));
 
         pressService.updateViewCount(uid);
-
-        model.addAttribute("prPress", pressService.getPrPress(reqMap));
-        model.addAttribute("previousPrPress", pressService.getPreviousPrPress(reqMap));
-        model.addAttribute("nextPrPress", pressService.getNextPrPress(reqMap));
-
         return lang + "/pr/main-view";
     }
 

@@ -226,7 +226,7 @@ positioning ourselves as a first mover in the wellness robotics market.<br><br>
                                                         </div>
                                                         <div class="post-inform">
                                                             <div class="post-head">
-                                                                <p class="post-caption"><c:out value="${item.businessAreaNameEn}"/></p>
+                                                                <p class="post-caption"><c:out value="${item.businessAreaNameEn}" escapeXml="fasle"/></p>
                                                                 <p class="post-subject"><c:out value="${item.title}"/></p>
                                                                 <p class="post-summary"><c:out value="${ntUtil:toBr(ntUtil:removeHtml(item.content))}"/></p>
                                                             </div>
@@ -240,7 +240,7 @@ positioning ourselves as a first mover in the wellness robotics market.<br><br>
                                     </div>
                                     <div class="section-util btn-display align3">
                                         <div class="btn-area">
-                                            <a class="btn design3 case1 type1 color2 ar-icon-plus-bg" href="/${LANG}/pr/news-room?currentPage=1&searchWord=<c:out value="${businessName}"/>"><span class="btn-text">View more</span></a>
+                                            <a class="btn design3 case1 type1 color2 ar-icon-plus-bg" href="/${LANG}/pr/news-room?currentPage=1&searchWord=SK Magic%7CNAMUH"><span class="btn-text">View more</span></a>
                                         </div>
                                     </div>
                                 </div>

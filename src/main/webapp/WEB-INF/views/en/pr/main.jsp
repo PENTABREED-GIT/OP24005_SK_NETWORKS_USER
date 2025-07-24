@@ -22,27 +22,6 @@
 
             Tab();
 
-            // URL 문자열 추출 (아코디언 URL 생성)
-            // 1. 현재 페이지 URL의 문자열 부분을 반환 후 ?를 제외한 나머지 쿼리 문자열을 추출(?tab=scrollTab1)
-            const qr = window.location.search.substring(1, window.location.search.length)
-
-            // 2. = 기준으로 쿼리 문자열을 나눔. [1]: 두 번째 값 가져옴 (scrollTab1)
-            const tabId = (qr.split('='))[1]
-
-            console.log("tabID : " + tabId);
-
-            // 3. ID로 가진 HTML 요소를 DOM에서 가져옴.
-            const scrollTab = document.getElementById(tabId);
-
-            // 4. 자동으로 스크롤
-            if(tabId != null){
-                scrollTab.scrollIntoView()
-
-                // 5. 해당 버튼을 클릭 (아코디언이 열린 상태)
-                // scrollTab.querySelector('button').click()
-                scrollTab.click();
-            }
-
             //인트로 슬라이드
             new Swiper(".pr-swiper2", {
             effect: "fade",
@@ -161,21 +140,6 @@
             });
         });
     </script>
-    <script>
-        // [25.03.27] 탭 클릭 시, 탭별로 url 변경
-        function tabClickEvent(e){
-            let tabId = e.target.id;
-            let url = window.location.href.split('?')[0];
-            if(url == null){
-                url = window.location.href;
-            }
-            let newUrl = url;
-            if(tabId != ""){
-                newUrl += `?tabId=` + tabId;
-            }
-            history.pushState(null, null, newUrl);
-        }
-    </script>
 </head>
 
 <body class="en">
@@ -223,7 +187,7 @@
                                                     </div>
                                                     <div class="text-wrap">
                                                         <div class="slide-head">
-                                                            <span class="cate"><c:out value="${item.businessAreaNameEn}"/></span>
+                                                            <span class="cate"><c:out value="${item.businessAreaNameEn}" escapeXml="false"/></span>
                                                             <h3 class="tit"><c:out value="${item.title}"/></h3>
                                                         </div>
                                                         <div class="slide-body">
@@ -248,10 +212,10 @@
                                     <div class="swiper tab-wrap">
                                         <ul class="swiper-wrapper tab-list" role="tablist">
                                             <li id="tab1" class="swiper-slide tab-item" aria-controls="tab-panel1">
-                                                <button role="tab" class="tab-text" onclick="tabClickEvent(event)">Press Release</button>
+                                                <button role="tab" class="tab-text">Press Release</button>
                                             </li>
                                             <li id="tab3" class="swiper-slide tab-item" aria-controls="tab-panel3">
-                                                <button role="tab" class="tab-text" id="media-library" onclick="tabClickEvent(event)">Media Library</button>
+                                                <button role="tab" class="tab-text">Media Library</button>
                                             </li>
                                         </ul>
                                     </div>
@@ -284,10 +248,8 @@
                                                 <div id="pressListDiv" class="post-list design2 case1 type1">
                                                 </div>
                                                 <div id="moreLoadDiv" class="btn-display case1 align3">
-                                                    <div class="btn-area" id="moreBtn">
-                                                        <button id="moreLoad" class="btn design3 case1 type1 color2 ar-icon-plus-bg" onclick="getPressList(2)">
-                                                            <span class="btn-text">View more</span>
-                                                        </button>
+                                                    <div class="btn-area">
+                                                        <button id="moreLoad" class="btn design3 case1 type1 color2 ar-icon-plus-bg" onclick="getPressList(2, ${search.searchWord})"><span class="btn-text">View more</span></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -359,23 +321,21 @@
     let urlParams = new URLSearchParams(window.location.search);
     let curPage = urlParams.get('currentPage');
     let sWord = urlParams.get('searchWord');
-    // resultSearchWord
-    console.log('sWord', sWord)
-
-    if(sWord)  document.getElementById('resultSearchWord').value = sWord;
 
     document.addEventListener("DOMContentLoaded", () => {
-        /*
         // 쿼리 파라미터를 사용하여 초기 검색어 및 페이지 설정
         if (curPage || sWord) {
-            document.querySelector('#resultSearchWord').value = sWord;
+            if(sWord.includes('|')) {
+                word = sWord.replace('|', ' ');
+                document.querySelector('#resultSearchWord').value = word;
+            } else{
+                document.querySelector('#resultSearchWord').value = sWord;
+            }
             detailToList(curPage, sWord);
         } else {
             // 보도자료 게시판 호출
             getPressList(1, '');
         }
-        */
-        getPressList(1);
     })
 
     let currentPage = 1;
@@ -389,87 +349,7 @@
      * @param page
      * @returns {Promise<void>}
      */
-    async function getPressList(currentPage = 1) {
-
-        const searchWord = fnGetValueById('resultSearchWord');
-        console.log({searchWord});
-
-        const url = '/en/pr/news-room-inc2?page=' + currentPage + '&searchWord=' + searchWord;
-        const {data, metaData} = await fnAsyncGet(url);
-
-        console.log({data, metaData});
-        const {totalCount, limit, reqMap} = metaData;
-        console.log({totalCount, limit, reqMap});
-
-        const htmlArr = [];
-
-        data.forEach((obj) => {
-
-            const {
-                uid,                    //  "ZcjsLbcI3G5rWX1x",
-                adminId,                //  null,
-                adminIndex,             //  null,
-                adminName,              //  null,
-                modDate,                //  null,
-                regDate,                //  "2025.06.27",
-                rowNumber,              //  null,
-                lang,                   //  "KO",
-                pressIndex,             //  "129",
-                businessAreaIndex,      //  null,
-                isPress,                //  null,
-                isBusiness,             //  null,
-                title,                  //  "ㄴㅇㅎㄴㅇ",
-                content,                //  "ㄴㅇㅎㅎㄴㄴㅇㅎ",
-                addedFile,              //  null,
-                businessAreaNameKo,     //  "글로벌 투자",
-                businessAreaNameEn,     //  "Global Investment",
-                description,            //  null
-            } = obj;
-
-
-            <%--htmlArr.push(`<a href="/pr/news-room/${uid}?currentPage=${page.currentPage}&searchWord=${searchWord}>" class="post-item" data-total-page="${totalPage}">`);--%>
-            //htmlArr.push(`<a href="/pr/news-room/\${uid}?currentPage=\${currentPage}&searchWord=\${searchWord}" class="post-item">`);
-            htmlArr.push(`<a href="/pr/news-room/\${uid}?currentPage=\${currentPage}" class="post-item" data-uid=\${uid}>`);
-            htmlArr.push(`    <div class="post-wrap">`);
-            htmlArr.push(`        <div class="post-figure">`);
-            if (addedFile) {
-                htmlArr.push(`                    <img src="\${addedFile}" alt="\${description}">`);
-            } else {
-                htmlArr.push(`                    <img src="/upload/public/press/newsroom/Default-thumbnail.png" alt="Press now 썸네일 이미지">`);
-            }
-            htmlArr.push(`        </div>`);
-            htmlArr.push(`        <div class="post-inform base-board-detail">`);
-            htmlArr.push(`            <div class="post-head">`);
-            htmlArr.push(`                <p class="post-caption">\${businessAreaNameEn}</p>`);
-            htmlArr.push(`                <p class="post-subject">\${title}</p>`);
-            htmlArr.push(`                <p class="post-summary ">\${content}</p>`);
-            htmlArr.push(`            </div>`);
-            htmlArr.push(`            <p class="post-date" title="등록일">\${regDate}</p>`);
-            htmlArr.push(`        </div>`);
-            htmlArr.push(`    </div>`);
-            htmlArr.push(`</a>`);
-
-        });
-
-        fnAppend('pressListDiv', htmlArr);
-
-        // 더보기 X
-        if(Array.isArray(data) && data.length < limit || totalCount < limit) {
-            fnRemoveById('moreBtn');
-        // 더보기 O
-        } else {
-            const moreHtml = `
-                <button id="moreLoad" class="btn design3 case1 type1 color2 ar-icon-plus-bg" onclick="getPressList(\${currentPage+1}, \${searchWord})">
-                    <span class="btn-text">더보기</span>
-                </button>
-            `;
-
-            fnHtml('moreBtn', [moreHtml])
-
-        }
-
-/*
-
+    async function getPressList(page, sWord) {
         upcomingPage ++;
 
         if (sWord === undefined && searchWord === '') {
@@ -481,31 +361,25 @@
             currentPage = 1;
             upcomingPage = 1;
         }
-        let content = await fetch('/${LANG}/pr/news-room-inc?page=' + currentPage + '&searchWord=' + searchWord, {
+        let content = await fetch('/${LANG}/pr/news-room-inc?page=' + currentPage + '&searchWord=' + encodeURI(searchWord), {
             method: 'GET',
             contentType: 'text/html'
         }).then((response) => {
-                if (response.ok) {
-                    return response.text();
-                } else {
-                    alert('죄송합니다.\n데이터 처리 도중 오류가 발생했습니다.\n잠시후 다시 시도해주세요.');
-                }
-            })
+            if (response.ok) {
+                return response.text();
+            } else {
+                alert('죄송합니다.\n데이터 처리 도중 오류가 발생했습니다.\n잠시후 다시 시도해주세요.');
+            }
+        })
             .catch((err) => {
                 alert('죄송합니다.\n데이터 처리 도중 오류가 발생했습니다.\n잠시후 다시 시도해주세요.');
                 console.log(err);
             });
 
-        let content2 = await fetch('/${LANG}/pr/news-room?page=' + currentPage + '&searchWord=' + searchWord, {
+        let content2 = await fetch('/${LANG}/pr/news-room?page=' + currentPage + '&searchWord=' + encodeURI(searchWord), {
             method: 'GET',
             contentType: 'text/html'
-        });
-
-        console.log('---------------------------------------------');
-        console.log(content);
-        console.log(`page = ${page}`);
-        console.log(`currentPage = ${currentPage}`);
-        console.log(`searchWord = ${searchWord}`);
+        })
 
         if (page == 1 && searchWord !== '') {
             document.getElementById('pressListDiv').innerHTML = '';
@@ -533,13 +407,12 @@
                 else document.getElementById('moreLoad').style.display = 'block';
             }
         }
-*/
     }
 
     function searchPrPress() {
-        searchWord = document.querySelector('#resultSearchWord').value.trim();
-        // getPressList(1, searchWord);
-        location.href = '/${LANG}/pr/news-room?currentPage=1&searchWord=' + searchWord;
+        searchWord = document.querySelector('#resultSearchWord').value;
+        getPressList(1, searchWord);
+        location.href = '/${LANG}/pr/news-room?currentPage=1&searchWord=' + encodeURI(searchWord);
     }
 
     async function detailToList(pageNo, sWord) {

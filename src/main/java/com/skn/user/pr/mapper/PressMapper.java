@@ -31,21 +31,21 @@ public interface PressMapper {
      * @return
      */
     Press selectPrPress(Map reqMap);
-
+    Press selectPrPressForMultiSearch(Map reqMap);
     /**
      * PR > 뉴스룸 보도자료 이전글 제목, UID 조회
      * @param reqMap UID
      * @return
      */
     Press selectPreviousPrPress(Map reqMap);
-
+    Press selectPreviousPrPressForMultiSearch(Map reqMap);
     /**
      * PR > 뉴스룸 보도자료 다음글 제목, UID 조회
      * @param reqMap UID
      * @return
      */
     Press selectNextPrPress(Map reqMap);
-
+    Press selectNextPrPressForMultiSearch(Map reqMap);
     /**
      * BUSINESS > 사업별 보도자료 목록 조회
      * @param reqMap 페이징

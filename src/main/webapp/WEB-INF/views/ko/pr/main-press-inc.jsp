@@ -15,7 +15,11 @@
 <%@ include file="/WEB-INF/views/ko/include/header-inc.jsp" %>
 <c:forEach items="${pressList}" var="item" varStatus="status">
     <input type="hidden" id="totalCount" value="<c:out value="${totalCount}"/>"/>
-    <a href="/pr/news-room/${item.uid}?currentPage=${page.currentPage}&searchWord=<c:out value="${search.searchWord}"/>" class="post-item" data-total-page="${page.totalPage}">
+    <c:url var="prLink" value="/pr/news-room/${item.uid}">
+        <c:param name="currentPage" value="${page.currentPage}" />
+        <c:param name="searchWord" value="${search.searchWord}" />
+    </c:url>
+    <a href="${prLink}" class="post-item" data-total-page="${page.totalPage}">
             <div class="post-wrap">
                 <div class="post-figure">
                     <c:choose>
@@ -29,12 +33,7 @@
                 </div>
                 <div class="post-inform base-board-detail">
                     <div class="post-head">
-                        <c:if test="${item.businessAreaNameKo == 'NAMUHx'}">
-                            <p class="post-caption">NAMUH<sup>x</sup></p>
-                        </c:if>
-                        <c:if test="${item.businessAreaNameKo != 'NAMUHx'}">
-                            <p class="post-caption"><c:out value="${item.businessAreaNameKo}"/></p>
-                        </c:if>
+                            <p class="post-caption"><c:out value="${item.businessAreaNameKo}" escapeXml="false"/></p>
 <%--                        <p class="post-caption"><c:out value="${item.businessAreaNameKo}"/></p>--%>
                         <p class="post-subject"><c:out value="${item.title}"/></p>
                         <p class="post-summary "><c:out value="${ntUtil:toBr(ntUtil:removeHtml(item.content))}"/></p>
@@ -44,3 +43,7 @@
             </div>
         </a>
     </c:forEach>
+    <script>
+
+    </script>
+

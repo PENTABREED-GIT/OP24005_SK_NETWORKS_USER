@@ -226,7 +226,7 @@
                                                         </div>
                                                         <div class="post-inform">
                                                             <div class="post-head">
-                                                                <p class="post-caption"><c:out value="${item.businessAreaNameKo}"/></p>
+                                                                <p class="post-caption"><c:out value="${item.businessAreaNameKo}" escapeXml="false"/></p>
                                                                 <p class="post-subject"><c:out value="${item.title}"/></p>
                                                                 <p class="post-summary"><c:out value="${ntUtil:toBr(ntUtil:removeHtml(item.content))}"/></p>
                                                             </div>
@@ -240,7 +240,7 @@
                                     </div>
                                     <div class="section-util btn-display align3">
                                         <div class="btn-area">
-                                            <a class="btn design3 case1 type1 color2 ar-icon-plus-bg" href="/pr/news-room?currentPage=1&searchWord=<c:out value="${businessName}"/>"><span class="btn-text">더보기</span></a>
+                                            <a class="btn design3 case1 type1 color2 ar-icon-plus-bg" href="/pr/news-room?currentPage=1&searchWord=SK매직%7CNAMUH"><span class="btn-text">더보기</span></a>
                                         </div>
                                     </div>
                                 </div>

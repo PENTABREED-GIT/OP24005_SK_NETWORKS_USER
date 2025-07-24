@@ -85,6 +85,10 @@ public class PressService {
         Press data = pressMapper.selectPrPress(reqMap);
         return data;
     }
+    public Press getPrPressForMultiSearch(Map<String, Object> reqMap) {
+        Press data = pressMapper.selectPrPressForMultiSearch(reqMap);
+        return data;
+    }
 
     /**
      * PR > 뉴스룸 보도자료 이전글 제목, UID 조회
@@ -95,7 +99,10 @@ public class PressService {
         Press data = pressMapper.selectPreviousPrPress(reqMap);
         return data;
     }
-
+    public Press getPreviousPrPressForMultiSearch(Map<String, Object> reqMap) {
+        Press data = pressMapper.selectPreviousPrPressForMultiSearch(reqMap);
+        return data;
+    }
     /**
      * PR > 뉴스룸 보도자료 다음글 제목, UID 조회
      * @param reqMap UID
@@ -103,6 +110,10 @@ public class PressService {
      */
     public Press getNextPrPress(Map<String, Object> reqMap) {
         Press data = pressMapper.selectNextPrPress(reqMap);
+        return data;
+    }
+    public Press getNextPrPressForMultiSearch(Map<String, Object> reqMap) {
+        Press data = pressMapper.selectNextPrPressForMultiSearch(reqMap);
         return data;
     }
 
