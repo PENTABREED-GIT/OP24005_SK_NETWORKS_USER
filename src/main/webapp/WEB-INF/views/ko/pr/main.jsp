@@ -188,7 +188,17 @@
                                                     </div>
                                                     <div class="text-wrap">
                                                         <div class="slide-head">
-                                                            <span class="cate"><c:out value="${item.businessAreaNameKo}" escapeXml="false"/></span>
+<%--                                                            <span class="cate"><c:out value="${item.businessAreaNameKo}" escapeXml="false"/></span>--%>
+                                                                <p class="cate">
+                                                                  <c:choose>
+                                                                    <c:when test="${item.businessAreaNameKo == 'NAMUHx'}">
+                                                                      NAMUH<sup>x</sup>
+                                                                    </c:when>
+                                                                    <c:otherwise>
+                                                                      <c:out value="${item.businessAreaNameKo}" />
+                                                                    </c:otherwise>
+                                                                  </c:choose>
+                                                                </p>
                                                             <h3 class="tit"><c:out value="${item.title}"/></h3>
                                                         </div>
                                                         <div class="slide-body">

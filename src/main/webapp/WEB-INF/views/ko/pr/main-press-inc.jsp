@@ -33,7 +33,17 @@
                 </div>
                 <div class="post-inform base-board-detail">
                     <div class="post-head">
-                            <p class="post-caption"><c:out value="${item.businessAreaNameKo}" escapeXml="false"/></p>
+<%--                            <p class="post-caption"><c:out value="${item.businessAreaNameKo}" escapeXml="false"/></p>--%>
+                        <p class="post-caption">
+                          <c:choose>
+                            <c:when test="${item.businessAreaNameKo == 'NAMUHx'}">
+                              NAMUH<sup>x</sup>
+                            </c:when>
+                            <c:otherwise>
+                              <c:out value="${item.businessAreaNameKo}" />
+                            </c:otherwise>
+                          </c:choose>
+                        </p>
 <%--                        <p class="post-caption"><c:out value="${item.businessAreaNameKo}"/></p>--%>
                         <p class="post-subject"><c:out value="${item.title}"/></p>
                         <p class="post-summary "><c:out value="${ntUtil:toBr(ntUtil:removeHtml(item.content))}"/></p>
