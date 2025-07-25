@@ -139,7 +139,7 @@
             AND TITLE LIKE CONCAT('%', #{searchWord}, '%')
         </if>
         <include refid="searchCondition"/>
-        ORDER BY P.PRESS_INDEX DESC
+        ORDER BY P.REG_DATE,  P.PRESS_INDEX DESC,
         LIMIT #{offset}, #{limit}
     </select>
 
