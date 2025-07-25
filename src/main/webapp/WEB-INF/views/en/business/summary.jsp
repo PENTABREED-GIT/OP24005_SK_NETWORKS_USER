@@ -154,7 +154,7 @@
                                                         </div>
                                                         <div class="board-item-sub">
                                                             <strong class="board-name-sub">Portfolio</strong>
-                                                            <p class="para">Total 27 (Direct Investment : 15, Fund Investment : 12)</p>
+                                                            <p class="para">Total 37 (Direct Investment : 15, Fund Investment : 22)</p>
                                                         </div>
                                                     </div>
                                                 </div>

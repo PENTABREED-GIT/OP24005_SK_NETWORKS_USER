@@ -167,7 +167,7 @@
                                                         </div>
                                                         <div class="board-item-sub">
                                                             <strong class="board-name-sub">Portfolio</strong>
-                                                            <p class="para">총 27건 (직접투자 15건, 펀드 12건)</p>
+                                                            <p class="para">총 37건 (직접투자 15건, 펀드투자 22건)</p>
                                                         </div>
                                                     </div>
                                                 </div>
