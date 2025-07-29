@@ -843,6 +843,8 @@
                         padding: 0.8rem 1.2rem;
                         .item-wrap {
                             gap: 1rem;
+                            flex-direction: column;
+                            align-items: baseline;
                         }
                     }
                 }

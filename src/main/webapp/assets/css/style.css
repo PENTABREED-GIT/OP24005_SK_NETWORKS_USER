@@ -5279,6 +5279,8 @@
   }
   .data-display.design2.case6 > .data-list .data-item .item-wrap {
     gap: 1rem;
+    flex-direction: column;
+    align-items: baseline;
   }
 }
 .data-display.design2.case6.type1 > .data-list .data-item .item-head .item-date {
@@ -26430,3 +26432,5 @@ button.swiper-pagination-bullet {
   backface-visibility: hidden;
   overflow: hidden;
 }
+
+/*# sourceMappingURL=style.css.map */

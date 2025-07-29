@@ -99,8 +99,8 @@
                                                     <div class="item-util">
                                                         <div class="btn-display design1 case3 align1">
                                                             <div class="btn-area">
-                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/assets/upload/public/data/ko/sustainability/reference_room/Sustainability_Report_and_Policy/FY2024_SK네트웍스_국문.pdf"><span class="btn-text">Kor <span class="pc-only">&nbsp;Download</span></span></a>
-                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/assets/upload/public/data/en/sustainability/reference_room/Sustainability_Report_and_Policy/FY2024 SK네트웍스_영문_Final.pdf"><span class="btn-text">Eng<span class="pc-only">&nbsp;Download</span></span></a>
+                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/assets/upload/public/data/ko/sustainability/reference_room/Sustainability_Report_and_Policy/FY2024_SK네트웍스_국문.pdf"><span class="btn-text">Kor &nbsp;Download</span></a>
+                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/assets/upload/public/data/en/sustainability/reference_room/Sustainability_Report_and_Policy/FY2024 SK네트웍스_영문_Final.pdf"><span class="btn-text">Eng&nbsp;Download</span></a>
                                                             </div>
                                                         </div>
                                                     </div>

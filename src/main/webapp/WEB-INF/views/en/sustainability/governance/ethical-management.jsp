@@ -886,7 +886,7 @@
                                             <div id="tab-panel3" class="panel-item" role="tabpanel">
                                                 <div class="panel-wrap">
                                                     <div class="panel-body">
-                                                        <div class="section design1 case1 type1">
+                                                        <div class="section design1 case10">
                                                             <div class="section-wrap">
                                                                 <div class="section-body">
                                                                     <div class="section-figure">
