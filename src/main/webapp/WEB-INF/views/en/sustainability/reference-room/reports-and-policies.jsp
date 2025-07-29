@@ -79,36 +79,7 @@
                                         <h4 class="section-name">Sustainability Report Download</h4>
                                     </div>
                                 </div>
-                                <div id="oldTd" class="section-body">
-                                    <div class="post-list design5 case1 type1">
-                                        <div class="post-item">
-                                            <div class="post-wrap">
-                                                <div class="post-figure">
-                                                    <img src="/assets/images/sustainability/green-en.jpg" alt="Cover of 2023 Sustainable Management Report">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="data-display design2 case1 type1">
-                                        <ul class="data-list network">
-                                            <li class="data-item">
-                                                <div class="item-wrap">
-                                                    <div class="item-head">
-                                                        <p class="item-date">2023 Sustainability Report</p>
-                                                    </div>
-                                                    <div class="item-util">
-                                                        <div class="btn-display design1 case3 align1">
-                                                            <div class="btn-area">
-                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/자료실/보고서 및 정책/SK networks_2023 Sustainability Report_(Eng).pdf"><span class="btn-text">Download</span></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div id="newTd" class="section-body">
+                                <div class="section-body">
                                     <div class="post-list design5 case1 type1">
                                         <div class="post-item">
                                             <div class="post-wrap">
@@ -128,7 +99,8 @@
                                                     <div class="item-util">
                                                         <div class="btn-display design1 case3 align1">
                                                             <div class="btn-area">
-                                                                <div class="btn design3 case2 type3 color5" style="pointer-events: none"><span class="btn-text">Available end of July</span></div>
+                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/assets/upload/public/data/ko/sustainability/reference_room/Sustainability_Report_and_Policy/FY2024_SK네트웍스_국문.pdf"><span class="btn-text">Kor <span class="pc-only">&nbsp;Download</span></span></a>
+                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/assets/upload/public/data/en/sustainability/reference_room/Sustainability_Report_and_Policy/FY2024 SK네트웍스_영문_Final.pdf"><span class="btn-text">Eng<span class="pc-only">&nbsp;Download</span></span></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -252,28 +224,28 @@
 
 <script>
     // 250620 추가 : 0623 텍스트 변경 되도록
-    document.addEventListener('DOMContentLoaded', function() {
-        newDateChange('2025-06-23 00:00:00');
-    });
-
-    function newDateChange(startDateTime) {
-        var now = new Date();
-        var startDate = new Date(startDateTime);
-
-        var oldTd = document.getElementById('oldTd');
-        var newTd = document.getElementById('newTd');
-
-        if (oldTd && newTd) {
-            if (now >= startDate) {
-                oldTd.style.display = 'none';
-                newTd.style.display = 'block';
-            } else {
-                oldTd.style.display = 'block';
-                newTd.style.display = 'none';
-            }
-        } else {
-            // console.error('❌ oldTd 또는 newTd 요소를 찾을 수 없습니다.');
-        }
-    }
+    // document.addEventListener('DOMContentLoaded', function() {
+    //     newDateChange('2025-06-23 00:00:00');
+    // });
+    //
+    // function newDateChange(startDateTime) {
+    //     var now = new Date();
+    //     var startDate = new Date(startDateTime);
+    //
+    //     var oldTd = document.getElementById('oldTd');
+    //     var newTd = document.getElementById('newTd');
+    //
+    //     if (oldTd && newTd) {
+    //         if (now >= startDate) {
+    //             oldTd.style.display = 'none';
+    //             newTd.style.display = 'block';
+    //         } else {
+    //             oldTd.style.display = 'block';
+    //             newTd.style.display = 'none';
+    //         }
+    //     } else {
+    //         // console.error('❌ oldTd 또는 newTd 요소를 찾을 수 없습니다.');
+    //     }
+    // }
 </script>
 </html>
