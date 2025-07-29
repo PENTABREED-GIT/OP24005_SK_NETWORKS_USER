@@ -202,7 +202,7 @@
                                                                         </div>
                                                                         <div class="board-item-sub">
                                                                             <strong class="board-name-sub">FY2024 Sales</strong>
-                                                                            <p class="para">KRW 4.2 trillion</p>
+                                                                            <p class="para">KRW 4.3 trillion</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -276,7 +276,7 @@
                                                                         </div>
                                                                         <div class="board-item-sub">
                                                                             <strong class="board-name-sub">FY2024 Sales</strong>
-                                                                            <p class="para">KRW 313 billion</p>
+                                                                            <p class="para">KRW 31.3 billion</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>

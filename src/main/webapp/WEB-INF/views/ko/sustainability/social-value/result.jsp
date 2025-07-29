@@ -729,7 +729,7 @@
                                             <li class="data-item">
                                                 <div class="item-wrap">
                                                     <div class="item-head">
-                                                        <p class="item-subject">2023</p>
+                                                        <p class="item-subject">2024</p>
                                                     </div>
                                                     <div class="item-util">
                                                         <div class="submit-form design1 case1 align1">
@@ -739,6 +739,7 @@
                                                                         <label for="level-sel-economic" class="blind">년도 선택</label>
                                                                         <select name="name" id="level-sel-economic">
                                                                             <option value="0" selected hidden disabled>년도 선택</option>
+                                                                            <option value="2024">2024</option>
                                                                             <option value="2023">2023</option>
                                                                             <option value="2022">2022</option>
                                                                             <option value="2021">2021</option>
@@ -757,8 +758,98 @@
                                         </ul>
                                     </div>
                                     <div class="esg-inform-list">
+                                        <!-- 경제간접 2024 -->
+                                        <div class="esg-inform esg-economic esg-option2024">
+                                            <div class="board-display scroll">
+                                                <div class="board-list esg-layout case3 type1" style="min-width: 848px;">
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-1"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">고용</p>
+                                                            <p class="body">2,737 억원</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-2"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">배당</p>
+                                                            <p class="body">1,867 억원</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-3"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">납세</p>
+                                                            <p class="body">338 억원</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item type1">
+                                                        <div class="board-info">
+                                                            <p class="body">4,942 억원</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="board-display">
+                                                <div class="board-list esg-layout case4 type1">
+                                                    <div class="borad-item">
+                                                        <div class="board-head">
+                                                            <p class="caption">(단위 : 억원)</p>
+                                                        </div>
+                                                        <div class="board-body">
+                                                            <div class="chart-display design4 case1 scroll-2">
+                                                                <div class="chart-list" style="min-width: 356px;">
+                                                                    <div class="chart-item">
+                                                                        <ul class="year-list">
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">4,879<span class="blind">억원</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 140px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2022<span class="blind">년</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">5,715<span class="blind">억원</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 180px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2023<span class="blind">년</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">4,942<span class="blind">억원</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 160px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2024<span class="blind">년</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="comment design1">
+                                                    * 2024년 납세 및 배당 기준 변경에 따라 2022년, 2023년 소급 적용<br>
+                                                    * 2024년 대상 : SK네트웍스, SK인텔릭스(구:SK매직), SK네트웍스서비스, 민팃, SK스피드메이트, 글로와이드 (2022년~2023년 SK렌터카 포함)
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- //경제간접 2024 -->
                                         <!-- 경제간접 2023 -->
-                                        <div class="esg-inform esg-economic esg-option2023">
+                                        <div class="esg-inform esg-economic esg-option2023 blind">
                                             <div class="board-display scroll">
                                                 <div class="board-list esg-layout case3 type1" style="min-width: 848px;">
                                                     <div class="borad-item">
@@ -1235,7 +1326,7 @@
                                             <li class="data-item">
                                                 <div class="item-wrap">
                                                     <div class="item-head">
-                                                        <p class="item-subject">2023</p>
+                                                        <p class="item-subject">2024</p>
                                                     </div>
                                                     <div class="item-util">
                                                         <div class="submit-form design1 case1 align1">
@@ -1245,6 +1336,7 @@
                                                                         <label for="level-sel-envir" class="blind">년도 선택</label>
                                                                         <select name="name" id="level-sel-envir">
                                                                             <option value="0" selected hidden disabled>년도 선택</option>
+                                                                            <option value="2024">2024</option>
                                                                             <option value="2023">2023</option>
                                                                             <option value="2022">2022</option>
                                                                             <option value="2021">2021</option>
@@ -1263,8 +1355,90 @@
                                         </ul>
                                     </div>
                                     <div class="esg-inform-list">
+                                        <!-- 환경성과 2024 -->
+                                        <div class="esg-inform esg-envir esg-option2024">
+                                            <div class="board-display scroll">
+                                                <div class="board-list esg-layout case3 type1" style="min-width: 632px;">
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-4"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">제품/서비스</p>
+                                                            <p class="body">206 억원</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-5"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">공정</p>
+                                                            <p class="body">△52 억원</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item type1">
+                                                        <div class="board-info">
+                                                            <p class="body">154 억원</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="board-display">
+                                                <div class="board-list esg-layout case4 type1">
+                                                    <div class="borad-item">
+                                                        <div class="board-head">
+                                                            <p class="caption">(단위 : 억원)</p>
+                                                        </div>
+                                                        <div class="board-body">
+                                                            <div class="chart-display design4 case1 scroll-2">
+                                                                <div class="chart-list" style="min-width: 356px;">
+                                                                    <div class="chart-item">
+                                                                        <ul class="year-list">
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">171<span class="blind">억원</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 125px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2022<span class="blind">년</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">166<span class="blind">억원</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 115px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2023<span class="blind">년</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">154<span class="blind">억원</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 110px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2024<span class="blind">년</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="comment design1">
+                                                    * 2024년 대상 : SK네트웍스, SK인텔릭스(구:SK매직), SK네트웍스서비스, 민팃, SK스피드메이트, 글로와이드 (2022년~2023년 SK렌터카 포함)
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- //환경성과 2024 -->
                                         <!-- 환경성과 2023 -->
-                                        <div class="esg-inform esg-envir esg-option2023">
+                                        <div class="esg-inform esg-envir esg-option2023 blind">
                                             <div class="board-display scroll">
                                                 <div class="board-list esg-layout case3 type1" style="min-width: 632px;">
                                                     <div class="borad-item">
@@ -1700,7 +1874,7 @@
                                             <li class="data-item">
                                                 <div class="item-wrap">
                                                     <div class="item-head">
-                                                        <p class="item-subject">2023</p>
+                                                        <p class="item-subject">2024</p>
                                                     </div>
                                                     <div class="item-util">
                                                         <div class="submit-form design1 case1 align1">
@@ -1710,6 +1884,7 @@
                                                                         <label for="level-sel-social" class="blind">년도 선택</label>
                                                                         <select name="name" id="level-sel-social">
                                                                             <option value="0" selected hidden disabled>년도 선택</option>
+                                                                            <option value="2024">2024</option>
                                                                             <option value="2023">2023</option>
                                                                             <option value="2022">2022</option>
                                                                             <option value="2021">2021</option>
@@ -1728,8 +1903,95 @@
                                         </ul>
                                     </div>
                                     <div class="esg-inform-list">
+                                        <!-- 사회성과 2024 -->
+                                        <div class="esg-inform esg-social esg-option2024">
+                                            <div class="board-display scroll">
+                                                <div class="board-list esg-layout case3 type1" style="min-width: 848px;">
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-6"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">제품/서비스<br> (삶의 질/소비자 보호)</p>
+                                                            <p class="body">0 억원</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-7"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">공정<br> (노동/동반성장)</p>
+                                                            <p class="body">79 억원</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-8"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">사회공헌</p>
+                                                            <p class="body">12 억원</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item type1">
+                                                        <div class="board-info">
+                                                            <p class="body">91 억원</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="board-display">
+                                                <div class="board-list esg-layout case4 type1">
+                                                    <div class="borad-item">
+                                                        <div class="board-head">
+                                                            <p class="caption">(단위 : 억원)</p>
+                                                        </div>
+                                                        <div class="board-body">
+                                                            <div class="chart-display design4 case1 scroll-2">
+                                                                <div class="chart-list" style="min-width: 356px;">
+                                                                    <div class="chart-item">
+                                                                        <ul class="year-list">
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">130<span class="blind">억원</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 180px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2022<span class="blind">년</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">103<span class="blind">억원</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 143px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2023<span class="blind">년</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">91<span class="blind">억원</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 120px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2024<span class="blind">년</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="comment design1">* 2024년 대상 : SK네트웍스, SK인텔릭스(구:SK매직), SK네트웍스서비스, 민팃, SK스피드메이트, 글로와이드 (2022년~2023년 SK렌터카 포함)</p>
+                                            </div>
+                                        </div>
+                                        <!-- //사회성과 2024 -->
                                         <!-- 사회성과 2023 -->
-                                        <div class="esg-inform esg-social esg-option2023">
+                                        <div class="esg-inform esg-social esg-option2023 blind">
                                             <div class="board-display scroll">
                                                 <div class="board-list esg-layout case3 type1" style="min-width: 848px;">
                                                     <div class="borad-item">

@@ -147,20 +147,20 @@
                                                         <tr>
                                                             <td>이사회 내<br>위원회</td>
                                                             <td>전략ㆍESG위원회</td>
-                                                            <td class="align1">이사회 멤버<br> - 사내이사 2인, 기타비상무이사 1인, 사외이사 5인</td>
+                                                            <td class="align1">이사회 멤버<br> - 사내이사 2인, 기타비상무이사 1인, 사외이사 4인</td>
                                                             <td class="align1">
                                                                 <div class="bullet-display design1 case1 type2">
                                                                     <ul class="data-list">
-                                                                        <li class="data-item">환경, 사회적 가치 및 회사의 거버넌스와 관련 전략 및 주요사항 검토/분석으로 이사회 주요 의사결정 사항 사전 심의</li>
+                                                                        <li class="data-item">환경, 사회적 가치 및 회사의 거버넌스와 관련 전략 및 주요사항 검토/분석으로 이사회 주요 의사결정 사항 사전 심의 </li>
                                                                     </ul>
                                                                 </div>
                                                             </td>
                                                             <td>13회</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>전사 경영 층 회의체</td>
+                                                            <td>전사 경영층 회의체</td>
                                                             <td>전사 ESG 추진위원회</td>
-                                                            <td class="align1">CEO, 사업총괄사장, 경영지원본부장(위원장), 기획재무실장, 회계실장, 기업문화실장, 감사실장, 지속경영실장, 자회사 대표 및 BU장</td>
+                                                            <td class="align1">CEO, 사업총괄사장, 경영지원본부장(위원장), 기획재무실장, RM실장, 기업문화실장, 감사실장, 지속경영실장, 자회사 대표 및 BU장</td>
                                                             <td class="align1">
                                                                 <div class="bullet-display design1 case1 type2">
                                                                     <ul class="data-list">
@@ -173,9 +173,9 @@
                                                             <td>6회</td>
                                                         </tr>
                                                         <tr>
-                                                            <td rowspan="3">실무진</td>
+                                                            <td rowspan="4">실무진</td>
                                                             <td>SV밋업</td>
-                                                            <td class="align1">경영지원본부장, 기업문화실장, 사업별(자회사 포함)SV/ESG 담당 임원/팀장/실무자, 전략팀원, SV추진팀</td>
+                                                            <td class="align1">경영지원본부장, 기획재무실장, 사업별(자회사 포함)SV/ESG 담당 임원/팀장/실무자, 전략팀원, ESG경영팀</td>
                                                             <td class="align1">
                                                                 <div class="bullet-display design1 case1 type2">
                                                                     <ul class="data-list">
@@ -189,7 +189,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>환경CoE**</td>
-                                                            <td class="align1">사업별(자회사 포함) SV/ESG 담당 실무자, SV추진팀</td>
+                                                            <td class="align1">사업별(자회사 포함) SV/ESG 담당 실무자, ESG경영팀</td>
                                                             <td class="align1">
                                                                 <div class="bullet-display design1 case1 type2">
                                                                     <ul class="data-list">
@@ -198,11 +198,23 @@
                                                                     </ul>
                                                                 </div>
                                                             </td>
-                                                            <td>5회</td>
+                                                            <td>8회</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>SV추진팀</td>
-                                                            <td class="align1"></td>
+                                                            <td>기후공시 대응 워킹 그룹</td>
+                                                            <td class="align1">ESG경영팀, 전략팀, 경영분석팀, 전략IR팀, 재무팀, 회계팀, AI Value-up Group, HR팀, 이사회지원팀, 감사팀</td>
+                                                            <td class="align1">
+                                                                <div class="bullet-display design1 case1 type2">
+                                                                    <ul class="data-list">
+                                                                        <li class="data-item">SV 밋업과 환경 CoE에서 논의된 환경 이슈 바탕으로 새로운 비즈니스 모델로의 발전 가능성 검토 및 각 부서 간 진행상황 공유</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
+                                                            <td>8회</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ESG경영팀</td>
+                                                            <td class="align3">-</td>
                                                             <td class="align1">
                                                                 <div class="bullet-display design1 case1 type2">
                                                                     <ul class="data-list">
@@ -217,7 +229,7 @@
                                                     </tbody>
                                                 </table>
                                             </div>
-                                            <p class="comment design1">* 2024년 조직 기준<br> ** CoE(Committee of Experts) 전문가 위원회</p>
+                                            <p class="comment design1">* 2025년 조직 기준<br> ** CoE(Committee of Experts) 전문가 위원회</p>
                                         </div>
                                     </div>
                                 </div>

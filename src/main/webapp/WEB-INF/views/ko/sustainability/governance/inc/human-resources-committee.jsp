@@ -24,9 +24,15 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>1</td>
-                    <td>01월 21일</td>
-                    <td class="align1">2024년도 대표이사 평가의 건, 대표이사 보상의 건</td>
+                    <td rowspan="2">1</td>
+                    <td rowspan="2">01월 21일</td>
+                    <td class="align1">2024년도 대표이사 평가의 건</td>
+                    <td>심의</td>
+                    <td>-</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">대표이사 보상의 건</td>
                     <td>심의</td>
                     <td>-</td>
                     <td>100%</td>

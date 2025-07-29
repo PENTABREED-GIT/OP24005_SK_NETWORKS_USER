@@ -190,6 +190,7 @@
                                     </div>
                                 </div>
                                 <div class="section-body">
+                                    <p class="comment design1">※ 2025. 1월 기준</p>
                                     <div class="post-list design5 case1 type1">
                                         <div class="post-item">
                                             <div class="post-wrap">
@@ -231,7 +232,7 @@
                                                         <em class="data-subject">ESG 경영 체계 확립을 위한 조직 강화</em>
                                                     </div>
                                                     <div class="data-body">
-                                                        <p class="para">SK네트웍스는 사회적 가치 창출을 위한 전사적 역량을 집중하고, 사업별 커뮤니케이션 채널 확보를 위해 SV추진 전담조직을 운영하고 있습니다. 이사회는 최고의사결정기구로서 전략ㆍESG위원회에서 사전 검토된 안건들을 심의·의결하고 감독하는 역할을 수행합니다. 또한, CEO를 포함한 경영진과 자회사 대표가 참석하는 전사 ESG추진위원회 운영을 통해 ESG경영을 추진하고 있습니다.</p>
+                                                        <p class="para">SK네트웍스는 사회적 가치 창출을 위한 전사적 역량을 집중하고, 사업별 커뮤니케이션 채널 확보를 위해 SV추진 전담조직을 운영하고 있습니다. 이사회는 최고의사결정기구로서 전략ㆍESG위원회에서 사전 검토된 안건들을 심의·의결하고 감독하는 역할을 수행합니다. 또한, CEO를 포함한 주요 경영진이 참여하는 전사 ESG추진위원회 운영을 통해 ESG경영을 추진하고 있습니다.</p>
                                                     </div>
                                                 </div>
                                             </div>

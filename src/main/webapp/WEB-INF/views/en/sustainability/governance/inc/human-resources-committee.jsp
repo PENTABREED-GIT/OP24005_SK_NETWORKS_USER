@@ -32,9 +32,15 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>1</td>
-                    <td>Jan. 21</td>
+                    <td rowspan="2">1</td>
+                    <td rowspan="2">Jan. 21</td>
                     <td class="align1">2024 evaluation and remuneration for the Representative Director</td>
+                    <td>Deliberated</td>
+                    <td>-</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">Remuneration for the Representative Director</td>
                     <td>Deliberated</td>
                     <td>-</td>
                     <td>100%</td>

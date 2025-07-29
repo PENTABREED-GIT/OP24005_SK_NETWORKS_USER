@@ -726,7 +726,7 @@
                                             <li class="data-item">
                                                 <div class="item-wrap">
                                                     <div class="item-head">
-                                                        <p class="item-subject">2023</p>
+                                                        <p class="item-subject">2024</p>
                                                     </div>
                                                     <div class="item-util">
                                                         <div class="submit-form design1 case1 align1">
@@ -736,6 +736,7 @@
                                                                         <label for="level-sel-economic" class="blind">Label</label>
                                                                         <select name="name" id="level-sel-economic">
                                                                             <option value="0" selected hidden disabled>Year</option>
+                                                                            <option value="2024">2024</option>
                                                                             <option value="2023">2023</option>
                                                                             <option value="2022">2022</option>
                                                                             <option value="2021">2021</option>
@@ -754,8 +755,98 @@
                                         </ul>
                                     </div>
                                     <div class="esg-inform-list">
+                                        <!-- 경제간접 2024 -->
+                                        <div class="esg-inform esg-economic esg-option2024">
+                                            <div class="board-display scroll">
+                                                <div class="board-list esg-layout case3 type1" style="min-width: 848px;">
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-1"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">Employment</p>
+                                                            <p class="body">KRW 273.7 billion</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-2"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">Dividend</p>
+                                                            <p class="body">KRW 186.7 billion</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-3"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">Tax Payment</p>
+                                                            <p class="body">KRW 33.8 billion</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item type1">
+                                                        <div class="board-info">
+                                                            <p class="body">KRW 494.2 billion</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="board-display">
+                                                <div class="board-list esg-layout case4 type1">
+                                                    <div class="borad-item">
+                                                        <div class="board-head">
+                                                            <p class="caption">Unit : KRW billion</p>
+                                                        </div>
+                                                        <div class="board-body">
+                                                            <div class="chart-display design4 case1 scroll-2">
+                                                                <div class="chart-list" style="min-width: 356px;">
+                                                                    <div class="chart-item">
+                                                                        <ul class="year-list">
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">487.9<span class="blind">billion</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 140px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2022<span class="blind">year</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">571.5<span class="blind">billion</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 180px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2023<span class="blind">year</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">494.2<span class="blind">billion</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 160px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2024<span class="blind">year</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="comment design1">
+                                                    * Under the 2024 tax and dividend standards, the rules are applied retroactively to 2022 and 2023<br>
+                                                    * 2024 Target : SK Networks, SK Intellix(formerly : SK Magic), SK Networks Service, MINTIT , SK Speedmate, Glowide  (SK Rent-a-car was included from 2022 to 2023)
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- //경제간접 2024 -->
                                         <!-- 경제간접 2023 -->
-                                        <div class="esg-inform esg-economic esg-option2023">
+                                        <div class="esg-inform esg-economic esg-option2023 blind">
                                             <div class="board-display scroll">
                                                 <div class="board-list esg-layout case3 type1" style="min-width: 848px;">
                                                     <div class="borad-item">
@@ -1232,7 +1323,7 @@
                                             <li class="data-item">
                                                 <div class="item-wrap">
                                                     <div class="item-head">
-                                                        <p class="item-subject">2023</p>
+                                                        <p class="item-subject">2024</p>
                                                     </div>
                                                     <div class="item-util">
                                                         <div class="submit-form design1 case1 align1">
@@ -1242,6 +1333,7 @@
                                                                         <label for="level-sel-envir" class="blind">Label</label>
                                                                         <select name="name" id="level-sel-envir">
                                                                             <option value="0" selected hidden disabled>Year</option>
+                                                                            <option value="2024">2024</option>
                                                                             <option value="2023">2023</option>
                                                                             <option value="2022">2022</option>
                                                                             <option value="2021">2021</option>
@@ -1260,8 +1352,88 @@
                                         </ul>
                                     </div>
                                     <div class="esg-inform-list">
+                                        <!-- 환경성과 2024 -->
+                                        <div class="esg-inform esg-envir esg-option2024">
+                                            <div class="board-display scroll">
+                                                <div class="board-list esg-layout case3 type1" style="min-width: 632px;">
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-4"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">ProductㆍService</p>
+                                                            <p class="body">KRW 20.6 billion</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-5"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">Environmental Process</p>
+                                                            <p class="body">KRW △5.2 billion</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item type1">
+                                                        <div class="board-info">
+                                                            <p class="body">KRW 15.4 billion</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="board-display">
+                                                <div class="board-list esg-layout case4 type1">
+                                                    <div class="borad-item">
+                                                        <div class="board-head">
+                                                            <p class="caption">Unit : KRW billion</p>
+                                                        </div>
+                                                        <div class="board-body">
+                                                            <div class="chart-display design4 case1 scroll-2">
+                                                                <div class="chart-list" style="min-width: 356px;">
+                                                                    <div class="chart-item">
+                                                                        <ul class="year-list">
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">17.1<span class="blind">billion</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 125px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2022<span class="blind">year</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">16.6<span class="blind">billion</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 115px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2023<span class="blind">year</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">15.4<span class="blind">billion</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 110px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2024<span class="blind">year</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="comment design1">* 2024 Target : SK Networks, SK Intellix(formerly : SK Magic), SK Networks Service, MINTIT , SK Speedmate, Glowide  (SK Rent-a-car was included from 2022 to 2023)</p>
+                                            </div>
+                                        </div>
+                                        <!-- //환경성과 2024 -->
                                         <!-- 환경성과 2023 -->
-                                        <div class="esg-inform esg-envir esg-option2023">
+                                        <div class="esg-inform esg-envir esg-option2023 blind">
                                             <div class="board-display scroll">
                                                 <div class="board-list esg-layout case3 type1" style="min-width: 632px;">
                                                     <div class="borad-item">
@@ -1697,7 +1869,7 @@
                                             <li class="data-item">
                                                 <div class="item-wrap">
                                                     <div class="item-head">
-                                                        <p class="item-subject">2023</p>
+                                                        <p class="item-subject">2024</p>
                                                     </div>
                                                     <div class="item-util">
                                                         <div class="submit-form design1 case1 align1">
@@ -1707,6 +1879,7 @@
                                                                         <label for="level-sel-social" class="blind">Label</label>
                                                                         <select name="name" id="level-sel-social">
                                                                             <option value="0" selected hidden disabled>Year</option>
+                                                                            <option value="2024">2024</option>
                                                                             <option value="2023">2023</option>
                                                                             <option value="2022">2022</option>
                                                                             <option value="2021">2021</option>
@@ -1725,8 +1898,95 @@
                                         </ul>
                                     </div>
                                     <div class="esg-inform-list">
+                                        <!-- 사회성과 2024 -->
+                                        <div class="esg-inform esg-social esg-option2024">
+                                            <div class="board-display scroll">
+                                                <div class="board-list esg-layout case3 type1" style="min-width: 848px;">
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-6"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">Products/Services<br> (Quality of life/Consumer protection)</p>
+                                                            <p class="body">KRW 0 billion</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-7"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">Process<br> (Labor/Shared growth)</p>
+                                                            <p class="body">KRW 7.9 billion</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item">
+                                                        <div class="board-figure esg-csr-sv-8"></div>
+                                                        <div class="board-info">
+                                                            <p class="haed">Social Contribution</p>
+                                                            <p class="body">KRW 1.2 billion</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="borad-item type1">
+                                                        <div class="board-info">
+                                                            <p class="body">KRW 9.1 billion</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="board-display">
+                                                <div class="board-list esg-layout case4 type1">
+                                                    <div class="borad-item">
+                                                        <div class="board-head">
+                                                            <p class="caption">Unit : KRW billion</p>
+                                                        </div>
+                                                        <div class="board-body">
+                                                            <div class="chart-display design4 case1 scroll-2">
+                                                                <div class="chart-list" style="min-width: 356px;">
+                                                                    <div class="chart-item">
+                                                                        <ul class="year-list">
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">13<span class="blind">billion</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 180px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2022<span class="blind">year</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">10.3<span class="blind">billion</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 143px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2023<span class="blind">year</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="year-item">
+                                                                                <div class="year-wrap">
+                                                                                    <p class="year-value">9.1<span class="blind">billion</span></p>
+                                                                                    <div class="year-body">
+                                                                                        <div class="graph-item" style="height: 120px;"></div>
+                                                                                    </div>
+                                                                                    <div class="year-head">
+                                                                                        <em class="year-subject">2024<span class="blind">year</span></em>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="comment design1">* 2024 Target : SK Networks, SK Intellix(formerly : SK Magic), SK Networks Service, MINTIT , SK Speedmate, Glowide  (SK Rent-a-car was included from 2022 to 2023)</p>
+                                            </div>
+                                        </div>
+                                        <!-- //사회성과 2024 -->
                                         <!-- 사회성과 2023 -->
-                                        <div class="esg-inform esg-social esg-option2023">
+                                        <div class="esg-inform esg-social esg-option2023 blind">
                                             <div class="board-display scroll">
                                                 <div class="board-list esg-layout case3 type1" style="min-width: 848px;">
                                                     <div class="borad-item">

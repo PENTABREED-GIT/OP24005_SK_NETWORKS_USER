@@ -190,6 +190,7 @@
                                     </div>
                                 </div>
                                 <div class="section-body">
+                                    <p class="comment design1">※ As of Q1 2025</p>
                                     <div class="post-list design5 case1 type1">
                                         <div class="post-item">
                                             <div class="post-wrap">
@@ -237,7 +238,7 @@
                                                         <em class="data-subject">Strengthening the Organization to Establish the ESG Management System</em>
                                                     </div>
                                                     <div class="data-body">
-                                                        <p class="para">SK Networks operates a dedicated SV Implementation Team to concentrate its company-wide capabilities on creating social value and securing communication channels for each business. The Board of Directors, as the highest decision-making body, deliberates on, decides, and supervises agenda items reviewed in advance by Strategy∙ESG Committee. Furthermore, ESG management is promoted through the Company-wide ESG Implementation Committee, which includes the CEO, executives, and subsidiary representatives.
+                                                        <p class="para">SK Networks operates a dedicated ESG Management Team to concentrate its company-wide capabilities on creating social value and securing communication channels for each business. The Board of Directors, as the highest decision-making body, deliberates on, decides, and supervises agenda items reviewed in advance by Strategy∙ESG Committee. Furthermore, ESG management is promoted through the Company-wide ESG Implementation Committee, which includes key executive, including the CEO.
                                                         </p>
                                                     </div>
                                                 </div>

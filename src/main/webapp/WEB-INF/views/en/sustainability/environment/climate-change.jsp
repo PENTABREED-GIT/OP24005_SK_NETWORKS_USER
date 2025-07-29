@@ -140,90 +140,114 @@
                                                         <col style="width: 12%;">
                                                     </colgroup>
                                                     <thead>
-                                                    <tr>
-                                                        <th scope="col">Status</th>
-                                                        <th scope="col">Org Name</th>
-                                                        <th scope="col">Structure*</th>
-                                                        <th scope="col">Roles</th>
-                                                        <th scope="col">2024<br>meeting status</th>
-                                                    </tr>
+                                                        <tr>
+                                                            <th scope="col">Status</th>
+                                                            <th scope="col">Org Name</th>
+                                                            <th scope="col">Structure*</th>
+                                                            <th scope="col">Roles</th>
+                                                            <th scope="col">2024<br>meeting status</th>
+                                                        </tr>
                                                     </thead>
                                                     <tbody>
-                                                    <tr>
-                                                        <td>BoD Committee</td>
-                                                        <td>Strategy/ESG Committee</td>
-                                                        <td class="align1">BoD members<br> - 2 executive directors, 1 non-executive director, 5 independent directors</td>
-                                                        <td class="align1">
-                                                            <div class="bullet-display design1 case1 type2">
-                                                                <ul class="data-list">
-                                                                    <li class="data-item">Pre-deliberation of major BoD decisions through the review and analysis of strategies and key matters related to the environment, social value, and corporate governance</li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
-                                                        <td>13 meetings</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Company-wide Management Meeting</td>
-                                                        <td>Company-wide ESG Promotion Committee</td>
-                                                        <td class="align1">CEO, COO, Head of Business Supporting Division (Chairperson), Director of Planning & Finance, Director of Accounting, Director of Corporate Culture, Director of Audit, Director of Business Sustainability, Subsidiary CEOs and BU Heads</td>
-                                                        <td class="align1">
-                                                            <div class="bullet-display design1 case1 type2">
-                                                                <ul class="data-list">
-                                                                    <li class="data-item">Reinforcement of ESG strategy execution</li>
-                                                                    <li class="data-item">Alignment of BM strategy (incl. subsidiaries) with ESG goals</li>
-                                                                    <li class="data-item">Review and discussions on ESG management activities</li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
-                                                        <td>6 meetings</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="3">Working Group</td>
-                                                        <td>SV Meetup</td>
-                                                        <td class="align1">Head of the Business Supporting Division, Director of Corporate Culture, Executive Officers/Team Leaders/Working-level Personnel responsible for SV/ESG per Business Line (incl. subsidiaries), Strategy Team Members, and SV Promotion Team</td>
-                                                        <td class="align1">
-                                                            <div class="bullet-display design1 case1 type2">
-                                                                <ul class="data-list">
-                                                                    <li class="data-item">Sharing of key SV focused areas and progress by business</li>
-                                                                    <li class="data-item">Discussion of SV/ESG trends and response strategies</li>
-                                                                    <li class="data-item">Sharing of updates on stakeholder engagement</li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
-                                                        <td>6 meetings</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Environment CoE**</td>
-                                                        <td class="align1">Working-level Personnel in charge of SV/ESG per Business Line (incl. subsidiaries), SV Promotion Team</td>
-                                                        <td class="align1">
-                                                            <div class="bullet-display design1 case1 type2">
-                                                                <ul class="data-list">
-                                                                    <li class="data-item">Leading Net Zero 2040 initiatives (developing reduction measures) and data measurement/analysis</li>
-                                                                    <li class="data-item">Internalization of environmental management system and securing expertise for each business unit</li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
-                                                        <td>5 meetings</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>SV Promotion Team</td>
-                                                        <td class="align1"></td>
-                                                        <td class="align1">
-                                                            <div class="bullet-display design1 case1 type2">
-                                                                <ul class="data-list">
-                                                                    <li class="data-item">A working-level organization for the promotion of Net Zero 2040</li>
-                                                                    <li class="data-item">Participation and operation of domestic and international initiatives</li>
-                                                                    <li class="data-item">Environmental data measurement and analysis</li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
-                                                        <td>-</td>
-                                                    </tr>
+                                                        <tr>
+                                                            <td>BoD Committee</td>
+                                                            <td>Strategy·ESG Committee</td>
+                                                            <td class="align1">BoD members<br> - 2 executive directors, 1 non-executive director, 4 independent directors</td>
+                                                            <td class="align1">
+                                                                <div class="bullet-display design1 case1 type2">
+                                                                    <ul class="data-list">
+                                                                        <li class="data-item">Pre-deliberation of major BoD decisions through the review and analysis of strategies and key matters related to the environment, social value, and corporate governance</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
+                                                            <td>13 meetings</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Company-wide Management Meeting</td>
+                                                            <td>Company-wide ESG Implementation Committee</td>
+                                                            <td class="align1">CEO, Chief Operation Officer(COO), Divisional Group Leader of Management
+                                                                Support(Chair), Strategy Planning Division Leader, RM Division Leader, Corporate
+                                                                Culture Division Leader, Audit Division Leader, Sustainability Management Division
+                                                                Leader, CEO and BU leader of subsidiaries</td>
+                                                            <td class="align1">
+                                                                <div class="bullet-display design1 case1 type2">
+                                                                    <ul class="data-list">
+                                                                        <li class="data-item">Reinforcement of ESG strategy execution</li>
+                                                                        <li class="data-item">Alignment of BM strategy(incl. subsidiaries) with ESG goals</li>
+                                                                        <li class="data-item">Review and discussions on ESG management activities</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
+                                                            <td>6 meetings</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td rowspan="4">Working Group</td>
+                                                            <td>SV Meetup</td>
+                                                            <td class="align1">Divisional Group Leader of Management Support, Strategy Planning Division Leader,
+                                                                executives/team leaders/working level employees in charge of SV/ESG for each business
+                                                                (including subsidiaries), Members of Strategy Planning Team, ESG Management Team</td>
+                                                            <td class="align1">
+                                                                <div class="bullet-display design1 case1 type2">
+                                                                    <ul class="data-list">
+                                                                        <li class="data-item">Sharing of key SV focused areas and progress by business</li>
+                                                                        <li class="data-item">Discussion of SV/ESG trends and response strategies</li>
+                                                                        <li class="data-item">Sharing of updates on stakeholder engagement</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
+                                                            <td>6 meetings</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Environment CoE**</td>
+                                                            <td class="align1">Working-level employees in charge of SV/ESG for each business(including subsidiaries),
+                                                                ESG Management Team</td>
+                                                            <td class="align1">
+                                                                <div class="bullet-display design1 case1 type2">
+                                                                    <ul class="data-list">
+                                                                        <li class="data-item">Leading Net Zero 2040 initiatives(developing reduction measures) and data
+                                                                            measurement/analysis</li>
+                                                                        <li class="data-item">Internalization of environmental management system and securing expertise for each
+                                                                            business unit</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
+                                                            <td>8 meetings</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Climate Disclosure
+                                                                Working Group</td>
+                                                            <td class="align1">ESG Management Team, Strategy Planning Team, Business Analysis Team,
+                                                                Strategic IR Team, Finance Team, Accounting Team, AI Value-up Group, HR Team,
+                                                                Board of Directors Support Team, Audit Team</td>
+                                                            <td class="align1">
+                                                                <div class="bullet-display design1 case1 type2">
+                                                                    <ul class="data-list">
+                                                                        <li class="data-item">Review of potential new business models based on environmental issues discussed at the
+                                                                            SV Meetup and the Environmental CoE, along with interdepartmental progress sharing</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
+                                                            <td>8 meetings</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ESG Management Team</td>
+                                                            <td class="align3">-</td>
+                                                            <td class="align1">
+                                                                <div class="bullet-display design1 case1 type2">
+                                                                    <ul class="data-list">
+                                                                        <li class="data-item">A working-level organization for the promotion of Net Zero 2040</li>
+                                                                        <li class="data-item">Participation and operation of domestic and international initiatives</li>
+                                                                        <li class="data-item">Environmental data measurement and analysis</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
+                                                            <td>-</td>
+                                                        </tr>
                                                     </tbody>
                                                 </table>
                                             </div>
                                             <p class="comment design1">
-                                                * Based on 2024 organization
+                                                * As of the 2025 Organizational Structure
                                                 <br>
                                                 ** CoE: Committee of Experts
                                             </p>
