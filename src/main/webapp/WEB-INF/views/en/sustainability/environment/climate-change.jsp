@@ -104,16 +104,13 @@
                                                                     <ul>
                                                                         <li>Management Supporting Division
                                                                             <ul>
-                                                                                <li>Strategy Planning Division
-                                                                                    <ul>
-                                                                                        <li>SV meet up</li>
-                                                                                    </ul>
-                                                                                </li>
-                                                                                <li>ESG Management Team
-                                                                                    <ul>
-                                                                                        <li>Environmental CoE</li>
-                                                                                    </ul>
-                                                                                </li>
+                                                                                <li>SV meet up</li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li>Strategy Planning Division</li>
+                                                                        <li>ESG Management Team
+                                                                            <ul>
+                                                                                <li>Environmental CoE</li>
                                                                             </ul>
                                                                         </li>
                                                                         <li>Company-wide ESG Implementation Committee</li>

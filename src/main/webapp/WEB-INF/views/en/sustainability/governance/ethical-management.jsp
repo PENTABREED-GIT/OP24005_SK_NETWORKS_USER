@@ -394,14 +394,17 @@
                                                                                     <div class="post-body blind">
                                                                                         <strong>SK Networks Audit Committee</strong>
                                                                                         <ul>
-                                                                                            <li>Chief of Ethical Management Council  : SK Networks Audit Division Head</li>
-                                                                                            <li>Walkerhill Management Supporting Division Leader, SK Networks service Management Strategy Division Leader, SK Magic Risk Management Division Leader </li>
+                                                                                            <li>Chief of Ethical Management Council: SK Networks Audit Division Head</li>
                                                                                             <li>Ethical Management Council
                                                                                                 <ul>
-                                                                                                    <li>SK Networks (Secretary) : Ethics &amp; Audit Team Leader, The person in charge of Ethical Management</li>
+                                                                                                    <li>SK Networks (Secretary) : Ethics Audit Team Leader The person in charge of Ethical Management</li>
                                                                                                     <li>Walkerhill : The person in charge of Ethical Management</li>
-                                                                                                    <li>SK Networks service : Compliance Management Team Leader, The person in charge of Ethical Management</li>
-                                                                                                    <li>SK Magic : Corporate Audit Team Leader, The person in charge of Ethical Management</li>
+                                                                                                    <li>SK Networks service : People Growth Team Leader, The person in charge of Ethical Management</li>
+                                                                                                    <li>SK Speedmate: Corporate Planning & Finance Team Leader, The person in charge of Ethical Management</li>
+                                                                                                    <li>SK Magic: Ethical Management Team Leader, The person in charge of Ethical Management</li>
+                                                                                                    <li>MINTIT: Business Supporting Team Leader, The person in charge of Ethical Management</li>
+                                                                                                    <li>En-core: Head of Management Supporting Division, The person in charge of Ethical Management</li>
+                                                                                                    <li>Glowide: Management Supporting Team Leader, The person in charge of Ethical Management</li>
                                                                                                 </ul>
                                                                                             </li>
                                                                                         </ul>
