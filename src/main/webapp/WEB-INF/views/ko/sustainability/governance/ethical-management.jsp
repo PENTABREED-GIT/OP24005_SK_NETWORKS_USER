@@ -877,6 +877,13 @@
                                                     <div class="panel-body">
                                                         <div class="section design1 case10">
                                                             <div class="section-wrap">
+                                                                <div class="section-util">
+                                                                    <div class="btn-display align3">
+                                                                        <div class="btn-area">
+                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/assets/upload/public/data/ko/sustainability/governance/ethical/(SKN)뇌물수수 및 부패방지 준수규정.pdf"><span class="btn-text">뇌물수수 및 부패방지 준수 규정</span></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                                 <div class="section-body">
                                                                     <div class="section-figure">
                                                                         <img src="/assets/images/sustainability/policy-corruption.jpg" alt="부패방지방침 이미지입니다. 설명은 하단 내용을 참고하세요." style="min-width: 33.9rem;width: 100%">
@@ -897,13 +904,6 @@
                                                                                         대표이사 사장 이 호 정</p>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="section-util">
-                                                                    <div class="btn-display align3">
-                                                                        <div class="btn-area">
-                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/assets/upload/public/data/ko/sustainability/governance/ethical/(SKN)뇌물수수 및 부패방지 준수규정.pdf"><span class="btn-text">뇌물수수 및 부패방지 준수 규정</span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>

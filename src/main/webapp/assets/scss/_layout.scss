@@ -850,6 +850,14 @@
                             }
                         }
                     }
+					.section-util {
+						+ .section-body {
+							margin-top: 8rem;
+							@include mobile {
+								margin-top: 4.8rem;
+							}
+						}
+					}
 				}
 			}
 

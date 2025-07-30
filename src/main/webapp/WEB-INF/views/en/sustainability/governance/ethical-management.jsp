@@ -891,6 +891,13 @@
                                                     <div class="panel-body">
                                                         <div class="section design1 case10">
                                                             <div class="section-wrap">
+                                                                <div class="section-util">
+                                                                    <div class="btn-display align3">
+                                                                        <div class="btn-area">
+                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/assets/upload/public/data/en/sustainability/governance/ethical/(SKN)Anti-bribery and Anti-corruption Compliance Regulations.pdf"><span class="btn-text">Download &lt;Anti-bribery and Anti-corruption Compliance Regulations&gt;</span></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                                 <div class="section-body">
                                                                     <div class="section-figure">
                                                                         <img src="/assets/images/sustainability/policy-corruption-en.jpg" alt="This is an image of an anti-corruption policy. Please refer to the following for an explanation." style="min-width: 33.9rem;width: 100%">
@@ -911,13 +918,6 @@
                                                                                         Lee, Ho-jeong</p>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="section-util">
-                                                                    <div class="btn-display align3">
-                                                                        <div class="btn-area">
-                                                                            <a class="btn design3 case1 type1 color2 ar-icon-download-bg" href="/assets/upload/public/data/en/sustainability/governance/ethical/(SKN)Anti-bribery and Anti-corruption Compliance Regulations.pdf"><span class="btn-text">Download &lt;Anti-bribery and Anti-corruption Compliance Regulations&gt;</span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>

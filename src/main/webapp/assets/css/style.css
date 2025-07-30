@@ -13908,6 +13908,14 @@ sub {
     margin-top: 4.8rem;
   }
 }
+#wrap .section[class*=design].case10 .section-wrap .section-util + .section-body {
+  margin-top: 8rem;
+}
+@media (max-width: 1023px) {
+  #wrap .section[class*=design].case10 .section-wrap .section-util + .section-body {
+    margin-top: 4.8rem;
+  }
+}
 #wrap .section[class*=design].type1 .section-caption {
   color: rgb(109, 12, 166);
   font-weight: 500;
