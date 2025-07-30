@@ -435,6 +435,14 @@
                 @include scroll-x;
             }
         }
+        .post-body {
+            + .comment {
+                margin-top: 1.6rem;
+                @include mobile {
+                    margin-top: 1.2rem;
+                }
+            }
+        }
         &.case1 {
             .post-head {
                 + .post-figure {

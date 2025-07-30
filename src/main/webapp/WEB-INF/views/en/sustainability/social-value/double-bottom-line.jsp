@@ -190,7 +190,6 @@
                                     </div>
                                 </div>
                                 <div class="section-body">
-                                    <p class="comment design1">※ As of Q1 2025</p>
                                     <div class="post-list design5 case1 type1">
                                         <div class="post-item">
                                             <div class="post-wrap">
@@ -198,7 +197,7 @@
                                                     <img src="/assets/images/sustainability/esg-diagram2-en.svg" alt="This is an SV-promoted organization image, please refer to the following for more information." class="pc-only" style="max-width: 1098px;">
                                                     <img src="/assets/images/sustainability/esg-diagram2-mo-en.png" alt="This is an SV-promoted organization image, please refer to the following for more information." class="mo-only" style="min-width: 512px;">
                                                 </div>
-                                                <div class="blind">
+                                                <div class="post-body blind">
                                                     <ul>
                                                         <li>
                                                             <em>BOD</em>
@@ -227,6 +226,7 @@
                                                         </li>
                                                     </ul>
                                                 </div>
+                                                <p class="comment design1">* As of Q1 2025</p>
                                             </div>
                                         </div>
                                     </div>

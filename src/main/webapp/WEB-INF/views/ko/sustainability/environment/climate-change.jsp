@@ -136,9 +136,9 @@
                                                     </colgroup>
                                                     <thead>
                                                         <tr>
-                                                            <th scope="col">위상</th>
+                                                            <th scope="col">구분</th>
                                                             <th scope="col">조직명</th>
-                                                            <th scope="col">구성*</th>
+                                                            <th scope="col">구성<sup>1)</sup></th>
                                                             <th scope="col">역할</th>
                                                             <th scope="col">2024년<br>개최현황</th>
                                                         </tr>
@@ -188,7 +188,7 @@
                                                             <td>6회</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>환경CoE**</td>
+                                                            <td>환경CoE<sup>2)</sup></td>
                                                             <td class="align1">사업별(자회사 포함) SV/ESG 담당 실무자, ESG경영팀</td>
                                                             <td class="align1">
                                                                 <div class="bullet-display design1 case1 type2">
@@ -229,7 +229,7 @@
                                                     </tbody>
                                                 </table>
                                             </div>
-                                            <p class="comment design1">* 2025년 조직 기준<br> ** CoE(Committee of Experts) 전문가 위원회</p>
+                                            <p class="comment design1">1) 2025년 조직도 기준<br>2) CoE(Committee of Experts) 전문가 위원회</p>
                                         </div>
                                     </div>
                                 </div>

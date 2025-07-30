@@ -190,7 +190,6 @@
                                     </div>
                                 </div>
                                 <div class="section-body">
-                                    <p class="comment design1">※ 2025. 1월 기준</p>
                                     <div class="post-list design5 case1 type1">
                                         <div class="post-item">
                                             <div class="post-wrap">
@@ -198,7 +197,7 @@
                                                     <img src="/assets/images/sustainability/esg-diagram2.svg" alt="SV추진 조직 이미지입니다. 자세한 설명은 하단 내용을 참고하세요." class="pc-only" style="max-width: 1098px;">
                                                     <img src="/assets/images/sustainability/esg-diagram2-mo.png" alt="SV추진 조직 이미지입니다. 자세한 설명은 하단 내용을 참고하세요." class="mo-only"  style="min-width: 512px;">
                                                 </div>
-                                                <div class="blind">
+                                                <div class="post-body blind">
                                                     <em>BOD</em>
                                                     <ul>
                                                         <li>전략∙ESG위원회</li>
@@ -221,6 +220,7 @@
                                                         </li>
                                                     </ul>
                                                 </div>
+                                                <p class="comment design1">* 2025년 1월 기준</p>
                                             </div>
                                         </div>
                                     </div>

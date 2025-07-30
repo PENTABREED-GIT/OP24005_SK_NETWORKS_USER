@@ -8386,6 +8386,14 @@
     border-radius: 5rem;
   }
 }
+.post-list.design5 .post-body + .comment {
+  margin-top: 1.6rem;
+}
+@media (max-width: 1023px) {
+  .post-list.design5 .post-body + .comment {
+    margin-top: 1.2rem;
+  }
+}
 .post-list.design5.case1 .post-head + .post-figure {
   margin-top: 4rem;
 }

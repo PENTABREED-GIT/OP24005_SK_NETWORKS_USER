@@ -122,7 +122,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <p class="comment design1">** as of 2025</p>
+                                        <p class="comment design1">* as of 2025</p>
                                     </div>
                                     <div class="data-display">
                                         <div class="data-list">
@@ -138,9 +138,9 @@
                                                     </colgroup>
                                                     <thead>
                                                         <tr>
-                                                            <th scope="col">Status</th>
-                                                            <th scope="col">Org Name</th>
-                                                            <th scope="col">Structure*</th>
+                                                            <th scope="col">Category</th>
+                                                            <th scope="col">Name of Organization</th>
+                                                            <th scope="col">Composition1<sup>1)</sup></th>
                                                             <th scope="col">Roles</th>
                                                             <th scope="col">2024<br>meeting status</th>
                                                         </tr>
@@ -195,7 +195,7 @@
                                                             <td>6 meetings</td>
                                                         </tr>
                                                         <tr>
-                                                            <td>Environment CoE**</td>
+                                                            <td>Environment CoE<sup>2)</sup></td>
                                                             <td class="align1">Working-level employees in charge of SV/ESG for each business(including subsidiaries),
                                                                 ESG Management Team</td>
                                                             <td class="align1">
@@ -244,9 +244,9 @@
                                                 </table>
                                             </div>
                                             <p class="comment design1">
-                                                * As of the 2025 Organizational Structure
+                                                1) As of the 2025 Organizational Structure
                                                 <br>
-                                                ** CoE: Committee of Experts
+                                                2) CoE: Committee of Experts
                                             </p>
                                         </div>
                                     </div>
