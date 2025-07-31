@@ -161,6 +161,29 @@
                     <td>의결</td>
                     <td>승인</td>
                 </tr>
+                <tr>
+                    <td rowspan="4">7</td>
+                    <td rowspan="4">06월 13일</td>
+                    <td class="align1">2025년 내부회계관리제도 운영실태점검 계획 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                    <td rowspan="4">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">내부회계관리규정 및 내부회계관리규정 운영지침 개정(안) 승인의 건</td>
+                    <td>의결</td>
+                    <td>승인</td>
+                </tr>
+                <tr>
+                    <td class="align1">본사 및 자회사 법인카드 운영∙정산 프로세스 점검 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">민팃 이행점검 결과 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
             </tbody>
         </table>
     </div>

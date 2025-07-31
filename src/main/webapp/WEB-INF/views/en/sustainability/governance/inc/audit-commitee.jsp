@@ -168,6 +168,29 @@
                     <td>Resolved</td>
                     <td>Approved</td>
                 </tr>
+                <tr>
+                    <td rowspan="4">7</td>
+                    <td rowspan="4">Jun. 13</td>
+                    <td class="align1">Report on  2025 inspection (plan) for operational practices of the Internal Accounting Control System</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                    <td rowspan="4">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">Approval of Proposed Amendments to the Internal Accounting Control Regulations and Operating Guidelines</td>
+                    <td>Resolved</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td class="align1">Report on the Review of Corporate Card Operations and Settlement Processes at Headquarters and Subsidiaries</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">Report on MINTIT Compliance Review Results</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
             </tbody>
         </table>
     </div>
