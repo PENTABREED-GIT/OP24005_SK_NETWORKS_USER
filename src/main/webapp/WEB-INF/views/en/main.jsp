@@ -503,7 +503,7 @@
 </div>
 <script>
 	$(document).ready(function() {
-		checkAndToggleModal('modalNotice1', '2025-09-04 09:00:00', '2025-09-12 18:00:00');
+		checkAndToggleModal('modalNotice1', '2025-08-21 09:00:00', '2025-09-12 18:00:00');
 		// checkAndToggleModal('modalNotice1', '2025-04-08 09:00:00', '2100-04-10 24:00:00');
 	});
 
