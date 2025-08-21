@@ -187,10 +187,10 @@
 								</div>
 								<div class="section-body">
 									<p class="para">
-										FY 2024 Dividend Inquiry Service
+										2025 Interim Dividend Inquiry Service
 									</p>
 									<p class="para">
-										Service Period: ’25.04.11 AM 9:00 ~ ’25.4.25 PM 6:00
+										Service Period: ’25.9.4 AM 9:00 ~ ’25.9.12 PM 6:00
 									</p>
 								</div>
 								<div class="section-util">
@@ -503,7 +503,7 @@
 </div>
 <script>
 	$(document).ready(function() {
-		checkAndToggleModal('modalNotice1', '2025-04-10 09:00:00', '2025-04-25 18:00:00');
+		checkAndToggleModal('modalNotice1', '2025-09-04 09:00:00', '2025-09-12 18:00:00');
 		// checkAndToggleModal('modalNotice1', '2025-04-08 09:00:00', '2100-04-10 24:00:00');
 	});
 
