@@ -453,8 +453,8 @@
                                                     <div class="item-util">
                                                         <div class="btn-display design1 case3 align1">
                                                             <div class="btn-area">
-                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/ko/sustainability/esg_overview/SK networks_2024 Sustainability Report_(Kor).pdf"><span class="btn-text">KOR</span></a>
-                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/upload/public/data/en/sustainability/esg_overview/SK networks_2024 Sustainability Report_(Eng).pdf"><span class="btn-text">ENG</span></a>
+                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/assets//upload/public/data/ko/sustainability/esg_overview/SK networks_2024 Sustainability Report_(Kor).pdf"><span class="btn-text">KOR</span></a>
+                                                                <a class="btn design3 case2 type3 color5 ar-icon-download" href="/assets//upload/public/data/en/sustainability/esg_overview/SK networks_2024 Sustainability Report_(Eng).pdf"><span class="btn-text">ENG</span></a>
                                                             </div>
                                                         </div>
                                                     </div>
