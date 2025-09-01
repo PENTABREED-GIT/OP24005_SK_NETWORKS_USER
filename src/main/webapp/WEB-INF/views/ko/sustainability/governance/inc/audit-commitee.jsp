@@ -184,6 +184,24 @@
                     <td>보고</td>
                     <td>-</td>
                 </tr>
+                <tr>
+                    <td rowspan="3">8</td>
+                    <td rowspan="3">07월 30일</td>
+                    <td class="align1">2025년 상반기 SK네트웍스 경영실적 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                    <td rowspan="3">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">2025년 상반기 외부감사인 (사전)검토 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">부패방지 경영시스템(ISO37001) 갱신심사 보고의 건</td>
+                    <td>보고</td>
+                    <td>-</td>
+                </tr>
             </tbody>
         </table>
     </div>

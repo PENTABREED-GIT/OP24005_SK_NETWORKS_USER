@@ -191,6 +191,24 @@
                     <td>Reported</td>
                     <td>-</td>
                 </tr>
+                <tr>
+                    <td rowspan="3">8</td>
+                    <td rowspan="3">July. 30</td>
+                    <td class="align1">Report on SK Networks’ Earnings for the First Half of 2025</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                    <td rowspan="3">100%</td>
+                </tr>
+                <tr>
+                    <td class="align1">Report on External Auditor’s Review Results for the First Half of 2024</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="align1">Report on the Renewal Audit of the Anti-Bribery Management System(ISO37001)</td>
+                    <td>Reported</td>
+                    <td>-</td>
+                </tr>
             </tbody>
         </table>
     </div>
