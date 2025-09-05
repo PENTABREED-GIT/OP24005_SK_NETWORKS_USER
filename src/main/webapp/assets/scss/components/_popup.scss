@@ -138,6 +138,7 @@ body {
 	.modal.notice {
 		display: none;
 		max-width: 48.8rem;
+		min-width: 40.7rem;
 		top: 10rem;
 
 		&.show {
@@ -146,14 +147,17 @@ body {
 
 		body.en & {
 			max-width: 55rem;
+			min-width: 40.7rem;
 			@include mobile {
 				max-width: unset;
 				width: 100%;
+				min-width: unset;
 			}
 		}
 
 		@include mobile {
 			max-width: unset;
+			min-width: unset;
 			width: 100%;
 		}
 
@@ -172,6 +176,7 @@ body {
 			.modal-area {
 				position: relative;
 				max-width: 100%;
+				width: 100%;
 				background-color: rgb(255, 255, 255);
 				border-radius: 2.4rem;
 				pointer-events: auto;

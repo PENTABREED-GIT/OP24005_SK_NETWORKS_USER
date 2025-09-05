@@ -2847,8 +2847,6 @@
   justify-content: center;
   transition: 0.3s ease;
   cursor: pointer;
-  /* Shape Variations */
-  /* icon only */
 }
 .btn .btn-text {
   display: flex;
@@ -2859,6 +2857,9 @@
 }
 .btn .btn-text::after, .btn .btn-text::before {
   transition: 0.3s ease;
+}
+.btn {
+  /* Shape Variations */
 }
 .btn.design1.case1 {
   padding: 1.4rem 3.1rem;
@@ -3036,7 +3037,6 @@
 }
 .btn[class*=design] {
   /* font info */
-  /* color */
 }
 .btn[class*=design].type1 .btn-text {
   font-weight: 700;
@@ -3063,6 +3063,9 @@
     font-size: 1.4rem;
     line-height: 2.2rem;
   }
+}
+.btn[class*=design] {
+  /* color */
 }
 .btn[class*=design].color1 {
   color: rgb(255, 255, 255);
@@ -3221,6 +3224,9 @@
   color: rgb(63, 63, 70);
   background-color: transparent;
   border-color: transparent;
+}
+.btn {
+  /* icon only */
 }
 .btn.icon {
   align-items: center;
@@ -4784,8 +4790,6 @@
 
 .data-display {
   /* common list */
-  /* util list */
-  /* special list */
 }
 .data-display.design1.case1 > .data-list .data-item .data-head + .data-body {
   margin-top: 1.6rem;
@@ -5065,6 +5069,9 @@
     font-weight: 500;
     font-size: 1.4rem;
   }
+}
+.data-display {
+  /* util list */
 }
 .data-display.design2.case1 > .data-list .data-item {
   padding: 0.8rem 1.6rem;
@@ -5462,19 +5469,19 @@
   flex-direction: column;
   counter-reset: item-counter; /* 카운터 초기화 */
 }
-.data-display.design3.type2 > .data-list > .data-item .data-body .para {
-  font-weight: 700;
-  font-size: 1.6rem;
-  display: flex;
-  color: rgb(63, 63, 70);
-  gap: 0.5rem;
-}
 .data-display.design3.type2 > .data-list > .data-item .data-body .para.pop button {
   font-weight: 700;
   font-size: 1.6rem;
   width: 100%;
   text-decoration: underline;
   text-align: left !important;
+}
+.data-display.design3.type2 > .data-list > .data-item .data-body .para {
+  font-weight: 700;
+  font-size: 1.6rem;
+  display: flex;
+  color: rgb(63, 63, 70);
+  gap: 0.5rem;
 }
 @media (max-width: 1023px) {
   .data-display.design3.type2 > .data-list > .data-item .data-body .para {
@@ -6026,6 +6033,9 @@
 }
 .data-display.roadmap.ethical > .data-list > .data-item:first-child > .data-body .data-content + .data-content {
   margin-top: 2.4rem;
+}
+.data-display {
+  /* special list */
 }
 .data-display.business-overview {
   min-height: 72rem;
@@ -6914,12 +6924,12 @@
   .data-display.history-layout > .data-list .data-item .data-wrap .data-inform {
     width: 100%;
   }
+  .data-display.history-layout > .data-list .data-item .data-wrap .data-inform .data-subject .data-name + .data-name {
+    margin-top: 0.4rem;
+  }
   .data-display.history-layout > .data-list .data-item .data-wrap .data-inform .data-subject .data-name {
     font-weight: 700;
     font-size: 2rem;
-  }
-  .data-display.history-layout > .data-list .data-item .data-wrap .data-inform .data-subject .data-name + .data-name {
-    margin-top: 0.4rem;
   }
   .data-display.history-layout > .data-list .data-item .data-wrap .data-inform .data-subject + .data-date {
     margin-top: 1.6rem;
@@ -7587,8 +7597,6 @@
 .data-display.doudle-circle .data-list .data-item .data-util .value-type {
   background: rgb(255, 255, 255);
   border-radius: 6.8rem;
-  font-weight: 700;
-  font-size: 1.6rem;
 }
 @media (max-width: 1023px) {
   .data-display.doudle-circle .data-list .data-item .data-util .value-type {
@@ -7602,6 +7610,10 @@
   .data-display.doudle-circle .data-list .data-item .data-util .value-type + .value-type {
     margin-left: 0.6rem;
   }
+}
+.data-display.doudle-circle .data-list .data-item .data-util .value-type {
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 @media (max-width: 1023px) {
   .data-display.doudle-circle .data-list .data-item .data-util .value-type {
@@ -7942,9 +7954,6 @@
   }
 }
 
-.post-list {
-  /** special **/
-}
 .post-list.design1 {
   display: flex;
   flex-wrap: wrap;
@@ -8644,6 +8653,9 @@
     width: 100%;
   }
 }
+.post-list {
+  /** special **/
+}
 .post-list.csr-governance {
   display: flex;
   flex-wrap: wrap;
@@ -8821,11 +8833,11 @@
   .post-list.csr-governance.case2 > .post-item {
     width: 100%;
   }
-  .post-list.csr-governance.case2 > .post-item .post-inform {
-    gap: 2.4rem;
-  }
   .post-list.csr-governance.case2 > .post-item .post-inform + .post-profile {
     margin-top: 1.8rem;
+  }
+  .post-list.csr-governance.case2 > .post-item .post-inform {
+    gap: 2.4rem;
   }
   .post-list.csr-governance.case2 > .post-item .post-inform .post-figure {
     width: 43.2%;
@@ -10717,6 +10729,7 @@ body.modal-open {
 .modal-display .modal.notice {
   display: none;
   max-width: 48.8rem;
+  min-width: 40.7rem;
   top: 10rem;
 }
 .modal-display .modal.notice.show {
@@ -10724,16 +10737,19 @@ body.modal-open {
 }
 body.en .modal-display .modal.notice {
   max-width: 55rem;
+  min-width: 40.7rem;
 }
 @media (max-width: 1023px) {
   body.en .modal-display .modal.notice {
     max-width: unset;
     width: 100%;
+    min-width: unset;
   }
 }
 @media (max-width: 1023px) {
   .modal-display .modal.notice {
     max-width: unset;
+    min-width: unset;
     width: 100%;
   }
 }
@@ -10753,6 +10769,7 @@ body.en .modal-display .modal.notice {
 .modal-display .modal.notice .modal-inner .modal-area {
   position: relative;
   max-width: 100%;
+  width: 100%;
   background-color: rgb(255, 255, 255);
   border-radius: 2.4rem;
   pointer-events: auto;
@@ -10829,9 +10846,6 @@ body.en .modal-display .modal.notice {
   }
 }
 
-body {
-  /* Accent */
-}
 body .blind {
   position: absolute;
   width: 1px;
@@ -10853,6 +10867,9 @@ body .blind {
   body .pc-only {
     display: none !important;
   }
+}
+body {
+  /* Accent */
 }
 body .accent.case1 {
   font-weight: 400 !important;
@@ -10951,7 +10968,6 @@ body .scroll-guide::after {
     padding-right: 1.8rem;
     padding-left: 1.8rem;
     margin-left: -1.8rem;
-    position: relative;
   }
   body .type-scroll::-webkit-scrollbar {
     height: 0.5rem;
@@ -10964,6 +10980,9 @@ body .scroll-guide::after {
     margin-left: 1.8rem;
     margin-right: 1.8rem;
     border-radius: 5rem;
+  }
+  body .type-scroll {
+    position: relative;
   }
 }
 body .no-result-wrap {
@@ -12837,12 +12856,12 @@ sub {
 #guide-list .page-body .local-body .section.font-guide .subsection .subsection-body .table th:last-child {
   border-radius: 0 1.2rem 0 0;
 }
-#guide-list .page-body .local-body .section.font-guide .subsection .subsection-body .table td {
-  text-align: center;
-}
 #guide-list .page-body .local-body .section.font-guide .subsection .subsection-body .table td:first-child {
   text-align: left;
   padding-left: 1rem;
+}
+#guide-list .page-body .local-body .section.font-guide .subsection .subsection-body .table td {
+  text-align: center;
 }
 #guide-list .page-body .local-body .section.font-guide .subsection .subsection-body .table td span {
   color: #1a1a1a;
@@ -15075,13 +15094,15 @@ sub {
   transform: translateY(5rem);
   transition: transform 1.7s cubic-bezier(0.5, 0, 0, 1);
   word-break: keep-all;
-  font-weight: 500;
-  font-size: 2.4rem;
 }
 .en .sk-main .section.company .section-wrap .section-content.network .content-inner .section-head .section-summary {
   max-width: 80rem;
 }
 
+.sk-main .section.company .section-wrap .section-content.network .content-inner .section-head .section-summary {
+  font-weight: 500;
+  font-size: 2.4rem;
+}
 @media (max-width: 1023px) {
   .sk-main .section.company .section-wrap .section-content.network .content-inner .section-head .section-summary {
     max-width: 34rem;
@@ -21467,11 +21488,13 @@ sub {
 }
 .etc.personal-info .section .accordion-select .para {
   color: rgb(63, 63, 70);
-  font-weight: 500;
-  font-size: 1.8rem;
 }
 .etc.personal-info .section .accordion-select .para + .para {
   margin-top: 1.6rem;
+}
+.etc.personal-info .section .accordion-select .para {
+  font-weight: 500;
+  font-size: 1.8rem;
 }
 .etc.personal-info .section .accordion-select .accordion-util {
   margin-top: 4rem;
@@ -21491,12 +21514,12 @@ sub {
   .etc.personal-info .section .accordion-select {
     margin-top: 1.6rem;
   }
+  .etc.personal-info .section .accordion-select .para + .para {
+    margin-top: 1.2rem;
+  }
   .etc.personal-info .section .accordion-select .para {
     font-weight: 500;
     font-size: 1.6rem;
-  }
-  .etc.personal-info .section .accordion-select .para + .para {
-    margin-top: 1.2rem;
   }
 }
 .etc.personal-info table.col-w-1 col.col1 {
@@ -26448,3 +26471,5 @@ button.swiper-pagination-bullet {
   backface-visibility: hidden;
   overflow: hidden;
 }
+
+/*# sourceMappingURL=style.css.map */

@@ -190,7 +190,7 @@
 										2025 Interim Dividend Inquiry Service
 									</p>
 									<p class="para">
-										Service Period: ’25.9.4 AM 9:00 ~ ’25.9.12 PM 6:00
+										Service Period(revised): ’25.9.4 ~ ’25.9.12
 									</p>
 								</div>
 								<div class="section-util">
