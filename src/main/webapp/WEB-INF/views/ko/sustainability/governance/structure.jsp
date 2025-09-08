@@ -247,7 +247,7 @@
                                                                 </colgroup>
                                                                 <thead>
                                                                     <tr>
-                                                                        <th scope="col"></th>
+                                                                        <th scope="col"><span class="blind">구분</span></th>
                                                                         <th scope="col">~ 2023</th>
                                                                         <th scope="col">2024 ~ 2026</th>
                                                                         <th scope="col">2027 ~</th>
@@ -596,7 +596,7 @@
                                                                                     </colgroup>
                                                                                     <thead>
                                                                                         <tr>
-                                                                                            <th scope="col"></th>
+                                                                                            <th scope="col"><span class="blind">구분</span></th>
                                                                                             <th scope="col">2023</th>
                                                                                             <th scope="col">2024 ~ 2025</th>
                                                                                             <th scope="col">2026 ~</th>
@@ -813,7 +813,7 @@
                                                                                                                     </colgroup>
                                                                                                                     <thead>
                                                                                                                         <tr>
-                                                                                                                            <th scope="col"></th>
+                                                                                                                            <th scope="col"><span class="blind">구분</span></th>
                                                                                                                             <th scope="col">2023</th>
                                                                                                                             <th scope="col">2024 ~ 2025</th>
                                                                                                                             <th scope="col">2026 ~</th>

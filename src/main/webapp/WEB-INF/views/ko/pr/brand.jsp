@@ -457,10 +457,10 @@
                                                     <div class="data-body">
                                                         <img src="/assets/images/pr/brand-summary-img.jpg" alt="예시 그래프 이미지입니다. 자세한 설명은 하단 내용을 참고하세요.">
                                                         <table class="blind">
-                                                            <caption>이 표는 보조 색상 가로축 로고 컬러, 세로축 배경컬러 별 색상 활용 예시 정보를 제공합니다.</caption>
+                                                    <caption>이 표는 보조 색상 가로축 로고 컬러, 세로축 배경컬러 별 색상 활용 예시 정보를 제공합니다.</caption>
                                                             <thead>
                                                             <tr>
-                                                                <th scope="col"></th>
+                                                                <th scope="col">구분</th>
                                                                 <th scope="col">Full Color</th>
                                                                 <th scope="col">Sk Red</th>
                                                                 <th scope="col">SK Orange</th>
